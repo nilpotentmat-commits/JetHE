@@ -1,0 +1,329 @@
+{
+  "status": "FAST_QUOTIENT_PREPARATION_SCREEN_COMPLETE",
+  "counts": {
+    "compiled_quotient_oracle_words": 281257,
+    "atomic_shape_rejections": 3,
+    "atomic_alias_rejections": 1,
+    "atomic_range_rejections": 1,
+    "identical_cache_words": 88080384,
+    "unchanged_matrix_output_words": 1179648
+  },
+  "samples": [
+    {
+      "block": 0,
+      "arm": "original",
+      "seconds": 0.44637247399999946,
+      "cache_bytes": 704643072
+    },
+    {
+      "block": 1,
+      "arm": "new",
+      "seconds": 0.4782012859999991,
+      "cache_bytes": 704643072
+    },
+    {
+      "block": 2,
+      "arm": "new",
+      "seconds": 0.4222654099999996,
+      "cache_bytes": 704643072
+    },
+    {
+      "block": 3,
+      "arm": "original",
+      "seconds": 0.4476318329999991,
+      "cache_bytes": 704643072
+    },
+    {
+      "block": 4,
+      "arm": "original",
+      "seconds": 0.4458777660000006,
+      "cache_bytes": 704643072
+    },
+    {
+      "block": 5,
+      "arm": "new",
+      "seconds": 0.41937875400000024,
+      "cache_bytes": 704643072
+    }
+  ],
+  "medians": {
+    "original": 0.44637247399999946,
+    "new": 0.4222654099999996
+  },
+  "original_over_new": 1.0570898383554548,
+  "advance_to_full_public_gate": false,
+  "threshold": 1.25,
+  "cache_bytes": 704643072,
+  "cache_sha256": "47fb507d0167faece6de8d86a26b1e84dd27cc2283d2ed313922c7c4f07b53ae",
+  "bank_sha256": "3f0fa5de302698a4884e619751c9558e65a04653f01f6859821336cf49cc70af",
+  "build_receipt": {
+    "bytes": 4322,
+    "sha256": "df9781c51159a829a5797ec30b18ab03373969b01fd24e93485afdf3119c4a63"
+  },
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/PLAN.md": {
+      "bytes": 3072,
+      "sha256": "5d972cc6a31ef42d321333e2761699ddbe7ad01c1ed9f507bc229d4c7aa6f7df"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/PROOF.md": {
+      "bytes": 2054,
+      "sha256": "fd32d3a203b8d8044bb7adbfee1cd4a344a34d5fb9fed21d193a33f20930b82b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/prepare.py": {
+      "bytes": 3716,
+      "sha256": "8f8935cbf6090e681b05da023c098db015823a0433b66381b2a14c496a338550"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/check_preparation.py": {
+      "bytes": 7935,
+      "sha256": "9fba0dc7187672df4eeeacfc516feddef843bca8fc7101f2a4c3bf0886e0b78f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/check_formula.py": {
+      "bytes": 2242,
+      "sha256": "8bdff1f7f0e6801b25616dbf781edd98deecb7ad1008f30ffaaf0143f2059785"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/formula.json": {
+      "bytes": 2906,
+      "sha256": "94b24d8b68f38cec211349890742c26db19467b98fd8248e4aee7fa2944ca664"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix.cpp": {
+      "bytes": 8496,
+      "sha256": "364a709346fbc75fcf63d5e26b7c04562bb15f61c58949960d279c886de185e7"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/arithmetic.hpp": {
+      "bytes": 705,
+      "sha256": "accdd85ecaba83936ed90b1162c9770fdfd44f0db8e9d6309b85dcff3921d4b3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix_binding.py": {
+      "bytes": 2559,
+      "sha256": "c9209daffff310f6e31cfa953f7d6a337d37e7f83ebf28d992820d8064ca631a"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/build/matrix.so": {
+      "bytes": 34232,
+      "sha256": "6c2c19f4b7809d7f26af6f1a9e8323c758281600b1ef29d0f5ae08844f96f4c3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/group_public.py": {
+      "bytes": 3847,
+      "sha256": "0774244e9f800e602dd649f58788797945e9192e1afbe524476d0301a084649c"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/RESULTS.md": {
+      "bytes": 4942,
+      "sha256": "cc04885e43652c30b60467906bc2297afdcb05eb98570ce7fc182278fd0c9e03"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/public-check.json": {
+      "bytes": 48993,
+      "sha256": "f8f2edcf16efebb70ba31f5bc6b4250175f8f07be666f37cec834abc5d5b9947"
+    }
+  },
+  "artifacts": {
+    "matrix_fast.cpp": {
+      "bytes": 9105,
+      "sha256": "fcefb8b64c1d3028a7fff95e686f98e132fa7e0fc1429e0456ab2588d9f5e72b"
+    },
+    "arithmetic.hpp": {
+      "bytes": 705,
+      "sha256": "accdd85ecaba83936ed90b1162c9770fdfd44f0db8e9d6309b85dcff3921d4b3"
+    },
+    "fast_binding.py": {
+      "bytes": 2568,
+      "sha256": "ada9f2c832d72572903799000bd3a603311eafca27b2aa7b0245cad75162e645"
+    },
+    "build/matrix_fast.so": {
+      "bytes": 34288,
+      "sha256": "0449487d9396a40f479aa58258d1a2bc1a79173b34d5c7edab7cf1abff9addee"
+    }
+  },
+  "runtime_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/build/matrix_fast.so": {
+      "bytes": 34288,
+      "sha256": "0449487d9396a40f479aa58258d1a2bc1a79173b34d5c7edab7cf1abff9addee"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/build/matrix.so": {
+      "bytes": 34232,
+      "sha256": "6c2c19f4b7809d7f26af6f1a9e8323c758281600b1ef29d0f5ae08844f96f4c3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/build/fixed_core.so": {
+      "bytes": 126488,
+      "sha256": "6dd349aba308d96e8edaf69a75341936617a7f59eb1cc6935b44f2f788248241"
+    },
+    "SubmissionA/research/lightweight-jethe-2026-09-13/build/terminal_kernel_v1.so": {
+      "bytes": 15784,
+      "sha256": "ca8400e686c4bfcc2bb2b7757450da628683fae3e2879478a6dbb65c4cd5ae58"
+    }
+  },
+  "imported_sources": {
+    "SubmissionA/research/check_composition_modulus_chain.py": {
+      "bytes": 11049,
+      "sha256": "f9cac34709b95c4dc19a362e65f05917842e3a6558091aaf40f66a1fa72a775e"
+    },
+    "SubmissionA/research/check_composition_rns_arithmetic.py": {
+      "bytes": 24241,
+      "sha256": "856e3f9c4f5a71890838b77acaeb4f947c1424b1e873d045db4eed9fe7df6da2"
+    },
+    "SubmissionA/research/check_composition_small_carriers.py": {
+      "bytes": 9638,
+      "sha256": "69240efa37c21baa3c245ccaeca6e58c250140183615f97320167bb79e71871e"
+    },
+    "SubmissionA/research/check_encrypted_transform_compiler.py": {
+      "bytes": 15840,
+      "sha256": "d8fe4d77bbd52ab4f3f05e6307b18dd70764790db1edbac7686ac312fcecd132"
+    },
+    "SubmissionA/research/check_frobenius_chain.py": {
+      "bytes": 9383,
+      "sha256": "898c7ea3344bca8a5bbc8e1cb6cd95c4e2844062649f6a0d77a232b96813965a"
+    },
+    "SubmissionA/research/check_frobenius_compiler.py": {
+      "bytes": 9262,
+      "sha256": "c5436958756856aa3bd65e95407b5da0c209302a37b21e707b45b9cc4a5ddd2b"
+    },
+    "SubmissionA/research/check_fused_composition_frontier.py": {
+      "bytes": 33110,
+      "sha256": "60bcbb807a6c227a31afdb9beadcddd48f8efc217f3df3f3acfa350ad5b34470"
+    },
+    "SubmissionA/research/check_native_composition.py": {
+      "bytes": 14954,
+      "sha256": "53df906a3dd1db0ee0604bac8669a74326a3966d90c948d0677f4b22725dea21"
+    },
+    "SubmissionA/research/check_prepared_arithmetic.py": {
+      "bytes": 14880,
+      "sha256": "eec3033d8be2b2db554cc4f4f1d06ff500e742a6f8fbc669098fd871e1306fec"
+    },
+    "SubmissionA/research/check_private_composition.py": {
+      "bytes": 7775,
+      "sha256": "6006d5d64bf8c9701acdcf63709902b84a6901d56ab0e9e95a3adc9703de8ae1"
+    },
+    "SubmissionA/research/check_recursive_transport.py": {
+      "bytes": 7071,
+      "sha256": "a3806d5490aac9a7cd47578acf3c06c810570ac62ced346a2fe07fbd649de509"
+    },
+    "SubmissionA/research/check_square_bit_frontier.py": {
+      "bytes": 10703,
+      "sha256": "86d5e378591f4140447f4b745398b2f2967178aabc631a14b3d8b5304b4ec233"
+    },
+    "SubmissionA/research/check_square_tower.py": {
+      "bytes": 33627,
+      "sha256": "d725528e7405824329ae775f1c0af08c05150c0e2f7f86f240090e74e585d247"
+    },
+    "SubmissionA/research/check_tensor_codec.py": {
+      "bytes": 8809,
+      "sha256": "3385c27250659a0abf1bdbf7acc12629971a335bc75abd3941af28e1269599be"
+    },
+    "SubmissionA/research/composition_fixture.py": {
+      "bytes": 1667,
+      "sha256": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48"
+    },
+    "SubmissionA/research/composition_full_run.py": {
+      "bytes": 17939,
+      "sha256": "d9d5a5b0875ad003ceaa4b13a9aff434215ee879738b3ac3f5505d82d863f3fe"
+    },
+    "SubmissionA/research/composition_native.py": {
+      "bytes": 7153,
+      "sha256": "f79347094ca4dca383f6137388e22e874c8b37b8abc38c98b63ad2c81891bd43"
+    },
+    "SubmissionA/research/composition_optimized.py": {
+      "bytes": 2749,
+      "sha256": "6326c9dc25f432935c626a8d8666abf9266e5a5209b3d0eaaab6084e4ebebc1d"
+    },
+    "SubmissionA/research/composition_public_evaluator.py": {
+      "bytes": 6768,
+      "sha256": "a6419008e640ea16f0bd18ebd637f29d2da895c7af007eeb94ba2c534e0372ed"
+    },
+    "SubmissionA/research/composition_wire.py": {
+      "bytes": 2987,
+      "sha256": "a7b40c0f5972654d7150c792c005107b93790e89a415d3a7d81d6cbdece0a450"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix_binding.py": {
+      "bytes": 2559,
+      "sha256": "c9209daffff310f6e31cfa953f7d6a337d37e7f83ebf28d992820d8064ca631a"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/check_preparation.py": {
+      "bytes": 7935,
+      "sha256": "9fba0dc7187672df4eeeacfc516feddef843bca8fc7101f2a4c3bf0886e0b78f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/fast_binding.py": {
+      "bytes": 2568,
+      "sha256": "ada9f2c832d72572903799000bd3a603311eafca27b2aa7b0245cad75162e645"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_binding.py": {
+      "bytes": 2868,
+      "sha256": "cdba545eb46750ac1f4ec18bd49fccda0a4d8ad6ec12aea6480dadefbb1ded66"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_crypto.py": {
+      "bytes": 2779,
+      "sha256": "0fc312fc35c09be2537d526d4b2600e97f659f32f5b8691c477bca15966935e1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/bounds.py": {
+      "bytes": 2234,
+      "sha256": "54f25c159174e4ee19df335980adcea361deb8d50f7d929303797836b260b00c"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prepare.py": {
+      "bytes": 5623,
+      "sha256": "439c417877cad0af8c90ccd0e439457394bd699d96b7b2906143c9be6f47fea1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/common.py": {
+      "bytes": 8062,
+      "sha256": "7752863f682e9a84a8fbe23fadf2c4929d777cb802b4679bc29fa154f00db0c5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/admission.py": {
+      "bytes": 4097,
+      "sha256": "f0adaa9ebecf7138803ec6da54f31b5cd66d2c8d771d7b3ab4be8dbe3fb24823"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/interpolation.py": {
+      "bytes": 3006,
+      "sha256": "e5f47741bc791bf4429aa7bf2d910aaec284e4e4b093a0ec0b77ba55507a4b60"
+    },
+    "SubmissionA/research/existing-results-revision-2026-09-13/check_current_interface_hasse_comparison_v1.py": {
+      "bytes": 11620,
+      "sha256": "12253dc5ec44bda33e543cbc0642a778122ceca10f691294d99da5534304230b"
+    },
+    "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_experiment_v1.py": {
+      "bytes": 16708,
+      "sha256": "eefc85cb8096157e4d9f6e6c2dc173ebab0b56e5a14572f11f07c95c1ed79737"
+    },
+    "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_public_v1.py": {
+      "bytes": 8257,
+      "sha256": "fd742f08434e16e8f841cab59e8e73fc5bdf89fd75197c624b46bb8fb7a9acdf"
+    },
+    "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_ring_v1.py": {
+      "bytes": 2873,
+      "sha256": "09f99af0f77d84629c46e2dcdfbb019e66310e5b0b98912d052da5c3bc3f6414"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/analysis/slim_bounds_v2.py": {
+      "bytes": 2265,
+      "sha256": "10db757c8a9596ecace65b57c03637a0cfe7a052f145f05479553f0363f5fb8e"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/fast_crypto_v1.py": {
+      "bytes": 1697,
+      "sha256": "e669f327b787f8f8d9d3653e5bf648181ed5bee62067fb29488637c486ad1cb9"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/fast_ring_v1.py": {
+      "bytes": 2862,
+      "sha256": "1c1d223001d85c54c1936ded976a593a5312776f55441134428ca87d354aaffa"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/slim_crypto_v2.py": {
+      "bytes": 1892,
+      "sha256": "3f87c2c041d615b80f8515b85f52147bfd36068be24d593a6fa3ada347eb06c6"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/slim_public_v2.py": {
+      "bytes": 7033,
+      "sha256": "cb1b91c7b842cb0596d2e7a1dcfe462d80bcd2028552e44086d103ea6ed6b125"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/slim_ring_base_v2.py": {
+      "bytes": 2866,
+      "sha256": "0a1bf2b25baacdb7af0943f82b46b09b6af1b7aacc5319b2aa25f4b699914a04"
+    },
+    "SubmissionA/research/lightweight-jethe-2026-09-13/terminal_v1.py": {
+      "bytes": 8232,
+      "sha256": "2e18f43ba0bf666c73f51c14ea761ce1ca499f02ce99e675846c073368f2fc5e"
+    },
+    "SubmissionA/research/measure_composition_native.py": {
+      "bytes": 8111,
+      "sha256": "a54ed31b56f9dcfb88b7be18db04b340ac55f1a1bf5b6be1051ae6965306d8c0"
+    }
+  },
+  "peak_rss_kib": 1558920,
+  "host_meminfo": "MemTotal:       15832804 kB\nMemFree:        13389844 kB\nMemAvailable:   14745756 kB\nBuffers:           63096 kB\nCached:          1461356 kB\nSwapCached:            0 kB\nActive:           130716 kB\nInactive:        1648976 kB\nActive(anon):       2908 kB\nInactive(anon):   255992 kB\nActive(file):     127808 kB\nInactive(file):  1392984 kB\nUnevictable:          64 kB\nMlocked:              64 kB\nSwapTotal:       4194304 kB\nSwapFree:        4194304 kB\nDirty:              3856 kB\nWriteback:             0 kB\nAnonPages:        255904 kB\nMapped:           140368 kB\nShmem:              3632 kB\nKReclaimable:      38092 kB\nSlab:             142536 kB\nSReclaimable:      38092 kB\nSUnreclaim:       104444 kB\nKernelStack:        7376 kB\nPageTables:         4796 kB\nSecPageTables:         0 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    12110704 kB\nCommitted_AS:    1029520 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:       37748 kB\nVmallocChunk:          0 kB\nPercpu:            13184 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nFileHugePages:         0 kB\nFilePmdMapped:         0 kB\nUnaccepted:            0 kB\nBalloon:               0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\nDirectMap4k:       60416 kB\nDirectMap2M:     5683200 kB\nDirectMap1G:    18874368 kB\n",
+  "new_he_execution": false,
+  "complete_he_performance_claim": false,
+  "security_bits": null,
+  "scope": "Complete public cache construction including allocation, validation, powers, matrix formation and quotient writes"
+}

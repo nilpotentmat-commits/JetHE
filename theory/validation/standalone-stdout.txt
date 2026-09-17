@@ -1,0 +1,17 @@
+{
+  "status": "FINITE_CHECKS_PASS",
+  "checks": [
+    "codec",
+    "worked-example",
+    "hasse",
+    "admission",
+    "fixed-field",
+    "encoding",
+    "gaussian",
+    "arithmetic",
+    "rational-matrix",
+    "batched-hasse"
+  ],
+  "packaged_sources_hash_verified": 15,
+  "detailed_output": "standalone-checks.json"
+}

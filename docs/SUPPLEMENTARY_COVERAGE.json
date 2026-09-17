@@ -1,0 +1,2367 @@
+{
+  "schema": "jethe-supplementary-coverage-v1",
+  "inventory_path": "theory/supplementary-inventory.json",
+  "inventory_sha256": "7507aab9134bfc647809acd4d5490e6638bff1677c095126413b45e5c8a7cf71",
+  "supplementary_provenance_path": "supplementary/provenance.json",
+  "supplementary_provenance_sha256": "cb25002b76d93ac2e2592a93fbcbcaf4081284634f89de867f4829bb8e7f4056",
+  "archived_file_count": 792,
+  "entry_count": 61,
+  "status_counts": {
+    "portable": 15,
+    "archival": 39,
+    "external": 4,
+    "generated": 3,
+    "unresolved": 0
+  },
+  "status_definitions": {
+    "portable": "A named finite checker, selected implementation or portable launcher is supplied. This does not make every program in the historical source directory portable or prove a theorem.",
+    "archival": "Original source/data or verified identical bytes are supplied for inspection. Archival entry points are not claimed runnable and records are not new experiments.",
+    "external": "The reference is to a separately acquired dependency source/revision. Build instructions may be supplied, but those instructions are not the referenced dependency source.",
+    "generated": "The reference denotes historical environment-specific build material intentionally omitted. A supplied recipe can create a new build; it does not recreate historical bytes.",
+    "unresolved": "No unambiguous artifact target has been established. Absence of this status does not imply full supplementary reproducibility."
+  },
+  "verification": "All 792 archived-file hashes and every target path checked; no HE or archived experiment executed.",
+  "coverage_warning": "This resolves the 61 source-map entries, not every proof or experiment in the 158-page supplement. Directory targets mean selected descendants, not full original dependency closure.",
+  "entries": [
+    {
+      "id": "S01",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "SubmissionA/research/check_tensor_codec.py",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/check_tensor_codec.py"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/check_tensor_codec.py",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "3385c27250659a0abf1bdbf7acc12629971a335bc75abd3941af28e1269599be",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        },
+        {
+          "path": "theory/lib/codec.py",
+          "status": "portable",
+          "match": "extracted_mathematical_definitions",
+          "command": "python -B theory/run_checks.py --check codec",
+          "scope": "Finite selected functions/fixtures; no general proof certification."
+        },
+        {
+          "path": "native/src/check_tensor_codec.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S02",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "src/keys.cpp",
+      "status": "external",
+      "resolved_original_paths": [],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "helib/README.md",
+          "status": "external",
+          "match": "dependency_instructions_not_library_source",
+          "scope": "Pinned dependency source is external and is not bundled."
+        }
+      ],
+      "notes": [
+        "External dependency reference: HElib at commit 3e337a66a91a92d49de6a9505340826b0eb71081. The named external source/revision is not supplied by the supplementary source archive."
+      ]
+    },
+    {
+      "id": "S03",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "src/sample.cpp",
+      "status": "external",
+      "resolved_original_paths": [],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "helib/README.md",
+          "status": "external",
+          "match": "dependency_instructions_not_library_source",
+          "scope": "Pinned dependency source is external and is not bundled."
+        }
+      ],
+      "notes": [
+        "External dependency reference: HElib at commit 3e337a66a91a92d49de6a9505340826b0eb71081. The named external source/revision is not supplied by the supplementary source archive."
+      ]
+    },
+    {
+      "id": "S04",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "include/helib/Context.h",
+      "status": "external",
+      "resolved_original_paths": [],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "helib/README.md",
+          "status": "external",
+          "match": "dependency_instructions_not_library_source",
+          "scope": "Pinned dependency source is external and is not bundled."
+        }
+      ],
+      "notes": [
+        "External dependency reference: HElib at commit 3e337a66a91a92d49de6a9505340826b0eb71081. The named external source/revision is not supplied by the supplementary source archive."
+      ]
+    },
+    {
+      "id": "S05",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "SubmissionA/build/helib-slack-control/",
+      "status": "generated",
+      "resolved_original_paths": [
+        "SubmissionA/build/helib-slack-control"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "helib/CMakeLists.txt",
+          "status": "portable",
+          "match": "related_new_build_recipe_not_original_cache",
+          "scope": "Generates a new local adapter build when external dependencies are installed."
+        },
+        {
+          "path": "helib/README.md",
+          "status": "portable",
+          "match": "build_instructions",
+          "scope": "Explains dependency installation and current build commands."
+        }
+      ],
+      "notes": [
+        "Historical machine-specific build products/cache are deliberately omitted. A new build is not a byte-identical reconstruction of the old build directory or CMake cache."
+      ]
+    },
+    {
+      "id": "S06",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "SubmissionA/build/helib-core-matched-v1/",
+      "status": "generated",
+      "resolved_original_paths": [
+        "SubmissionA/build/helib-core-matched-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "helib/CMakeLists.txt",
+          "status": "portable",
+          "match": "related_new_build_recipe_not_original_cache",
+          "scope": "Generates a new local adapter build when external dependencies are installed."
+        },
+        {
+          "path": "helib/README.md",
+          "status": "portable",
+          "match": "build_instructions",
+          "scope": "Explains dependency installation and current build commands."
+        }
+      ],
+      "notes": [
+        "Historical machine-specific build products/cache are deliberately omitted. A new build is not a byte-identical reconstruction of the old build directory or CMake cache."
+      ]
+    },
+    {
+      "id": "S07",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "Code/build-helib-2.3.0/vendor-linux/CMakeCache.txt",
+      "status": "generated",
+      "resolved_original_paths": [
+        "Code/build-helib-2.3.0/vendor-linux/CMakeCache.txt"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "helib/CMakeLists.txt",
+          "status": "portable",
+          "match": "related_new_build_recipe_not_original_cache",
+          "scope": "Generates a new local adapter build when external dependencies are installed."
+        },
+        {
+          "path": "helib/README.md",
+          "status": "portable",
+          "match": "build_instructions",
+          "scope": "Explains dependency installation and current build commands."
+        }
+      ],
+      "notes": [
+        "Historical machine-specific build products/cache are deliberately omitted. A new build is not a byte-identical reconstruction of the old build directory or CMake cache."
+      ]
+    },
+    {
+      "id": "S08",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "Code/params/local-simd-hermite255-functional-v1.json",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/params/local-simd-hermite255-functional-v1.json"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/params/local-simd-hermite255-functional-v1.json",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "354358c7c94432f1c1614b2e072350be23de9c14a93bc928a09b7b0ca2a04f1f",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S09",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "Code/src/jet_hermite255.hpp",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/src/jet_hermite255.hpp"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/src/jet_hermite255.hpp",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "8c6f9e16339b9c3f1967c14471ed47526145fa2c81f7234d9f5151c576e7b5d7",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S10",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "Code/src/jet_circuit_ir.hpp",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/src/jet_circuit_ir.hpp"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/src/jet_circuit_ir.hpp",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "e6362372de723f661a24c69387edb6152c3e8bb9319eb848fbd9335fc04d4de2",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S11",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "Code/tests/cpp/test_jet_hermite255.cpp",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/tests/cpp/test_jet_hermite255.cpp"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/tests/cpp/test_jet_hermite255.cpp",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "84ed591d76a2ecefc084e05c12b7ea242eb59d929090907a28a924118bcfa5d5",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S12",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "Code/experiments/leveled_jet_comparison/results/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/results"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/results",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 163,
+          "member_paths": [
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/bfv-balanced-common-depth-diagnostic-v1.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/001-BFV-packed_terminal-e16-d4-j215-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/002-BGV-packed_terminal-e16-d4-j215-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/003-BGV-native-e16-d4-j215-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/004-BFV-native-e16-d4-j215-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/manifest.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/plan.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/001-BGV-native-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/002-BGV-packed_terminal-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/003-BGV-native-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/004-BFV-native-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/005-BFV-packed_terminal-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/006-BGV-packed_terminal-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/007-BGV-native-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/008-BGV-native-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/009-BFV-packed_terminal-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/010-BFV-native-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/011-BFV-packed_terminal-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/012-BGV-packed_terminal-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/013-BGV-native-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/014-BGV-packed_terminal-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/015-BGV-packed_terminal-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/016-BFV-packed_terminal-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/017-BGV-native-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/018-BFV-native-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/019-BFV-packed_terminal-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/020-BFV-native-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/021-BFV-packed_terminal-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/022-BFV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/023-BFV-packed_terminal-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/024-BFV-native-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/025-BGV-native-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/026-BGV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/027-BGV-native-e16-d4-j1-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/028-BFV-packed_terminal-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/029-BGV-packed_terminal-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/030-BFV-packed_terminal-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/031-BFV-packed_terminal-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/032-BGV-packed_terminal-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/033-BFV-native-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/034-BGV-packed_terminal-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/035-BGV-packed_terminal-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/036-BFV-native-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/037-BFV-native-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/038-BGV-packed_terminal-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/039-BGV-native-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/040-BFV-native-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/041-BGV-packed_terminal-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/042-BFV-packed_terminal-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/043-BGV-native-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/044-BFV-native-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/045-BGV-native-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/046-BFV-packed_terminal-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/047-BGV-packed_terminal-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/048-BGV-native-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/049-BGV-native-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/050-BFV-native-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/051-BFV-native-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/052-BGV-packed_terminal-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/053-BFV-native-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/054-BFV-native-e16-d4-j16-balanced-failure.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/plan.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/001-BGV-native-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/002-BGV-packed_terminal-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/003-BGV-native-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/004-BFV-native-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/005-BFV-packed_terminal-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/006-BGV-packed_terminal-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/007-BGV-native-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/008-BGV-native-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/009-BFV-packed_terminal-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/010-BFV-native-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/011-BFV-packed_terminal-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/012-BGV-packed_terminal-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/013-BGV-native-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/014-BGV-packed_terminal-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/015-BGV-packed_terminal-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/016-BFV-packed_terminal-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/017-BGV-native-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/018-BFV-native-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/019-BFV-packed_terminal-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/020-BFV-native-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/021-BFV-packed_terminal-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/022-BFV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/023-BFV-packed_terminal-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/024-BFV-native-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/025-BGV-native-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/026-BGV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/027-BGV-native-e16-d4-j1-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/028-BFV-packed_terminal-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/029-BGV-packed_terminal-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/030-BFV-packed_terminal-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/031-BFV-packed_terminal-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/032-BGV-packed_terminal-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/033-BFV-native-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/034-BGV-packed_terminal-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/035-BGV-packed_terminal-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/036-BFV-native-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/037-BFV-native-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/038-BGV-packed_terminal-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/039-BGV-native-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/040-BFV-native-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/041-BGV-packed_terminal-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/042-BFV-packed_terminal-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/043-BGV-native-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/044-BFV-native-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/045-BGV-native-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/046-BFV-packed_terminal-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/047-BGV-packed_terminal-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/048-BGV-native-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/049-BGV-native-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/050-BFV-native-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/051-BFV-native-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/052-BGV-packed_terminal-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/053-BFV-native-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/054-BFV-native-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/055-BFV-native-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/056-BFV-packed_terminal-e16-d4-j1-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/057-BFV-packed_terminal-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/058-BFV-native-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/059-BGV-packed_terminal-e16-d4-j1-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/060-BFV-packed_terminal-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/061-BFV-native-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/062-BFV-native-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/063-BFV-native-e16-d4-j1-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/064-BGV-native-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/065-BGV-native-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/066-BGV-packed_terminal-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/067-BGV-native-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/068-BGV-native-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/069-BGV-packed_terminal-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/070-BGV-packed_terminal-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/071-BGV-native-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/072-BGV-packed_terminal-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/073-BGV-native-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/074-BFV-packed_terminal-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/075-BFV-native-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/076-BFV-packed_terminal-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/077-BFV-packed_terminal-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/078-BGV-native-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/079-BGV-packed_terminal-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/080-BFV-packed_terminal-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/manifest.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/plan.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-report-v1/all-cases.csv",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-report-v1/report.md",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-report-v1/summary.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/001-BGV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/002-BFV-packed_terminal-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/003-BGV-native-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/004-BGV-packed_terminal-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/005-BFV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/006-BFV-native-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/007-BGV-native-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/008-BFV-native-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/manifest.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/plan.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/smoke-v1/001-BFV-packed_terminal-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/smoke-v1/002-BGV-packed_terminal-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/smoke-v1/003-BGV-native-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/smoke-v1/004-BFV-native-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/smoke-v1/manifest.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/smoke-v1/plan.json"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S13",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "leveled-report-v1/summary.json",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/results/leveled-report-v1/summary.json"
+      ],
+      "resolution_basis": "Resolved from the explicit archive root and directory/run relationships in the original baseline-profiles.tex context.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-report-v1/summary.json",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "da9110504d3d8bfa0a8356a70b7cf1d077c6681ce3c1ace7dd72ea1477c04bca",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S14",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "report.md",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/results/leveled-report-v1/report.md"
+      ],
+      "resolution_basis": "Resolved from the explicit archive root and directory/run relationships in the original baseline-profiles.tex context.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-report-v1/report.md",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "5b0d864d5fa7aeb1cfbffe86e7ce9288fd5959c239c3b6540c4167f9c32a183b",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S15",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "all-cases.csv",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/results/leveled-report-v1/all-cases.csv"
+      ],
+      "resolution_basis": "Resolved from the explicit archive root and directory/run relationships in the original baseline-profiles.tex context.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-report-v1/all-cases.csv",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "07e739401c74f1457d44c626eb50d291f8c16f5da60b4a7d55f0663b09adb519",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S16",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "leveled-main-v2/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/results/leveled-main-v2"
+      ],
+      "resolution_basis": "Resolved from the explicit archive root and directory/run relationships in the original baseline-profiles.tex context.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 82,
+          "member_paths": [
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/001-BGV-native-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/002-BGV-packed_terminal-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/003-BGV-native-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/004-BFV-native-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/005-BFV-packed_terminal-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/006-BGV-packed_terminal-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/007-BGV-native-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/008-BGV-native-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/009-BFV-packed_terminal-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/010-BFV-native-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/011-BFV-packed_terminal-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/012-BGV-packed_terminal-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/013-BGV-native-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/014-BGV-packed_terminal-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/015-BGV-packed_terminal-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/016-BFV-packed_terminal-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/017-BGV-native-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/018-BFV-native-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/019-BFV-packed_terminal-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/020-BFV-native-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/021-BFV-packed_terminal-e8-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/022-BFV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/023-BFV-packed_terminal-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/024-BFV-native-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/025-BGV-native-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/026-BGV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/027-BGV-native-e16-d4-j1-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/028-BFV-packed_terminal-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/029-BGV-packed_terminal-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/030-BFV-packed_terminal-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/031-BFV-packed_terminal-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/032-BGV-packed_terminal-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/033-BFV-native-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/034-BGV-packed_terminal-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/035-BGV-packed_terminal-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/036-BFV-native-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/037-BFV-native-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/038-BGV-packed_terminal-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/039-BGV-native-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/040-BFV-native-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/041-BGV-packed_terminal-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/042-BFV-packed_terminal-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/043-BGV-native-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/044-BFV-native-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/045-BGV-native-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/046-BFV-packed_terminal-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/047-BGV-packed_terminal-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/048-BGV-native-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/049-BGV-native-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/050-BFV-native-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/051-BFV-native-e4-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/052-BGV-packed_terminal-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/053-BFV-native-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/054-BFV-native-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/055-BFV-native-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/056-BFV-packed_terminal-e16-d4-j1-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/057-BFV-packed_terminal-e4-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/058-BFV-native-e4-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/059-BGV-packed_terminal-e16-d4-j1-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/060-BFV-packed_terminal-e16-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/061-BFV-native-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/062-BFV-native-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/063-BFV-native-e16-d4-j1-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/064-BGV-native-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/065-BGV-native-e4-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/066-BGV-packed_terminal-e8-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/067-BGV-native-e8-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/068-BGV-native-e16-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/069-BGV-packed_terminal-e8-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/070-BGV-packed_terminal-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/071-BGV-native-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/072-BGV-packed_terminal-e8-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/073-BGV-native-e16-d1-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/074-BFV-packed_terminal-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/075-BFV-native-e4-d1-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/076-BFV-packed_terminal-e4-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/077-BFV-packed_terminal-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/078-BGV-native-e8-d4-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/079-BGV-packed_terminal-e16-d2-j1-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/080-BFV-packed_terminal-e16-d2-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/manifest.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v2/plan.json"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S17",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "leveled-capacity-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1"
+      ],
+      "resolution_basis": "Resolved from the explicit archive root and directory/run relationships in the original baseline-profiles.tex context.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 6,
+          "member_paths": [
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/001-BFV-packed_terminal-e16-d4-j215-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/002-BGV-packed_terminal-e16-d4-j215-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/003-BGV-native-e16-d4-j215-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/004-BFV-native-e16-d4-j215-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/manifest.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-capacity-v1/plan.json"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S18",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "leveled-seed-control-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1"
+      ],
+      "resolution_basis": "Resolved from the explicit archive root and directory/run relationships in the original baseline-profiles.tex context.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 10,
+          "member_paths": [
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/001-BGV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/002-BFV-packed_terminal-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/003-BGV-native-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/004-BGV-packed_terminal-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/005-BFV-packed_terminal-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/006-BFV-native-e16-d4-j16-balanced.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/007-BGV-native-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/008-BFV-native-e16-d4-j16-sequential.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/manifest.json",
+            "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-seed-control-v1/plan.json"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S19",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "source/benchmark.cpp",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/results/leveled-main-v2/source/benchmark.cpp"
+      ],
+      "resolution_basis": "Resolved from the explicit archive root and directory/run relationships in the original baseline-profiles.tex context.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/benchmark.cpp",
+          "status": "archival",
+          "match": "verified_identical_bytes_at_different_original_path",
+          "sha256": "2b0760411af9d2a674727d2e11d76cfe5cad99baa415738af24f31cb9db53495",
+          "scope": "The archived current benchmark.cpp is byte-identical to the specifically referenced main-v2 source snapshot."
+        }
+      ],
+      "notes": [
+        "No path identity is claimed: equality was established by SHA-256 comparison with the context-resolved original snapshot."
+      ]
+    },
+    {
+      "id": "S20",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "Code/experiments/leveled_jet_comparison/verify_results.py",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/verify_results.py"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/verify_results.py",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "3ac4ab08683d6dd11a8584d3722108dbceda8f454f4b652c782588d0d61b824f",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S21",
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "original_reference": "leveled-main-v1/054-BFV-native-e16-d4-j16-balanced-failure.json",
+      "status": "archival",
+      "resolved_original_paths": [
+        "Code/experiments/leveled_jet_comparison/results/leveled-main-v1/054-BFV-native-e16-d4-j16-balanced-failure.json"
+      ],
+      "resolution_basis": "Resolved from the explicit archive root and directory/run relationships in the original baseline-profiles.tex context.",
+      "targets": [
+        {
+          "path": "supplementary/original/Code/experiments/leveled_jet_comparison/results/leveled-main-v1/054-BFV-native-e16-d4-j16-balanced-failure.json",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "55219f95ca4d8561da2d53fc0b43fac2b30b77d4847cbbbf5491a86f0c2d91e2",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S22",
+      "manuscript_file": "appendices/cbd-projections.tex",
+      "original_reference": "source-projections-v1/verification.json",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/verification.json"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/verification.json",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "cbf1c09d56a75e1e87d546c675476fb03e2d3ad6307d239ed49aa043b08bf539",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S23",
+      "manuscript_file": "appendices/control-source-screen.tex",
+      "original_reference": "conventional-source-screen-v1",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 3,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1/check_screen.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1/verification.json"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S24",
+      "manuscript_file": "appendices/control-source-screen.tex",
+      "original_reference": "conventional-parameter-repair-v1",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-parameter-repair-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-parameter-repair-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 3,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-parameter-repair-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-parameter-repair-v1/check_repair.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-parameter-repair-v1/verification.json"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S25",
+      "manuscript_file": "appendices/conventional-compiler-transfer.tex",
+      "original_reference": "paid-hasse-portability-v1",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 8,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/boundary-check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/boundary-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/check_boundary.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/check_transfer.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        },
+        {
+          "path": "theory/lib/hasse_transport.py",
+          "status": "portable",
+          "match": "extracted_mathematical_definitions",
+          "command": "python -B theory/run_checks.py --check hasse",
+          "scope": "Finite selected functions/fixtures; no general proof certification."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S26",
+      "manuscript_file": "appendices/core-matched-measurements.tex",
+      "original_reference": "core-matched-v1-r*.json",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/evidence/core-matched-v1-r*.json"
+      ],
+      "resolution_basis": "The archived core_matched_tables.py::deep_receipts function resolves this pattern under SubmissionA/evidence; all matching archived receipts are enumerated below.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/evidence",
+          "status": "archival",
+          "match": "resolved_receipt_pattern",
+          "file_count": 114,
+          "member_paths": [
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-b16-w1-l256-j16-m13107-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j1-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j1-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j1-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j1-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j16-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j16-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j16-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j16-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j1-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j1-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j1-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j1-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j16-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j16-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j16-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j16-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m13107-b120-nn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m13107-b60-ny.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m13107-b60-yy.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m21845-b120-nn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m21845-b120-yn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m21845-b60-ny.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m21845-b60-yy.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m65535-b120-nn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m65535-b120-ny.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m65535-b120-yn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m65535-b60-yy.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-shallow-l256-j16-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-shallow-l256-j16-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-shallow-l256-j16-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-crt-w2-shallow-l256-j16-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-native-w1-l16-j1.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-native-w1-l16-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-native-w1-l256-j1.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-native-w1-l256-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-native-w2-deep-l256-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r0-native-w2-shallow-l256-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-b16-w1-l256-j16-m13107-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l16-j1-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l16-j1-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l16-j1-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l16-j1-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l16-j16-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l16-j16-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l16-j16-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l16-j16-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l256-j1-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l256-j1-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l256-j1-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l256-j1-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l256-j16-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l256-j16-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l256-j16-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w1-l256-j16-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m13107-b120-nn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m13107-b60-ny.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m13107-b60-yy.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m21845-b120-nn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m21845-b120-yn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m21845-b60-ny.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m21845-b60-yy.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m65535-b120-nn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m65535-b120-ny.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m65535-b120-yn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-deep-l256-j16-m65535-b60-yy.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-shallow-l256-j16-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-shallow-l256-j16-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-shallow-l256-j16-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-crt-w2-shallow-l256-j16-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-native-w1-l16-j1.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-native-w1-l16-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-native-w1-l256-j1.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-native-w1-l256-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-native-w2-deep-l256-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r1-native-w2-shallow-l256-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-b16-w1-l256-j16-m13107-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l16-j1-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l16-j1-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l16-j1-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l16-j1-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l16-j16-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l16-j16-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l16-j16-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l16-j16-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l256-j1-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l256-j1-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l256-j1-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l256-j1-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l256-j16-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l256-j16-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l256-j16-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w1-l256-j16-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m13107-b120-nn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m13107-b60-ny.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m13107-b60-yy.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m21845-b120-nn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m21845-b120-yn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m21845-b60-ny.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m21845-b60-yy.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m65535-b120-nn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m65535-b120-ny.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m65535-b120-yn.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-deep-l256-j16-m65535-b60-yy.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-shallow-l256-j16-m13107-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-shallow-l256-j16-m21845-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-shallow-l256-j16-m4369-b20-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-crt-w2-shallow-l256-j16-m65535-b60-raw.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-native-w1-l16-j1.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-native-w1-l16-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-native-w1-l256-j1.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-native-w1-l256-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-native-w2-deep-l256-j16.json",
+            "supplementary/original/SubmissionA/evidence/core-matched-v1-r2-native-w2-shallow-l256-j16.json"
+          ],
+          "scope": "114 original measurement receipts, not new executions."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S27",
+      "manuscript_file": "appendices/factored-control.tex",
+      "original_reference": "factored-control-v1/verification.json",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/factored-control-v1/verification.json"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/factored-control-v1/verification.json",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "c9815a24b185d687baea2278937177bf5305e80d27b2fdea63cf02bb0d49b75b",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S28",
+      "manuscript_file": "appendices/fast-prepared-work.tex",
+      "original_reference": "fixed-field-significance-review-v1/check_arithmetic.py",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-significance-review-v1/check_arithmetic.py"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-significance-review-v1/check_arithmetic.py",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "ed9fb2a450989678314f7c768451ad75386f16c06542a28c295efc03cbdbf3dc",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        },
+        {
+          "path": "theory/lib/exact_arithmetic.py",
+          "status": "portable",
+          "match": "extracted_mathematical_definitions",
+          "command": "python -B theory/run_checks.py --check arithmetic",
+          "scope": "Finite selected functions/fixtures; no general proof certification."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S29",
+      "manuscript_file": "appendices/fixed-field-carrier-bound.tex",
+      "original_reference": "coefficient-prior-art-v1",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/coefficient-prior-art-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/coefficient-prior-art-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 5,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/coefficient-prior-art-v1/check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/coefficient-prior-art-v1/check_spaces.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/coefficient-prior-art-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/coefficient-prior-art-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/coefficient-prior-art-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S30",
+      "manuscript_file": "appendices/fixed-field-carrier-bound.tex",
+      "original_reference": "ciphertext-length-audit-v1/check_boundaries.py",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/ciphertext-length-audit-v1/check_boundaries.py"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/ciphertext-length-audit-v1/check_boundaries.py",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "b5267f8aa8eb0436bd6206a0bb77473b957e4b117a67bf302588f00734f734f9",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        },
+        {
+          "path": "theory/lib/encoding.py",
+          "status": "portable",
+          "match": "extracted_mathematical_definitions",
+          "command": "python -B theory/run_checks.py --check encoding",
+          "scope": "Finite selected functions/fixtures; no general proof certification."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S31",
+      "manuscript_file": "appendices/fixed-field-carrier-bound.tex",
+      "original_reference": "fixed-field-count-audit-v1/check_additive_witness.py",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-count-audit-v1/check_additive_witness.py"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-count-audit-v1/check_additive_witness.py",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "eeb97cb15a59ed5595460f23770599f094ba44c15eef399d43aa34194b581ddc",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        },
+        {
+          "path": "theory/lib/fixed_field.py",
+          "status": "portable",
+          "match": "extracted_mathematical_definitions",
+          "command": "python -B theory/run_checks.py --check fixed-field",
+          "scope": "Finite selected functions/fixtures; no general proof certification."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S32",
+      "manuscript_file": "appendices/gaussian-relay-work.tex",
+      "original_reference": "prefix-reuse-audit-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 7,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1/audit.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1/check_reuse.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1/postcheck.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1/reader-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S33",
+      "manuscript_file": "appendices/joint-batch-lower-bound.tex",
+      "original_reference": "joint-batch-bound-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 5,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1/check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1/check_joint.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S34",
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "original_reference": "batched-hasse-matrix-v1/",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 8,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/audit.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/check_matrix.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/initial-digit-failure/check_matrix.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/initial-digit-failure/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/postcheck.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        },
+        {
+          "path": "theory/lib/batched_hasse.py",
+          "status": "portable",
+          "match": "extracted_mathematical_definitions",
+          "command": "python -B theory/run_checks.py --check batched-hasse",
+          "scope": "Finite selected functions/fixtures; no general proof certification."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S35",
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "original_reference": "native-batched-hasse-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 12,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/check_public.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/finite_ledger.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/ledger-before-unpadded-classical.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/ledger.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/matrix_arithmetic.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/matrix_public.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/postcheck.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/public-check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/public-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/selection.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S36",
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "original_reference": "native-cached-matrix-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 12,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/arithmetic.hpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/build.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/check_public.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/group_public.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/host-before.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix_binding.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/prepare.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/public-check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/public-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S37",
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "original_reference": "native-fast-cache-quotient-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 14,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/arithmetic.hpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/build.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/check_formula.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/check_preparation.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/fast_binding.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/formula-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/formula.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/matrix_fast.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/postcheck.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/preparation-check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/preparation-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/prepare.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S38",
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "original_reference": "native-fixed-multipliers-v1/",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 39,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/composition_native_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/composition_optimized_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/fast_core_v1.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/build.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/01-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/02-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/03-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/04-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/05-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/06-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/07-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/host-observation.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/check_candidate.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_binding.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_crypto.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_worker.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-v1/01-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/host-observation-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/host-windows-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/host-wsl-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/initial-reader-failure/failure.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/initial-reader-failure/verify_records.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/observe_wsl.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/prepare.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/public-check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/public-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/report_manuscript.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/report_results.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/run.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        },
+        {
+          "path": "native/src/fixed_binding.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/src/fixed_crypto.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/src/stage_crypto.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/src/fixed_worker.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/backend/fixed/composition_native_core.cpp",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/backend/fixed/composition_optimized_core.cpp",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/backend/fixed/fast_core_v1.cpp",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S39",
+      "manuscript_file": "appendices/measurements.tex",
+      "original_reference": "evidence/measurements.csv",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/JetHE-Eurocrypt2027/evidence/measurements.csv"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "recorded/measurements.csv",
+          "status": "archival",
+          "match": "byte_identical_recorded_file",
+          "scope": "Preserved record; its presence is not a new experiment."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S40",
+      "manuscript_file": "appendices/measurements.tex",
+      "original_reference": "evidence/benchmark-verification.json",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/JetHE-Eurocrypt2027/evidence/benchmark-verification.json"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "recorded/benchmark-verification.json",
+          "status": "archival",
+          "match": "byte_identical_recorded_file",
+          "scope": "Preserved record; its presence is not a new experiment."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S41",
+      "manuscript_file": "appendices/measurements.tex",
+      "original_reference": "evidence/verify_artifact.py",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/JetHE-Eurocrypt2027/evidence/verify_artifact.py"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "paper/JetHE-source.zip",
+          "archive_member": "evidence/verify_artifact.py",
+          "status": "portable",
+          "match": "byte_identical_checker_inside_paper_archive",
+          "sha256": "688ae79f5a7507b8ab9c9efc2e5934d83e0a341e9542354edde97b9ec0f5da77",
+          "command": "python tools/verify_recorded.py",
+          "scope": "The portable release tool extracts the source ZIP and runs this unchanged recorded-evidence checker; it does not run HE."
+        },
+        {
+          "path": "tools/verify_recorded.py",
+          "status": "portable",
+          "match": "portable_launcher_for_embedded_recorded_checker",
+          "command": "python tools/verify_recorded.py",
+          "scope": "Receipt hash membership, aggregate recomputation and bundled paper checker; no independent row-by-row receipt semantic replay."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S42",
+      "manuscript_file": "appendices/native-stage-gadgets.tex",
+      "original_reference": "native-stage-gadgets-v1",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 33,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/admission.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/backend/composition_native_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/backend/composition_optimized_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/backend/fast_core_v1.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/bounds.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/build.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/01-stage.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/02-stage.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/03-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/04-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/05-stage.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/06-stage.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/07-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/host-observation.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/campaign-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/check_admission.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/check_public.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/gate-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/gate-v1/01-stage.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/gate-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/host-observation-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/prepare.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/public-check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/report_campaign.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/run.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/stage_binding.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/stage_crypto.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/stage_public.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/stage_worker.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        },
+        {
+          "path": "theory/lib/admission_bounds.py",
+          "status": "portable",
+          "match": "extracted_mathematical_definitions",
+          "command": "python -B theory/run_checks.py --check admission",
+          "scope": "Finite selected functions/fixtures; no general proof certification."
+        },
+        {
+          "path": "native/src/bounds.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/src/stage_public.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S43",
+      "manuscript_file": "appendices/native-tensor-axis.tex",
+      "original_reference": "native-tensor-axis-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 30,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/backend/composition_native_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/backend/composition_optimized_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/backend/fast_core_v1.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/build.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/01-tensor.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/02-tensor.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/03-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/04-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/05-tensor.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/06-tensor.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/07-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/host-observation.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/campaign-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/check_candidate.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/gate-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/gate-v1/01-tensor.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/gate-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/host-observation-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/prepare.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/public-check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/report_manuscript.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/run.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/tensor_binding.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/tensor_crypto.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/tensor_worker.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S44",
+      "manuscript_file": "appendices/native-tensor-axis.tex",
+      "original_reference": "native-extension-axis-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 35,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/RUN_STATE.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/backend/composition_native_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/backend/composition_optimized_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/backend/fast_core_v1.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/build.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/01-extension.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/02-extension.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/03-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/04-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/05-extension.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/06-extension.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/07-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/host-observation.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/campaign-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/check_candidate.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/extension_binding.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/extension_crypto.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/extension_worker.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/gate-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/gate-v1/01-extension.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/gate-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/host-observation-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/host-windows-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/host-wsl-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/observe_wsl.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/prepare.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/public-check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/report_manuscript.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/report_results.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/run.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S45",
+      "manuscript_file": "appendices/native-tensor-axis.tex",
+      "original_reference": "native-fixed-multipliers-v1/",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 39,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/composition_native_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/composition_optimized_core.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/fast_core_v1.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/build.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/01-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/02-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/03-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/04-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/05-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/06-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/07-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/host-observation.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/check_candidate.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_binding.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_crypto.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_worker.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-v1/00-baseline.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-v1/01-fixed.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/host-observation-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/host-windows-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/host-wsl-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/initial-reader-failure/failure.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/initial-reader-failure/verify_records.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/observe_wsl.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/prepare.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/public-check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/public-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/report_manuscript.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/report_results.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/run.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        },
+        {
+          "path": "native/src/fixed_binding.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/src/fixed_crypto.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/src/stage_crypto.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/src/fixed_worker.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/backend/fixed/composition_native_core.cpp",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/backend/fixed/composition_optimized_core.cpp",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/backend/fixed/fast_core_v1.cpp",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S46",
+      "manuscript_file": "appendices/one-prime-control.tex",
+      "original_reference": "same-algebra-one-prime-v1",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 3,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1/admission.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1/check_admission.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S47",
+      "manuscript_file": "appendices/one-prime-control.tex",
+      "original_reference": "same-algebra-one-prime-workflow-v1",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 25,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/RUN_STATE.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/campaign-v1/environment.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/campaign-v1/host-observation.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/campaign-v1/measure-00-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/campaign-v1/measure-01-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/campaign-v1/measure-02-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/campaign-v1/measure-03-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/campaign-v1/measure-04-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/campaign-v1/measure-05-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/campaign-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/check_driver.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/check_host_workers.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/common.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/gate-v1/environment.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/gate-v1/gate-00-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/gate-v1/gate-01-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/gate-v1/gate.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/host-observation-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/preflight.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/report_campaign.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/supervise.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/verify_workflow.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/worker.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        },
+        {
+          "path": "native/src/common.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/src/worker.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S48",
+      "manuscript_file": "appendices/one-prime-control.tex",
+      "original_reference": "current-control-workflow-v1",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 29,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/adapter.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/00-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/01-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/02-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/03-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/04-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/05-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/06-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/07-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/frozen.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/gate-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/gate-v1/00-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/gate-v1/01-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/gate-v1/frozen.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/gate-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/host-observation-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/manuscript-data.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/observe.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/preflight-execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/preflight.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/preflight.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/report_manuscript.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/report_results.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/run.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        },
+        {
+          "path": "native/src/adapter.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S49",
+      "manuscript_file": "appendices/paired-terminal-receiver.tex",
+      "original_reference": "paired-terminal-receiver-v1/verify_receiver.py",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/verify_receiver.py"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/verify_receiver.py",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "ba7afc43b20458c8b9a5f9af1bd2dc97b91f47ad25b5826cb259b4e2fab88cbc",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S50",
+      "manuscript_file": "appendices/paired-terminal-receiver.tex",
+      "original_reference": "same-algebra-terminal-v1",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 12,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/RUN_STATE.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/admission.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/admission.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/build.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/full-v1/run.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/interpolation.cpp",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/interpolation.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/preflight-v1/run.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/run_receiver.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/verify_receiver.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        },
+        {
+          "path": "native/src/interpolation.py",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        },
+        {
+          "path": "native/backend/interpolation.cpp",
+          "status": "portable",
+          "match": "declared_native_source_origin",
+          "scope": "Selected computational definitions in native profiles; not the whole historical campaign."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S51",
+      "manuscript_file": "appendices/paired-terminal-receiver.tex",
+      "original_reference": "same-algebra-source-alignment-v1",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-source-alignment-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-source-alignment-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 3,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-source-alignment-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-source-alignment-v1/check_alignment.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-source-alignment-v1/verification.json"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S52",
+      "manuscript_file": "appendices/paired-terminal-receiver.tex",
+      "original_reference": "same-algebra-workflow-v1",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 23,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/RUN_STATE.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/campaign-v1/environment.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/campaign-v1/measure-00-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/campaign-v1/measure-01-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/campaign-v1/measure-02-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/campaign-v1/measure-03-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/campaign-v1/measure-04-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/campaign-v1/measure-05-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/campaign-v1/summary.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/check_host_workers.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/common.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/gate-v1/environment.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/gate-v1/gate-00-native.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/gate-v1/gate-01-control.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/gate-v1/gate.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/host-observation-v1.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/premature-campaign-negative.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/report_campaign.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/supervise.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/verify_workflow.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1/worker.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S53",
+      "manuscript_file": "appendices/prepared-contraction-bounds.tex",
+      "original_reference": "prepared-contraction-audit-v1/check_contraction.py",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/check_contraction.py"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/check_contraction.py",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "0a88c53c2d1b371157e5fe0cba8dbe99c29ca2e9422283499d390753fc9beedb",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S54",
+      "manuscript_file": "appendices/prepared-contraction-bounds.tex",
+      "original_reference": "bilinear-carrier-audit-v1/check_carriers.py",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/bilinear-carrier-audit-v1/check_carriers.py"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/bilinear-carrier-audit-v1/check_carriers.py",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "f65ea23ecf04f52380c033e649462c84e861b1c811de30a04d580e24ae917589",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S55",
+      "manuscript_file": "appendices/rational-joint-work.tex",
+      "original_reference": "joint-rational-matrix-v1/",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 6,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1/check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1/check.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1/manifest.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        },
+        {
+          "path": "theory/lib/rational_matrix.py",
+          "status": "portable",
+          "match": "extracted_mathematical_definitions",
+          "command": "python -B theory/run_checks.py --check rational-matrix",
+          "scope": "Finite selected functions/fixtures; no general proof certification."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    },
+    {
+      "id": "S56",
+      "manuscript_file": "appendices/raw-composition-boundary.tex",
+      "original_reference": "mixed-ideal-boundary-v1",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 9,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/check_boundary.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/initial-check/check.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/initial-check/check_boundary.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/initial-check/execution.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/initial-check/manifest.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S57",
+      "manuscript_file": "appendices/receiver-kernels.tex",
+      "original_reference": "receiver-kernels-v1/execution-v2.json",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/execution-v2.json"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/execution-v2.json",
+          "status": "archival",
+          "match": "exact_original_path",
+          "sha256": "b1dcc6974be75af2ae69d0fc5ba497e022949524585f57ee750b0978e9c340c8",
+          "scope": "Original selected source or data; archival entry points are not asserted to be portable."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S58",
+      "manuscript_file": "appendices/receiver-kernels.tex",
+      "original_reference": "complete-receiver-audit-v1",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 6,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1/REPRODUCE.md",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1/boundary-checks.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1/check_boundaries.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1/check_complete.py",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1/contract.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1/verification.json"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S59",
+      "manuscript_file": "appendices/retuned-relay-comparison.tex",
+      "original_reference": "retuned-relay-comparison-v1/",
+      "status": "archival",
+      "resolved_original_paths": [
+        "SubmissionA/research/eurocrypt-readiness-2026-09-13/retuned-relay-comparison-v1"
+      ],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [
+        {
+          "path": "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/retuned-relay-comparison-v1",
+          "status": "archival",
+          "match": "selected_archived_descendants",
+          "file_count": 3,
+          "member_paths": [
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/retuned-relay-comparison-v1/manifest.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/retuned-relay-comparison-v1/verification.json",
+            "supplementary/original/SubmissionA/research/eurocrypt-readiness-2026-09-13/retuned-relay-comparison-v1/verify_records.py"
+          ],
+          "scope": "Selected files from this original directory, not an assertion of complete directory or dependency closure."
+        }
+      ],
+      "notes": [
+        "Supplied archival material is inspectable; historical entry points may depend on their original layout and are not claimed runnable here."
+      ]
+    },
+    {
+      "id": "S60",
+      "manuscript_file": "appendices/source-transfer-screen.tex",
+      "original_reference": "3e48ef421ec256afddb3e7d2249a77eab6e9ba12",
+      "status": "external",
+      "resolved_original_paths": [],
+      "resolution_basis": "Exact original path from the paper provenance map.",
+      "targets": [],
+      "notes": [
+        "External dependency reference: Lattice Estimator revision 3e48ef421ec256afddb3e7d2249a77eab6e9ba12. The named external source/revision is not supplied by the supplementary source archive."
+      ]
+    },
+    {
+      "id": "S61",
+      "manuscript_file": "appendices/strict-time-reduction.tex",
+      "original_reference": "Coins",
+      "status": "portable",
+      "resolved_original_paths": [
+        "SubmissionA/research/composition_full_run.py"
+      ],
+      "resolution_basis": "The source reference is the Coins code symbol, not a filename. The native provenance retains this class from composition_full_run.py; its small/uniform methods append accepted words and refill missing coordinates.",
+      "targets": [
+        {
+          "path": "native/src/composition_full_run.py",
+          "symbol": "Coins",
+          "status": "portable",
+          "match": "exact_class_symbol_with_source_provenance",
+          "scope": "The uncapped measured sampler class used by selected native profiles; not an executable implementation of the complete reference reduction."
+        }
+      ],
+      "notes": [
+        "Portable coverage is the explicitly named finite functions or selected native profiles. Other files in a referenced historical directory remain archival."
+      ]
+    }
+  ]
+}

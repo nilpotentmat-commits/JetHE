@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-09-13 21:36:53 UTC",
+  "preflight": {
+    "directory": "preflight-v1",
+    "status": "SAME_ALGEBRA_TERMINAL_PREFLIGHT_PASS",
+    "observed_exit_code": 0,
+    "phase_coefficients": 589824
+  },
+  "full": {
+    "directory": "full-v1",
+    "session_id": 9779,
+    "status": "SAME_ALGEBRA_TERMINAL_FULL_FUNCTIONAL_PASS",
+    "observed_exit_code": 0,
+    "phase_coefficients": 28442624,
+    "output_symbols": 4096
+  },
+  "readback": "SAME_ALGEBRA_TERMINAL_RECORDED_EXECUTION_CHECKS_PASS",
+  "controlled_benchmark": false,
+  "security_bits": null,
+  "scope": "Completed fresh functional runs and subsequent recorded verification; no active process in this directory."
+}

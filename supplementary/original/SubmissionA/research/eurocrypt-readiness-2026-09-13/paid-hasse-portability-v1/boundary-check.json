@@ -1,0 +1,107 @@
+{
+  "status": "PLAINTEXT_ARITHMETIC_INTERFACE_BOUNDARY_PASS",
+  "cases": [
+    {
+      "length": 2,
+      "order": 1,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 32,
+      "Hasse_counterexample": true
+    },
+    {
+      "length": 4,
+      "order": 1,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 8192,
+      "Hasse_counterexample": true
+    },
+    {
+      "length": 4,
+      "order": 2,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 2048,
+      "Hasse_counterexample": true
+    },
+    {
+      "length": 8,
+      "order": 1,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 0,
+      "Hasse_counterexample": true
+    },
+    {
+      "length": 8,
+      "order": 2,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 0,
+      "Hasse_counterexample": true
+    },
+    {
+      "length": 8,
+      "order": 4,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 0,
+      "Hasse_counterexample": true
+    },
+    {
+      "length": 16,
+      "order": 1,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 0,
+      "Hasse_counterexample": true
+    },
+    {
+      "length": 16,
+      "order": 2,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 0,
+      "Hasse_counterexample": true
+    },
+    {
+      "length": 16,
+      "order": 4,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 0,
+      "Hasse_counterexample": true
+    },
+    {
+      "length": 16,
+      "order": 8,
+      "gate_pairs": 16000,
+      "sampled_composition_pairs": 200,
+      "exhaustive_composition_pairs": 0,
+      "Hasse_counterexample": true
+    }
+  ],
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/ARITHMETIC_INTERFACE_BOUNDARY.md": {
+      "bytes": 3797,
+      "sha256": "1c0506a6109c3e64afb8dea1ae6c15a97f99e4ace81587d519393236eac31796"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/check_boundary.py": {
+      "bytes": 3769,
+      "sha256": "c8a276c693453ad7300717a8eefce3a3f508059914ea104a9e8ae62181bcafdf"
+    },
+    "SubmissionA/research/core-resolution/SECURITY_ROOT_CAUSES.md": {
+      "bytes": 9062,
+      "sha256": "46d730b36550fe27ef16f9698b50e3f33fcc337db5c4708527e5c11158cf1f75"
+    }
+  },
+  "gate_pairs": 160000,
+  "sampled_composition_pairs": 2000,
+  "exhaustive_composition_pairs": 10272,
+  "wall_seconds": 0.38679930003127083,
+  "new_he_execution": false,
+  "full_composition_impossibility_claimed": false,
+  "arbitrary_ciphertext_lower_bound": false,
+  "mathematical_proof_verified_by_program": false
+}

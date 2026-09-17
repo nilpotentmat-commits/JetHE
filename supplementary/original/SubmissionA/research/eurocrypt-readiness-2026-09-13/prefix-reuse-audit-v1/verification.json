@@ -1,0 +1,1323 @@
+{
+  "status": "PREFIX_REUSE_RECORDED_COUNTS_AND_SAME_SOURCE_READBACK_PASS",
+  "historical_manuscript_context": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/sections/prepared-composition.tex": "SubmissionA/research/eurocrypt-readiness-2026-09-13/checkpoint-v38/manuscript/sections/prepared-composition.tex"
+  },
+  "source_files": 11,
+  "prefix_profiles": 192,
+  "horizon_profiles": 1122,
+  "same_source_families": [
+    {
+      "parameter": 256,
+      "radix_bits": 1,
+      "original_prefix": 8,
+      "original_modulus_bits": 195,
+      "original_source_rows": 392,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 8,
+          "hint_rows": 392,
+          "inputs": 511,
+          "source_rows": 392,
+          "setup_products": 394,
+          "warm_products": 2572
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            8
+          ],
+          "total_products": 2966
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            8
+          ],
+          "total_products": 5538
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            8
+          ],
+          "total_products": 41546
+        },
+        {
+          "batches": 256,
+          "prefixes": [
+            8
+          ],
+          "total_products": 658826
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            8
+          ],
+          "total_products": 2634122
+        },
+        {
+          "batches": 65536,
+          "prefixes": [
+            8
+          ],
+          "total_products": 168558986
+        }
+      ]
+    },
+    {
+      "parameter": 256,
+      "radix_bits": 4,
+      "original_prefix": 8,
+      "original_modulus_bits": 195,
+      "original_source_rows": 100,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 8,
+          "hint_rows": 100,
+          "inputs": 511,
+          "source_rows": 100,
+          "setup_products": 102,
+          "warm_products": 1988
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            8
+          ],
+          "total_products": 2090
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            8
+          ],
+          "total_products": 4078
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            8
+          ],
+          "total_products": 31910
+        },
+        {
+          "batches": 256,
+          "prefixes": [
+            8
+          ],
+          "total_products": 509030
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            8
+          ],
+          "total_products": 2035814
+        },
+        {
+          "batches": 65536,
+          "prefixes": [
+            8
+          ],
+          "total_products": 130285670
+        }
+      ]
+    },
+    {
+      "parameter": 256,
+      "radix_bits": 48,
+      "original_prefix": 8,
+      "original_modulus_bits": 195,
+      "original_source_rows": 12,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 8,
+          "hint_rows": 12,
+          "inputs": 511,
+          "source_rows": 12,
+          "setup_products": 14,
+          "warm_products": 1812
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            8
+          ],
+          "total_products": 1826
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            8
+          ],
+          "total_products": 3638
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            8
+          ],
+          "total_products": 29006
+        },
+        {
+          "batches": 256,
+          "prefixes": [
+            8
+          ],
+          "total_products": 463886
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            8
+          ],
+          "total_products": 1855502
+        },
+        {
+          "batches": 65536,
+          "prefixes": [
+            8
+          ],
+          "total_products": 118751246
+        }
+      ]
+    },
+    {
+      "parameter": 257,
+      "radix_bits": 1,
+      "original_prefix": 8,
+      "original_modulus_bits": 311,
+      "original_source_rows": 936,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 8,
+          "hint_rows": 2184,
+          "inputs": 512,
+          "source_rows": 936,
+          "setup_products": 2188,
+          "warm_products": 6161
+        },
+        {
+          "prefix": 9,
+          "hint_rows": 624,
+          "inputs": 1023,
+          "source_rows": 624,
+          "setup_products": 626,
+          "warm_products": 4828
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            9
+          ],
+          "total_products": 5454
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            9
+          ],
+          "total_products": 10282
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            9
+          ],
+          "total_products": 77874
+        },
+        {
+          "batches": 512,
+          "prefixes": [
+            9
+          ],
+          "total_products": 2472562
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            9
+          ],
+          "total_products": 4944498
+        },
+        {
+          "batches": 262144,
+          "prefixes": [
+            9
+          ],
+          "total_products": 1265631858
+        }
+      ]
+    },
+    {
+      "parameter": 257,
+      "radix_bits": 4,
+      "original_prefix": 8,
+      "original_modulus_bits": 311,
+      "original_source_rows": 237,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 8,
+          "hint_rows": 553,
+          "inputs": 512,
+          "source_rows": 237,
+          "setup_products": 557,
+          "warm_products": 2899
+        },
+        {
+          "prefix": 9,
+          "hint_rows": 158,
+          "inputs": 1023,
+          "source_rows": 158,
+          "setup_products": 160,
+          "warm_products": 3896
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            8
+          ],
+          "total_products": 3456
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            8
+          ],
+          "total_products": 6355
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            8
+          ],
+          "total_products": 46941
+        },
+        {
+          "batches": 512,
+          "prefixes": [
+            8
+          ],
+          "total_products": 1484845
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            8
+          ],
+          "total_products": 2969133
+        },
+        {
+          "batches": 262144,
+          "prefixes": [
+            8
+          ],
+          "total_products": 759956013
+        }
+      ]
+    },
+    {
+      "parameter": 257,
+      "radix_bits": 48,
+      "original_prefix": 8,
+      "original_modulus_bits": 311,
+      "original_source_rows": 24,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 8,
+          "hint_rows": 56,
+          "inputs": 512,
+          "source_rows": 24,
+          "setup_products": 60,
+          "warm_products": 1905
+        },
+        {
+          "prefix": 9,
+          "hint_rows": 16,
+          "inputs": 1023,
+          "source_rows": 16,
+          "setup_products": 18,
+          "warm_products": 3612
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            8
+          ],
+          "total_products": 1965
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            8
+          ],
+          "total_products": 3870
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            8
+          ],
+          "total_products": 30540
+        },
+        {
+          "batches": 512,
+          "prefixes": [
+            8
+          ],
+          "total_products": 975420
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            8
+          ],
+          "total_products": 1950780
+        },
+        {
+          "batches": 262144,
+          "prefixes": [
+            8
+          ],
+          "total_products": 499384380
+        }
+      ]
+    },
+    {
+      "parameter": 512,
+      "radix_bits": 1,
+      "original_prefix": 8,
+      "original_modulus_bits": 321,
+      "original_source_rows": 966,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 8,
+          "hint_rows": 2254,
+          "inputs": 512,
+          "source_rows": 966,
+          "setup_products": 2258,
+          "warm_products": 6301
+        },
+        {
+          "prefix": 9,
+          "hint_rows": 644,
+          "inputs": 1023,
+          "source_rows": 644,
+          "setup_products": 646,
+          "warm_products": 4868
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            9
+          ],
+          "total_products": 5514
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            9
+          ],
+          "total_products": 10382
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            9
+          ],
+          "total_products": 78534
+        },
+        {
+          "batches": 512,
+          "prefixes": [
+            9
+          ],
+          "total_products": 2493062
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            9
+          ],
+          "total_products": 4985478
+        },
+        {
+          "batches": 262144,
+          "prefixes": [
+            9
+          ],
+          "total_products": 1276117638
+        }
+      ]
+    },
+    {
+      "parameter": 512,
+      "radix_bits": 4,
+      "original_prefix": 8,
+      "original_modulus_bits": 321,
+      "original_source_rows": 246,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 8,
+          "hint_rows": 574,
+          "inputs": 512,
+          "source_rows": 246,
+          "setup_products": 578,
+          "warm_products": 2941
+        },
+        {
+          "prefix": 9,
+          "hint_rows": 164,
+          "inputs": 1023,
+          "source_rows": 164,
+          "setup_products": 166,
+          "warm_products": 3908
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            8
+          ],
+          "total_products": 3519
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            8
+          ],
+          "total_products": 6460
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            8
+          ],
+          "total_products": 47634
+        },
+        {
+          "batches": 512,
+          "prefixes": [
+            8
+          ],
+          "total_products": 1506370
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            8
+          ],
+          "total_products": 3012162
+        },
+        {
+          "batches": 262144,
+          "prefixes": [
+            8
+          ],
+          "total_products": 770966082
+        }
+      ]
+    },
+    {
+      "parameter": 512,
+      "radix_bits": 48,
+      "original_prefix": 8,
+      "original_modulus_bits": 321,
+      "original_source_rows": 24,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 8,
+          "hint_rows": 56,
+          "inputs": 512,
+          "source_rows": 24,
+          "setup_products": 60,
+          "warm_products": 1905
+        },
+        {
+          "prefix": 9,
+          "hint_rows": 16,
+          "inputs": 1023,
+          "source_rows": 16,
+          "setup_products": 18,
+          "warm_products": 3612
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            8
+          ],
+          "total_products": 1965
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            8
+          ],
+          "total_products": 3870
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            8
+          ],
+          "total_products": 30540
+        },
+        {
+          "batches": 512,
+          "prefixes": [
+            8
+          ],
+          "total_products": 975420
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            8
+          ],
+          "total_products": 1950780
+        },
+        {
+          "batches": 262144,
+          "prefixes": [
+            8
+          ],
+          "total_products": 499384380
+        }
+      ]
+    },
+    {
+      "parameter": 1024,
+      "radix_bits": 1,
+      "original_prefix": 9,
+      "original_modulus_bits": 345,
+      "original_source_rows": 1038,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 9,
+          "hint_rows": 2422,
+          "inputs": 1024,
+          "source_rows": 1038,
+          "setup_products": 2426,
+          "warm_products": 8429
+        },
+        {
+          "prefix": 10,
+          "hint_rows": 692,
+          "inputs": 2047,
+          "source_rows": 692,
+          "setup_products": 694,
+          "warm_products": 8548
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            10
+          ],
+          "total_products": 9242
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            10
+          ],
+          "total_products": 17790
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            9
+          ],
+          "total_products": 137290
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            9
+          ],
+          "total_products": 8633722
+        },
+        {
+          "batches": 1048576,
+          "prefixes": [
+            9
+          ],
+          "total_products": 8838449530
+        }
+      ]
+    },
+    {
+      "parameter": 1024,
+      "radix_bits": 4,
+      "original_prefix": 9,
+      "original_modulus_bits": 345,
+      "original_source_rows": 264,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 9,
+          "hint_rows": 616,
+          "inputs": 1024,
+          "source_rows": 264,
+          "setup_products": 620,
+          "warm_products": 4817
+        },
+        {
+          "prefix": 10,
+          "hint_rows": 176,
+          "inputs": 2047,
+          "source_rows": 176,
+          "setup_products": 178,
+          "warm_products": 7516
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            9
+          ],
+          "total_products": 5437
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            9
+          ],
+          "total_products": 10254
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            9
+          ],
+          "total_products": 77692
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            9
+          ],
+          "total_products": 4933228
+        },
+        {
+          "batches": 1048576,
+          "prefixes": [
+            9
+          ],
+          "total_products": 5050991212
+        }
+      ]
+    },
+    {
+      "parameter": 1024,
+      "radix_bits": 48,
+      "original_prefix": 9,
+      "original_modulus_bits": 345,
+      "original_source_rows": 27,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 9,
+          "hint_rows": 63,
+          "inputs": 1024,
+          "source_rows": 27,
+          "setup_products": 67,
+          "warm_products": 3711
+        },
+        {
+          "prefix": 10,
+          "hint_rows": 18,
+          "inputs": 2047,
+          "source_rows": 18,
+          "setup_products": 20,
+          "warm_products": 7200
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            9
+          ],
+          "total_products": 3778
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            9
+          ],
+          "total_products": 7489
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            9
+          ],
+          "total_products": 59443
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            9
+          ],
+          "total_products": 3800131
+        },
+        {
+          "batches": 1048576,
+          "prefixes": [
+            9
+          ],
+          "total_products": 3891265603
+        }
+      ]
+    },
+    {
+      "parameter": 4096,
+      "radix_bits": 1,
+      "original_prefix": 10,
+      "original_modulus_bits": 527,
+      "original_source_rows": 2113,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 10,
+          "hint_rows": 7392,
+          "inputs": 2049,
+          "source_rows": 2113,
+          "setup_products": 7398,
+          "warm_products": 21958
+        },
+        {
+          "prefix": 11,
+          "hint_rows": 3696,
+          "inputs": 4096,
+          "source_rows": 1584,
+          "setup_products": 3700,
+          "warm_products": 21729
+        },
+        {
+          "prefix": 12,
+          "hint_rows": 1056,
+          "inputs": 8191,
+          "source_rows": 1056,
+          "setup_products": 1058,
+          "warm_products": 30780
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            11
+          ],
+          "total_products": 25429
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            11
+          ],
+          "total_products": 47158
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            11
+          ],
+          "total_products": 351364
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            11
+          ],
+          "total_products": 22254196
+        },
+        {
+          "batches": 4096,
+          "prefixes": [
+            11
+          ],
+          "total_products": 89005684
+        },
+        {
+          "batches": 16777216,
+          "prefixes": [
+            11
+          ],
+          "total_products": 364552130164
+        }
+      ]
+    },
+    {
+      "parameter": 4096,
+      "radix_bits": 4,
+      "original_prefix": 10,
+      "original_modulus_bits": 527,
+      "original_source_rows": 533,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 10,
+          "hint_rows": 1862,
+          "inputs": 2049,
+          "source_rows": 533,
+          "setup_products": 1868,
+          "warm_products": 10898
+        },
+        {
+          "prefix": 11,
+          "hint_rows": 931,
+          "inputs": 4096,
+          "source_rows": 399,
+          "setup_products": 935,
+          "warm_products": 16199
+        },
+        {
+          "prefix": 12,
+          "hint_rows": 266,
+          "inputs": 8191,
+          "source_rows": 266,
+          "setup_products": 268,
+          "warm_products": 29200
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            10
+          ],
+          "total_products": 12766
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            10
+          ],
+          "total_products": 23664
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            10
+          ],
+          "total_products": 176236
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            10
+          ],
+          "total_products": 11161420
+        },
+        {
+          "batches": 4096,
+          "prefixes": [
+            10
+          ],
+          "total_products": 44640076
+        },
+        {
+          "batches": 16777216,
+          "prefixes": [
+            10
+          ],
+          "total_products": 182838101836
+        }
+      ]
+    },
+    {
+      "parameter": 4096,
+      "radix_bits": 48,
+      "original_prefix": 10,
+      "original_modulus_bits": 527,
+      "original_source_rows": 49,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 10,
+          "hint_rows": 168,
+          "inputs": 2049,
+          "source_rows": 49,
+          "setup_products": 174,
+          "warm_products": 7510
+        },
+        {
+          "prefix": 11,
+          "hint_rows": 84,
+          "inputs": 4096,
+          "source_rows": 36,
+          "setup_products": 88,
+          "warm_products": 14505
+        },
+        {
+          "prefix": 12,
+          "hint_rows": 24,
+          "inputs": 8191,
+          "source_rows": 24,
+          "setup_products": 26,
+          "warm_products": 28716
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            10
+          ],
+          "total_products": 7684
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            10
+          ],
+          "total_products": 15194
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            10
+          ],
+          "total_products": 120334
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            10
+          ],
+          "total_products": 7690414
+        },
+        {
+          "batches": 4096,
+          "prefixes": [
+            10
+          ],
+          "total_products": 30761134
+        },
+        {
+          "batches": 16777216,
+          "prefixes": [
+            10
+          ],
+          "total_products": 125996892334
+        }
+      ]
+    },
+    {
+      "parameter": 65536,
+      "radix_bits": 1,
+      "original_prefix": 13,
+      "original_modulus_bits": 821,
+      "original_source_rows": 6577,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 13,
+          "hint_rows": 20550,
+          "inputs": 16386,
+          "source_rows": 6577,
+          "setup_products": 20558,
+          "warm_products": 98455
+        },
+        {
+          "prefix": 14,
+          "hint_rows": 11508,
+          "inputs": 32769,
+          "source_rows": 3289,
+          "setup_products": 11514,
+          "warm_products": 137710
+        },
+        {
+          "prefix": 15,
+          "hint_rows": 5754,
+          "inputs": 65536,
+          "source_rows": 2466,
+          "setup_products": 5758,
+          "warm_products": 240885
+        },
+        {
+          "prefix": 16,
+          "hint_rows": 1644,
+          "inputs": 131071,
+          "source_rows": 1644,
+          "setup_products": 1646,
+          "warm_products": 462036
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            13
+          ],
+          "total_products": 119013
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            13
+          ],
+          "total_products": 217468
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            13
+          ],
+          "total_products": 1595838
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            13
+          ],
+          "total_products": 100838478
+        },
+        {
+          "batches": 65536,
+          "prefixes": [
+            13
+          ],
+          "total_products": 6452367438
+        },
+        {
+          "batches": 4294967296,
+          "prefixes": [
+            13
+          ],
+          "total_products": 422861005148238
+        }
+      ]
+    },
+    {
+      "parameter": 65536,
+      "radix_bits": 4,
+      "original_prefix": 13,
+      "original_modulus_bits": 821,
+      "original_source_rows": 1657,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 13,
+          "hint_rows": 5175,
+          "inputs": 16386,
+          "source_rows": 1657,
+          "setup_products": 5183,
+          "warm_products": 67705
+        },
+        {
+          "prefix": 14,
+          "hint_rows": 2898,
+          "inputs": 32769,
+          "source_rows": 829,
+          "setup_products": 2904,
+          "warm_products": 120490
+        },
+        {
+          "prefix": 15,
+          "hint_rows": 1449,
+          "inputs": 65536,
+          "source_rows": 621,
+          "setup_products": 1453,
+          "warm_products": 232275
+        },
+        {
+          "prefix": 16,
+          "hint_rows": 414,
+          "inputs": 131071,
+          "source_rows": 414,
+          "setup_products": 416,
+          "warm_products": 459576
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            13
+          ],
+          "total_products": 72888
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            13
+          ],
+          "total_products": 140593
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            13
+          ],
+          "total_products": 1088463
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            13
+          ],
+          "total_products": 69335103
+        },
+        {
+          "batches": 65536,
+          "prefixes": [
+            13
+          ],
+          "total_products": 4437120063
+        },
+        {
+          "batches": 4294967296,
+          "prefixes": [
+            13
+          ],
+          "total_products": 290790760780863
+        }
+      ]
+    },
+    {
+      "parameter": 65536,
+      "radix_bits": 48,
+      "original_prefix": 13,
+      "original_modulus_bits": 821,
+      "original_source_rows": 153,
+      "admitted_projectable_profiles": [
+        {
+          "prefix": 13,
+          "hint_rows": 475,
+          "inputs": 16386,
+          "source_rows": 153,
+          "setup_products": 483,
+          "warm_products": 58305
+        },
+        {
+          "prefix": 14,
+          "hint_rows": 266,
+          "inputs": 32769,
+          "source_rows": 77,
+          "setup_products": 272,
+          "warm_products": 115226
+        },
+        {
+          "prefix": 15,
+          "hint_rows": 133,
+          "inputs": 65536,
+          "source_rows": 57,
+          "setup_products": 137,
+          "warm_products": 229643
+        },
+        {
+          "prefix": 16,
+          "hint_rows": 38,
+          "inputs": 131071,
+          "source_rows": 38,
+          "setup_products": 40,
+          "warm_products": 458824
+        }
+      ],
+      "ring_count_minima": [
+        {
+          "batches": 1,
+          "prefixes": [
+            13
+          ],
+          "total_products": 58788
+        },
+        {
+          "batches": 2,
+          "prefixes": [
+            13
+          ],
+          "total_products": 117093
+        },
+        {
+          "batches": 16,
+          "prefixes": [
+            13
+          ],
+          "total_products": 933363
+        },
+        {
+          "batches": 1024,
+          "prefixes": [
+            13
+          ],
+          "total_products": 59704803
+        },
+        {
+          "batches": 65536,
+          "prefixes": [
+            13
+          ],
+          "total_products": 3821076963
+        },
+        {
+          "batches": 4294967296,
+          "prefixes": [
+            13
+          ],
+          "total_products": 250418068193763
+        }
+      ]
+    }
+  ],
+  "new_he_execution": false,
+  "new_timing": false,
+  "mathematical_proof_machine_checked": false,
+  "security_bits": null,
+  "scope": "Readback and finite common-interval row-count projection; no runtime or global optimality certificate",
+  "files": {
+    "PLAN.md": {
+      "bytes": 2157,
+      "sha256": "41adcf5a7ac3f3da2a7ae9b8018c105b7a574df4986eda2f15af9252a89203f6"
+    },
+    "PROOF.md": {
+      "bytes": 8973,
+      "sha256": "3b629891703dd651489a4f01b992d7b2407ae22fdfd8e0833e749d5d665c5575"
+    },
+    "check_reuse.py": {
+      "bytes": 10515,
+      "sha256": "e2b4e25d2261d3f39cce9e0f43f5a4cc8e58c0a47ac1d9f0fd65e7d973dfa72d"
+    },
+    "audit.json": {
+      "bytes": 978869,
+      "sha256": "84b76fe5aacab6accbc7ff8f7f61dab863cdc9491810e7086b3eaeadb33ff26c"
+    },
+    "execution.json": {
+      "bytes": 548,
+      "sha256": "5c721cf3fd77feb85c1196a09c45eab8c2aa64ef7147360ec7edad5f4403e2d4"
+    },
+    "check.stdout.txt": {
+      "bytes": 1435,
+      "sha256": "22814b3a0b0dda0cae711637b6a29b7b2dfed03e26f18b46051289d98f6fa0b9"
+    },
+    "check.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "verify_records.py": {
+      "bytes": 5945,
+      "sha256": "4f56fa6ab9119cd8c899ff18625c6a29e8c81d855261fd999d3f5390665e1b17"
+    },
+    "RESULTS.md": {
+      "bytes": 3977,
+      "sha256": "48cdb7c29c56f1e17672347467e62f7c3713f48b9e63d5ca2ee42a75f4d32a09"
+    }
+  }
+}

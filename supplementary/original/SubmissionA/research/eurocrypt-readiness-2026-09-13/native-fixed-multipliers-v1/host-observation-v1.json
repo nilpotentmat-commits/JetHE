@@ -1,0 +1,19 @@
+{
+  "windows": {
+    "recorded_utc": "2026-09-14T11:07:29.8767349Z",
+    "workspace": "D:\\Users\\scanf\\OneDrive\\Paper\\NilCrypto\\Submissions\\NilHEoverRing",
+    "workers": [],
+    "scope": "Single Windows process snapshot of computing commands identifying this workspace; relative paths can be missed and exclusive host use is not established.",
+    "tool_exit_code": 0,
+    "tool_completion_chunk": "bb3b69"
+  },
+  "wsl": {
+    "recorded_utc": "2026-09-14T11:07:34.930424+00:00",
+    "observer_pid": 374,
+    "workspace": "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing",
+    "workers": [],
+    "scope": "Single WSL process-table snapshot of computing commands identifying this workspace; command arguments are not exported. Relative paths can be missed; this is not an exclusive-host guarantee.",
+    "tool_exit_code": 0,
+    "tool_completion_chunk": "f5f9b6"
+  }
+}

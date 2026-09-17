@@ -1,0 +1,222 @@
+{
+  "setup": 0,
+  "status": "PASS",
+  "exit_code": 0,
+  "profile": "crt-w1-l16-j1-m4369-b20-raw",
+  "cpu": 0,
+  "process_wall_seconds_diagnostic": 0.13858076800000063,
+  "worker": {
+    "batches": [
+      {
+        "additions": 0,
+        "all_observed_library_correct": true,
+        "all_outputs_match": true,
+        "batch_wall_seconds": 0.015676791,
+        "checkpoints": [],
+        "component_products": 4,
+        "encryptions": 2,
+        "explicit_modulus_changes": 0,
+        "functional_admitted": true,
+        "index": 0,
+        "input_bytes_serialized": 131504,
+        "kernel_seconds": {
+          "evaluation_multiply": 0.003199728
+        },
+        "local_compute_seconds": 0.015667051999999997,
+        "minimum_observed_bit_capacity": 13.0,
+        "output_bytes_serialized": 98568,
+        "output_profiles": [
+          {
+            "bit_capacity": 13,
+            "group": 0,
+            "library_is_correct": true,
+            "parts": 3,
+            "prime_indices": [
+              2
+            ]
+          }
+        ],
+        "prepared_plaintext_cache_bytes": 128,
+        "products": 1,
+        "recovered_public_fixture_symbols": [
+          16355,
+          7335,
+          37606,
+          45972,
+          23742,
+          7274,
+          13687,
+          13532,
+          43661,
+          45924,
+          7333,
+          39864,
+          20191,
+          46997,
+          58444,
+          34709
+        ],
+        "relinearizations": 0,
+        "rotations": 0,
+        "seconds": {
+          "evaluation_total": 0.00320638,
+          "input_serialization": 6.834e-05,
+          "output_serialization": 4.5817e-05,
+          "owner_encoding": 0.00025827,
+          "owner_encryption": 0.004075609,
+          "owner_packing": 1.9e-07,
+          "owner_preparation": 8.035e-06,
+          "recipient_decoding": 0.004022609,
+          "recipient_decryption": 0.003874728,
+          "recipient_interpolation": 1.6872e-05,
+          "validation": 9.739e-06
+        },
+        "structural_handle_checkpoints": 0,
+        "switched_parts": 0,
+        "terminal_capacity_gate": true,
+        "terminal_slots_checked": 256,
+        "unallocated_charged_seconds": 9.020199999999583e-05
+      },
+      {
+        "additions": 0,
+        "all_observed_library_correct": true,
+        "all_outputs_match": true,
+        "batch_wall_seconds": 0.016026314,
+        "checkpoints": [],
+        "component_products": 4,
+        "encryptions": 2,
+        "explicit_modulus_changes": 0,
+        "functional_admitted": true,
+        "index": 1,
+        "input_bytes_serialized": 131504,
+        "kernel_seconds": {
+          "evaluation_multiply": 0.002924737
+        },
+        "local_compute_seconds": 0.016020013,
+        "minimum_observed_bit_capacity": 13.0,
+        "output_bytes_serialized": 98568,
+        "output_profiles": [
+          {
+            "bit_capacity": 13,
+            "group": 0,
+            "library_is_correct": true,
+            "parts": 3,
+            "prime_indices": [
+              2
+            ]
+          }
+        ],
+        "prepared_plaintext_cache_bytes": 128,
+        "products": 1,
+        "recovered_public_fixture_symbols": [
+          16355,
+          7335,
+          37606,
+          45972,
+          23742,
+          7274,
+          13687,
+          13532,
+          43661,
+          45924,
+          7333,
+          39864,
+          20191,
+          46997,
+          58444,
+          34709
+        ],
+        "relinearizations": 0,
+        "rotations": 0,
+        "seconds": {
+          "evaluation_total": 0.002933152,
+          "input_serialization": 6.5674e-05,
+          "output_serialization": 4.5717e-05,
+          "owner_encoding": 0.000305379,
+          "owner_encryption": 0.005642141,
+          "owner_packing": 3.2e-07,
+          "owner_preparation": 2.0249e-05,
+          "recipient_decoding": 0.003953288,
+          "recipient_decryption": 0.002951778,
+          "recipient_interpolation": 1.5159e-05,
+          "validation": 6.301000000000001e-06
+        },
+        "structural_handle_checkpoints": 0,
+        "switched_parts": 0,
+        "terminal_capacity_gate": true,
+        "terminal_slots_checked": 256,
+        "unallocated_charged_seconds": 8.715600000000143e-05
+      }
+    ],
+    "benchmark": true,
+    "bootstrapping": false,
+    "cell": "w1-l16-j1",
+    "ciphertext_bodies_exported": false,
+    "compiler": "crt",
+    "encrypted_execution": true,
+    "first_use_local_seconds": 0.106276853,
+    "fixture_fnv64": "15907255406795516175",
+    "network_transfer_measured": false,
+    "peak_rss_kib": 22316,
+    "phase_diagnostics_exported": false,
+    "policy": "raw",
+    "process_isolation": false,
+    "profile": {
+      "actual_digit_prime_indices": [
+        [
+          6
+        ]
+      ],
+      "adjusted_library_stdev": 211.51491673165748,
+      "assumed_switching_matrices": 0,
+      "ciphertext_primes": [
+        "18014123631575041"
+      ],
+      "compiler": "crt",
+      "dimension": 4096,
+      "effective_library_128_screen": true,
+      "effective_library_heuristic_NOT_CERTIFICATION": 316.3517690096745,
+      "field_degree": 16,
+      "field_polynomial": "0x1100b",
+      "generators": [
+        3,
+        317
+      ],
+      "library_128_screen": true,
+      "library_security_estimate_NOT_CERTIFICATION": 140.2858023125212,
+      "m": 4369,
+      "orders": [
+        128,
+        2
+      ],
+      "published_q_library_heuristic_NOT_CERTIFICATION": 316.3517690096745,
+      "requested_bits": 20,
+      "requested_digits": 2,
+      "screen_modulus": "Q",
+      "security_128_qualified": false,
+      "sk_hwt": 0,
+      "slots": 256,
+      "small_primes": [
+        "68718428161",
+        "63564546049",
+        "4123105689601",
+        "31079054442497",
+        "251564421808129",
+        "2073500688842753"
+      ],
+      "special_primes": [
+        "2003133018406913"
+      ]
+    },
+    "public_key_including_hints_bytes_serialized": 66296,
+    "secret_keys_exported": false,
+    "security_128_qualified": false,
+    "setup_seconds": {
+      "keys_and_serialization": 0.004871057,
+      "public_setup": 0.085738744
+    },
+    "status": "CORE_MATCHED_PASS",
+    "switching_matrices": []
+  },
+  "fresh_HE_execution": true
+}

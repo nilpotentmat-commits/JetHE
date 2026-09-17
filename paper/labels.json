@@ -1,0 +1,1110 @@
+{
+  "sec:introduction": {
+    "number": "1",
+    "page": 1
+  },
+  "tab:antecedents": {
+    "number": "1",
+    "page": 3
+  },
+  "sec:preliminaries": {
+    "number": "2",
+    "page": 4
+  },
+  "def:prepared-composition": {
+    "number": "1",
+    "page": 4
+  },
+  "def:private-composition": {
+    "number": "1",
+    "page": 4
+  },
+  "sec:representation": {
+    "number": "3",
+    "page": 5
+  },
+  "thm:tensor-owner-codec": {
+    "number": "1",
+    "page": 5
+  },
+  "cor:jet-topology": {
+    "number": "1",
+    "page": 6
+  },
+  "sec:leveled-construction": {
+    "number": "4",
+    "page": 6
+  },
+  "lem:tensor-norm-fresh": {
+    "number": "1",
+    "page": 8
+  },
+  "thm:uniform-leveled-correctness": {
+    "number": "2",
+    "page": 9
+  },
+  "sec:prepared-compiler": {
+    "number": "5",
+    "page": 9
+  },
+  "thm:native-composition-recurrence": {
+    "number": "3",
+    "page": 10
+  },
+  "lem:native-hasse-transport": {
+    "number": "2",
+    "page": 11
+  },
+  "sec:hasse-minimum": {
+    "number": "5.3",
+    "page": 11
+  },
+  "eq:hasse-paid-layer-model": {
+    "number": "1",
+    "page": 11
+  },
+  "thm:hasse-paid-identity-minimum": {
+    "number": "4",
+    "page": 12
+  },
+  "eq:hasse-paid-layer-attainer": {
+    "number": "2",
+    "page": 12
+  },
+  "eq:main-compose-tail": {
+    "number": "3",
+    "page": 13
+  },
+  "thm:owner-product-prefix": {
+    "number": "5",
+    "page": 13
+  },
+  "eq:main-compose-prefix": {
+    "number": "4",
+    "page": 13
+  },
+  "sec:primary-profile": {
+    "number": "6",
+    "page": 14
+  },
+  "tab:primary-profile": {
+    "number": "2",
+    "page": 14
+  },
+  "thm:primary-terminal": {
+    "number": "6",
+    "page": 15
+  },
+  "sec:security": {
+    "number": "7",
+    "page": 16
+  },
+  "tab:security-profiles": {
+    "number": "3",
+    "page": 16
+  },
+  "cor:main-gaussian-security": {
+    "number": "2",
+    "page": 18
+  },
+  "sec:measured-privacy": {
+    "number": "7.1",
+    "page": 18
+  },
+  "sec:resources": {
+    "number": "8",
+    "page": 19
+  },
+  "cor:reference-balance": {
+    "number": "3",
+    "page": 20
+  },
+  "cor:gaussian-complete-resources": {
+    "number": "4",
+    "page": 21
+  },
+  "cor:main-depth-work-separation": {
+    "number": "1",
+    "page": 23
+  },
+  "thm:joint-work-main": {
+    "number": "2",
+    "page": 24
+  },
+  "sec:evaluation": {
+    "number": "9",
+    "page": 24
+  },
+  "sec:openfhe-comparison": {
+    "number": "9.1",
+    "page": 25
+  },
+  "tab:workflow": {
+    "number": "4",
+    "page": 26
+  },
+  "tab:material": {
+    "number": "5",
+    "page": 26
+  },
+  "tab:phase-costs": {
+    "number": "6",
+    "page": 27
+  },
+  "page:main-end": {
+    "number": "10",
+    "page": 28
+  },
+  "page:supplement-start": {
+    "number": "10",
+    "page": 32
+  },
+  "app:group-algebra": {
+    "number": "A",
+    "page": 32
+  },
+  "app:representation-details": {
+    "number": "A.1",
+    "page": 32
+  },
+  "lem:cyclotomic-identity": {
+    "number": "3",
+    "page": 32
+  },
+  "thm:local-decomposition": {
+    "number": "7",
+    "page": 32
+  },
+  "app:hasse-map-layer-comparison": {
+    "number": "A.2",
+    "page": 33
+  },
+  "prop:hasse-ternary-payload-minimum": {
+    "number": "1",
+    "page": 34
+  },
+  "eq:hasse-ternary-paid-success": {
+    "number": "5",
+    "page": 34
+  },
+  "app:paid-hasse-current-phase": {
+    "number": "A.2.1",
+    "page": 35
+  },
+  "prop:paid-hasse-current-phase": {
+    "number": "2",
+    "page": 35
+  },
+  "eq:paid-hasse-tail": {
+    "number": "6",
+    "page": 35
+  },
+  "app:hasse-taylor-key-boundary": {
+    "number": "A.2.2",
+    "page": 36
+  },
+  "prop:taylor-closed-payload-boundary": {
+    "number": "3",
+    "page": 37
+  },
+  "app:conventional-compiler-transfer": {
+    "number": "A.3",
+    "page": 37
+  },
+  "prop:hasse-arithmetic-interface": {
+    "number": "4",
+    "page": 38
+  },
+  "app:group-correctness": {
+    "number": "B",
+    "page": 39
+  },
+  "sec:terminal-variant": {
+    "number": "B.1",
+    "page": 39
+  },
+  "thm:three-prime-terminal": {
+    "number": "8",
+    "page": 39
+  },
+  "primary:app:three-prime-proof": {
+    "number": "B.2",
+    "page": 40
+  },
+  "primary:lem:terminal-matrix-row": {
+    "number": "4",
+    "page": 41
+  },
+  "primary:eq:terminal-coordinate-union": {
+    "number": "7",
+    "page": 41
+  },
+  "primary:eq:terminal-switch-caps": {
+    "number": "8",
+    "page": 42
+  },
+  "primary:eq:terminal-product-caps": {
+    "number": "9",
+    "page": 42
+  },
+  "primary:eq:terminal-probabilistic-product": {
+    "number": "10",
+    "page": 42
+  },
+  "primary:lem:terminal-noise-amplification": {
+    "number": "5",
+    "page": 43
+  },
+  "app:three-prime-proof": {
+    "number": "B.3",
+    "page": 44
+  },
+  "lem:terminal-matrix-row": {
+    "number": "6",
+    "page": 44
+  },
+  "eq:terminal-coordinate-union": {
+    "number": "11",
+    "page": 44
+  },
+  "eq:terminal-switch-caps": {
+    "number": "12",
+    "page": 45
+  },
+  "lem:terminal-helper-phase": {
+    "number": "7",
+    "page": 45
+  },
+  "eq:terminal-product-caps": {
+    "number": "13",
+    "page": 46
+  },
+  "eq:terminal-probabilistic-product": {
+    "number": "14",
+    "page": 46
+  },
+  "lem:terminal-noise-amplification": {
+    "number": "8",
+    "page": 46
+  },
+  "eq:terminal-source-scope": {
+    "number": "15",
+    "page": 47
+  },
+  "app:prepared-modulus-details": {
+    "number": "B.4",
+    "page": 48
+  },
+  "prop:prepared-no-drop-details": {
+    "number": "5",
+    "page": 48
+  },
+  "cor:prepared-no-drop-modulus": {
+    "number": "5",
+    "page": 49
+  },
+  "app:terminal-core-admission": {
+    "number": "B.5",
+    "page": 50
+  },
+  "app:group-security": {
+    "number": "C",
+    "page": 52
+  },
+  "app:leveled-public-view": {
+    "number": "C.1",
+    "page": 52
+  },
+  "thm:main-staged-privacy": {
+    "number": "9",
+    "page": 53
+  },
+  "eq:main-composition-security": {
+    "number": "16",
+    "page": 54
+  },
+  "app:paid-source-specialization": {
+    "number": "C.1.3",
+    "page": 55
+  },
+  "cor:paid-source-46": {
+    "number": "6",
+    "page": 55
+  },
+  "app:cbd-projections": {
+    "number": "C.1.4",
+    "page": 56
+  },
+  "prop:cbd-crt-projection": {
+    "number": "6",
+    "page": 56
+  },
+  "eq:cbd-crt-distance": {
+    "number": "17",
+    "page": 56
+  },
+  "app:strict-time-reduction": {
+    "number": "C.2",
+    "page": 58
+  },
+  "lem:strict-catalogue": {
+    "number": "9",
+    "page": 59
+  },
+  "eq:strict-word-budget": {
+    "number": "18",
+    "page": 59
+  },
+  "cor:strict-two-batch": {
+    "number": "7",
+    "page": 61
+  },
+  "eq:strict-two-batch": {
+    "number": "19",
+    "page": 61
+  },
+  "lem:uncapped-source-sandwich": {
+    "number": "10",
+    "page": 62
+  },
+  "app:ideal-gaussian-variant": {
+    "number": "C.3",
+    "page": 63
+  },
+  "lem:g16-root-ideal": {
+    "number": "11",
+    "page": 63
+  },
+  "eq:g16-law": {
+    "number": "20",
+    "page": 63
+  },
+  "prop:g16-discrete-bridge": {
+    "number": "7",
+    "page": 64
+  },
+  "lem:g16-finite-sampler": {
+    "number": "12",
+    "page": 65
+  },
+  "eq:g16-finite-privacy": {
+    "number": "21",
+    "page": 67
+  },
+  "lem:g16-fresh": {
+    "number": "13",
+    "page": 67
+  },
+  "app:gaussian-security-family": {
+    "number": "C.3.6",
+    "page": 68
+  },
+  "def:gaussian-jethe-family": {
+    "number": "2",
+    "page": 69
+  },
+  "eq:gaussian-family-source": {
+    "number": "22",
+    "page": 69
+  },
+  "lem:gaussian-family-sampler": {
+    "number": "14",
+    "page": 70
+  },
+  "lem:gaussian-family-pivots": {
+    "number": "15",
+    "page": 70
+  },
+  "thm:gaussian-family-privacy": {
+    "number": "10",
+    "page": 71
+  },
+  "eq:gaussian-family-privacy": {
+    "number": "23",
+    "page": 71
+  },
+  "app:gaussian-family-resources": {
+    "number": "C.3.7",
+    "page": 73
+  },
+  "lem:gaussian-shared-tables": {
+    "number": "16",
+    "page": 73
+  },
+  "eq:gaussian-table-distance": {
+    "number": "24",
+    "page": 73
+  },
+  "prop:gaussian-prepared-workflow": {
+    "number": "8",
+    "page": 74
+  },
+  "eq:gaussian-batch-failure": {
+    "number": "25",
+    "page": 76
+  },
+  "app:group-source-laws": {
+    "number": "D",
+    "page": 76
+  },
+  "app:ternary-normal-form": {
+    "number": "D.1",
+    "page": 76
+  },
+  "lem:cbd-ternary-mixture": {
+    "number": "17",
+    "page": 77
+  },
+  "eq:ternary-product-distance": {
+    "number": "26",
+    "page": 77
+  },
+  "prop:native-ternary-bridge": {
+    "number": "9",
+    "page": 78
+  },
+  "eq:native-ternary-gap": {
+    "number": "27",
+    "page": 78
+  },
+  "app:source-transfer-screen": {
+    "number": "D.2",
+    "page": 79
+  },
+  "prop:power-two-block-transfer": {
+    "number": "10",
+    "page": 79
+  },
+  "prop:fixed-subring-mask": {
+    "number": "11",
+    "page": 81
+  },
+  "app:measured-source-boundaries": {
+    "number": "D.3",
+    "page": 82
+  },
+  "prop:short-error-rank-one": {
+    "number": "12",
+    "page": 82
+  },
+  "prop:full-nonunit-filters": {
+    "number": "13",
+    "page": 83
+  },
+  "eq:nonunit-filter-recovery": {
+    "number": "28",
+    "page": 83
+  },
+  "prop:whole-quotient-source": {
+    "number": "14",
+    "page": 84
+  },
+  "eq:nonunit-completion-boundary": {
+    "number": "29",
+    "page": 85
+  },
+  "app:security-assessment": {
+    "number": "D.4",
+    "page": 85
+  },
+  "sec:measured-security-assessment": {
+    "number": "D.4",
+    "page": 85
+  },
+  "app:group-complexity": {
+    "number": "E",
+    "page": 86
+  },
+  "app:recovery-interface": {
+    "number": "E.1",
+    "page": 86
+  },
+  "def:linear-statistic-recovery": {
+    "number": "3",
+    "page": 86
+  },
+  "prop:recovery-affine-obstruction": {
+    "number": "15",
+    "page": 87
+  },
+  "sec:composition-output-information": {
+    "number": "E.1.1",
+    "page": 88
+  },
+  "app:compiler-comparisons": {
+    "number": "E.2",
+    "page": 89
+  },
+  "def:baseline-model": {
+    "number": "4",
+    "page": 89
+  },
+  "thm:hmul-bound": {
+    "number": "11",
+    "page": 89
+  },
+  "primary:tab:terminal-admission": {
+    "number": "7",
+    "page": 92
+  },
+  "tab:terminal-admission": {
+    "number": "8",
+    "page": 92
+  },
+  "tab:main-security-inventory": {
+    "number": "9",
+    "page": 93
+  },
+  "tab:cbd-crt-distance": {
+    "number": "10",
+    "page": 93
+  },
+  "tab:source-nonunits": {
+    "number": "11",
+    "page": 93
+  },
+  "tab:whole-quotient-source": {
+    "number": "12",
+    "page": 93
+  },
+  "tab:mainstream-security": {
+    "number": "13",
+    "page": 94
+  },
+  "app:raw-composition-boundary": {
+    "number": "E.3",
+    "page": 95
+  },
+  "prop:raw-composition-boundary": {
+    "number": "16",
+    "page": 95
+  },
+  "app:prepared-contraction-bounds": {
+    "number": "E.4",
+    "page": 96
+  },
+  "def:prepared-product-layer": {
+    "number": "5",
+    "page": 96
+  },
+  "lem:composition-coefficient-space": {
+    "number": "18",
+    "page": 97
+  },
+  "thm:prepared-product-layer": {
+    "number": "12",
+    "page": 98
+  },
+  "prop:paired-prepared-contraction": {
+    "number": "17",
+    "page": 99
+  },
+  "thm:bilinear-carrier-bound": {
+    "number": "13",
+    "page": 100
+  },
+  "sec:fixed-field-carrier-bound": {
+    "number": "E.4.2",
+    "page": 102
+  },
+  "lem:fixed-field-coefficient-space": {
+    "number": "19",
+    "page": 102
+  },
+  "cor:fixed-field-carrier-counts": {
+    "number": "8",
+    "page": 103
+  },
+  "lem:secure-encoding-length": {
+    "number": "20",
+    "page": 104
+  },
+  "cor:explicit-prepared-bit-work": {
+    "number": "9",
+    "page": 105
+  },
+  "app:resource-ledgers": {
+    "number": "E.5",
+    "page": 106
+  },
+  "prop:main-resource-ledger": {
+    "number": "18",
+    "page": 106
+  },
+  "prop:prepared-complete-work": {
+    "number": "19",
+    "page": 107
+  },
+  "sec:fast-prepared-work": {
+    "number": "E.5.2",
+    "page": 108
+  },
+  "lem:fast-physical-products": {
+    "number": "21",
+    "page": 108
+  },
+  "prop:whole-ledger-crossover": {
+    "number": "20",
+    "page": 110
+  },
+  "cor:prepared-balanced-storage": {
+    "number": "10",
+    "page": 112
+  },
+  "app:group-joint-work": {
+    "number": "F",
+    "page": 115
+  },
+  "sec:gaussian-relay-work": {
+    "number": "F.1",
+    "page": 115
+  },
+  "prop:gaussian-relay-work": {
+    "number": "21",
+    "page": 115
+  },
+  "sec:prefix-reuse-limit": {
+    "number": "F.1",
+    "page": 116
+  },
+  "sec:gaussian-recipient-work": {
+    "number": "F.1",
+    "page": 117
+  },
+  "app:joint-hasse-work": {
+    "number": "F.2",
+    "page": 118
+  },
+  "sec:joint-hasse-identity": {
+    "number": "F.2.1",
+    "page": 118
+  },
+  "prop:joint-hasse-identity": {
+    "number": "22",
+    "page": 119
+  },
+  "sec:joint-hasse-arithmetic": {
+    "number": "F.2.2",
+    "page": 119
+  },
+  "eq:joint-hasse-counts": {
+    "number": "30",
+    "page": 119
+  },
+  "sec:joint-hasse-complete-work": {
+    "number": "F.2.3",
+    "page": 120
+  },
+  "prop:joint-hasse-work": {
+    "number": "23",
+    "page": 121
+  },
+  "eq:joint-hasse-exponent": {
+    "number": "31",
+    "page": 121
+  },
+  "sec:joint-hasse-native-screen": {
+    "number": "F.2.4",
+    "page": 122
+  },
+  "sec:joint-batch-comparison": {
+    "number": "F.2.5",
+    "page": 123
+  },
+  "lem:joint-batch-widths": {
+    "number": "22",
+    "page": 123
+  },
+  "cor:joint-batch-work-gap": {
+    "number": "11",
+    "page": 124
+  },
+  "app:rational-joint-work": {
+    "number": "F.3",
+    "page": 125
+  },
+  "lem:rational-matrix-integer-transfer": {
+    "number": "23",
+    "page": 125
+  },
+  "sec:rational-joint-packing": {
+    "number": "F.3.2",
+    "page": 126
+  },
+  "prop:rational-joint-work": {
+    "number": "24",
+    "page": 127
+  },
+  "eq:rational-joint-work": {
+    "number": "32",
+    "page": 127
+  },
+  "cor:rational-joint-gap": {
+    "number": "12",
+    "page": 127
+  },
+  "app:retuned-relay-comparison": {
+    "number": "F.4",
+    "page": 128
+  },
+  "prop:retuned-relay-work": {
+    "number": "25",
+    "page": 128
+  },
+  "eq:retuned-relay-security": {
+    "number": "33",
+    "page": 128
+  },
+  "cor:retuned-input-relay-gap": {
+    "number": "13",
+    "page": 129
+  },
+  "app:group-controls": {
+    "number": "G",
+    "page": 130
+  },
+  "app:direct-control": {
+    "number": "G.1",
+    "page": 130
+  },
+  "app:prepared-w0-control": {
+    "number": "G.2",
+    "page": 131
+  },
+  "eq:prepared-w0-corrected-union": {
+    "number": "34",
+    "page": 132
+  },
+  "tab:prepared-w0-analytic-resources": {
+    "number": "14",
+    "page": 133
+  },
+  "app:control-table-sampler": {
+    "number": "G.2.1",
+    "page": 134
+  },
+  "prop:control-table-source": {
+    "number": "26",
+    "page": 134
+  },
+  "eq:control-latent-square": {
+    "number": "35",
+    "page": 134
+  },
+  "eq:control-table-distance": {
+    "number": "36",
+    "page": 135
+  },
+  "app:factored-control": {
+    "number": "G.2.2",
+    "page": 136
+  },
+  "tab:factored-control": {
+    "number": "15",
+    "page": 137
+  },
+  "app:receiver-kernels": {
+    "number": "G.2.3",
+    "page": 138
+  },
+  "app:control-source-screen": {
+    "number": "G.2.4",
+    "page": 139
+  },
+  "app:paired-terminal-receiver": {
+    "number": "G.3",
+    "page": 141
+  },
+  "prop:paired-terminal-admission": {
+    "number": "27",
+    "page": 142
+  },
+  "lem:paired-prefix-source": {
+    "number": "24",
+    "page": 143
+  },
+  "sec:same-algebra-terminal": {
+    "number": "G.3.4",
+    "page": 145
+  },
+  "prop:same-algebra-terminal": {
+    "number": "28",
+    "page": 145
+  },
+  "sec:same-algebra-source-alignment": {
+    "number": "G.3.5",
+    "page": 146
+  },
+  "prop:same-algebra-source-alignment": {
+    "number": "29",
+    "page": 146
+  },
+  "sec:same-algebra-workflow-evidence": {
+    "number": "G.3.6",
+    "page": 147
+  },
+  "tab:same-algebra-workflow": {
+    "number": "16",
+    "page": 148
+  },
+  "tab:same-algebra-samples": {
+    "number": "17",
+    "page": 148
+  },
+  "sec:one-prime-control": {
+    "number": "G.3.7",
+    "page": 149
+  },
+  "prop:one-prime-control": {
+    "number": "30",
+    "page": 149
+  },
+  "sec:one-prime-workflow-evidence": {
+    "number": "G.3.8",
+    "page": 150
+  },
+  "tab:one-prime-workflow": {
+    "number": "18",
+    "page": 150
+  },
+  "tab:one-prime-samples": {
+    "number": "19",
+    "page": 151
+  },
+  "sec:current-control-evidence": {
+    "number": "G.3.9",
+    "page": 151
+  },
+  "tab:current-control-samples": {
+    "number": "20",
+    "page": 152
+  },
+  "tab:current-control-workflow": {
+    "number": "21",
+    "page": 153
+  },
+  "app:recent-simd-comparators": {
+    "number": "G.4",
+    "page": 153
+  },
+  "prop:exact-word-terminal": {
+    "number": "31",
+    "page": 154
+  },
+  "app:group-implementations": {
+    "number": "H",
+    "page": 157
+  },
+  "app:baseline-profiles": {
+    "number": "H.1",
+    "page": 157
+  },
+  "tab:leveled-profile-manifest": {
+    "number": "22",
+    "page": 158
+  },
+  "app:hermite-control": {
+    "number": "H.1.3",
+    "page": 159
+  },
+  "tab:unmeasured-profile-status": {
+    "number": "23",
+    "page": 160
+  },
+  "app:terminal-control": {
+    "number": "H.1.4",
+    "page": 160
+  },
+  "tab:hermite-control-counts": {
+    "number": "24",
+    "page": 161
+  },
+  "tab:terminal-control-times": {
+    "number": "25",
+    "page": 161
+  },
+  "app:native-stage-gadgets": {
+    "number": "H.2",
+    "page": 161
+  },
+  "prop:stage-gadget-admission": {
+    "number": "32",
+    "page": 161
+  },
+  "sec:stage-gadget-evidence": {
+    "number": "H.2.1",
+    "page": 163
+  },
+  "tab:stage-gadget-workflow": {
+    "number": "26",
+    "page": 164
+  },
+  "tab:stage-gadget-samples": {
+    "number": "27",
+    "page": 164
+  },
+  "app:native-tensor-axis": {
+    "number": "H.2.2",
+    "page": 164
+  },
+  "prop:tensor-axis-equivalence": {
+    "number": "33",
+    "page": 164
+  },
+  "sec:tensor-axis-evidence": {
+    "number": "H.2.2",
+    "page": 165
+  },
+  "tab:tensor-axis-workflow": {
+    "number": "28",
+    "page": 166
+  },
+  "tab:tensor-axis-samples": {
+    "number": "29",
+    "page": 166
+  },
+  "sec:extension-axis-equivalence": {
+    "number": "H.2.3",
+    "page": 167
+  },
+  "sec:extension-axis-evidence": {
+    "number": "H.2.3",
+    "page": 167
+  },
+  "sec:fixed-multiplier-equivalence": {
+    "number": "H.2.4",
+    "page": 167
+  },
+  "tab:extension-axis-workflow": {
+    "number": "30",
+    "page": 168
+  },
+  "tab:extension-axis-samples": {
+    "number": "31",
+    "page": 168
+  },
+  "sec:fixed-multiplier-evidence": {
+    "number": "H.2.4",
+    "page": 168
+  },
+  "tab:fixed-multiplier-samples": {
+    "number": "32",
+    "page": 169
+  },
+  "tab:fixed-multiplier-workflow": {
+    "number": "33",
+    "page": 169
+  },
+  "app:revision-evidence": {
+    "number": "H.3",
+    "page": 170
+  },
+  "tab:paid-hasse-results": {
+    "number": "34",
+    "page": 171
+  },
+  "app:terminal-evidence": {
+    "number": "H.4",
+    "page": 171
+  },
+  "tab:bsgs-split-results": {
+    "number": "35",
+    "page": 172
+  },
+  "tab:terminal-ranges": {
+    "number": "36",
+    "page": 172
+  },
+  "tab:terminal-material": {
+    "number": "37",
+    "page": 173
+  },
+  "app:group-comparisons": {
+    "number": "I",
+    "page": 174
+  },
+  "app:core-matched-measurements": {
+    "number": "I.1",
+    "page": 174
+  },
+  "tab:all-core-products": {
+    "number": "38",
+    "page": 175
+  },
+  "tab:all-core-circuits": {
+    "number": "39",
+    "page": 175
+  },
+  "tab:core-phase-breakdown": {
+    "number": "40",
+    "page": 177
+  },
+  "tab:core-setup-throughput": {
+    "number": "41",
+    "page": 177
+  },
+  "tab:core-nested-timers": {
+    "number": "42",
+    "page": 177
+  },
+  "sec:dense-core-protocol": {
+    "number": "I.1.1",
+    "page": 178
+  },
+  "app:historical-w0": {
+    "number": "I.2",
+    "page": 179
+  },
+  "tab:main-w0-inventory": {
+    "number": "43",
+    "page": 180
+  },
+  "tab:main-w0-results": {
+    "number": "44",
+    "page": 180
+  },
+  "sec:historical-paid-helib": {
+    "number": "I.2.3",
+    "page": 181
+  },
+  "tab:revised-w0-inventory": {
+    "number": "45",
+    "page": 182
+  },
+  "tab:joint-w0-results": {
+    "number": "46",
+    "page": 182
+  },
+  "app:openfhe-comparison": {
+    "number": "I.3",
+    "page": 183
+  },
+  "app:resource-frontier": {
+    "number": "I.4",
+    "page": 184
+  },
+  "app:group-reproducibility": {
+    "number": "J",
+    "page": 186
+  },
+  "app:reproducibility": {
+    "number": "J.1",
+    "page": 186
+  },
+  "tab:w0-prepared-payload": {
+    "number": "47",
+    "page": 187
+  },
+  "app:measurements": {
+    "number": "J.2",
+    "page": 187
+  },
+  "fig:warm-observations": {
+    "number": "1",
+    "page": 188
+  },
+  "fig:workflow-lines": {
+    "number": "1",
+    "page": 188
+  }
+}

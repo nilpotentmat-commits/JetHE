@@ -1,0 +1,13 @@
+{
+  "status": "CHECKPOINT_55_POSTCHECK_PASS",
+  "unchanged_manuscript_sources": 79,
+  "unchanged_v35_documents": 227,
+  "archived_checkpoint54_bindings": 27,
+  "archived_files": 28,
+  "current_public_sources": 48,
+  "protected_measured_sources": 155,
+  "direct_arithmetic_libraries": 2,
+  "reader_file_bindings": 16,
+  "local_links": 17,
+  "new_he_execution": false
+}

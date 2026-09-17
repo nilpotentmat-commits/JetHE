@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE_ACTUAL_EXECUTIONS_AND_PORTABLE_READBACK_PASS",
+  "actual_sessions": {
+    "public_preflight": 15381,
+    "fresh_gates": 69490,
+    "controlled_campaign": 32275
+  },
+  "all_observed_exit_codes": 0,
+  "active_processes": [],
+  "setups": 6,
+  "batches": 12,
+  "phase_gate_states": {
+    "native": 57,
+    "control": 434
+  },
+  "source_files": 73,
+  "runtime_files": 9,
+  "scope": "Actual process completion was observed; verification.json is a separate portable readback. No source security or scientific-readiness certification."
+}

@@ -1,0 +1,911 @@
+{
+  "cases": [],
+  "claim_boundary": {
+    "arbitrary_cyclotomic_security_transfer": false,
+    "exactjet_execution": false,
+    "independent_security_certification": false,
+    "measured_library_leveled_evaluation": true,
+    "refresh_execution": false
+  },
+  "dependencies": [
+    {
+      "bytes": 21006,
+      "path": "Code/build-leveled-jet-comparison/libdl.dll",
+      "sha256": "7de8fb8a2d2beafc55e562f972e10b680464c6ef3f0dbdc75eea498ba0e1c514"
+    },
+    {
+      "bytes": 933553,
+      "path": "Code/build-leveled-jet-comparison/libgcc_s_seh-1.dll",
+      "sha256": "4cf9ec9e16896ceac28337486b82a3165696643e1ca4d9d5922db4814cb483fa"
+    },
+    {
+      "bytes": 340164,
+      "path": "Code/build-leveled-jet-comparison/libgomp-1.dll",
+      "sha256": "dddb237cfcaeae13bc9613a4dbd8f13254ffcabf1a0aa1d27ef811ca4e84c7fe"
+    },
+    {
+      "bytes": 579142,
+      "path": "Code/build-leveled-jet-comparison/libOPENFHEbinfhe.dll",
+      "sha256": "d6cb4c1390e83593b4ac1eda56412681ba33447d27b272125b9af805e49d0212"
+    },
+    {
+      "bytes": 3273252,
+      "path": "Code/build-leveled-jet-comparison/libOPENFHEcore.dll",
+      "sha256": "721abf8043a4a6901710efab61aa6976ed6f590a32d0eaf32aec22044d285d58"
+    },
+    {
+      "bytes": 4957287,
+      "path": "Code/build-leveled-jet-comparison/libOPENFHEpke.dll",
+      "sha256": "83b92d80a1065b6529d9217bdf1ab4df03607f91dccbf8e92d3fedf76063ea54"
+    },
+    {
+      "bytes": 2608670,
+      "path": "Code/build-leveled-jet-comparison/libstdc++-6.dll",
+      "sha256": "4014b9bb312a138fc09cefe81f224fce203d474eec4615243351155397bd94f8"
+    },
+    {
+      "bytes": 72171,
+      "path": "Code/build-leveled-jet-comparison/libwinpthread-1.dll",
+      "sha256": "5e28db9c1ed427c6e4d58096d9324161ea160506769b5cf4049fe6152f42abaf"
+    }
+  ],
+  "environment": {
+    "OMP_DYNAMIC": "FALSE",
+    "OMP_NUM_THREADS": 1,
+    "cpu": "AMD Ryzen 9 9950X 16-Core Processor",
+    "execution_order_seed": 20260905,
+    "logical_processors": 32,
+    "machine": "AMD64",
+    "os": "Windows-11-10.0.26200-SP0",
+    "physical_memory_bytes": 33243181056,
+    "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+    "timed_processes_parallel": false
+  },
+  "executable": {
+    "bytes": 2639128,
+    "path": "Code/build-leveled-jet-comparison/leveled_jet_comparison.exe",
+    "sha256": "6a106c9fa5d172a209816579160a6ad72ec5239eb1664bc4b05c0d5ff2ae0e21"
+  },
+  "publication": {
+    "mode": "exclusive-create",
+    "overwrites_existing": false
+  },
+  "requested_cases": [
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    }
+  ],
+  "run_id": "leveled-main-v2",
+  "schema": "nilhe.leveled-library-comparison.manifest.v1",
+  "source_bindings": [
+    {
+      "bytes": 28348,
+      "original_path": "Code/experiments/leveled_jet_comparison/benchmark.cpp",
+      "path": "source/benchmark.cpp",
+      "sha256": "2b0760411af9d2a674727d2e11d76cfe5cad99baa415738af24f31cb9db53495"
+    },
+    {
+      "bytes": 1477,
+      "original_path": "Code/experiments/leveled_jet_comparison/CMakeLists.txt",
+      "path": "source/CMakeLists.txt",
+      "sha256": "36e5ffafa3a372c9b627e3b0996264cd7e32f72d064ee080e62bfb9a29e4d48a"
+    },
+    {
+      "bytes": 8855,
+      "original_path": "Code/experiments/leveled_jet_comparison/run_benchmarks.py",
+      "path": "source/run_benchmarks.py",
+      "sha256": "e819a138d3fc46edeba6a8a5c701410232882af0107ad72502afe6524de1d029"
+    },
+    {
+      "bytes": 20385,
+      "original_path": "Code/experiments/leveled_jet_comparison/verify_results.py",
+      "path": "source/verify_results.py",
+      "sha256": "3ac4ab08683d6dd11a8584d3722108dbceda8f454f4b652c782588d0d61b824f"
+    },
+    {
+      "bytes": 13156,
+      "original_path": "Code/experiments/leveled_jet_comparison/test_verify_results.py",
+      "path": "source/test_verify_results.py",
+      "sha256": "705466547c5f20ce8f87c6a7ca55507a70603bb1302bb77cd595b4d9f10b258e"
+    }
+  ],
+  "started_utc": "2026-09-05T03:46:31.563459+00:00",
+  "status": "MEASURED_LEVELED_LIBRARY_COMPARISON_ONLY"
+}

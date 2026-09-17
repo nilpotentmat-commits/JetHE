@@ -1,0 +1,1037 @@
+{
+  "schema": "jethe-theory-source-provenance-v1",
+  "scope": "Finite public arithmetic and numerical checks only; not proof certification, HE benchmarks, Gaussian sampling or hardness estimates.",
+  "original_paths_are_provenance_not_runtime_dependencies": true,
+  "files": [
+    {
+      "path": "lib/field_jets.py",
+      "original_path": "SubmissionA/research/check_frobenius_compiler.py",
+      "original_sha256": "c5436958756856aa3bd65e95407b5da0c209302a37b21e707b45b9cc4a5ddd2b",
+      "original_bytes": 9262,
+      "packaged_sha256": "903658706720622e172db1b975a03b398e9ad8438f46270c9c9bc16125b09a74",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "poly_rem",
+          "lines": [
+            15,
+            18
+          ]
+        },
+        {
+          "name": "poly_gcd",
+          "lines": [
+            21,
+            24
+          ]
+        },
+        {
+          "name": "Field",
+          "lines": [
+            27,
+            50
+          ]
+        },
+        {
+          "name": "Jets",
+          "lines": [
+            53,
+            89
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/codec.py",
+      "original_path": "SubmissionA/research/check_tensor_codec.py",
+      "original_sha256": "3385c27250659a0abf1bdbf7acc12629971a335bc75abd3941af28e1269599be",
+      "original_bytes": 8809,
+      "packaged_sha256": "b6039441864e452f06f93a087b885b115b3b64f2becedf8404de5abadd4b55a1",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "constant": "E",
+          "lines": [
+            14,
+            14
+          ]
+        },
+        {
+          "constant": "MASK",
+          "lines": [
+            15,
+            15
+          ]
+        },
+        {
+          "name": "power",
+          "lines": [
+            18,
+            25
+          ]
+        },
+        {
+          "name": "apply_matrix",
+          "lines": [
+            28,
+            29
+          ]
+        },
+        {
+          "name": "inverse_matrix",
+          "lines": [
+            32,
+            41
+          ]
+        },
+        {
+          "name": "setup",
+          "lines": [
+            44,
+            75
+          ]
+        },
+        {
+          "name": "butterfly",
+          "lines": [
+            78,
+            90
+          ]
+        },
+        {
+          "name": "decode",
+          "lines": [
+            93,
+            95
+          ]
+        },
+        {
+          "name": "encode",
+          "lines": [
+            98,
+            99
+          ]
+        },
+        {
+          "name": "e_mul",
+          "lines": [
+            102,
+            114
+          ]
+        },
+        {
+          "name": "tensor_mul",
+          "lines": [
+            117,
+            122
+          ]
+        },
+        {
+          "name": "univariate_to_tensor",
+          "lines": [
+            125,
+            136
+          ]
+        },
+        {
+          "name": "tensor_to_univariate",
+          "lines": [
+            139,
+            151
+          ]
+        },
+        {
+          "name": "main",
+          "lines": [
+            154,
+            225
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/worked_example.py",
+      "original_path": "SubmissionA/JetHE-Eurocrypt2027/evidence/exposition-revision/check_worked_example.py",
+      "original_sha256": "9267092d26d5a7bfb92661c4bbb3a063cf1ce5bc00808ac932bc10d30d3a7cc8",
+      "original_bytes": 6283,
+      "packaged_sha256": "4d456f6b9d4776b831e99652343049e0d4d5192abbedebd683a3798294ac7460",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "constant": "L",
+          "lines": [
+            14,
+            14
+          ]
+        },
+        {
+          "constant": "MASK",
+          "lines": [
+            15,
+            15
+          ]
+        },
+        {
+          "name": "binary_product",
+          "lines": [
+            18,
+            24
+          ]
+        },
+        {
+          "name": "binary_hasse",
+          "lines": [
+            27,
+            32
+          ]
+        },
+        {
+          "name": "binary_horner",
+          "lines": [
+            35,
+            39
+          ]
+        },
+        {
+          "name": "binary_direct_state",
+          "lines": [
+            42,
+            49
+          ]
+        },
+        {
+          "name": "field_product",
+          "lines": [
+            52,
+            62
+          ]
+        },
+        {
+          "name": "poly_add",
+          "lines": [
+            65,
+            66
+          ]
+        },
+        {
+          "name": "poly_product",
+          "lines": [
+            69,
+            74
+          ]
+        },
+        {
+          "name": "poly_hasse",
+          "lines": [
+            77,
+            82
+          ]
+        },
+        {
+          "name": "poly_horner",
+          "lines": [
+            85,
+            90
+          ]
+        },
+        {
+          "name": "main",
+          "lines": [
+            93,
+            183
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/hasse_transport.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1/check_transfer.py",
+      "original_sha256": "6ba2693269c23ef3a12398f0f4a8b0b7e69fdde71304fe993465a7007ca62dfb",
+      "original_bytes": 9874,
+      "packaged_sha256": "e7ceea867b9c14bfa50e71a940a33e8ed2aa19710e9b3f80bc3d6dba3a4dc0f0",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "Ring",
+          "lines": [
+            12,
+            66
+          ]
+        },
+        {
+          "name": "digits",
+          "lines": [
+            69,
+            81
+          ]
+        },
+        {
+          "name": "payloads",
+          "lines": [
+            84,
+            86
+          ]
+        },
+        {
+          "name": "multipliers",
+          "lines": [
+            89,
+            95
+          ]
+        },
+        {
+          "name": "rows",
+          "lines": [
+            98,
+            108
+          ]
+        },
+        {
+          "name": "apply",
+          "lines": [
+            111,
+            122
+          ]
+        },
+        {
+          "name": "raw",
+          "lines": [
+            125,
+            128
+          ]
+        },
+        {
+          "name": "case",
+          "lines": [
+            131,
+            177
+          ]
+        },
+        {
+          "name": "count_rows",
+          "lines": [
+            180,
+            192
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/hasse_minors.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/payload-distribution-v1/check_payload.py",
+      "original_sha256": "b17a622c0545f4be1e4f1d448529e93517c26432deb6d52f0cf0c8f0e491bc91",
+      "original_bytes": 12781,
+      "packaged_sha256": "86e44e1bebe61fc59025b2f83b981d0e7562df18acbbdbb47c037c81c3bc09aa",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "unit_determinant",
+          "lines": [
+            46,
+            63
+          ]
+        },
+        {
+          "name": "production_minors",
+          "lines": [
+            162,
+            193
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/admission_bounds.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/bounds.py",
+      "original_sha256": "54f25c159174e4ee19df335980adcea361deb8d50f7d929303797836b260b00c",
+      "original_bytes": 2234,
+      "packaged_sha256": "752ed205de9213d2ff96fbda01a829db4e71d1d34917e17b9c0f4c9c1e58daf3",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "constant": "PRIMES",
+          "lines": [
+            4,
+            4
+          ]
+        },
+        {
+          "constant": "Q",
+          "lines": [
+            5,
+            5
+          ]
+        },
+        {
+          "constant": "CHAIN",
+          "lines": [
+            6,
+            6
+          ]
+        },
+        {
+          "constant": "WIDTHS",
+          "lines": [
+            7,
+            7
+          ]
+        },
+        {
+          "constant": "WIDTH_BY_VERTEX",
+          "lines": [
+            8,
+            8
+          ]
+        },
+        {
+          "name": "root",
+          "lines": [
+            9,
+            11
+          ]
+        },
+        {
+          "name": "digits",
+          "lines": [
+            12,
+            12
+          ]
+        },
+        {
+          "name": "delta",
+          "lines": [
+            13,
+            14
+          ]
+        },
+        {
+          "name": "product_bound",
+          "lines": [
+            15,
+            17
+          ]
+        },
+        {
+          "name": "dropped",
+          "lines": [
+            18,
+            18
+          ]
+        },
+        {
+          "name": "prefix_raw",
+          "lines": [
+            19,
+            19
+          ]
+        },
+        {
+          "name": "trace_spec",
+          "lines": [
+            20,
+            33
+          ]
+        },
+        {
+          "name": "optimistic_exclusion",
+          "lines": [
+            34,
+            46
+          ]
+        }
+      ],
+      "source_text_replacements": {},
+      "portable_prefix_note": "The N,K,T,FRESH=65536,130816,15,34347 tuple assignment is also retained exactly from source line 3, in the portable preamble."
+    },
+    {
+      "path": "lib/boolean_screen.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-count-audit-v1/boolean_screen.py",
+      "original_sha256": "30434d69678b067d668d3551f7892bbfc6790812c10b5c80841e6f47834709ab",
+      "original_bytes": 3607,
+      "packaged_sha256": "79857d81ea319ad308f005380f82977426fd9ad691dd8757c285db720f030285",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "powers",
+          "lines": [
+            8,
+            28
+          ]
+        },
+        {
+          "name": "rank",
+          "lines": [
+            31,
+            41
+          ]
+        },
+        {
+          "name": "binary_rank",
+          "lines": [
+            44,
+            53
+          ]
+        },
+        {
+          "name": "truth_table_check",
+          "lines": [
+            56,
+            72
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/fixed_field.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-count-audit-v1/check_additive_witness.py",
+      "original_sha256": "eeb97cb15a59ed5595460f23770599f094ba44c15eef399d43aa34194b581ddc",
+      "original_bytes": 7693,
+      "packaged_sha256": "cd3f43057833a8365296084ae59bef9f07ac39f218272ef1f7e6dd8fa6ac0d9b",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "zmul",
+          "lines": [
+            13,
+            19
+          ]
+        },
+        {
+          "name": "ymul",
+          "lines": [
+            22,
+            27
+          ]
+        },
+        {
+          "name": "yeval",
+          "lines": [
+            30,
+            34
+          ]
+        },
+        {
+          "name": "additive_polynomials",
+          "lines": [
+            37,
+            54
+          ]
+        },
+        {
+          "name": "symbolic_evaluate",
+          "lines": [
+            57,
+            66
+          ]
+        },
+        {
+          "name": "witness_polynomials",
+          "lines": [
+            69,
+            83
+          ]
+        },
+        {
+          "name": "symbolic_check",
+          "lines": [
+            86,
+            110
+          ]
+        },
+        {
+          "name": "point_checks",
+          "lines": [
+            113,
+            131
+          ]
+        },
+        {
+          "name": "balanced_k",
+          "lines": [
+            134,
+            136
+          ]
+        },
+        {
+          "name": "count_table",
+          "lines": [
+            139,
+            159
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/encoding.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/ciphertext-length-audit-v1/check_boundaries.py",
+      "original_sha256": "b5267f8aa8eb0436bd6206a0bb77473b957e4b117a67bf302588f00734f734f9",
+      "original_bytes": 3096,
+      "packaged_sha256": "53def6f2fd23bc4e71d434c89d0196bb7760452ceacd1273bb3859a4a87bdcc7",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "check",
+          "lines": [
+            10,
+            57
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/gaussian_family.py",
+      "original_path": "SubmissionA/research/check_gaussian_family_resources.py",
+      "original_sha256": "b48d1979ddbeaf3fca04801365b1f60361883284c510d56e0c01ca04c7dbffa5",
+      "original_bytes": 11596,
+      "packaged_sha256": "482a411ac6a36892399a2d1ea0dd274b29af20429df08ddf9f1a0d0a4f9f767d",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "synthesize",
+          "lines": [
+            23,
+            68
+          ]
+        },
+        {
+          "name": "admission_and_inventory",
+          "lines": [
+            71,
+            89
+          ]
+        },
+        {
+          "name": "cdf_thresholds",
+          "lines": [
+            92,
+            99
+          ]
+        },
+        {
+          "name": "rounded_cdf_checks",
+          "lines": [
+            102,
+            136
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/gaussian_budget.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/gaussian-resource-audit-v1/check_budget.py",
+      "original_sha256": "9d8c30a7be51e7ad97a41d393ea5250cd4167511d4e5c53820e94529371c865a",
+      "original_bytes": 8878,
+      "packaged_sha256": "5bc9365d73f22900539b833b186df3955edfe3cb8d30a5fbb0ec828f5564bc78",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "exact_upper_exponent",
+          "lines": [
+            37,
+            44
+          ]
+        },
+        {
+          "name": "finite_constants",
+          "lines": [
+            47,
+            68
+          ]
+        },
+        {
+          "name": "budget",
+          "lines": [
+            71,
+            124
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/exact_arithmetic.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-significance-review-v1/check_arithmetic.py",
+      "original_sha256": "ed9fb2a450989678314f7c768451ad75386f16c06542a28c295efc03cbdbf3dc",
+      "original_bytes": 6514,
+      "packaged_sha256": "6e45ae1b1f1c71952d716e8e570fa3a6d062724fa857c76a6310b5a88e456989",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "pack_digits",
+          "lines": [
+            10,
+            13
+          ]
+        },
+        {
+          "name": "ring_packed",
+          "lines": [
+            16,
+            37
+          ]
+        },
+        {
+          "name": "ring_power_basis_oracle",
+          "lines": [
+            40,
+            57
+          ]
+        },
+        {
+          "constant": "FIELD",
+          "lines": [
+            60,
+            60
+          ]
+        },
+        {
+          "name": "binary_remainder",
+          "lines": [
+            63,
+            66
+          ]
+        },
+        {
+          "name": "binary_gcd",
+          "lines": [
+            69,
+            72
+          ]
+        },
+        {
+          "name": "gf_mul",
+          "lines": [
+            75,
+            84
+          ]
+        },
+        {
+          "name": "jet_packed",
+          "lines": [
+            87,
+            107
+          ]
+        },
+        {
+          "name": "jet_oracle",
+          "lines": [
+            110,
+            115
+          ]
+        },
+        {
+          "name": "zmul",
+          "lines": [
+            118,
+            125
+          ]
+        },
+        {
+          "name": "yroot_product",
+          "lines": [
+            128,
+            136
+          ]
+        },
+        {
+          "name": "check",
+          "lines": [
+            139,
+            190
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/rational_matrix.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1/check.py",
+      "original_sha256": "ac7dd25f488402879f17aee81fcdce4a0313a88cf43f0c5ef93312a3bee4d365",
+      "original_bytes": 7652,
+      "packaged_sha256": "6765685b75b2f490a031f141c7f188565e47b71fe79477c1bf23d66ff630c086",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "constant": "COUNTS",
+          "lines": [
+            12,
+            12
+          ]
+        },
+        {
+          "constant": "U0",
+          "lines": [
+            14,
+            15
+          ]
+        },
+        {
+          "constant": "V0",
+          "lines": [
+            16,
+            17
+          ]
+        },
+        {
+          "constant": "W0",
+          "lines": [
+            18,
+            19
+          ]
+        },
+        {
+          "constant": "U",
+          "lines": [
+            20,
+            20
+          ]
+        },
+        {
+          "constant": "V",
+          "lines": [
+            21,
+            21
+          ]
+        },
+        {
+          "constant": "W",
+          "lines": [
+            22,
+            22
+          ]
+        },
+        {
+          "constant": "D",
+          "lines": [
+            23,
+            23
+          ]
+        },
+        {
+          "constant": "UI",
+          "lines": [
+            24,
+            24
+          ]
+        },
+        {
+          "constant": "VI",
+          "lines": [
+            25,
+            25
+          ]
+        },
+        {
+          "constant": "WI",
+          "lines": [
+            26,
+            26
+          ]
+        },
+        {
+          "name": "check_tensor",
+          "lines": [
+            29,
+            37
+          ]
+        },
+        {
+          "name": "naive",
+          "lines": [
+            40,
+            42
+          ]
+        },
+        {
+          "name": "exact_kernel",
+          "lines": [
+            45,
+            68
+          ]
+        },
+        {
+          "name": "packed_product",
+          "lines": [
+            71,
+            100
+          ]
+        },
+        {
+          "name": "oracle_product",
+          "lines": [
+            103,
+            132
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    },
+    {
+      "path": "lib/batched_hasse.py",
+      "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/check_matrix.py",
+      "original_sha256": "b2dae4fb6816d68de7239252519dac6e7fec5157cc22086e48c26f92e6901efd",
+      "original_bytes": 15611,
+      "packaged_sha256": "63fc2370c32724e11b645abea4917e7cf96d902ac3a893ce0b52b0bddba8a462",
+      "transformation": "Selected verbatim functions/classes/constants; portable imports; unused workspace bindings and historical entry points omitted.",
+      "retained_definitions": [
+        {
+          "name": "reference_product",
+          "lines": [
+            32,
+            50
+          ]
+        },
+        {
+          "name": "Ring",
+          "lines": [
+            53,
+            77
+          ]
+        },
+        {
+          "name": "fixture",
+          "lines": [
+            80,
+            86
+          ]
+        },
+        {
+          "name": "split",
+          "lines": [
+            89,
+            91
+          ]
+        },
+        {
+          "name": "join",
+          "lines": [
+            94,
+            95
+          ]
+        },
+        {
+          "name": "embed",
+          "lines": [
+            98,
+            103
+          ]
+        },
+        {
+          "name": "digits",
+          "lines": [
+            106,
+            120
+          ]
+        },
+        {
+          "name": "hasse",
+          "lines": [
+            123,
+            128
+          ]
+        },
+        {
+          "name": "madd",
+          "lines": [
+            131,
+            132
+          ]
+        },
+        {
+          "name": "square",
+          "lines": [
+            135,
+            158
+          ]
+        },
+        {
+          "name": "joint",
+          "lines": [
+            161,
+            201
+          ]
+        },
+        {
+          "name": "external",
+          "lines": [
+            204,
+            205
+          ]
+        },
+        {
+          "name": "sum_polys",
+          "lines": [
+            208,
+            209
+          ]
+        },
+        {
+          "name": "direct",
+          "lines": [
+            212,
+            223
+          ]
+        },
+        {
+          "name": "raw",
+          "lines": [
+            226,
+            229
+          ]
+        },
+        {
+          "name": "rekey",
+          "lines": [
+            232,
+            234
+          ]
+        },
+        {
+          "name": "algebra_cases",
+          "lines": [
+            237,
+            264
+          ]
+        },
+        {
+          "name": "trace_cases",
+          "lines": [
+            267,
+            317
+          ]
+        }
+      ],
+      "source_text_replacements": {}
+    }
+  ],
+  "new_files": [
+    {
+      "path": "run_checks.py",
+      "packaged_sha256": "2ab90876ed29bd32576362de2c90018a1eaf5be2aa936a86401999076b75e50c",
+      "origin": "New portable orchestration and finite fixture selection for this release.",
+      "derived_from": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/check_admission.py",
+          "original_sha256": "f4a407b0dadaf7e18b93a8ec0c2790f1fd3cf78c7bfc6430056855978e4a4b8c"
+        },
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/gaussian-resource-audit-v1/check_budget.py",
+          "original_sha256": "9d8c30a7be51e7ad97a41d393ea5250cd4167511d4e5c53820e94529371c865a"
+        },
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1/check.py",
+          "original_sha256": "ac7dd25f488402879f17aee81fcdce4a0313a88cf43f0c5ef93312a3bee4d365"
+        }
+      ]
+    }
+  ]
+}

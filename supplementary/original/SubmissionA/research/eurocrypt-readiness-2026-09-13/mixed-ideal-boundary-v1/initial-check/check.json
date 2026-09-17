@@ -1,0 +1,743 @@
+{
+  "status": "MIXED_IDEAL_BOUNDARY_PUBLIC_CHECK_PASS",
+  "exhaustive": [
+    {
+      "q": 2,
+      "length": 2,
+      "lanes": 1,
+      "a": 1,
+      "b": 1,
+      "quads": 16,
+      "gate_quads": 512
+    },
+    {
+      "q": 3,
+      "length": 2,
+      "lanes": 1,
+      "a": 1,
+      "b": 1,
+      "quads": 81,
+      "gate_quads": 13122
+    },
+    {
+      "q": 2,
+      "length": 3,
+      "lanes": 1,
+      "a": 1,
+      "b": 2,
+      "quads": 64,
+      "gate_quads": 8192
+    },
+    {
+      "q": 2,
+      "length": 3,
+      "lanes": 1,
+      "a": 1,
+      "b": 1,
+      "quads": 256,
+      "gate_quads": 131072
+    },
+    {
+      "q": 2,
+      "length": 2,
+      "lanes": 2,
+      "a": 1,
+      "b": 1,
+      "quads": 256,
+      "gate_quads": 131072
+    },
+    {
+      "q": 4,
+      "length": 2,
+      "lanes": 1,
+      "a": 1,
+      "b": 1,
+      "quads": 256,
+      "gate_quads": 131072
+    }
+  ],
+  "circuits": [
+    {
+      "q": 2,
+      "length": 2,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 2,
+      "length": 2,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 2,
+      "length": 3,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 2,
+      "length": 3,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 2,
+      "length": 4,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 2,
+      "length": 4,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 2,
+      "length": 8,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 2,
+      "length": 8,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 3,
+      "length": 2,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 3,
+      "length": 2,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 3,
+      "length": 3,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 3,
+      "length": 3,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 3,
+      "length": 4,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 3,
+      "length": 4,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 3,
+      "length": 8,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 3,
+      "length": 8,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 4,
+      "length": 2,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 4,
+      "length": 2,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 4,
+      "length": 3,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 4,
+      "length": 3,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 4,
+      "length": 4,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 4,
+      "length": 4,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 4,
+      "length": 8,
+      "lanes": 1,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    },
+    {
+      "q": 4,
+      "length": 8,
+      "lanes": 2,
+      "trials": 30,
+      "depth_steps": 24,
+      "gate_quads": 2880
+    }
+  ],
+  "witnesses": [
+    {
+      "q": 2,
+      "length": 2,
+      "lanes": 1,
+      "composition": [
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 2,
+      "length": 2,
+      "lanes": 2,
+      "composition": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 2,
+      "length": 3,
+      "lanes": 1,
+      "composition": [
+        0,
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 2,
+      "length": 3,
+      "lanes": 2,
+      "composition": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 2,
+      "length": 4,
+      "lanes": 1,
+      "composition": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 2,
+      "length": 4,
+      "lanes": 2,
+      "composition": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 2,
+      "length": 8,
+      "lanes": 1,
+      "composition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 2,
+      "length": 8,
+      "lanes": 2,
+      "composition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 3,
+      "length": 2,
+      "lanes": 1,
+      "composition": [
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 3,
+      "length": 2,
+      "lanes": 2,
+      "composition": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 3,
+      "length": 3,
+      "lanes": 1,
+      "composition": [
+        0,
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 3,
+      "length": 3,
+      "lanes": 2,
+      "composition": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 3,
+      "length": 4,
+      "lanes": 1,
+      "composition": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 3,
+      "length": 4,
+      "lanes": 2,
+      "composition": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 3,
+      "length": 8,
+      "lanes": 1,
+      "composition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 3,
+      "length": 8,
+      "lanes": 2,
+      "composition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 4,
+      "length": 2,
+      "lanes": 1,
+      "composition": [
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 4,
+      "length": 2,
+      "lanes": 2,
+      "composition": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 4,
+      "length": 3,
+      "lanes": 1,
+      "composition": [
+        0,
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 4,
+      "length": 3,
+      "lanes": 2,
+      "composition": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 4,
+      "length": 4,
+      "lanes": 1,
+      "composition": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 4,
+      "length": 4,
+      "lanes": 2,
+      "composition": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 4,
+      "length": 8,
+      "lanes": 1,
+      "composition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    },
+    {
+      "q": 4,
+      "length": 8,
+      "lanes": 2,
+      "composition": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "raw_mixed_zero_required": true,
+      "coefficient_preparation_escapes": true,
+      "nonlinear_relay_escapes": true
+    }
+  ],
+  "horner": [
+    {
+      "q": 2,
+      "length": 2,
+      "input_pairs": 8,
+      "outer_carriers": 2,
+      "inner_carriers": 1,
+      "private_products": 1
+    },
+    {
+      "q": 2,
+      "length": 3,
+      "input_pairs": 32,
+      "outer_carriers": 3,
+      "inner_carriers": 1,
+      "private_products": 2
+    },
+    {
+      "q": 2,
+      "length": 4,
+      "input_pairs": 128,
+      "outer_carriers": 4,
+      "inner_carriers": 1,
+      "private_products": 3
+    },
+    {
+      "q": 3,
+      "length": 2,
+      "input_pairs": 27,
+      "outer_carriers": 2,
+      "inner_carriers": 1,
+      "private_products": 1
+    },
+    {
+      "q": 3,
+      "length": 3,
+      "input_pairs": 243,
+      "outer_carriers": 3,
+      "inner_carriers": 1,
+      "private_products": 2
+    },
+    {
+      "q": 4,
+      "length": 2,
+      "input_pairs": 64,
+      "outer_carriers": 2,
+      "inner_carriers": 1,
+      "private_products": 1
+    },
+    {
+      "q": 4,
+      "length": 3,
+      "input_pairs": 1024,
+      "outer_carriers": 3,
+      "inner_carriers": 1,
+      "private_products": 2
+    }
+  ],
+  "automorphism_law_checks": 2160,
+  "exhaustive_gate_quads": 415042,
+  "sampled_gate_quads": 69120,
+  "horner_input_pairs": 1526,
+  "elapsed_seconds": 6.585110099986196,
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/PLAN.md": {
+      "bytes": 1462,
+      "sha256": "89d0837ee9eb89a995ab72cc3e69dac762e5e2b104715746acc7867600df8c2a"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/PROOF.md": {
+      "bytes": 6237,
+      "sha256": "26b068ce48fdf1c84f7aa60dbaee3126e00fdcac409c78e795790ada5d72c72f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/SOURCE_NOTES.md": {
+      "bytes": 1514,
+      "sha256": "02edf7a685cfdf92d79871fc021b6350d3be22fc4a7ef4bf22b68963d5e3ab0e"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1/check_boundary.py": {
+      "bytes": 9295,
+      "sha256": "058cdb0050ca179cd47555689507743a4a5f2ae36591d45fd94fae1059bb9e4c"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/checkpoint-v39/manuscript/appendices/recovery-interface.tex": {
+      "bytes": 9504,
+      "sha256": "a7e28d21750e778299ba2374ae32a8e6580d0261c1c8c77e760e80f0ec608247"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/checkpoint-v39/manuscript/appendices/conventional-compiler-transfer.tex": {
+      "bytes": 6056,
+      "sha256": "c9b951cd4c892111720b6efa5437db2faf5b420c811567093a39ac2b9866deb8"
+    }
+  },
+  "new_he_execution": false,
+  "new_timing_comparison": false,
+  "arbitrary_he_impossibility": false,
+  "arbitrary_preparation_lower_bound": false,
+  "independent_proof_review": false,
+  "security_bits": null
+}

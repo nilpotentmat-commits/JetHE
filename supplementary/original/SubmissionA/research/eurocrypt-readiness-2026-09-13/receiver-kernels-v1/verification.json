@@ -1,0 +1,52 @@
+{
+  "status": "RECEIVER_KERNEL_RECORDED_EXECUTION_READBACK_PASS",
+  "execution_receipt_sha256": "b1dcc6974be75af2ae69d0fc5ba497e022949524585f57ee750b0978e9c340c8",
+  "files": {
+    "arithmetic.py": {
+      "bytes": 7485,
+      "sha256": "5851be6086be359940c414c051b88079aab90edce677c5ba421cb112a04ebf1b"
+    },
+    "check_kernels.py": {
+      "bytes": 17532,
+      "sha256": "7a94b9aa644268ca295d146647d32de47f32a8684b1a236f22a75786c765e0f8"
+    },
+    "codec.py": {
+      "bytes": 7385,
+      "sha256": "700b891e4005fe8505eceb294125427e717d6dc8187eda86c69ac708d31ec7fb"
+    },
+    "PLAN.md": {
+      "bytes": 2094,
+      "sha256": "037b8d5a071654d8a18e50bb499b8706e1f3d805db6b466650262cfc5f3cf88f"
+    },
+    "PROOF.md": {
+      "bytes": 7712,
+      "sha256": "727a64b96d3a5bb3071aa4876ee790fac964a7ba15a35e7e0b4f2aad30bda3b8"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1949,
+      "sha256": "95d609966634b924ad17ae7a21b0a9344ae3d22a73505f321fea77bfea1be30c"
+    },
+    "RESULTS.md": {
+      "bytes": 2938,
+      "sha256": "4cac024c0af715a22ace539e626be6de8c4e2629c4f5096199e8406005f1fa73"
+    },
+    "verify_receipt.py": {
+      "bytes": 4829,
+      "sha256": "2539591c8f179dadf457d9c8fb427c6c85c064d4469fb29255f1fb255f084d94"
+    },
+    "execution-v2.json": {
+      "bytes": 7345,
+      "sha256": "b1dcc6974be75af2ae69d0fc5ba497e022949524585f57ee750b0978e9c340c8"
+    }
+  },
+  "library_sha256": "fda9699eef15deda5f1c626e9140377a7f5d88c41516a54278ac02429cb20fa5",
+  "recorded_dimension": 32768,
+  "recorded_primitive_decryptions": 5,
+  "recorded_source_vectors": 23,
+  "recorded_binary_coordinates": 163840,
+  "recorded_encrypted_product_slots": 2048,
+  "receipt_check_runs_new_encryption": false,
+  "complete_control_execution": false,
+  "security_bits": null,
+  "scope": "Current source and library hashes plus recorded execution consistency; no fresh encryption or timing in this readback."
+}

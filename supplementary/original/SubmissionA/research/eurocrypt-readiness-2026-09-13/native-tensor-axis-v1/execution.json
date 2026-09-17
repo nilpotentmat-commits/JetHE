@@ -1,0 +1,34 @@
+{
+  "status": "NATIVE_TENSOR_AXIS_BUILD_PUBLIC_CHECK_GATES_AND_CAMPAIGN_COMPLETED",
+  "build": {"actual_exit_code": 0, "tool_chunk": "02ab6b"},
+  "public_check": {"actual_exit_code": 0, "tool_chunk": "9b60fc", "new_he_execution": false},
+  "gate": {
+    "session_id": 85154,
+    "initial_tool_chunk": "de6f94",
+    "actual_outer_exit_code": null,
+    "outer_exit_scope": "Original tool handle was unavailable after context recovery; completed summary and both actual child exit records were verified in chunk 700821. No outer exit inferred.",
+    "summary_status": "NATIVE_TENSOR_AXIS_BOTH_FRESH_GATES_PASS",
+    "actual_child_exit_codes": [0, 0],
+    "source_files": 124,
+    "recorded_runtime_files": 12,
+    "new_he_execution": true
+  },
+  "host_observations": {
+    "windows": {"actual_exit_code": 0, "tool_chunk": "e12cce"},
+    "wsl": {"actual_exit_code": 0, "tool_chunk": "a7dc2a"}
+  },
+  "campaign": {
+    "session_id": 8716,
+    "initial_tool_chunk": "f26fbd",
+    "completion_tool_chunk": "882052",
+    "actual_outer_exit_code": 0,
+    "actual_child_exit_codes": [0, 0, 0, 0, 0, 0, 0, 0],
+    "summary_status": "NATIVE_TENSOR_AXIS_CONTROLLED_WORKFLOW_PASS",
+    "measured_setups": 8,
+    "measured_batches": 16,
+    "new_he_execution": true
+  },
+  "new_estimator_execution": false,
+  "new_attack_method_developed": false,
+  "security_bits": null
+}

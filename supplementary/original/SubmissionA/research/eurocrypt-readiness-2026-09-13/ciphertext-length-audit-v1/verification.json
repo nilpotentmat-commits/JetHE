@@ -1,0 +1,63 @@
+{
+  "status": "CIPHERTEXT_LENGTH_BOUNDARIES_READBACK_PASS",
+  "widths": 7,
+  "plain_code_cases": 508,
+  "pad_message_key_assignments": 87376,
+  "new_he_execution": false,
+  "new_timing_benchmark": false,
+  "new_security_assumption": false,
+  "full_domain_correctness_and_privacy_required": true,
+  "fused_preparation_and_joint_compression_covered_under_contract": true,
+  "restricted_image_compression_excluded_from_length_implication": true,
+  "unrestricted_runtime_separation_claimed": false,
+  "files": {
+    "PLAN.md": {
+      "bytes": 1546,
+      "sha256": "4eb56ce526950ef2ae2af692227d7b4aa1a586c67c4ce4a8f01b1682e6965b85"
+    },
+    "PROOF.md": {
+      "bytes": 8176,
+      "sha256": "7e5dbb9ace78671094f0e834fce93e186cee99647b8c5bcd6924b6bd78046ef8"
+    },
+    "RESULTS.md": {
+      "bytes": 7399,
+      "sha256": "eabbcfeb79aa4da8bbec77db2af79eb22e5d631a2c577d1e381065b98943e849"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1150,
+      "sha256": "b229098afee4cde502887aa958b0f94556c3cb75c5a57dd4f4be7c25bd8d4f2e"
+    },
+    "check_boundaries.py": {
+      "bytes": 3096,
+      "sha256": "b5267f8aa8eb0436bd6206a0bb77473b957e4b117a67bf302588f00734f734f9"
+    },
+    "run_check.py": {
+      "bytes": 1370,
+      "sha256": "f6b875b07dc3a2f5817d54c01e6c42981f6b23da9bbfe83904e8fad7dde84fa5"
+    },
+    "verify_records.py": {
+      "bytes": 2369,
+      "sha256": "0947ab359c5e7f27b6bd6936ac4b1153d1495b9243676e25feb9de2de6ac9517"
+    },
+    "boundary-check.json": {
+      "bytes": 3479,
+      "sha256": "b8aa9232d644da94074d61abfb23062b8fb054caf973933a9f1ec0d57328c716"
+    },
+    "execution.json": {
+      "bytes": 1027,
+      "sha256": "506e3bdd92f3a1004f17279a34a7c1be9068a93df2bb4552fbd550cc007478be"
+    },
+    "check.stdout.txt": {
+      "bytes": 52,
+      "sha256": "a28d1dbbc063b8c004d4ac65fa13ba68d5d0aefefa5a1046065f4133871e68f0"
+    },
+    "check.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "retrieval.json": {
+      "bytes": 1038,
+      "sha256": "7331565bc7138575dc3e86662bae484a8a7083e119d43b23eec71e57a899b9b3"
+    }
+  }
+}

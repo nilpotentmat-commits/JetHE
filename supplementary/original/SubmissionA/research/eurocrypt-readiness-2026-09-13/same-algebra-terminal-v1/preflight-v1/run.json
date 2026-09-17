@@ -1,0 +1,400 @@
+{
+  "status": "SAME_ALGEBRA_TERMINAL_PREFLIGHT_PASS",
+  "mode": "preflight",
+  "encrypted_execution": true,
+  "security_bits": null,
+  "matched_benchmark": false,
+  "jobs": 16,
+  "length": 4,
+  "field_polynomial": "0x1100b",
+  "native_dimension": 65536,
+  "q": "1329227993889339670443893069050298881",
+  "scalar_pairs": 48,
+  "records_sha256": "822a55707c2f55bcd4be73f0c88f6b62164b21614067fe17c2fdf35c87159b6d",
+  "counts": {
+    "public_polynomials": 2,
+    "public_ciphertexts": 1,
+    "input_polynomials": 12,
+    "input_ciphertexts": 6,
+    "phase_coefficients": 589824,
+    "ciphertext_products": 1,
+    "output_polynomials": 7,
+    "output_ciphertexts": 3
+  },
+  "source_vectors": 20,
+  "error_vectors": 13,
+  "output_symbols": 64,
+  "recovered_sha256": "f75d95280668998b88dec291d248ae37f00abee5e8c18ebe876d7dc0e322e986",
+  "oracle": "fresh independent Python Horner; carryless field arithmetic",
+  "missing_outer_correction_failures": 48,
+  "missing_inner_correction_failures": 24,
+  "owner_field_products": {
+    "outer": 32,
+    "inner": 61
+  },
+  "phases": {
+    "public_context_codec": 0.06332659299914667,
+    "key_generation": 0.026288795999789727,
+    "recipient_key_preparation": 0.0004785780001839157,
+    "serialization": 0.01737340799991216,
+    "owner_outer": 4.958400131727103e-05,
+    "owner_inner": 6.015399958414491e-05,
+    "private_diagnostics": 0.08379720599805296,
+    "owner_interpolation": 0.0005959600002825027,
+    "native_input_codec": 0.026610385000822134,
+    "encryption": 0.16713411399905453,
+    "evaluation": 0.007122000000890694,
+    "recipient_decryption_native_codec": 0.07691632999922149,
+    "recipient_evaluation": 0.000423071998739033
+  },
+  "complete_workflow_phase_seconds": 0.3863789739989443,
+  "instrumented_wall_seconds": 0.47806215299897303,
+  "raw_payload_bytes": {
+    "public": 2097152,
+    "input": 12582912,
+    "output": 7340032
+  },
+  "serialized_payload_bytes": {
+    "public": 2097280,
+    "input": 12583680,
+    "output": 7340424
+  },
+  "public_wire_sink": "counting and hashing serialized frames; no network or ciphertext retention",
+  "peak_rss_kib": 55808,
+  "environment": {
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python": "3.14.4",
+    "affinity": [
+      0
+    ],
+    "threads": 1,
+    "address_space_limit": 2147483648,
+    "concurrent_other_HE_run": true
+  },
+  "excluded_work": "private phase/oracle diagnostics; initial compiler build; no network transport",
+  "protocol_scope": "terminal recipient; evaluator-only privacy; no encrypted reentry",
+  "bindings_before": {
+    "SubmissionA/research/check_composition_modulus_chain.py": {
+      "bytes": 11049,
+      "sha256": "f9cac34709b95c4dc19a362e65f05917842e3a6558091aaf40f66a1fa72a775e"
+    },
+    "SubmissionA/research/check_composition_rns_arithmetic.py": {
+      "bytes": 24241,
+      "sha256": "856e3f9c4f5a71890838b77acaeb4f947c1424b1e873d045db4eed9fe7df6da2"
+    },
+    "SubmissionA/research/check_composition_small_carriers.py": {
+      "bytes": 9638,
+      "sha256": "69240efa37c21baa3c245ccaeca6e58c250140183615f97320167bb79e71871e"
+    },
+    "SubmissionA/research/check_encrypted_transform_compiler.py": {
+      "bytes": 15840,
+      "sha256": "d8fe4d77bbd52ab4f3f05e6307b18dd70764790db1edbac7686ac312fcecd132"
+    },
+    "SubmissionA/research/check_frobenius_chain.py": {
+      "bytes": 9383,
+      "sha256": "898c7ea3344bca8a5bbc8e1cb6cd95c4e2844062649f6a0d77a232b96813965a"
+    },
+    "SubmissionA/research/check_frobenius_compiler.py": {
+      "bytes": 9262,
+      "sha256": "c5436958756856aa3bd65e95407b5da0c209302a37b21e707b45b9cc4a5ddd2b"
+    },
+    "SubmissionA/research/check_fused_composition_frontier.py": {
+      "bytes": 33110,
+      "sha256": "60bcbb807a6c227a31afdb9beadcddd48f8efc217f3df3f3acfa350ad5b34470"
+    },
+    "SubmissionA/research/check_native_composition.py": {
+      "bytes": 14954,
+      "sha256": "53df906a3dd1db0ee0604bac8669a74326a3966d90c948d0677f4b22725dea21"
+    },
+    "SubmissionA/research/check_prepared_arithmetic.py": {
+      "bytes": 14880,
+      "sha256": "eec3033d8be2b2db554cc4f4f1d06ff500e742a6f8fbc669098fd871e1306fec"
+    },
+    "SubmissionA/research/check_private_composition.py": {
+      "bytes": 7775,
+      "sha256": "6006d5d64bf8c9701acdcf63709902b84a6901d56ab0e9e95a3adc9703de8ae1"
+    },
+    "SubmissionA/research/check_recursive_transport.py": {
+      "bytes": 7071,
+      "sha256": "a3806d5490aac9a7cd47578acf3c06c810570ac62ced346a2fe07fbd649de509"
+    },
+    "SubmissionA/research/check_square_bit_frontier.py": {
+      "bytes": 10703,
+      "sha256": "86d5e378591f4140447f4b745398b2f2967178aabc631a14b3d8b5304b4ec233"
+    },
+    "SubmissionA/research/check_square_tower.py": {
+      "bytes": 33627,
+      "sha256": "d725528e7405824329ae775f1c0af08c05150c0e2f7f86f240090e74e585d247"
+    },
+    "SubmissionA/research/check_tensor_codec.py": {
+      "bytes": 8809,
+      "sha256": "3385c27250659a0abf1bdbf7acc12629971a335bc75abd3941af28e1269599be"
+    },
+    "SubmissionA/research/composition_fixture.py": {
+      "bytes": 1667,
+      "sha256": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48"
+    },
+    "SubmissionA/research/composition_full_run.py": {
+      "bytes": 17939,
+      "sha256": "d9d5a5b0875ad003ceaa4b13a9aff434215ee879738b3ac3f5505d82d863f3fe"
+    },
+    "SubmissionA/research/composition_native.py": {
+      "bytes": 7153,
+      "sha256": "f79347094ca4dca383f6137388e22e874c8b37b8abc38c98b63ad2c81891bd43"
+    },
+    "SubmissionA/research/composition_optimized.py": {
+      "bytes": 2749,
+      "sha256": "6326c9dc25f432935c626a8d8666abf9266e5a5209b3d0eaaab6084e4ebebc1d"
+    },
+    "SubmissionA/research/composition_public_evaluator.py": {
+      "bytes": 6768,
+      "sha256": "a6419008e640ea16f0bd18ebd637f29d2da895c7af007eeb94ba2c534e0372ed"
+    },
+    "SubmissionA/research/composition_wire.py": {
+      "bytes": 2987,
+      "sha256": "a7b40c0f5972654d7150c792c005107b93790e89a415d3a7d81d6cbdece0a450"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/expected.bin": {
+      "bytes": 8192,
+      "sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prepare.py": {
+      "bytes": 5623,
+      "sha256": "439c417877cad0af8c90ccd0e439457394bd699d96b7b2906143c9be6f47fea1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PROOF.md": {
+      "bytes": 11980,
+      "sha256": "58077f9dff43ebcd67eae7772cc7b937d2e91dc22cf475622f532704c0eb1726"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/PLAN.md": {
+      "bytes": 2486,
+      "sha256": "ea13c1b377aa5985f3a5bed6b644e74cb4e64207e4d0701aa89e1a2da5633dc9"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/PROOF.md": {
+      "bytes": 4621,
+      "sha256": "db0cfcd99086dc549e8b9e18565f45bb541bf2e850aa37c3dd816364c47e4f13"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/admission.json": {
+      "bytes": 8123,
+      "sha256": "ad4b0ab6308ab18cf1d01c09d7f66c68d5059742c8d483845bd57b632aedd1d4"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/admission.py": {
+      "bytes": 4097,
+      "sha256": "f0adaa9ebecf7138803ec6da54f31b5cd66d2c8d771d7b3ab4be8dbe3fb24823"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/build/interpolation.so": {
+      "bytes": 15568,
+      "sha256": "9acaadce454eea8f42ecc18964f34212ded8290de555bad47de7c138b32e3ecb"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/build/receipt.json": {
+      "bytes": 854,
+      "sha256": "3775a7f3605f356ab982a0ff34cbc410533da8413a6e15b3dc1f6f6c2703d914"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/build.py": {
+      "bytes": 985,
+      "sha256": "fdcb00889c23d6a9a781632b65998901d2462e4731561280ec536a068bb58326"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/interpolation.cpp": {
+      "bytes": 858,
+      "sha256": "2b620d5c8f2ba39f81c5ed466cf28fc2bc67a6429172ebfee995add311c7bdc2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/interpolation.py": {
+      "bytes": 3006,
+      "sha256": "e5f47741bc791bf4429aa7bf2d910aaec284e4e4b093a0ec0b77ba55507a4b60"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/run_receiver.py": {
+      "bytes": 13537,
+      "sha256": "c07e5b87754d1a97eea715ff11a2147b2e911bc507dcabf6f89e3cb16f190c6f"
+    },
+    "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_public_v1.py": {
+      "bytes": 8257,
+      "sha256": "fd742f08434e16e8f841cab59e8e73fc5bdf89fd75197c624b46bb8fb7a9acdf"
+    },
+    "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_ring_v1.py": {
+      "bytes": 2873,
+      "sha256": "09f99af0f77d84629c46e2dcdfbb019e66310e5b0b98912d052da5c3bc3f6414"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/build/fast_core_v2.so": {
+      "bytes": 114176,
+      "sha256": "9933828e1b89004b7f98babe0eea8ff1886f62bf8ee8ac6bb84b55a9227f06dc"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/fast_crypto_v1.py": {
+      "bytes": 1697,
+      "sha256": "e669f327b787f8f8d9d3653e5bf648181ed5bee62067fb29488637c486ad1cb9"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/fast_ring_v1.py": {
+      "bytes": 2862,
+      "sha256": "1c1d223001d85c54c1936ded976a593a5312776f55441134428ca87d354aaffa"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/slim_ring_base_v2.py": {
+      "bytes": 2866,
+      "sha256": "0a1bf2b25baacdb7af0943f82b46b09b6af1b7aacc5319b2aa25f4b699914a04"
+    },
+    "SubmissionA/research/lightweight-jethe-2026-09-13/terminal_v1.py": {
+      "bytes": 8232,
+      "sha256": "2e18f43ba0bf666c73f51c14ea761ce1ca499f02ce99e675846c073368f2fc5e"
+    }
+  },
+  "bindings_after": {
+    "SubmissionA/research/check_composition_modulus_chain.py": {
+      "bytes": 11049,
+      "sha256": "f9cac34709b95c4dc19a362e65f05917842e3a6558091aaf40f66a1fa72a775e"
+    },
+    "SubmissionA/research/check_composition_rns_arithmetic.py": {
+      "bytes": 24241,
+      "sha256": "856e3f9c4f5a71890838b77acaeb4f947c1424b1e873d045db4eed9fe7df6da2"
+    },
+    "SubmissionA/research/check_composition_small_carriers.py": {
+      "bytes": 9638,
+      "sha256": "69240efa37c21baa3c245ccaeca6e58c250140183615f97320167bb79e71871e"
+    },
+    "SubmissionA/research/check_encrypted_transform_compiler.py": {
+      "bytes": 15840,
+      "sha256": "d8fe4d77bbd52ab4f3f05e6307b18dd70764790db1edbac7686ac312fcecd132"
+    },
+    "SubmissionA/research/check_frobenius_chain.py": {
+      "bytes": 9383,
+      "sha256": "898c7ea3344bca8a5bbc8e1cb6cd95c4e2844062649f6a0d77a232b96813965a"
+    },
+    "SubmissionA/research/check_frobenius_compiler.py": {
+      "bytes": 9262,
+      "sha256": "c5436958756856aa3bd65e95407b5da0c209302a37b21e707b45b9cc4a5ddd2b"
+    },
+    "SubmissionA/research/check_fused_composition_frontier.py": {
+      "bytes": 33110,
+      "sha256": "60bcbb807a6c227a31afdb9beadcddd48f8efc217f3df3f3acfa350ad5b34470"
+    },
+    "SubmissionA/research/check_native_composition.py": {
+      "bytes": 14954,
+      "sha256": "53df906a3dd1db0ee0604bac8669a74326a3966d90c948d0677f4b22725dea21"
+    },
+    "SubmissionA/research/check_prepared_arithmetic.py": {
+      "bytes": 14880,
+      "sha256": "eec3033d8be2b2db554cc4f4f1d06ff500e742a6f8fbc669098fd871e1306fec"
+    },
+    "SubmissionA/research/check_private_composition.py": {
+      "bytes": 7775,
+      "sha256": "6006d5d64bf8c9701acdcf63709902b84a6901d56ab0e9e95a3adc9703de8ae1"
+    },
+    "SubmissionA/research/check_recursive_transport.py": {
+      "bytes": 7071,
+      "sha256": "a3806d5490aac9a7cd47578acf3c06c810570ac62ced346a2fe07fbd649de509"
+    },
+    "SubmissionA/research/check_square_bit_frontier.py": {
+      "bytes": 10703,
+      "sha256": "86d5e378591f4140447f4b745398b2f2967178aabc631a14b3d8b5304b4ec233"
+    },
+    "SubmissionA/research/check_square_tower.py": {
+      "bytes": 33627,
+      "sha256": "d725528e7405824329ae775f1c0af08c05150c0e2f7f86f240090e74e585d247"
+    },
+    "SubmissionA/research/check_tensor_codec.py": {
+      "bytes": 8809,
+      "sha256": "3385c27250659a0abf1bdbf7acc12629971a335bc75abd3941af28e1269599be"
+    },
+    "SubmissionA/research/composition_fixture.py": {
+      "bytes": 1667,
+      "sha256": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48"
+    },
+    "SubmissionA/research/composition_full_run.py": {
+      "bytes": 17939,
+      "sha256": "d9d5a5b0875ad003ceaa4b13a9aff434215ee879738b3ac3f5505d82d863f3fe"
+    },
+    "SubmissionA/research/composition_native.py": {
+      "bytes": 7153,
+      "sha256": "f79347094ca4dca383f6137388e22e874c8b37b8abc38c98b63ad2c81891bd43"
+    },
+    "SubmissionA/research/composition_optimized.py": {
+      "bytes": 2749,
+      "sha256": "6326c9dc25f432935c626a8d8666abf9266e5a5209b3d0eaaab6084e4ebebc1d"
+    },
+    "SubmissionA/research/composition_public_evaluator.py": {
+      "bytes": 6768,
+      "sha256": "a6419008e640ea16f0bd18ebd637f29d2da895c7af007eeb94ba2c534e0372ed"
+    },
+    "SubmissionA/research/composition_wire.py": {
+      "bytes": 2987,
+      "sha256": "a7b40c0f5972654d7150c792c005107b93790e89a415d3a7d81d6cbdece0a450"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/expected.bin": {
+      "bytes": 8192,
+      "sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prepare.py": {
+      "bytes": 5623,
+      "sha256": "439c417877cad0af8c90ccd0e439457394bd699d96b7b2906143c9be6f47fea1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PROOF.md": {
+      "bytes": 11980,
+      "sha256": "58077f9dff43ebcd67eae7772cc7b937d2e91dc22cf475622f532704c0eb1726"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/PLAN.md": {
+      "bytes": 2486,
+      "sha256": "ea13c1b377aa5985f3a5bed6b644e74cb4e64207e4d0701aa89e1a2da5633dc9"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/PROOF.md": {
+      "bytes": 4621,
+      "sha256": "db0cfcd99086dc549e8b9e18565f45bb541bf2e850aa37c3dd816364c47e4f13"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/admission.json": {
+      "bytes": 8123,
+      "sha256": "ad4b0ab6308ab18cf1d01c09d7f66c68d5059742c8d483845bd57b632aedd1d4"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/admission.py": {
+      "bytes": 4097,
+      "sha256": "f0adaa9ebecf7138803ec6da54f31b5cd66d2c8d771d7b3ab4be8dbe3fb24823"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/build/interpolation.so": {
+      "bytes": 15568,
+      "sha256": "9acaadce454eea8f42ecc18964f34212ded8290de555bad47de7c138b32e3ecb"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/build/receipt.json": {
+      "bytes": 854,
+      "sha256": "3775a7f3605f356ab982a0ff34cbc410533da8413a6e15b3dc1f6f6c2703d914"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/build.py": {
+      "bytes": 985,
+      "sha256": "fdcb00889c23d6a9a781632b65998901d2462e4731561280ec536a068bb58326"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/interpolation.cpp": {
+      "bytes": 858,
+      "sha256": "2b620d5c8f2ba39f81c5ed466cf28fc2bc67a6429172ebfee995add311c7bdc2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/interpolation.py": {
+      "bytes": 3006,
+      "sha256": "e5f47741bc791bf4429aa7bf2d910aaec284e4e4b093a0ec0b77ba55507a4b60"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/run_receiver.py": {
+      "bytes": 13537,
+      "sha256": "c07e5b87754d1a97eea715ff11a2147b2e911bc507dcabf6f89e3cb16f190c6f"
+    },
+    "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_public_v1.py": {
+      "bytes": 8257,
+      "sha256": "fd742f08434e16e8f841cab59e8e73fc5bdf89fd75197c624b46bb8fb7a9acdf"
+    },
+    "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_ring_v1.py": {
+      "bytes": 2873,
+      "sha256": "09f99af0f77d84629c46e2dcdfbb019e66310e5b0b98912d052da5c3bc3f6414"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/build/fast_core_v2.so": {
+      "bytes": 114176,
+      "sha256": "9933828e1b89004b7f98babe0eea8ff1886f62bf8ee8ac6bb84b55a9227f06dc"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/fast_crypto_v1.py": {
+      "bytes": 1697,
+      "sha256": "e669f327b787f8f8d9d3653e5bf648181ed5bee62067fb29488637c486ad1cb9"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/fast_ring_v1.py": {
+      "bytes": 2862,
+      "sha256": "1c1d223001d85c54c1936ded976a593a5312776f55441134428ca87d354aaffa"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/slim_ring_base_v2.py": {
+      "bytes": 2866,
+      "sha256": "0a1bf2b25baacdb7af0943f82b46b09b6af1b7aacc5319b2aa25f4b699914a04"
+    },
+    "SubmissionA/research/lightweight-jethe-2026-09-13/terminal_v1.py": {
+      "bytes": 8232,
+      "sha256": "2e18f43ba0bf666c73f51c14ea761ce1ca499f02ce99e675846c073368f2fc5e"
+    }
+  }
+}

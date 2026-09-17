@@ -1,0 +1,30 @@
+{
+  "status": "RETUNED_RELAY_COMPARISON_CONTEXT_READBACK_PASS",
+  "context_files": 8,
+  "same_retuned_modulus_marginal": true,
+  "polynomial_horizon_charged": true,
+  "prefix_computation_charged": true,
+  "native_input_write_contract_required": true,
+  "new_he_execution": false,
+  "numerical_security_match": false,
+  "independent_proof_review": false,
+  "mathematical_proof_verified_by_program": false,
+  "files": {
+    "manifest.json": {
+      "bytes": 2008,
+      "sha256": "1967c64a1a8987bf0f38e2bc58a9eab2c58e202beab67327a5b9cc4a38e096fa"
+    },
+    "PROOF.md": {
+      "bytes": 6957,
+      "sha256": "4afd5bd8dedafbf975bd90dd0ec809858f6c8d93849ee2b56a2a90182b8d306d"
+    },
+    "RESULTS.md": {
+      "bytes": 2005,
+      "sha256": "c74e389634ef9346b26c50e93eb9d98a822b966d6a65525354745e600b5bd7a6"
+    },
+    "verify_records.py": {
+      "bytes": 1427,
+      "sha256": "558b52e29b7c6538d4fd6a8845ae140f27036392ceb57d96541e549dbf3363a1"
+    }
+  }
+}

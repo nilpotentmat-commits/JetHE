@@ -1,0 +1,16 @@
+{
+  "status": "CHECKPOINT_56_POSTCHECK_PASS",
+  "unchanged_manuscript_sources": 79,
+  "unchanged_v35_documents": 227,
+  "archived_checkpoint55_bindings": 23,
+  "checkpoint55_files": 24,
+  "closed_matrix_experiment_files": 21,
+  "closed_matrix_reader_bindings": 20,
+  "protected_measured_sources": 155,
+  "direct_libraries": 3,
+  "formula_sources": 7,
+  "formula_cases": 618010,
+  "local_links": 16,
+  "new_he_execution": false,
+  "goal_status": "active"
+}

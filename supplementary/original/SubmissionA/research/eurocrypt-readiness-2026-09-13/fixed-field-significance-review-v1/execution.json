@@ -1,0 +1,21 @@
+{
+  "returncode": 0,
+  "source_hashes_before": {
+    "FAST_WORK_PROOF.md": "4ab60c23b3216986b0d3d9c66765559bc7c74d7ab6c0a9a639366309ef82cb03",
+    "check_arithmetic.py": "ed9fb2a450989678314f7c768451ad75386f16c06542a28c295efc03cbdbf3dc",
+    "run_check.py": "48073ec9359717bc8778eea91495e32cf1e5d2ddd06a65ed930fdca3d5c0f9ad"
+  },
+  "source_hashes_after": {
+    "FAST_WORK_PROOF.md": "4ab60c23b3216986b0d3d9c66765559bc7c74d7ab6c0a9a639366309ef82cb03",
+    "check_arithmetic.py": "ed9fb2a450989678314f7c768451ad75386f16c06542a28c295efc03cbdbf3dc",
+    "run_check.py": "48073ec9359717bc8778eea91495e32cf1e5d2ddd06a65ed930fdca3d5c0f9ad"
+  },
+  "sources_unchanged": true,
+  "new_he_execution": false,
+  "timing_benchmark": false,
+  "outputs": {
+    "check.stdout.txt": "3d8b88b2d181ef3399a775c12aff89fb108a9859e00584d63acc5c5c82865eba",
+    "check.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "arithmetic-check.json": "af2755766f70e8369862c8c6b281d98d55aeac80ba6507ae7377436ddd80e0c9"
+  }
+}

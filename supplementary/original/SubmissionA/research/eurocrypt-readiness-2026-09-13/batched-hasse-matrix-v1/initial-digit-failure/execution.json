@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\scanf\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-X",
+    "utf8",
+    "D:\\Users\\scanf\\OneDrive\\Paper\\NilCrypto\\Submissions\\NilHEoverRing\\SubmissionA\\research\\eurocrypt-readiness-2026-09-13\\batched-hasse-matrix-v1\\check_matrix.py"
+  ],
+  "started_utc": "2026-09-14T14:29:24.528155+00:00",
+  "finished_utc": "2026-09-14T14:29:24.601699+00:00",
+  "elapsed_seconds": 0.07354110002052039,
+  "actual_exit_code": 1,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "192bd9d10cfa100f9fb3f67cea20ff2471f86d245ff6bbaf40661d39c74e0a71",
+  "new_he_execution": false
+}

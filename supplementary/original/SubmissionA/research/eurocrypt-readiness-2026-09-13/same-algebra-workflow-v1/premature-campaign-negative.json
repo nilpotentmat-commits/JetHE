@@ -1,0 +1,10 @@
+{
+  "status": "PREMATURE_CAMPAIGN_REFUSAL_OBSERVED",
+  "action": "supervise.py --mode campaign --gate gate-v1 --out premature-campaign-negative",
+  "observed_exit_code": 1,
+  "reported_reason": "Another research worker is still live; no campaign started.",
+  "output_directory_created": false,
+  "new_benchmark_worker_started": false,
+  "live_receiver_session": 87869,
+  "scope": "Observed refusal while the original receiver was confirmed live; this record is not current process liveness or a completed timing campaign."
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "path": "recorded/receipts/sample-000-native-current-149rows.json",
+    "sha256": "3fde84e18f8d4881c558246055fc574da0d7a3cf1969a3b95b07584e396d9fb6"
+  },
+  {
+    "path": "recorded/receipts/sample-001-summed-bsgs-BGV-BV-n16384-b16.json",
+    "sha256": "18e029d6af573442d207c02830e8cc2f86d97d31e0a62f318addc476e526fda8"
+  },
+  {
+    "path": "recorded/receipts/sample-002-terminal-products-BGV-BV-n32768-b32.json",
+    "sha256": "a1353198d33f90461047ef6614fd287e6782698689cc19ef73612325671d5121"
+  },
+  {
+    "path": "recorded/receipts/sample-003-recipient-compute-BFV-BV-n8192-b32.json",
+    "sha256": "66990b0e79914e400026176427f372dd9bfd4676d13a93bf56f53c510aef3be3"
+  },
+  {
+    "path": "recorded/receipts/sample-004-recipient-compute-BFV-BV-n8192-b32.json",
+    "sha256": "22e336e4fb67e208d2f80d832b8d0c24be59b9198eceb87e0808500efa0a7f4f"
+  },
+  {
+    "path": "recorded/receipts/sample-005-terminal-products-BGV-BV-n32768-b32.json",
+    "sha256": "689165bd1370a309d71e60a80b24328a218616232b329d0e7b7e40975b22cb80"
+  },
+  {
+    "path": "recorded/receipts/sample-006-summed-bsgs-BGV-BV-n16384-b16.json",
+    "sha256": "7446ab784d9e17cbcb4f8c0e6a6eca32148db104269b80d8f1987ab1a00dd38e"
+  },
+  {
+    "path": "recorded/receipts/sample-007-native-current-149rows.json",
+    "sha256": "3367777c848d09ceeedfac2d93739d7e42355accf819df57703aa563a86a1a78"
+  },
+  {
+    "path": "recorded/receipts/sample-008-summed-bsgs-BGV-BV-n16384-b16.json",
+    "sha256": "c282b740a2dde47921be2334a49c5a68dfddffe358e25fd92d0a21a7e198fc93"
+  },
+  {
+    "path": "recorded/receipts/sample-009-native-current-149rows.json",
+    "sha256": "61af72f56a308cb18ef6e13d25eb3b3cc54f56150c2989396259f26f7837da6f"
+  },
+  {
+    "path": "recorded/receipts/sample-010-recipient-compute-BFV-BV-n8192-b32.json",
+    "sha256": "7f008f7789f5c8ce5aba1afb885c607fb47133d3dc1df0079fe04687b9119d80"
+  },
+  {
+    "path": "recorded/receipts/sample-011-terminal-products-BGV-BV-n32768-b32.json",
+    "sha256": "6cc74c88f576babf8672e3ccf8fc62d2d700503e828e69e949542de689021620"
+  },
+  {
+    "path": "recorded/receipts/00-native.json",
+    "sha256": "a0a53aceb4dbb330572b909c7db55e8fb3a62024e78498cfb381c827291c7179"
+  },
+  {
+    "path": "recorded/receipts/01-control.json",
+    "sha256": "b3c31aa9f0062fb5804e88c640afb37f25a488bf7de5f4d85def8d5ed30b6afd"
+  },
+  {
+    "path": "recorded/receipts/02-control.json",
+    "sha256": "19a632ac3404696aa3f2ab1d756af09fa2fa4dcb520d54a42aa5a85474408ed0"
+  },
+  {
+    "path": "recorded/receipts/03-native.json",
+    "sha256": "8f08221e0fdc42ee5278af16c20c087728c1b5cac1d97784841ff42d31fd853f"
+  },
+  {
+    "path": "recorded/receipts/04-native.json",
+    "sha256": "c475ca3e9ca80591438c5639831c5bfa59f8b495fc21fdfdb1274142bfe87d8f"
+  },
+  {
+    "path": "recorded/receipts/05-control.json",
+    "sha256": "9ece8872c0a3f54a15c566df9599e015be79d3fd21f6a425eeb4e9b6ea37fd1a"
+  },
+  {
+    "path": "recorded/receipts/06-control.json",
+    "sha256": "a28e1a84e8e9b16cc40e5852e1d6d5674bb3fbefb63ae136efbf0168f0808d6c"
+  },
+  {
+    "path": "recorded/receipts/07-native.json",
+    "sha256": "59bf54d48eff9dc578b4259a0ac55ca62b0ef9bf6f279e6561bc10b4a3a0e59a"
+  }
+]

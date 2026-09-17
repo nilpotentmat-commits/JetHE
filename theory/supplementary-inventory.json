@@ -1,0 +1,704 @@
+{
+  "schema": "jethe-supplementary-source-inventory-v1",
+  "purpose": "Source-location inventory for release assembly; existence does not mean bundled or reproduced.",
+  "source_map_path": "SubmissionA/JetHE-Eurocrypt2027/evidence/provenance-map.json",
+  "source_map_sha256": "88c24c99b0afc2654fc9a792824a8ed45ed82466f76fc474eec04e5f1090b174",
+  "entries": [
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "SubmissionA/research/check_tensor_codec.py",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/check_tensor_codec.py",
+          "exists": true,
+          "kind": "file",
+          "sha256": "3385c27250659a0abf1bdbf7acc12629971a335bc75abd3941af28e1269599be"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "src/keys.cpp",
+      "source_availability": "external library source reference",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "src/sample.cpp",
+      "source_availability": "external library source reference",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "include/helib/Context.h",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "SubmissionA/build/helib-slack-control/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/build/helib-slack-control",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "SubmissionA/build/helib-core-matched-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/build/helib-core-matched-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "Code/build-helib-2.3.0/vendor-linux/CMakeCache.txt",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "Code/build-helib-2.3.0/vendor-linux/CMakeCache.txt",
+          "exists": true,
+          "kind": "file",
+          "sha256": "68acea5ca5a555e31942ee8801966a7f8145013f08b7c24f142c11dad8ccae64"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "Code/params/local-simd-hermite255-functional-v1.json",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "Code/params/local-simd-hermite255-functional-v1.json",
+          "exists": true,
+          "kind": "file",
+          "sha256": "354358c7c94432f1c1614b2e072350be23de9c14a93bc928a09b7b0ca2a04f1f"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "Code/src/jet_hermite255.hpp",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "Code/src/jet_hermite255.hpp",
+          "exists": true,
+          "kind": "file",
+          "sha256": "8c6f9e16339b9c3f1967c14471ed47526145fa2c81f7234d9f5151c576e7b5d7"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "Code/src/jet_circuit_ir.hpp",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "Code/src/jet_circuit_ir.hpp",
+          "exists": true,
+          "kind": "file",
+          "sha256": "e6362372de723f661a24c69387edb6152c3e8bb9319eb848fbd9335fc04d4de2"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "Code/tests/cpp/test_jet_hermite255.cpp",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "Code/tests/cpp/test_jet_hermite255.cpp",
+          "exists": true,
+          "kind": "file",
+          "sha256": "84ed591d76a2ecefc084e05c12b7ea242eb59d929090907a28a924118bcfa5d5"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "Code/experiments/leveled_jet_comparison/results/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "Code/experiments/leveled_jet_comparison/results",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "leveled-report-v1/summary.json",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "report.md",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "all-cases.csv",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "leveled-main-v2/",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "leveled-capacity-v1/",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "leveled-seed-control-v1/",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "source/benchmark.cpp",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "Code/experiments/leveled_jet_comparison/verify_results.py",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "Code/experiments/leveled_jet_comparison/verify_results.py",
+          "exists": true,
+          "kind": "file",
+          "sha256": "3ac4ab08683d6dd11a8584d3722108dbceda8f454f4b652c782588d0d61b824f"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/baseline-profiles.tex",
+      "artifact_reference": "leveled-main-v1/054-BFV-native-e16-d4-j16-balanced-failure.json",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/cbd-projections.tex",
+      "artifact_reference": "source-projections-v1/verification.json",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/verification.json",
+          "exists": true,
+          "kind": "file",
+          "sha256": "cbf1c09d56a75e1e87d546c675476fb03e2d3ad6307d239ed49aa043b08bf539"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/control-source-screen.tex",
+      "artifact_reference": "conventional-source-screen-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/control-source-screen.tex",
+      "artifact_reference": "conventional-parameter-repair-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-parameter-repair-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/conventional-compiler-transfer.tex",
+      "artifact_reference": "paid-hasse-portability-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/paid-hasse-portability-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/core-matched-measurements.tex",
+      "artifact_reference": "core-matched-v1-r*.json",
+      "source_availability": "historical reference; location not resolved by this mapping",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/factored-control.tex",
+      "artifact_reference": "factored-control-v1/verification.json",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/factored-control-v1/verification.json",
+          "exists": true,
+          "kind": "file",
+          "sha256": "c9815a24b185d687baea2278937177bf5305e80d27b2fdea63cf02bb0d49b75b"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/fast-prepared-work.tex",
+      "artifact_reference": "fixed-field-significance-review-v1/check_arithmetic.py",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-significance-review-v1/check_arithmetic.py",
+          "exists": true,
+          "kind": "file",
+          "sha256": "ed9fb2a450989678314f7c768451ad75386f16c06542a28c295efc03cbdbf3dc"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/fixed-field-carrier-bound.tex",
+      "artifact_reference": "coefficient-prior-art-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/coefficient-prior-art-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/fixed-field-carrier-bound.tex",
+      "artifact_reference": "ciphertext-length-audit-v1/check_boundaries.py",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/ciphertext-length-audit-v1/check_boundaries.py",
+          "exists": true,
+          "kind": "file",
+          "sha256": "b5267f8aa8eb0436bd6206a0bb77473b957e4b117a67bf302588f00734f734f9"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/fixed-field-carrier-bound.tex",
+      "artifact_reference": "fixed-field-count-audit-v1/check_additive_witness.py",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-count-audit-v1/check_additive_witness.py",
+          "exists": true,
+          "kind": "file",
+          "sha256": "eeb97cb15a59ed5595460f23770599f094ba44c15eef399d43aa34194b581ddc"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/gaussian-relay-work.tex",
+      "artifact_reference": "prefix-reuse-audit-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/prefix-reuse-audit-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/joint-batch-lower-bound.tex",
+      "artifact_reference": "joint-batch-bound-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "artifact_reference": "batched-hasse-matrix-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "artifact_reference": "native-batched-hasse-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "artifact_reference": "native-cached-matrix-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "artifact_reference": "native-fast-cache-quotient-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/joint-hasse-work.tex",
+      "artifact_reference": "native-fixed-multipliers-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/measurements.tex",
+      "artifact_reference": "evidence/measurements.csv",
+      "source_availability": "supplied file",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/JetHE-Eurocrypt2027/evidence/measurements.csv",
+          "exists": true,
+          "kind": "file",
+          "sha256": "31d0f35aec87ee159ef0b4e865e463c9e977504cd984e17ea5cb9e52d75f97c9"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/measurements.tex",
+      "artifact_reference": "evidence/benchmark-verification.json",
+      "source_availability": "supplied file",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/JetHE-Eurocrypt2027/evidence/benchmark-verification.json",
+          "exists": true,
+          "kind": "file",
+          "sha256": "b1d1a71afbfc3bd4f5af729d9d6b66789c66d3bff2f80116b217d23f05dbcc54"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/measurements.tex",
+      "artifact_reference": "evidence/verify_artifact.py",
+      "source_availability": "supplied file",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/JetHE-Eurocrypt2027/evidence/verify_artifact.py",
+          "exists": true,
+          "kind": "file",
+          "sha256": "688ae79f5a7507b8ab9c9efc2e5934d83e0a341e9542354edde97b9ec0f5da77"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/native-stage-gadgets.tex",
+      "artifact_reference": "native-stage-gadgets-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/native-tensor-axis.tex",
+      "artifact_reference": "native-tensor-axis-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/native-tensor-axis.tex",
+      "artifact_reference": "native-extension-axis-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/native-tensor-axis.tex",
+      "artifact_reference": "native-fixed-multipliers-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/one-prime-control.tex",
+      "artifact_reference": "same-algebra-one-prime-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/one-prime-control.tex",
+      "artifact_reference": "same-algebra-one-prime-workflow-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/one-prime-control.tex",
+      "artifact_reference": "current-control-workflow-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/paired-terminal-receiver.tex",
+      "artifact_reference": "paired-terminal-receiver-v1/verify_receiver.py",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/verify_receiver.py",
+          "exists": true,
+          "kind": "file",
+          "sha256": "ba7afc43b20458c8b9a5f9af1bd2dc97b91f47ad25b5826cb259b4e2fab88cbc"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/paired-terminal-receiver.tex",
+      "artifact_reference": "same-algebra-terminal-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/paired-terminal-receiver.tex",
+      "artifact_reference": "same-algebra-source-alignment-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-source-alignment-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/paired-terminal-receiver.tex",
+      "artifact_reference": "same-algebra-workflow-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-workflow-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/prepared-contraction-bounds.tex",
+      "artifact_reference": "prepared-contraction-audit-v1/check_contraction.py",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/check_contraction.py",
+          "exists": true,
+          "kind": "file",
+          "sha256": "0a88c53c2d1b371157e5fe0cba8dbe99c29ca2e9422283499d390753fc9beedb"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/prepared-contraction-bounds.tex",
+      "artifact_reference": "bilinear-carrier-audit-v1/check_carriers.py",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/bilinear-carrier-audit-v1/check_carriers.py",
+          "exists": true,
+          "kind": "file",
+          "sha256": "f65ea23ecf04f52380c033e649462c84e861b1c811de30a04d580e24ae917589"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/rational-joint-work.tex",
+      "artifact_reference": "joint-rational-matrix-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-rational-matrix-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/raw-composition-boundary.tex",
+      "artifact_reference": "mixed-ideal-boundary-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/mixed-ideal-boundary-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/receiver-kernels.tex",
+      "artifact_reference": "receiver-kernels-v1/execution-v2.json",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/execution-v2.json",
+          "exists": true,
+          "kind": "file",
+          "sha256": "b1dcc6974be75af2ae69d0fc5ba497e022949524585f57ee750b0978e9c340c8"
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/receiver-kernels.tex",
+      "artifact_reference": "complete-receiver-audit-v1",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/retuned-relay-comparison.tex",
+      "artifact_reference": "retuned-relay-comparison-v1/",
+      "source_availability": "development-workspace artifact; not supplied",
+      "workspace_candidates": [
+        {
+          "original_path": "SubmissionA/research/eurocrypt-readiness-2026-09-13/retuned-relay-comparison-v1",
+          "exists": true,
+          "kind": "directory",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "manuscript_file": "appendices/source-transfer-screen.tex",
+      "artifact_reference": "3e48ef421ec256afddb3e7d2249a77eab6e9ba12",
+      "source_availability": "implementation identifier; preserved for provenance",
+      "workspace_candidates": []
+    },
+    {
+      "manuscript_file": "appendices/strict-time-reduction.tex",
+      "artifact_reference": "Coins",
+      "source_availability": "implementation identifier; preserved for provenance",
+      "workspace_candidates": []
+    }
+  ],
+  "coverage_warning": "This inventory is not a claim that every supplementary proof or experiment is executable in the theory bundle."
+}

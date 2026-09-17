@@ -1,0 +1,214 @@
+{
+  "status": "COEFFICIENT_PROJECTION_CHECK_PASS",
+  "results": [
+    {
+      "length": 2,
+      "centered_ring_dimension": 1,
+      "scalar_dimension": 1,
+      "projection_kernel_dimension": 0,
+      "newton_basis_functions": 1,
+      "monic_null_degree": 2,
+      "symbolic_occurrences": 2,
+      "exhaustive": {
+        "assignments": 2,
+        "coefficient_values": 8,
+        "valuation_values": 4,
+        "ring_rank": 1,
+        "scalar_rank": 1
+      }
+    },
+    {
+      "length": 3,
+      "centered_ring_dimension": 2,
+      "scalar_dimension": 2,
+      "projection_kernel_dimension": 0,
+      "newton_basis_functions": 2,
+      "monic_null_degree": 2,
+      "symbolic_occurrences": 4,
+      "exhaustive": {
+        "assignments": 4,
+        "coefficient_values": 36,
+        "valuation_values": 8,
+        "ring_rank": 2,
+        "scalar_rank": 2
+      }
+    },
+    {
+      "length": 4,
+      "centered_ring_dimension": 4,
+      "scalar_dimension": 3,
+      "projection_kernel_dimension": 1,
+      "newton_basis_functions": 4,
+      "monic_null_degree": 3,
+      "symbolic_occurrences": 6,
+      "exhaustive": {
+        "assignments": 8,
+        "coefficient_values": 128,
+        "valuation_values": 24,
+        "ring_rank": 4,
+        "scalar_rank": 3
+      }
+    },
+    {
+      "length": 5,
+      "centered_ring_dimension": 7,
+      "scalar_dimension": 5,
+      "projection_kernel_dimension": 2,
+      "newton_basis_functions": 7,
+      "monic_null_degree": 4,
+      "symbolic_occurrences": 10,
+      "exhaustive": {
+        "assignments": 16,
+        "coefficient_values": 400,
+        "valuation_values": 64,
+        "ring_rank": 7,
+        "scalar_rank": 5
+      }
+    },
+    {
+      "length": 6,
+      "centered_ring_dimension": 10,
+      "scalar_dimension": 7,
+      "projection_kernel_dimension": 3,
+      "newton_basis_functions": 10,
+      "monic_null_degree": 4,
+      "symbolic_occurrences": 14,
+      "exhaustive": {
+        "assignments": 32,
+        "coefficient_values": 1152,
+        "valuation_values": 128,
+        "ring_rank": 10,
+        "scalar_rank": 7
+      }
+    },
+    {
+      "length": 7,
+      "centered_ring_dimension": 13,
+      "scalar_dimension": 9,
+      "projection_kernel_dimension": 4,
+      "newton_basis_functions": 13,
+      "monic_null_degree": 4,
+      "symbolic_occurrences": 20,
+      "exhaustive": {
+        "assignments": 64,
+        "coefficient_values": 3136,
+        "valuation_values": 256,
+        "ring_rank": 13,
+        "scalar_rank": 9
+      }
+    },
+    {
+      "length": 8,
+      "centered_ring_dimension": 17,
+      "scalar_dimension": 11,
+      "projection_kernel_dimension": 6,
+      "newton_basis_functions": 17,
+      "monic_null_degree": 5,
+      "symbolic_occurrences": 26,
+      "exhaustive": {
+        "assignments": 128,
+        "coefficient_values": 8192,
+        "valuation_values": 640,
+        "ring_rank": 17,
+        "scalar_rank": 11
+      }
+    },
+    {
+      "length": 10,
+      "centered_ring_dimension": 27,
+      "scalar_dimension": 16,
+      "projection_kernel_dimension": 11,
+      "newton_basis_functions": 27,
+      "monic_null_degree": 6,
+      "symbolic_occurrences": 46,
+      "exhaustive": null
+    },
+    {
+      "length": 12,
+      "centered_ring_dimension": 40,
+      "scalar_dimension": 23,
+      "projection_kernel_dimension": 17,
+      "newton_basis_functions": 40,
+      "monic_null_degree": 8,
+      "symbolic_occurrences": 74,
+      "exhaustive": null
+    },
+    {
+      "length": 16,
+      "centered_ring_dimension": 69,
+      "scalar_dimension": 39,
+      "projection_kernel_dimension": 30,
+      "newton_basis_functions": 69,
+      "monic_null_degree": 9,
+      "symbolic_occurrences": 164,
+      "exhaustive": null
+    },
+    {
+      "length": 24,
+      "centered_ring_dimension": 155,
+      "scalar_dimension": 81,
+      "projection_kernel_dimension": 74,
+      "newton_basis_functions": 155,
+      "monic_null_degree": 14,
+      "symbolic_occurrences": 586,
+      "exhaustive": null
+    },
+    {
+      "length": 32,
+      "centered_ring_dimension": 273,
+      "scalar_dimension": 143,
+      "projection_kernel_dimension": 130,
+      "newton_basis_functions": 273,
+      "monic_null_degree": 17,
+      "symbolic_occurrences": 1552,
+      "exhaustive": null
+    }
+  ],
+  "family_difference": {
+    "length": 16,
+    "E2": [
+      0,
+      48,
+      28,
+      0,
+      1
+    ],
+    "T3": [
+      0,
+      16,
+      12,
+      0,
+      1
+    ],
+    "input": 4,
+    "E2_output": 0,
+    "T3_output": 384
+  },
+  "source_bindings": {
+    "coefficient-prior-art-v1/PLAN.md": {
+      "bytes": 1709,
+      "sha256": "596495d474e353bdd03c49be1b5360f98e81ac2e65ec9f3652063fa424f87004"
+    },
+    "coefficient-prior-art-v1/PROOF.md": {
+      "bytes": 6879,
+      "sha256": "0972d91c999b432277eb91bb4748f67fc34804a750a3647bcdd1033d878318ac"
+    },
+    "coefficient-prior-art-v1/check_spaces.py": {
+      "bytes": 7223,
+      "sha256": "f73e05a4150469e5184d79736074af89f14341651ded76ca81c91c708ec7a6dc"
+    },
+    "fixed-field-count-audit-v1/boolean_screen.py": {
+      "bytes": 3607,
+      "sha256": "30434d69678b067d668d3551f7892bbfc6790812c10b5c80841e6f47834709ab"
+    },
+    "checkpoint-v37/manuscript/appendices/fixed-field-carrier-bound.tex": {
+      "bytes": 11001,
+      "sha256": "6ac148dc4f6256a865d4b3463f4cd44fdffde54cac0a0a822e636e8c970a4807"
+    }
+  },
+  "wall_seconds": 0.04198590002488345,
+  "new_he_execution": false,
+  "new_security_execution": false,
+  "exact_general_scalar_rank_proved": false,
+  "novelty_established": false
+}

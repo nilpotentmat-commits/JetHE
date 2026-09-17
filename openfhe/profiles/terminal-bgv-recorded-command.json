@@ -1,0 +1,24 @@
+{
+  "arguments": [
+    "--mode",
+    "sample",
+    "--arm",
+    "terminal-products",
+    "--scheme",
+    "BGV",
+    "--ring-dim",
+    "32768",
+    "--baby-width",
+    "32",
+    "--batches",
+    "2",
+    "--bfv-key-switch",
+    "BV"
+  ],
+  "source_bindings": {
+    "SubmissionA/research/openfhe-matched-2026-09-13/adapter-v2/openfhe_w0.cpp": "7c221edb7b72fea816465c1dc9ef72fb56570e1aad4fdca0608e336dbcb0a7d6",
+    "SubmissionA/research/openfhe-matched-2026-09-13/adapter-v2/exact_w0.h": "a8b7c5d40d7d8369b62a61566a47add769713116c3c38ba34631ffe1031d51b1",
+    "SubmissionA/research/helib_composition/leveled/composition_fixture.h": "67002f9c5b159535b145f9239cac51b049e84d650800665644f71ed10535db15",
+    "SubmissionA/research/composition_fixture.py": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48"
+  }
+}

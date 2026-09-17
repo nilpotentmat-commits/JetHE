@@ -1,0 +1,192 @@
+{
+  "status": "PAIRED_TERMINAL_ADMISSION_AND_RECORDED_EXECUTION_CHECKS_PASS",
+  "full_run": "full-v1",
+  "preflight_run": "preflight-v1",
+  "full_core_ring_products": 1480,
+  "full_extra_diagnostic_ring_products": 2,
+  "full_finite_source_vectors": 1046,
+  "full_binary_coordinates": 14352384,
+  "full_recovered_field_words": 4096,
+  "full_input_ciphertexts": 348,
+  "full_raw_products": 86,
+  "full_output_ciphertexts": 90,
+  "full_finite_source_bytes": 68983124,
+  "full_payload_bytes": {
+    "public": 786432,
+    "input": 273678336,
+    "output": 104595456
+  },
+  "preflight_binary_coordinates": 294912,
+  "rejected_incomplete_records": [
+    "missing record",
+    "preflight as full"
+  ],
+  "full_workflow_phase_seconds": 127.05994499998269,
+  "full_instrumented_wall_seconds": 160.37203036699975,
+  "execution_bindings": {
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/composition_fixture.py": {
+      "bytes": 1667,
+      "sha256": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/core-resolution/packed-fermat-receiver-v1/prime-codec-assets-v1.json.gz": {
+      "bytes": 632503,
+      "sha256": "c9b60968a8d5e3cf1b43b584d4ce02ced702360b8334119e1c1957fb5e4435d5"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/expected.bin": {
+      "bytes": 8192,
+      "sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/range_arithmetic.py": {
+      "bytes": 2250,
+      "sha256": "04f6de30730360fad20aaba140636003b2e42b524af8f37d2bdc35dbf9be2d14"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/sample_vectors.py": {
+      "bytes": 4652,
+      "sha256": "94548b36d7764bc763ba2c608335e89da3add1fc05f8b678aeec11497c7b90aa"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/table-receipt.json": {
+      "bytes": 2085,
+      "sha256": "a69996a1c585140e7430b46d5cabc84d71bb6a48a29f7b8a3a6937cc7327192d"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/tables.bin": {
+      "bytes": 2383552,
+      "sha256": "ae73e8bf44e88c721362d730e9130672cb1125afa6b88c1d15aca05acd0094b2"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-product-audit-v1/PROOF.md": {
+      "bytes": 7544,
+      "sha256": "b0f6dd64d6fd99a4f83161719024af88d61f72489e31d8cdb1665881315554e5"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PLAN.md": {
+      "bytes": 1825,
+      "sha256": "94fee3dd4c7e782adc22198d0c6eedfabe0dc0161085b1615aeaef15304d27d3"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PROOF.md": {
+      "bytes": 9533,
+      "sha256": "a786c82522d246dc69bdd8ac4602710fbdccea964ba1ab5feb982030469c1afe"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/admission.json": {
+      "bytes": 8291,
+      "sha256": "75ae4a29949c7619c6258c5bb48627ad89cce59a95223bcda613566e1793996b"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/admission.py": {
+      "bytes": 6357,
+      "sha256": "5348ca582ee72e695f7cde39e0d22e31babd9ee6cf706f1b5cbf18b5a9cc1922"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/build_prefix.py": {
+      "bytes": 3804,
+      "sha256": "6f41f4193e186b772c07fe0335a2db10a48f3e31d7e0ab8088f0624d464df6e1"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prefix-receipt.json": {
+      "bytes": 69203,
+      "sha256": "00fcbc012d3382354a2429c6f793ed5e4472690a4adfbc4debf7fb3795cd64c5"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prefix16.bin": {
+      "bytes": 33685524,
+      "sha256": "22294e6b6da0f94d306ea6f33b960957a3b7975ba32a8ec41d9cbeb85a1648d6"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prefix_sampler.py": {
+      "bytes": 3080,
+      "sha256": "ddc0c8e916df0bba353ca08ebb0b1ca538fd2b68bfd05f687f32f0d1c17c0123"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prepare.py": {
+      "bytes": 5623,
+      "sha256": "439c417877cad0af8c90ccd0e439457394bd699d96b7b2906143c9be6f47fea1"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/run_receiver.py": {
+      "bytes": 20721,
+      "sha256": "81a97389336bc6fa06fb961febdebd2f9de043043c7372d05b96a629993f272b"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/verification.json": {
+      "bytes": 11589,
+      "sha256": "4618aca0a2e69f0663cb053140c80661089dbfc2d51c48924418e70c67e03e1e"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/arithmetic.py": {
+      "bytes": 7485,
+      "sha256": "5851be6086be359940c414c051b88079aab90edce677c5ba421cb112a04ebf1b"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/codec.py": {
+      "bytes": 7385,
+      "sha256": "700b891e4005fe8505eceb294125427e717d6dc8187eda86c69ac708d31ec7fb"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PLAN.md": {
+      "bytes": 1878,
+      "sha256": "5dedf6a7a5d1515070f0da5986a9c509e950098754f7a78a47327a46843288c1"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PROOF.md": {
+      "bytes": 11980,
+      "sha256": "58077f9dff43ebcd67eae7772cc7b937d2e91dc22cf475622f532704c0eb1726"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/RESULTS.md": {
+      "bytes": 3287,
+      "sha256": "5e9c4d9394255df58f8a8201ea080491947d0a19969ff5bb66d2adf7d648acb0"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/REPRODUCE.md": {
+      "bytes": 1032,
+      "sha256": "1f30a6ab332983cf00c70e87a19495f668e9ce0eb9dc4434cbe1b2cf7782a101"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/check_contraction.py": {
+      "bytes": 13252,
+      "sha256": "0a88c53c2d1b371157e5fe0cba8dbe99c29ca2e9422283499d390753fc9beedb"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/sections/preliminaries.tex": {
+      "bytes": 4066,
+      "sha256": "bb4326e8305f81c2e198a3a2145a08dd9b4a232f5593fe435fcc5681719e6f64"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/sections/resources.tex": {
+      "bytes": 12719,
+      "sha256": "5092ee1007e97d368c959790fdf91c58a85ea7135aecbd7a1dd6c4cb8225bb4f"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/appendices/recovery-interface.tex": {
+      "bytes": 6893,
+      "sha256": "d9da4684bfe42c0046874d492e0c6b96fd083a3006dd01bd745aaa481709c5ab"
+    },
+    "SubmissionA/research/paired-src-v1/SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/appendices/prepared-contraction-bounds.tex": {
+      "bytes": 11164,
+      "sha256": "a9a0420af784dfcc0e4808ff6d2af92899d824fbff6efb2f36f96262133cff46"
+    }
+  },
+  "execution_snapshot_files": 30,
+  "execution_snapshot_bytes": 36949136,
+  "files": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/verify_receiver.py": {
+      "bytes": 10249,
+      "sha256": "ba7afc43b20458c8b9a5f9af1bd2dc97b91f47ad25b5826cb259b4e2fab88cbc"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prepare.py": {
+      "bytes": 5623,
+      "sha256": "439c417877cad0af8c90ccd0e439457394bd699d96b7b2906143c9be6f47fea1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/source-snapshot.json": {
+      "bytes": 7144,
+      "sha256": "aec4283ee08602af2dc208c286e495e04c19ebd4bf4e4f441c079f555f680d67"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/full-v1/run.json": {
+      "bytes": 15000,
+      "sha256": "0363f21a7324f14b49709adf6bb635cdf934d65305052399179fab835ff99738"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/full-v1/events.jsonl": {
+      "bytes": 15868,
+      "sha256": "cbcadf08f95aa4a2c293215d911bbd1c9cfc51a5608230ee9908642bb1e3f03b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/full-v1/recovered.bin": {
+      "bytes": 8192,
+      "sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/preflight-v1/run.json": {
+      "bytes": 15111,
+      "sha256": "e682b0d5c1a0514874866a3d33fb6f1daa1ecdb9118e7f838bfaef7d94e522c9"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/preflight-v1/events.jsonl": {
+      "bytes": 1109,
+      "sha256": "b35181480ae694699332c91ad9b4b6d1ce3f9572523735ce0ee858605413b8d7"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/preflight-v1/recovered.bin": {
+      "bytes": 128,
+      "sha256": "f75d95280668998b88dec291d248ae37f00abee5e8c18ebe876d7dc0e322e986"
+    }
+  },
+  "new_he_execution": false,
+  "security_bits": null,
+  "performance_comparison": false,
+  "scope": "Independent integer admission and recorded-run consistency checks against the exact completed-execution source snapshot, preserving its proof checkpoint. No retained ciphertext replay, new encryption, formal proof verification or matched runtime ranking."
+}

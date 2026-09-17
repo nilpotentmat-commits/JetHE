@@ -1,0 +1,6 @@
+{
+  "actual_exit_code": 1,
+  "chunk": "ea9b89",
+  "error": "Reader expected singular native-fixed-multiplier-v1 profile; recorded workers correctly use plural native-fixed-multipliers-v1.",
+  "executed_he_records_changed": false
+}

@@ -1,0 +1,172 @@
+{
+  "status": "PASS_WITH_BOUNDED_FRESH_VALIDATION",
+  "validation_date": "2026-09-16",
+  "fresh_HE_execution": true,
+  "published_measurement_replacement": false,
+  "new_security_qualification": false,
+  "scope": "Freshly built portable HElib targets; one core and one full composition profile, each one cold/warm setup.",
+  "build": {
+    "status": "PASS",
+    "system": "Linux x86-64 under WSL2",
+    "generator": "Ninja",
+    "compiler": "conda-forge GCC 16.2.0",
+    "build_type": "Release",
+    "cmake_changes_required": false,
+    "targets": [
+      "helib_core_matched",
+      "helib_slack_control"
+    ],
+    "helib_release_name": "2.3.0",
+    "helib_commit": "3e337a66a91a92d49de6a9505340826b0eb71081",
+    "pinned_source_VERSION_and_installed_cmake_version": "2.2.0",
+    "helib_static_library_sha256": "c3ea19ed7b8e68f7d9fcc01fcc98dddb805323c3e04ed1fa370e6c2589f17e81",
+    "helib_library_matches_original_selection_receipt": true,
+    "runtime_dependency_hashes_matching_original_core_receipt": {
+      "libntl.so.45.0.0": "c9c4e047f8919a0b5ac6369551f1e5f04a5c3f903b754031b39b7967b17b71ed",
+      "libgmp.so.10.5.0": "71a072c91addce36c8abd431c35a0662f942bd373b04305f06d4878066323f87"
+    },
+    "runtime_dependencies_resolved_by_ldd": true
+  },
+  "source_integrity": [
+    {
+      "path": "helib/src/core/core_math.h",
+      "sha256": "8a03584fd6c7d3d8c37b55fdd0506aed948a39ff6379aec18421ecfcf78b097f",
+      "matches_original_and_declared_provenance": true
+    },
+    {
+      "path": "helib/src/core/core_measure.cpp",
+      "sha256": "26cb5fcce38e523e9b21a07068de168618df4184c256c3b5ec219e7aba7a1dc6",
+      "matches_original_and_declared_provenance": true
+    },
+    {
+      "path": "helib/src/core/terminal_core_v3.cpp",
+      "sha256": "957ad3cc7fc23619872c42e9b240507292579c0a439bd13b5d0717062ceed5dd",
+      "matches_original_and_declared_provenance": true
+    },
+    {
+      "path": "helib/src/leveled/composition_fixture.h",
+      "sha256": "67002f9c5b159535b145f9239cac51b049e84d650800665644f71ed10535db15",
+      "matches_original_and_declared_provenance": true
+    },
+    {
+      "path": "helib/src/leveled/diagonal_bsgs.cpp",
+      "sha256": "0e564e8d183d99ca07fb29f19a365968bbef701752d66be9a33da5a14bc7a268",
+      "matches_original_and_declared_provenance": true
+    },
+    {
+      "path": "helib/src/leveled/slack_profile.cpp",
+      "sha256": "00e6db931a43eec32c5911e40a985ce577991ef566e9955e7cd0375d8a9bc351",
+      "matches_original_and_declared_provenance": true
+    },
+    {
+      "path": "helib/vendor/json.hpp",
+      "sha256": "01d9a039a25ce9505052d28b9cc3b92cc741d4f9250e9741762a651026327f6d",
+      "matches_original_and_declared_provenance": true
+    }
+  ],
+  "profile_bindings": {
+    "core_profiles_checked_against_original_command": 32,
+    "core_command_mismatches": 0,
+    "composition_profiles_checked_against_original_selection": 2,
+    "selected_composition_m": 13107,
+    "selected_composition_requested_bits": 60
+  },
+  "fresh_runs": [
+    {
+      "profile": "crt-w1-l16-j1-m4369-b20-raw",
+      "arguments": [
+        "sample",
+        "crt",
+        "w1-l16-j1",
+        "4369",
+        "20",
+        "raw"
+      ],
+      "setups": 1,
+      "batches": [
+        {
+          "state": "cold",
+          "output_symbols": 16,
+          "output_sha256": "5296bc63cc159d4bb9a05d7b9d127e56f2827a421cd2e893901a19b911eff59e",
+          "full_output_check": "PASS",
+          "minimum_observed_capacity_bits": 13.0,
+          "terminal_slots_checked": 256
+        },
+        {
+          "state": "warm",
+          "output_symbols": 16,
+          "output_sha256": "5296bc63cc159d4bb9a05d7b9d127e56f2827a421cd2e893901a19b911eff59e",
+          "full_output_check": "PASS",
+          "minimum_observed_capacity_bits": 13.0,
+          "terminal_slots_checked": 256
+        }
+      ],
+      "worker_status": "CORE_MATCHED_PASS",
+      "local_receipt_sha256": "7d07411a2ee6f6485cd19b34a052613679a992609c3aadeb9c7f8ad4d82c0599",
+      "local_receipt_ignored_path": "helib/results/core-validation/setup-000.json"
+    },
+    {
+      "profile": "composition-b16",
+      "arguments": [
+        "sample",
+        "b16",
+        "13107",
+        "60"
+      ],
+      "setups": 1,
+      "batches": [
+        {
+          "state": "cold",
+          "output_symbols": 4096,
+          "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+          "full_output_check": "PASS",
+          "minimum_observed_capacity_bits": 56
+        },
+        {
+          "state": "warm",
+          "output_symbols": 4096,
+          "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+          "full_output_check": "PASS",
+          "minimum_observed_capacity_bits": 56
+        }
+      ],
+      "worker_status": "SLACK_SAMPLE_PASS",
+      "local_receipt_sha256": "6b5b1f827753339019c9e94031aef9d46b62e07211f571e0fe2f37dad42111bf",
+      "local_receipt_ignored_path": "helib/results/composition-b60-validation/setup-000.json"
+    }
+  ],
+  "retained_initial_failure": {
+    "profile": "composition-b16",
+    "arguments": [
+      "sample",
+      "b16",
+      "13107",
+      "20"
+    ],
+    "classification": "initial packaging profile error; not the selected measured configuration",
+    "status": "FAILED",
+    "capacity_bits": 2,
+    "required_capacity_bits": 10,
+    "stderr": "Output capacity below predeclared ten-bit margin",
+    "local_receipt_sha256": "d6f6507b4cb624ec3a7f977d6d16b4f22b80dd08f59efec82d578a9689ac90a0",
+    "local_receipt_ignored_path": "helib/results/composition-validation/setup-000.json",
+    "corrected_from_recorded_selection": true
+  },
+  "launcher_checks": {
+    "python_optimization_rejected": true,
+    "optimization_error": "Run without Python -O/-OO: output verification requires assertions.",
+    "note": "The -O/-OO guard was added while the composition process was running. It does not change ordinary execution; the final validation independently rechecks both retained batches and complete outputs."
+  },
+  "validated_files_sha256": {
+    "CMakeLists.txt": "191b3bc28c2b6548bb61b77d90bffe1dfd62a1605ab7aafa28d941a101342a87",
+    "run.py": "55deeef96e22a40bd3c6296a68adf38459bd12d54757afe701d6b6c382d988ed",
+    "profiles.json": "f016046dff34de62f71f17306b77f2e296a7530fd4d1b4fe9f363f21849bc5cc"
+  },
+  "not_freshly_run": "31 other core profiles and the composition-column profile; their original profile/receipt bindings were checked.",
+  "limits": [
+    "No fresh statistical timing campaign or replacement median.",
+    "One fixture per selected profile; successful recovery is not a security or failure-probability proof.",
+    "External HElib was not rebuilt; its linked static library hash matches the original measurement receipt.",
+    "Portable launcher retains original worker timing/checks but does not reproduce all historical supervisor resource limits."
+  ]
+}

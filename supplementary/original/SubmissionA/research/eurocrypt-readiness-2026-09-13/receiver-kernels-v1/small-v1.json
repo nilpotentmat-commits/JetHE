@@ -1,0 +1,104 @@
+{
+  "status": "SMALL_KERNEL_CHECKS_PASS",
+  "small": {
+    "independent_ring_coefficients": 585,
+    "integer_rounding_cases": 669468,
+    "balanced_digit_endpoints": 60,
+    "wrong_mod_q_tensor_reduction_detected": true
+  },
+  "production": null,
+  "bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/PLAN.md": {
+      "bytes": 2094,
+      "sha256": "037b8d5a071654d8a18e50bb499b8706e1f3d805db6b466650262cfc5f3cf88f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/arithmetic.py": {
+      "bytes": 7485,
+      "sha256": "5851be6086be359940c414c051b88079aab90edce677c5ba421cb112a04ebf1b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/codec.py": {
+      "bytes": 7385,
+      "sha256": "700b891e4005fe8505eceb294125427e717d6dc8187eda86c69ac708d31ec7fb"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/check_kernels.py": {
+      "bytes": 16456,
+      "sha256": "dc2c71d918ba91e2df7de7a97dfab527efe5b2d0670c1291d58bc66509921f34"
+    },
+    "SubmissionA/research/core-resolution/packed-fermat-receiver-v1/prime-codec-assets-v1.json.gz": {
+      "bytes": 632503,
+      "sha256": "c9b60968a8d5e3cf1b43b584d4ce02ced702360b8334119e1c1957fb5e4435d5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/factored-control-v1/width16.json": {
+      "bytes": 307005,
+      "sha256": "be02f272ddce8768fd62775a4b605f818f68d02b38a0a848b03d8f0ce3059922"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/sample_vectors.py": {
+      "bytes": 4652,
+      "sha256": "94548b36d7764bc763ba2c608335e89da3add1fc05f8b678aeec11497c7b90aa"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/tables.bin": {
+      "bytes": 2383552,
+      "sha256": "ae73e8bf44e88c721362d730e9130672cb1125afa6b88c1d15aca05acd0094b2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/table-receipt.json": {
+      "bytes": 2085,
+      "sha256": "a69996a1c585140e7430b46d5cabc84d71bb6a48a29f7b8a3a6937cc7327192d"
+    },
+    "SubmissionA/research/core-resolution/packed-fermat-receiver-v1/prime-physical-plaintext-0-v1.bin": {
+      "bytes": 65536,
+      "sha256": "80d975dd8754ef3915f9adb4e2e4d881f9e2012ca8fcbb43ae10ef118b0ae12a"
+    },
+    "SubmissionA/research/core-resolution/packed-fermat-receiver-v1/prime-physical-plaintext-1-v1.bin": {
+      "bytes": 65536,
+      "sha256": "73ce8c0ff9a50bb3f6ce8e18f608121ade59ecf774a2989be19006cf92ab2076"
+    }
+  },
+  "backend": {
+    "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0",
+    "version": "6.3.0",
+    "sha256": "fda9699eef15deda5f1c626e9140377a7f5d88c41516a54278ac02429cb20fa5"
+  },
+  "execution": {
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "executable": "/usr/bin/python3",
+    "peak_rss_kib": 26256,
+    "elapsed_seconds": 0.2001400229999999,
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "timing_scope": "Diagnostic elapsed values; no controlled timing campaign or total-workflow result."
+  },
+  "scope": "Fresh selected-dimension arithmetic, codec and HE primitive trials. No full compiled control execution, 128-bit qualification, total-time ordering, or EUROCRYPT readiness claim."
+}

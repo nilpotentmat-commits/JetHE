@@ -1,0 +1,12 @@
+{
+  "command": [
+    "python",
+    "-X",
+    "utf8",
+    "check_spaces.py"
+  ],
+  "actual_exit_code": 0,
+  "wall_seconds": 0.08586439996724948,
+  "stdout": "check.stdout.txt",
+  "stderr": "check.stderr.txt"
+}

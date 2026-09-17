@@ -1,0 +1,394 @@
+{
+  "status": "JOINT_BATCH_FUNCTION_CHECKS_PASS",
+  "rank_cases": [
+    {
+      "length": 8,
+      "batches": 1,
+      "one_block_witness": 7,
+      "joint_rank": 7,
+      "diagonal_promise_rank": 7,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 8,
+      "batches": 2,
+      "one_block_witness": 7,
+      "joint_rank": 14,
+      "diagonal_promise_rank": 7,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 8,
+      "batches": 3,
+      "one_block_witness": 7,
+      "joint_rank": 21,
+      "diagonal_promise_rank": 7,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 8,
+      "batches": 5,
+      "one_block_witness": 7,
+      "joint_rank": 35,
+      "diagonal_promise_rank": 7,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 16,
+      "batches": 1,
+      "one_block_witness": 25,
+      "joint_rank": 25,
+      "diagonal_promise_rank": 25,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 16,
+      "batches": 2,
+      "one_block_witness": 25,
+      "joint_rank": 50,
+      "diagonal_promise_rank": 25,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 16,
+      "batches": 3,
+      "one_block_witness": 25,
+      "joint_rank": 75,
+      "diagonal_promise_rank": 25,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 16,
+      "batches": 5,
+      "one_block_witness": 25,
+      "joint_rank": 125,
+      "diagonal_promise_rank": 25,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 32,
+      "batches": 1,
+      "one_block_witness": 92,
+      "joint_rank": 92,
+      "diagonal_promise_rank": 92,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 32,
+      "batches": 2,
+      "one_block_witness": 92,
+      "joint_rank": 184,
+      "diagonal_promise_rank": 92,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 32,
+      "batches": 3,
+      "one_block_witness": 92,
+      "joint_rank": 276,
+      "diagonal_promise_rank": 92,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 32,
+      "batches": 5,
+      "one_block_witness": 92,
+      "joint_rank": 460,
+      "diagonal_promise_rank": 92,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 64,
+      "batches": 1,
+      "one_block_witness": 348,
+      "joint_rank": 348,
+      "diagonal_promise_rank": 348,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 64,
+      "batches": 2,
+      "one_block_witness": 348,
+      "joint_rank": 696,
+      "diagonal_promise_rank": 348,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 64,
+      "batches": 3,
+      "one_block_witness": 348,
+      "joint_rank": 1044,
+      "diagonal_promise_rank": 348,
+      "uncentered_constants_rank": 1
+    },
+    {
+      "length": 64,
+      "batches": 5,
+      "one_block_witness": 348,
+      "joint_rank": 1740,
+      "diagonal_promise_rank": 348,
+      "uncentered_constants_rank": 1
+    }
+  ],
+  "mixed_cases": [
+    {
+      "case": 0,
+      "batches": 2,
+      "primitives": 2,
+      "recovered_bit_values": 768,
+      "centered_generators": 11,
+      "generator_rank": 8,
+      "target_functions": 48
+    },
+    {
+      "case": 1,
+      "batches": 2,
+      "primitives": 2,
+      "recovered_bit_values": 768,
+      "centered_generators": 15,
+      "generator_rank": 12,
+      "target_functions": 48
+    },
+    {
+      "case": 2,
+      "batches": 2,
+      "primitives": 2,
+      "recovered_bit_values": 768,
+      "centered_generators": 16,
+      "generator_rank": 13,
+      "target_functions": 48
+    },
+    {
+      "case": 3,
+      "batches": 2,
+      "primitives": 2,
+      "recovered_bit_values": 768,
+      "centered_generators": 11,
+      "generator_rank": 8,
+      "target_functions": 48
+    },
+    {
+      "case": 4,
+      "batches": 2,
+      "primitives": 2,
+      "recovered_bit_values": 768,
+      "centered_generators": 15,
+      "generator_rank": 11,
+      "target_functions": 48
+    },
+    {
+      "case": 5,
+      "batches": 2,
+      "primitives": 2,
+      "recovered_bit_values": 768,
+      "centered_generators": 16,
+      "generator_rank": 13,
+      "target_functions": 48
+    },
+    {
+      "case": 6,
+      "batches": 2,
+      "primitives": 2,
+      "recovered_bit_values": 768,
+      "centered_generators": 11,
+      "generator_rank": 8,
+      "target_functions": 48
+    },
+    {
+      "case": 7,
+      "batches": 2,
+      "primitives": 2,
+      "recovered_bit_values": 768,
+      "centered_generators": 15,
+      "generator_rank": 12,
+      "target_functions": 48
+    }
+  ],
+  "count_cases": [
+    {
+      "length": 256,
+      "batches": 1,
+      "h": 16,
+      "s": 16,
+      "capacity": 65536,
+      "inner_width": 84224,
+      "mixed_calls": 1,
+      "inner_carriers": 2,
+      "outer_carriers": 1
+    },
+    {
+      "length": 256,
+      "batches": 2,
+      "h": 16,
+      "s": 16,
+      "capacity": 65536,
+      "inner_width": 168448,
+      "mixed_calls": 2,
+      "inner_carriers": 3,
+      "outer_carriers": 2
+    },
+    {
+      "length": 256,
+      "batches": 16,
+      "h": 16,
+      "s": 16,
+      "capacity": 65536,
+      "inner_width": 1347584,
+      "mixed_calls": 11,
+      "inner_carriers": 21,
+      "outer_carriers": 16
+    },
+    {
+      "length": 256,
+      "batches": 1024,
+      "h": 16,
+      "s": 16,
+      "capacity": 65536,
+      "inner_width": 86245376,
+      "mixed_calls": 658,
+      "inner_carriers": 1316,
+      "outer_carriers": 1020
+    },
+    {
+      "length": 1024,
+      "batches": 1,
+      "h": 16,
+      "s": 16,
+      "capacity": 262144,
+      "inner_width": 1321984,
+      "mixed_calls": 3,
+      "inner_carriers": 6,
+      "outer_carriers": 1
+    },
+    {
+      "length": 1024,
+      "batches": 2,
+      "h": 16,
+      "s": 16,
+      "capacity": 262144,
+      "inner_width": 2643968,
+      "mixed_calls": 6,
+      "inner_carriers": 11,
+      "outer_carriers": 2
+    },
+    {
+      "length": 1024,
+      "batches": 16,
+      "h": 16,
+      "s": 16,
+      "capacity": 262144,
+      "inner_width": 21151744,
+      "mixed_calls": 41,
+      "inner_carriers": 81,
+      "outer_carriers": 16
+    },
+    {
+      "length": 1024,
+      "batches": 1024,
+      "h": 16,
+      "s": 16,
+      "capacity": 262144,
+      "inner_width": 1353711616,
+      "mixed_calls": 2582,
+      "inner_carriers": 5164,
+      "outer_carriers": 1023
+    },
+    {
+      "length": 1048576,
+      "batches": 1,
+      "h": 16,
+      "s": 16,
+      "capacity": 268435456,
+      "inner_width": 1374411554816,
+      "mixed_calls": 2561,
+      "inner_carriers": 5121,
+      "outer_carriers": 1
+    },
+    {
+      "length": 1048576,
+      "batches": 2,
+      "h": 16,
+      "s": 16,
+      "capacity": 268435456,
+      "inner_width": 2748823109632,
+      "mixed_calls": 5121,
+      "inner_carriers": 10241,
+      "outer_carriers": 2
+    },
+    {
+      "length": 1048576,
+      "batches": 16,
+      "h": 16,
+      "s": 16,
+      "capacity": 268435456,
+      "inner_width": 21990584877056,
+      "mixed_calls": 40961,
+      "inner_carriers": 81922,
+      "outer_carriers": 16
+    },
+    {
+      "length": 1048576,
+      "batches": 1024,
+      "h": 16,
+      "s": 16,
+      "capacity": 268435456,
+      "inner_width": 1407397432131584,
+      "mixed_calls": 2621482,
+      "inner_carriers": 5242964,
+      "outer_carriers": 1024
+    }
+  ],
+  "total_joint_witnesses": 5192,
+  "mixed_recovered_bit_values": 6144,
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1/PLAN.md": {
+      "bytes": 1367,
+      "sha256": "d51835f99b3bb3aa2b778bd700e010b625cb7e1ac0ec8c0e2ff0b98256f14483"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1/PROOF.md": {
+      "bytes": 10307,
+      "sha256": "213eac6223354b11c89058a6b3e78c417be8ac393f535ac4186f987d57b90b35"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/joint-batch-bound-v1/check_joint.py": {
+      "bytes": 6708,
+      "sha256": "74a39f07e28f8ebe295728791e12748e31d69f8e47fc27e0f91120bedb9ec1de"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/JOINT_BATCH_COMPARISON_PLAN.md": {
+      "bytes": 3911,
+      "sha256": "f3ed64f3b0127208f75ba39f61222a365a4fa521ccd7ec4d2c5e2d4b37467a47"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-count-audit-v1/check_additive_witness.py": {
+      "bytes": 7693,
+      "sha256": "eeb97cb15a59ed5595460f23770599f094ba44c15eef399d43aa34194b581ddc"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/fixed-field-count-audit-v1/boolean_screen.py": {
+      "bytes": 3607,
+      "sha256": "30434d69678b067d668d3551f7892bbfc6790812c10b5c80841e6f47834709ab"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/ciphertext-length-audit-v1/PROOF.md": {
+      "bytes": 8176,
+      "sha256": "7e5dbb9ace78671094f0e834fce93e186cee99647b8c5bcd6924b6bd78046ef8"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/batched-hasse-matrix-v1/PROOF.md": {
+      "bytes": 12042,
+      "sha256": "0f5f7e7ecb0626b7120df29a7936e45d4e667f0cfc2debab49bac8109a475933"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/checkpoint-v36/manuscript/appendices/fixed-field-carrier-bound.tex": {
+      "bytes": 11001,
+      "sha256": "6ac148dc4f6256a865d4b3463f4cd44fdffde54cac0a0a822e636e8c970a4807"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/checkpoint-v36/manuscript/appendices/prepared-contraction-bounds.tex": {
+      "bytes": 15514,
+      "sha256": "11fba02f8c103bba4759e41073f0d035d94ced884bc95777cec2aa3962604377"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/checkpoint-v36/manuscript/appendices/joint-hasse-work.tex": {
+      "bytes": 13990,
+      "sha256": "12290cf340ecbbaf034df021972eda2f6206f7bf73ce2831cd7074968455ffe7"
+    }
+  },
+  "new_he_execution": false,
+  "new_timing": false,
+  "new_security_attack": false,
+  "mathematical_proof_verified_by_program": false,
+  "security_bits": null
+}

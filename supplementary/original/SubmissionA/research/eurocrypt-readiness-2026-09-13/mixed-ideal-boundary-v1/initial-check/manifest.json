@@ -1,0 +1,29 @@
+{
+  "scope": "Successful initial check before adding the unit-linear-inner witness; no failure or adverse result removed.",
+  "files": {
+    "PROOF.md": {
+      "bytes": 6237,
+      "sha256": "26b068ce48fdf1c84f7aa60dbaee3126e00fdcac409c78e795790ada5d72c72f"
+    },
+    "check_boundary.py": {
+      "bytes": 9295,
+      "sha256": "058cdb0050ca179cd47555689507743a4a5f2ae36591d45fd94fae1059bb9e4c"
+    },
+    "check.json": {
+      "bytes": 14654,
+      "sha256": "1934e03507d05e717566fdcb98633b248642b9aad2384ceb412782999faa8969"
+    },
+    "execution.json": {
+      "bytes": 706,
+      "sha256": "a59f30ed1349428c0e06e8fd2dfaf8bbbcb99fde150a0b1eb5dd1b2142df0172"
+    },
+    "check.stdout.txt": {
+      "bytes": 413,
+      "sha256": "272d4768efe64427f3a9a9c9d4b58b6bf1623e03bb311aac990b05385e65113b"
+    },
+    "check.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "command": [
+    "wsl",
+    "--cd",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing",
+    "/usr/bin/python3",
+    "-B",
+    "-u",
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/run.py",
+    "--mode",
+    "measure",
+    "--out",
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1",
+    "--gate",
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/gate-v1",
+    "--host-observation",
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/host-observation-v1.json"
+  ],
+  "actual_exit_code": 0,
+  "elapsed_seconds": 203.00531470001442,
+  "completed_utc": "2026-09-14T18:32:37.219810+00:00",
+  "stdout": {
+    "bytes": 865,
+    "sha256": "6f7f117cce8bb87d33b36a1bc95c2a9afd895ee17a8d64f0e3fc37309e13b31d"
+  },
+  "stderr": {
+    "bytes": 132,
+    "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+  }
+}

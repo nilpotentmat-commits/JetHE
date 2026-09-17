@@ -1,0 +1,211 @@
+{
+  "status": "PAIRED_UNSCALED_TERMINAL_ADMISSION_CHECKS_PASS",
+  "selected": {
+    "n": 32768,
+    "conductor": 65537,
+    "source_cap": 96,
+    "kappa": 131069,
+    "q": "618970019642690137449562111",
+    "q_bits": 89,
+    "fresh_cap": "2415863904",
+    "mixed_error_cap": "4831727808",
+    "raw_cap": "6119767220428748829808378",
+    "strict_threshold": "24479068881714995319233514",
+    "strict_margin": "594490950760975142130328597",
+    "coefficient_bytes": 12,
+    "inputs": 348,
+    "raw_products": 86,
+    "bypasses": 4,
+    "finite_source_vectors": 1046,
+    "uniform_polynomials": 1,
+    "public_payload_bytes": 786432,
+    "input_payload_bytes": 273678336,
+    "output_payload_bytes": 104595456,
+    "predicted_ring_products": {
+      "public_key": 1,
+      "encryption": 696,
+      "raw_tensors": 258,
+      "input_validation": 348,
+      "secret_square": 1,
+      "terminal_decryption": 176
+    },
+    "predicted_total_ring_products": 1480,
+    "uniform_failure_upper_exponent": 22769
+  },
+  "lucas_lehmer_exponent": 89,
+  "lucas_lehmer_chain": [
+    "14",
+    "194",
+    "37634",
+    "1416317954",
+    "2005956546822746114",
+    "598028640278675810224740676",
+    "480114390397887436345871973",
+    "256286478379806120980640370",
+    "503856043838036255396725647",
+    "511097357768708595775143636",
+    "168909432968702305299180947",
+    "606396047570974655444193748",
+    "384259961875522880452984663",
+    "400988785643977730394319793",
+    "451946598706049129545781082",
+    "519056096255902175211532475",
+    "121085530627461043345077875",
+    "71186560963388750687096830",
+    "36000517785442762303479300",
+    "523566428507141573725342798",
+    "424152844029608571078391252",
+    "451425083283677785701240528",
+    "471604984152655775544654653",
+    "149504332299367259583502770",
+    "2661688372237296008669225",
+    "14651690105229857026329789",
+    "118366775657027743761992789",
+    "78447114542527441733697497",
+    "414825479001522844830957808",
+    "140234396746501638380162556",
+    "524724811145776165191705380",
+    "454239684978083396425387798",
+    "443190129321733552688414291",
+    "193246662398964773806577169",
+    "90276720159245463714588945",
+    "325532186394213993941115709",
+    "184428441183694588040637933",
+    "20227257621080411005543513",
+    "492178310326013754654519350",
+    "98383234722633752804518339",
+    "422539297718609229503207527",
+    "239699647065516513819077229",
+    "451540821309242236737612159",
+    "386616582127510358048893037",
+    "111015693969297793247714068",
+    "526524283201479916042588129",
+    "64862389039487459674212268",
+    "222734658450663017797297098",
+    "527979459006852476995019463",
+    "597546382855243971575029724",
+    "432108610907467792010713113",
+    "267528776084781116062417378",
+    "539136831481300028111816217",
+    "451247597566784449829767505",
+    "437168526145243171726687748",
+    "598500912756632689317072800",
+    "524692914241987400050525363",
+    "332189870719179258780519572",
+    "412661427218334854756142421",
+    "321992305401224654215082066",
+    "435970785565830723987708026",
+    "381742226819095467298228805",
+    "170103210134157444573479299",
+    "529650761375006727395831727",
+    "588636842041150882786657416",
+    "532115895320758084925029926",
+    "501541201809618824302560067",
+    "339657887315362077441027847",
+    "99498791857820493810407653",
+    "267353229805674813483082782",
+    "153775828163901691352640258",
+    "645734370591155030147282",
+    "239072406272077525999142496",
+    "386211355975098724888629576",
+    "589820547708179745896185533",
+    "426471425099610829450724237",
+    "14792991384462166970694984",
+    "574596879853011245099388238",
+    "269783273665984523074966550",
+    "98263195276941167273641778",
+    "288575740080467405879843347",
+    "592120439037291200756916902",
+    "248352176262993969312953851",
+    "496815502059771466001738628",
+    "309566686160249986820679689",
+    "618970019642654953077473279",
+    "0"
+  ],
+  "small": {
+    "rings": 7,
+    "mixed_raw_product_cases": 84,
+    "raw_output_coefficients": 600,
+    "product_constant_tensor_entries": 10004,
+    "cryptographic_coins": false
+  },
+  "new_he_execution": false,
+  "security_bits": null,
+  "source_hardness_established": false,
+  "bindings_before": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PLAN.md": {
+      "bytes": 1825,
+      "sha256": "94fee3dd4c7e782adc22198d0c6eedfabe0dc0161085b1615aeaef15304d27d3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PROOF.md": {
+      "bytes": 9533,
+      "sha256": "a786c82522d246dc69bdd8ac4602710fbdccea964ba1ab5feb982030469c1afe"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/admission.py": {
+      "bytes": 6357,
+      "sha256": "5348ca582ee72e695f7cde39e0d22e31babd9ee6cf706f1b5cbf18b5a9cc1922"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/verification.json": {
+      "bytes": 11589,
+      "sha256": "4618aca0a2e69f0663cb053140c80661089dbfc2d51c48924418e70c67e03e1e"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-product-audit-v1/PROOF.md": {
+      "bytes": 7544,
+      "sha256": "b0f6dd64d6fd99a4f83161719024af88d61f72489e31d8cdb1665881315554e5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/arithmetic.py": {
+      "bytes": 7485,
+      "sha256": "5851be6086be359940c414c051b88079aab90edce677c5ba421cb112a04ebf1b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/codec.py": {
+      "bytes": 7385,
+      "sha256": "700b891e4005fe8505eceb294125427e717d6dc8187eda86c69ac708d31ec7fb"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/sample_vectors.py": {
+      "bytes": 4652,
+      "sha256": "94548b36d7764bc763ba2c608335e89da3add1fc05f8b678aeec11497c7b90aa"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/table-receipt.json": {
+      "bytes": 2085,
+      "sha256": "a69996a1c585140e7430b46d5cabc84d71bb6a48a29f7b8a3a6937cc7327192d"
+    }
+  },
+  "bindings_after": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PLAN.md": {
+      "bytes": 1825,
+      "sha256": "94fee3dd4c7e782adc22198d0c6eedfabe0dc0161085b1615aeaef15304d27d3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PROOF.md": {
+      "bytes": 9533,
+      "sha256": "a786c82522d246dc69bdd8ac4602710fbdccea964ba1ab5feb982030469c1afe"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/admission.py": {
+      "bytes": 6357,
+      "sha256": "5348ca582ee72e695f7cde39e0d22e31babd9ee6cf706f1b5cbf18b5a9cc1922"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/verification.json": {
+      "bytes": 11589,
+      "sha256": "4618aca0a2e69f0663cb053140c80661089dbfc2d51c48924418e70c67e03e1e"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-product-audit-v1/PROOF.md": {
+      "bytes": 7544,
+      "sha256": "b0f6dd64d6fd99a4f83161719024af88d61f72489e31d8cdb1665881315554e5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/arithmetic.py": {
+      "bytes": 7485,
+      "sha256": "5851be6086be359940c414c051b88079aab90edce677c5ba421cb112a04ebf1b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/codec.py": {
+      "bytes": 7385,
+      "sha256": "700b891e4005fe8505eceb294125427e717d6dc8187eda86c69ac708d31ec7fb"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/sample_vectors.py": {
+      "bytes": 4652,
+      "sha256": "94548b36d7764bc763ba2c608335e89da3add1fc05f8b678aeec11497c7b90aa"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/table-receipt.json": {
+      "bytes": 2085,
+      "sha256": "a69996a1c585140e7430b46d5cabc84d71bb6a48a29f7b8a3a6937cc7327192d"
+    }
+  }
+}

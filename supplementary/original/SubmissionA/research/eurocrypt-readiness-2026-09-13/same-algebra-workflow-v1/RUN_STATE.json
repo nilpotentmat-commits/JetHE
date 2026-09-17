@@ -1,0 +1,38 @@
+{
+  "recorded_utc": "2026-09-13 23:18:33 UTC",
+  "gate": {
+    "directory": "gate-v1",
+    "session_id": 36339,
+    "observed_exit_code": 0,
+    "status": "SAME_ALGEBRA_WORKFLOW_BOTH_GATES_PASS",
+    "native_checked_states": 57,
+    "control_checked_states": 434,
+    "native_checked_coefficients": 3735552,
+    "control_checked_coefficients": 28442624,
+    "source_files": 63,
+    "runtime_files": 9
+  },
+  "campaign": {
+    "directory": "campaign-v1",
+    "session_id": 25232,
+    "observed_exit_code": 0,
+    "status": "SAME_ALGEBRA_CONTROLLED_WORKFLOW_CAMPAIGN_PASS",
+    "setups": 6,
+    "batches": 12,
+    "order": [
+      "native",
+      "control",
+      "control",
+      "native",
+      "native",
+      "control"
+    ],
+    "native_warm_median": 2.533498762997624,
+    "control_warm_median": 14.518825224000466,
+    "warm_ratio": 5.730740995832127,
+    "setup_plus_cold_ratio": 2.560968037176795
+  },
+  "readback": "SAME_ALGEBRA_WORKFLOW_CAMPAIGN_READBACK_PASS",
+  "security_bits": null,
+  "scope": "Both fresh gates and all six campaign workers completed successfully. Actual termination observed; no active harness process. Two-prime control only; the subsequent one-prime admission is unexecuted."
+}

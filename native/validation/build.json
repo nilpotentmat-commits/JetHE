@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "compiler": "x86_64-conda-linux-gnu-g++ (conda-forge gcc 16.2.0-4) 16.2.0",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-fPIC",
+    "-shared"
+  ],
+  "libraries": [
+    {
+      "source": "backend/fixed/fast_core_v1.cpp",
+      "output": "build/fixed_core.so",
+      "sha256": "6dd349aba308d96e8edaf69a75341936617a7f59eb1cc6935b44f2f788248241"
+    },
+    {
+      "source": "backend/terminal_kernel_v1.cpp",
+      "output": "build/terminal_kernel_v1.so",
+      "sha256": "ca8400e686c4bfcc2bb2b7757450da628683fae3e2879478a6dbb65c4cd5ae58"
+    },
+    {
+      "source": "backend/interpolation.cpp",
+      "output": "build/interpolation.so",
+      "sha256": "9acaadce454eea8f42ecc18964f34212ded8290de555bad47de7c138b32e3ecb"
+    },
+    {
+      "source": "backend/paid149/paid_hasse_core_v1.cpp",
+      "output": "build/paid_hasse_core_v1.so",
+      "sha256": "d3a8b0ffd8750610b635e97c47ff664cbc483a6f7cb140f1e44bbaacc9375d9e"
+    }
+  ],
+  "fresh_he_execution": false
+}

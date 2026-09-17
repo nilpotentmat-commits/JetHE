@@ -1,0 +1,21 @@
+{
+  "returncode": 0,
+  "source_hashes_before": {
+    "PROOF.md": "7e5dbb9ace78671094f0e834fce93e186cee99647b8c5bcd6924b6bd78046ef8",
+    "check_boundaries.py": "b5267f8aa8eb0436bd6206a0bb77473b957e4b117a67bf302588f00734f734f9",
+    "run_check.py": "f6b875b07dc3a2f5817d54c01e6c42981f6b23da9bbfe83904e8fad7dde84fa5"
+  },
+  "source_hashes_after": {
+    "PROOF.md": "7e5dbb9ace78671094f0e834fce93e186cee99647b8c5bcd6924b6bd78046ef8",
+    "check_boundaries.py": "b5267f8aa8eb0436bd6206a0bb77473b957e4b117a67bf302588f00734f734f9",
+    "run_check.py": "f6b875b07dc3a2f5817d54c01e6c42981f6b23da9bbfe83904e8fad7dde84fa5"
+  },
+  "sources_unchanged": true,
+  "new_he_execution": false,
+  "new_timing_benchmark": false,
+  "outputs": {
+    "boundary-check.json": "b8aa9232d644da94074d61abfb23062b8fb054caf973933a9f1ec0d57328c716",
+    "check.stdout.txt": "a28d1dbbc063b8c004d4ac65fa13ba68d5d0aefefa5a1046065f4133871e68f0",
+    "check.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema": "jethe-openfhe-release-validation-v1",
+  "status": "PASS",
+  "fixture_cross_language_match": true,
+  "fixture": {
+    "id": "composition-l256-v1",
+    "seed_hex": "0x4a657448454c3235",
+    "jobs": 16,
+    "length": 256,
+    "field_polynomial": "0x1100b",
+    "serialization": "job-major f then g; uint16 little endian",
+    "sha256": "009c072d2b5096f04e88acc5f3379dc58c025b5d94a8325585a09ede33ec77ca",
+    "fnv64_cross_language_check": "17538928597010511084",
+    "scope": "Public synthetic correctness fixture; not an application distribution or encryption randomness"
+  },
+  "full_output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+  "executions": [
+    {
+      "profile": "summed-bgv",
+      "full_shape": [
+        16,
+        256
+      ],
+      "fresh_setups": 1,
+      "batches": 2,
+      "recovered_symbols_checked": 8192,
+      "selected_profile_and_inventory_match": true,
+      "receipt_sha256": "5c938d31d13acd0475f1f9f46a8ce029216418d660e1924b4705379997e4365c",
+      "status": "PASS"
+    },
+    {
+      "profile": "terminal-bgv",
+      "full_shape": [
+        16,
+        256
+      ],
+      "fresh_setups": 1,
+      "batches": 2,
+      "recovered_symbols_checked": 8192,
+      "selected_profile_and_inventory_match": true,
+      "receipt_sha256": "140f8d3539fe23e0e3ac5fbdeb32d0740a25e18aa5695d8f6ff2930d471ed7d0",
+      "status": "PASS"
+    }
+  ],
+  "compiler": "GCC 16.2.0",
+  "openfhe_version": "1.5.1",
+  "dependency_commit": "1306d14f8c26bb6150d3e6ad54f28dfe1007689e",
+  "measured_cpp_sha256": "7c221edb7b72fea816465c1dc9ef72fb56570e1aad4fdca0608e336dbcb0a7d6",
+  "tested_binary_sha256": "d36058d1a749d07c1e63380e3214ccb8ef74210482d5d112f67b900530c750ec",
+  "runner_final_validation_sha256": "ea5c0b365c77255bda4a97a6a200da66f8ab870dd3d172d90d8c3a65cab98ace",
+  "note": "Fresh full-shape functionality checks only; no new timing claim. Final wrapper revalidated retained outputs after a batch-count guard and metadata-label clarification; the executed scientific CPP and profiles did not change.",
+  "linked_openfhe_library_sha256": {
+    "libOPENFHEpke.so.1.5.1": "69a6aea576ebc7b72070b783179b6eb3d824a2c46bc190a8bc57af9e616e2d27",
+    "libOPENFHEcore.so.1.5.1": "a1d617ed8047432253e3674b52b3b8b9e03392b2156c8c8dfa9a5e848a41fdb9",
+    "libOPENFHEbinfhe.so.1.5.1": "8511fb8bdd695b2a5c927f5ae3a1b74dfcd645c6163eef312b88be252388da94"
+  },
+  "libraries_match_recorded_pinned_build": true
+}

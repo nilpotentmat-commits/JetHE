@@ -1,0 +1,414 @@
+{
+  "counts": {
+    "exact_reconstruction_divisions": 6132,
+    "prefix_rounding_cases": 249,
+    "ring_matrices": 49,
+    "ring_output_coefficients": 506112,
+    "signed_integer_matrices": 20,
+    "tensor_coefficients": 64
+  },
+  "fixtures": [
+    {
+      "coefficients": 256,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 1,
+      "ell": 1,
+      "q": "2"
+    },
+    {
+      "coefficients": 256,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 1,
+      "ell": 1,
+      "q": "6"
+    },
+    {
+      "coefficients": 256,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 1,
+      "ell": 1,
+      "q": "15"
+    },
+    {
+      "coefficients": 512,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 1,
+      "ell": 2,
+      "q": "2"
+    },
+    {
+      "coefficients": 512,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 1,
+      "ell": 2,
+      "q": "6"
+    },
+    {
+      "coefficients": 512,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 1,
+      "ell": 2,
+      "q": "15"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 1,
+      "ell": 4,
+      "q": "2"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 1,
+      "ell": 4,
+      "q": "6"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 1,
+      "ell": 4,
+      "q": "15"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 2,
+      "ell": 1,
+      "q": "2"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 2,
+      "ell": 1,
+      "q": "6"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 2,
+      "ell": 1,
+      "q": "15"
+    },
+    {
+      "coefficients": 2048,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 2,
+      "ell": 2,
+      "q": "2"
+    },
+    {
+      "coefficients": 2048,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 2,
+      "ell": 2,
+      "q": "6"
+    },
+    {
+      "coefficients": 2048,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 2,
+      "ell": 2,
+      "q": "15"
+    },
+    {
+      "coefficients": 4096,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 2,
+      "ell": 4,
+      "q": "2"
+    },
+    {
+      "coefficients": 4096,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 2,
+      "ell": 4,
+      "q": "6"
+    },
+    {
+      "coefficients": 4096,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 2,
+      "ell": 4,
+      "q": "15"
+    },
+    {
+      "coefficients": 4096,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 4,
+      "ell": 1,
+      "q": "2"
+    },
+    {
+      "coefficients": 4096,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 4,
+      "ell": 1,
+      "q": "6"
+    },
+    {
+      "coefficients": 4096,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 4,
+      "ell": 1,
+      "q": "15"
+    },
+    {
+      "coefficients": 8192,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 4,
+      "ell": 2,
+      "q": "2"
+    },
+    {
+      "coefficients": 8192,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 4,
+      "ell": 2,
+      "q": "6"
+    },
+    {
+      "coefficients": 8192,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 4,
+      "ell": 2,
+      "q": "15"
+    },
+    {
+      "coefficients": 16384,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 4,
+      "ell": 4,
+      "q": "2"
+    },
+    {
+      "coefficients": 16384,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 4,
+      "ell": 4,
+      "q": "6"
+    },
+    {
+      "coefficients": 16384,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 4,
+      "ell": 4,
+      "q": "15"
+    },
+    {
+      "coefficients": 16384,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 8,
+      "ell": 1,
+      "q": "2"
+    },
+    {
+      "coefficients": 16384,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 8,
+      "ell": 1,
+      "q": "6"
+    },
+    {
+      "coefficients": 16384,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 8,
+      "ell": 1,
+      "q": "15"
+    },
+    {
+      "coefficients": 32768,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 8,
+      "ell": 2,
+      "q": "2"
+    },
+    {
+      "coefficients": 32768,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 8,
+      "ell": 2,
+      "q": "6"
+    },
+    {
+      "coefficients": 32768,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 8,
+      "ell": 2,
+      "q": "15"
+    },
+    {
+      "coefficients": 65536,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 8,
+      "ell": 4,
+      "q": "2"
+    },
+    {
+      "coefficients": 65536,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 8,
+      "ell": 4,
+      "q": "6"
+    },
+    {
+      "coefficients": 65536,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 8,
+      "ell": 4,
+      "q": "15"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 2,
+      "ell": 1,
+      "q": "3"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 2,
+      "ell": 1,
+      "q": "4"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 2,
+      "ell": 1,
+      "q": "9"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 2,
+      "ell": 1,
+      "q": "1152921504606846883"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 2,
+      "ell": 1,
+      "q": "1329227995784915642319506138910959327"
+    },
+    {
+      "coefficients": 8192,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 4,
+      "ell": 2,
+      "q": "3"
+    },
+    {
+      "coefficients": 8192,
+      "denominator_is_nonunit": true,
+      "dense": false,
+      "e": 4,
+      "ell": 2,
+      "q": "4"
+    },
+    {
+      "coefficients": 8192,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 4,
+      "ell": 2,
+      "q": "9"
+    },
+    {
+      "coefficients": 8192,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 4,
+      "ell": 2,
+      "q": "1152921504606846883"
+    },
+    {
+      "coefficients": 8192,
+      "denominator_is_nonunit": false,
+      "dense": false,
+      "e": 4,
+      "ell": 2,
+      "q": "1329227995784915642319506138910959327"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": true,
+      "dense": true,
+      "e": 2,
+      "ell": 1,
+      "q": "2"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": true,
+      "dense": true,
+      "e": 2,
+      "ell": 1,
+      "q": "6"
+    },
+    {
+      "coefficients": 1024,
+      "denominator_is_nonunit": false,
+      "dense": true,
+      "e": 2,
+      "ell": 1,
+      "q": "15"
+    }
+  ],
+  "fresh_HE": false,
+  "independent_proof_review": false,
+  "kernel": "rescaled Strassen with denominator 2 and exact division by 8",
+  "modern_exponent_kernel_implemented": false,
+  "numerical_security_qualification": false,
+  "prefix_exponent": "93/343",
+  "status": "EXACT_RATIONAL_MATRIX_CHECKS_PASS",
+  "theta": "593/250",
+  "threshold_exponent": "250/343",
+  "work_exponent": "436/343"
+}

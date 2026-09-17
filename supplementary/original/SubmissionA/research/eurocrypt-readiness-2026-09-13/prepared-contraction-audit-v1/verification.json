@@ -1,0 +1,444 @@
+{
+  "status": "PREPARED_CONTRACTION_FUNCTION_AND_MODEL_CHECKS_PASS",
+  "small_symbolic": [
+    {
+      "L": 2,
+      "q": 4,
+      "nonzero_coefficients": 1,
+      "expanded_monomials": 1,
+      "frobenius_unit_minor": 2
+    },
+    {
+      "L": 4,
+      "q": 16,
+      "nonzero_coefficients": 5,
+      "expanded_monomials": 5,
+      "frobenius_unit_minor": 16
+    },
+    {
+      "L": 8,
+      "q": 64,
+      "nonzero_coefficients": 21,
+      "expanded_monomials": 25,
+      "frobenius_unit_minor": 96
+    },
+    {
+      "L": 16,
+      "q": 256,
+      "nonzero_coefficients": 85,
+      "expanded_monomials": 165,
+      "frobenius_unit_minor": 512
+    }
+  ],
+  "finite_function_ranks": [
+    {
+      "q": 2,
+      "L": 4,
+      "all_inner_inputs": 8,
+      "coefficient_function_rank": 3,
+      "formal_nonzero_count": 5,
+      "frobenius_function_rank": 3,
+      "large_field_frobenius_formula": 4
+    },
+    {
+      "q": 4,
+      "L": 4,
+      "all_inner_inputs": 64,
+      "coefficient_function_rank": 5,
+      "formal_nonzero_count": 5,
+      "frobenius_function_rank": 7,
+      "large_field_frobenius_formula": 8
+    },
+    {
+      "q": 16,
+      "L": 4,
+      "all_inner_inputs": 4096,
+      "coefficient_function_rank": 5,
+      "formal_nonzero_count": 5,
+      "frobenius_function_rank": 16,
+      "large_field_frobenius_formula": 16
+    },
+    {
+      "q": 4,
+      "L": 2,
+      "all_inner_inputs": 4,
+      "coefficient_function_rank": 1,
+      "formal_nonzero_count": 1,
+      "frobenius_function_rank": 2,
+      "large_field_frobenius_formula": 2
+    }
+  ],
+  "production": {
+    "L": 256,
+    "q": 65536,
+    "scalar_coefficient_functions": 21845,
+    "frobenius_unit_minor_rows": 262144,
+    "inverse_frobenius_occurrence_checks": 4194304,
+    "ordered_row_labels_sha256": "be4ced8daa891b517559e8a50f854dbb64b2f85f2075576119fb3818205e1f2c",
+    "full_symbolic_polynomials_expanded": false,
+    "scope": "Every selected marker has coefficient one in exactly its own Frobenius-polynomial row; finite corroboration of the general proof."
+  },
+  "clear_execution": {
+    "all_inner_GF16_inputs": 4096,
+    "declared_outer_inputs": 6,
+    "GF16_full_compositions": 24576,
+    "GF16_output_coefficients": 98304,
+    "missing_outer_correction_failures": 4096,
+    "missing_inner_correction_failures": 22950,
+    "dense_cases": [
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 0,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 1,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 2,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 3,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 4,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 5,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 6,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 7,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 8,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 9,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 10,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 11,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 12,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 13,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 14,
+        "products": 12
+      },
+      {
+        "L": 8,
+        "q": 64,
+        "fixture": 15,
+        "products": 12
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 0,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 1,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 2,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 3,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 4,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 5,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 6,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 7,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 8,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 9,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 10,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 11,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 12,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 13,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 14,
+        "products": 46
+      },
+      {
+        "L": 16,
+        "q": 256,
+        "fixture": 15,
+        "products": 46
+      }
+    ],
+    "scope": "All GF16 inner inputs with six declared outer fixtures; not all outer inputs. Thirty-two additional deterministic dense cases."
+  },
+  "ledger": {
+    "profiles": [
+      {
+        "L": 2,
+        "D": 1,
+        "P": 1
+      },
+      {
+        "L": 4,
+        "D": 5,
+        "P": 3
+      },
+      {
+        "L": 8,
+        "D": 21,
+        "P": 12
+      },
+      {
+        "L": 16,
+        "D": 85,
+        "P": 46
+      },
+      {
+        "L": 32,
+        "D": 341,
+        "P": 178
+      },
+      {
+        "L": 64,
+        "D": 1365,
+        "P": 698
+      },
+      {
+        "L": 128,
+        "D": 5461,
+        "P": 2762
+      },
+      {
+        "L": 256,
+        "D": 21845,
+        "P": 10986
+      },
+      {
+        "L": 512,
+        "D": 87381,
+        "P": 43818
+      },
+      {
+        "L": 1024,
+        "D": 349525,
+        "P": 175018
+      }
+    ],
+    "selected": {
+      "h": 16,
+      "L": 256,
+      "q": 65536,
+      "S": 2048,
+      "D": 21845,
+      "P": 10986,
+      "field_linear_separated_minimum": 171,
+      "field_linear_mixed_lower": 86,
+      "paired_upper": 86,
+      "binary_linear_separated_lower": 128,
+      "binary_linear_mixed_lower": 64,
+      "inputs": 348,
+      "raw_three_component_products": 86,
+      "two_component_bypass_outputs": 4,
+      "mixed_operand_additions": 172,
+      "public_key_polynomials": 2,
+      "input_polynomials": 696,
+      "output_polynomials": 266,
+      "evaluation_key_polynomials": 0
+    },
+    "nonlinear_call_counts_only": true,
+    "modulus_admitted": false,
+    "concrete_security_qualified": false
+  },
+  "new_he_execution": false,
+  "cryptographic_source_vectors_sampled": 0,
+  "performance_comparison": false,
+  "all_HE_lower_bound": false,
+  "security_bits": null,
+  "formal_proof_checked": false,
+  "bindings_before": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PLAN.md": {
+      "bytes": 1878,
+      "sha256": "5dedf6a7a5d1515070f0da5986a9c509e950098754f7a78a47327a46843288c1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PROOF.md": {
+      "bytes": 11980,
+      "sha256": "58077f9dff43ebcd67eae7772cc7b937d2e91dc22cf475622f532704c0eb1726"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/RESULTS.md": {
+      "bytes": 3287,
+      "sha256": "5e9c4d9394255df58f8a8201ea080491947d0a19969ff5bb66d2adf7d648acb0"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/REPRODUCE.md": {
+      "bytes": 1032,
+      "sha256": "1f30a6ab332983cf00c70e87a19495f668e9ce0eb9dc4434cbe1b2cf7782a101"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/check_contraction.py": {
+      "bytes": 13252,
+      "sha256": "0a88c53c2d1b371157e5fe0cba8dbe99c29ca2e9422283499d390753fc9beedb"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/sections/preliminaries.tex": {
+      "bytes": 4066,
+      "sha256": "bb4326e8305f81c2e198a3a2145a08dd9b4a232f5593fe435fcc5681719e6f64"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/sections/resources.tex": {
+      "bytes": 18828,
+      "sha256": "f61bca36b503771108a10be357678768825da6459f279c3be96c4492377ad616"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/appendices/recovery-interface.tex": {
+      "bytes": 9504,
+      "sha256": "a7e28d21750e778299ba2374ae32a8e6580d0261c1c8c77e760e80f0ec608247"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/appendices/prepared-contraction-bounds.tex": {
+      "bytes": 15514,
+      "sha256": "11fba02f8c103bba4759e41073f0d035d94ced884bc95777cec2aa3962604377"
+    }
+  },
+  "bindings_after": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PLAN.md": {
+      "bytes": 1878,
+      "sha256": "5dedf6a7a5d1515070f0da5986a9c509e950098754f7a78a47327a46843288c1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PROOF.md": {
+      "bytes": 11980,
+      "sha256": "58077f9dff43ebcd67eae7772cc7b937d2e91dc22cf475622f532704c0eb1726"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/RESULTS.md": {
+      "bytes": 3287,
+      "sha256": "5e9c4d9394255df58f8a8201ea080491947d0a19969ff5bb66d2adf7d648acb0"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/REPRODUCE.md": {
+      "bytes": 1032,
+      "sha256": "1f30a6ab332983cf00c70e87a19495f668e9ce0eb9dc4434cbe1b2cf7782a101"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/check_contraction.py": {
+      "bytes": 13252,
+      "sha256": "0a88c53c2d1b371157e5fe0cba8dbe99c29ca2e9422283499d390753fc9beedb"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/sections/preliminaries.tex": {
+      "bytes": 4066,
+      "sha256": "bb4326e8305f81c2e198a3a2145a08dd9b4a232f5593fe435fcc5681719e6f64"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/sections/resources.tex": {
+      "bytes": 18828,
+      "sha256": "f61bca36b503771108a10be357678768825da6459f279c3be96c4492377ad616"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/appendices/recovery-interface.tex": {
+      "bytes": 9504,
+      "sha256": "a7e28d21750e778299ba2374ae32a8e6580d0261c1c8c77e760e80f0ec608247"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/appendices/prepared-contraction-bounds.tex": {
+      "bytes": 15514,
+      "sha256": "11fba02f8c103bba4759e41073f0d035d94ced884bc95777cec2aa3962604377"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PUBLIC_ADDITIVE_WITNESS_EXECUTION_COMPLETE",
+  "boolean_screen_actual_exit_code": 0,
+  "boolean_screen_chunk": "12ef93",
+  "degree_screen_actual_exit_code": 0,
+  "degree_screen_chunk": "7fd5a1",
+  "pivot_screen_actual_exit_code": null,
+  "pivot_artifact_readback_actual_exit_code": 0,
+  "pivot_artifact_readback_chunk": "4303c6",
+  "additive_witness_actual_exit_code": 0,
+  "additive_witness_chunk": "ec325a",
+  "additive_witness_source_binding": "Three files hashed before and after execution in additive-witness-check.json",
+  "inline_diagnostics_source_provenance": "Degree and pivot commands were inline; verify_records.py is a subsequent reproduction, not their prebound source",
+  "display_only_json_shape_error_exit_code": 1,
+  "display_only_json_shape_error_chunk": "ee5adb",
+  "new_he_execution": false,
+  "new_estimator_execution": false,
+  "new_attack_method": false
+}

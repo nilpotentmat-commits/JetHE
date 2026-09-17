@@ -1,0 +1,342 @@
+{
+  "status": "EXACT_ARITHMETIC_AND_CARLITZ_IDENTITIES_PASS",
+  "ring_cases": [
+    {
+      "L": 1,
+      "q": 3,
+      "kind": "dense",
+      "coefficients": 256
+    },
+    {
+      "L": 1,
+      "q": 15,
+      "kind": "dense",
+      "coefficients": 256
+    },
+    {
+      "L": 1,
+      "q": 17,
+      "kind": "dense",
+      "coefficients": 256
+    },
+    {
+      "L": 1,
+      "q": 257,
+      "kind": "dense",
+      "coefficients": 256
+    },
+    {
+      "L": 1,
+      "q": 65537,
+      "kind": "dense",
+      "coefficients": 256
+    },
+    {
+      "L": 2,
+      "q": 3,
+      "kind": "dense",
+      "coefficients": 512
+    },
+    {
+      "L": 2,
+      "q": 15,
+      "kind": "dense",
+      "coefficients": 512
+    },
+    {
+      "L": 2,
+      "q": 17,
+      "kind": "dense",
+      "coefficients": 512
+    },
+    {
+      "L": 2,
+      "q": 257,
+      "kind": "dense",
+      "coefficients": 512
+    },
+    {
+      "L": 2,
+      "q": 65537,
+      "kind": "dense",
+      "coefficients": 512
+    },
+    {
+      "L": 4,
+      "q": 3,
+      "kind": "dense",
+      "coefficients": 1024
+    },
+    {
+      "L": 4,
+      "q": 15,
+      "kind": "dense",
+      "coefficients": 1024
+    },
+    {
+      "L": 4,
+      "q": 17,
+      "kind": "dense",
+      "coefficients": 1024
+    },
+    {
+      "L": 4,
+      "q": 257,
+      "kind": "dense",
+      "coefficients": 1024
+    },
+    {
+      "L": 4,
+      "q": 65537,
+      "kind": "dense",
+      "coefficients": 1024
+    },
+    {
+      "L": 8,
+      "q": 3,
+      "kind": "dense",
+      "coefficients": 2048
+    },
+    {
+      "L": 8,
+      "q": 15,
+      "kind": "dense",
+      "coefficients": 2048
+    },
+    {
+      "L": 8,
+      "q": 17,
+      "kind": "dense",
+      "coefficients": 2048
+    },
+    {
+      "L": 8,
+      "q": 257,
+      "kind": "dense",
+      "coefficients": 2048
+    },
+    {
+      "L": 8,
+      "q": 65537,
+      "kind": "dense",
+      "coefficients": 2048
+    },
+    {
+      "L": 1,
+      "q": 2305843009213693951,
+      "kind": "boundary",
+      "coefficients": 256
+    },
+    {
+      "L": 8,
+      "q": 2305843009213693951,
+      "kind": "boundary",
+      "coefficients": 2048
+    },
+    {
+      "L": 256,
+      "q": 2305843009213693951,
+      "kind": "boundary",
+      "coefficients": 65536
+    },
+    {
+      "L": 4,
+      "q": 65537,
+      "kind": "maximal",
+      "coefficients": 1024
+    }
+  ],
+  "jet_cases": [
+    {
+      "L": 1,
+      "replicate": 0
+    },
+    {
+      "L": 1,
+      "replicate": 1
+    },
+    {
+      "L": 1,
+      "replicate": 2
+    },
+    {
+      "L": 1,
+      "replicate": 3
+    },
+    {
+      "L": 1,
+      "replicate": 4
+    },
+    {
+      "L": 2,
+      "replicate": 0
+    },
+    {
+      "L": 2,
+      "replicate": 1
+    },
+    {
+      "L": 2,
+      "replicate": 2
+    },
+    {
+      "L": 2,
+      "replicate": 3
+    },
+    {
+      "L": 2,
+      "replicate": 4
+    },
+    {
+      "L": 4,
+      "replicate": 0
+    },
+    {
+      "L": 4,
+      "replicate": 1
+    },
+    {
+      "L": 4,
+      "replicate": 2
+    },
+    {
+      "L": 4,
+      "replicate": 3
+    },
+    {
+      "L": 4,
+      "replicate": 4
+    },
+    {
+      "L": 8,
+      "replicate": 0
+    },
+    {
+      "L": 8,
+      "replicate": 1
+    },
+    {
+      "L": 8,
+      "replicate": 2
+    },
+    {
+      "L": 8,
+      "replicate": 3
+    },
+    {
+      "L": 8,
+      "replicate": 4
+    },
+    {
+      "L": 16,
+      "replicate": 0
+    },
+    {
+      "L": 16,
+      "replicate": 1
+    },
+    {
+      "L": 16,
+      "replicate": 2
+    },
+    {
+      "L": 16,
+      "replicate": 3
+    },
+    {
+      "L": 16,
+      "replicate": 4
+    },
+    {
+      "L": 32,
+      "replicate": 0
+    },
+    {
+      "L": 32,
+      "replicate": 1
+    },
+    {
+      "L": 32,
+      "replicate": 2
+    },
+    {
+      "L": 32,
+      "replicate": 3
+    },
+    {
+      "L": 32,
+      "replicate": 4
+    },
+    {
+      "L": 64,
+      "replicate": 0
+    },
+    {
+      "L": 64,
+      "replicate": 1
+    },
+    {
+      "L": 64,
+      "replicate": 2
+    },
+    {
+      "L": 64,
+      "replicate": 3
+    },
+    {
+      "L": 64,
+      "replicate": 4
+    },
+    {
+      "L": 256,
+      "replicate": 0
+    },
+    {
+      "L": 256,
+      "replicate": 1
+    },
+    {
+      "L": 256,
+      "replicate": 2
+    },
+    {
+      "L": 256,
+      "replicate": 3
+    },
+    {
+      "L": 256,
+      "replicate": 4
+    }
+  ],
+  "carlitz_cases": [
+    {
+      "r": 0,
+      "degree": 1
+    },
+    {
+      "r": 1,
+      "degree": 2
+    },
+    {
+      "r": 2,
+      "degree": 4
+    },
+    {
+      "r": 3,
+      "degree": 8
+    },
+    {
+      "r": 4,
+      "degree": 16
+    },
+    {
+      "r": 5,
+      "degree": 32
+    }
+  ],
+  "field_polynomial": "0x1100b",
+  "field_irreducibility_checked": true,
+  "new_he_execution": false,
+  "timing_benchmark": false,
+  "proof_scope": "Finite exact arithmetic checks; asymptotic proof is in FAST_WORK_PROOF.md"
+}

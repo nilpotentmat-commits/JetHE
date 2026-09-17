@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "profile": "jethe102",
+  "mode": "measure",
+  "setups": 1,
+  "batches_per_setup": 2,
+  "cpu": 0,
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python_version": "3.14.4",
+  "source_manifest_sha256": "0d19179f5496229bbbb0e189ad7b8a4623cb49cb318b8700a6735ef1918020ba",
+  "fresh_he_execution": true,
+  "published_median": false,
+  "security_bits": null,
+  "records": [
+    {
+      "index": 0,
+      "elapsed_seconds": 6.095032430999993,
+      "result": {
+        "status": "ONE_PRIME_CONTROL_WORKFLOW_WORKER_PASS",
+        "arm": "native",
+        "mode": "measure",
+        "index": 0,
+        "setup_wall_seconds": 2.0670102999999926,
+        "setup_seconds": {
+          "public_context_codec": 0.0520929639999963,
+          "keys_and_hints": 1.8985730699999976,
+          "recipient_key_preparation": 0.000264462000018284,
+          "public_material_serialization": 0.11601729700004171
+        },
+        "material": {
+          "independent_secrets": 9,
+          "public_keys": 5,
+          "evaluation_rows": 102,
+          "setup_error_vectors": 107,
+          "setup_small_vectors": 116,
+          "public_material_raw_bytes": 311427072,
+          "public_material_serialized_bytes": 311428896,
+          "constructed_linear_buffers_bytes": 1064960
+        },
+        "batches": [
+          {
+            "index": 0,
+            "state": "cold",
+            "batch_wall_seconds": 1.8093793340000275,
+            "seconds": {
+              "owner_f": 0.00246603799996592,
+              "owner_g": 0.00482342099996913,
+              "native_input_codec": 0.15024277300000222,
+              "encryption": 0.9583934479999812,
+              "serialization": 0.04168981599991639,
+              "evaluation": 0.623342010999977,
+              "recipient_decryption_native_codec": 0.02830982400001858
+            },
+            "wire": {
+              "input_raw_bytes": 108003328,
+              "input_wire_bytes": 108004000,
+              "input_polynomials": 70,
+              "input_ciphertexts": 35,
+              "output_raw_bytes": 3145728,
+              "output_wire_bytes": 3145864,
+              "output_polynomials": 3,
+              "output_ciphertexts": 1
+            },
+            "counts": {
+              "fresh_encryptions": 35,
+              "small_vectors": 105,
+              "error_vectors": 70,
+              "ciphertext_products": 19
+            },
+            "output_symbols": 4096,
+            "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+          },
+          {
+            "index": 1,
+            "state": "warm",
+            "batch_wall_seconds": 1.7499612770000113,
+            "seconds": {
+              "owner_f": 0.0024341580000282192,
+              "owner_g": 0.005305124000017258,
+              "native_input_codec": 0.1457670519999965,
+              "encryption": 0.9068404519999831,
+              "serialization": 0.04153711899999735,
+              "evaluation": 0.6196279650000065,
+              "recipient_decryption_native_codec": 0.028344550999975127
+            },
+            "wire": {
+              "input_raw_bytes": 108003328,
+              "input_wire_bytes": 108004000,
+              "input_polynomials": 70,
+              "input_ciphertexts": 35,
+              "output_raw_bytes": 3145728,
+              "output_wire_bytes": 3145864,
+              "output_polynomials": 3,
+              "output_ciphertexts": 1
+            },
+            "counts": {
+              "fresh_encryptions": 35,
+              "small_vectors": 105,
+              "error_vectors": 70,
+              "ciphertext_products": 19
+            },
+            "output_symbols": 4096,
+            "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+          }
+        ],
+        "phase_checked_states": 0,
+        "phase_checked_coefficients": 0,
+        "peak_rss_kib": 506792,
+        "worker_threads": 1,
+        "affinity": [
+          0
+        ],
+        "encrypted_execution": true,
+        "security_bits": null,
+        "shared_field_backend": "check_fused_composition_frontier.FastField",
+        "terminal_limbs": 2,
+        "profile_version": "same-algebra-one-prime-workflow-v1",
+        "timing_claim": "Common complete local workflow; startup and physical transport excluded",
+        "release_profile": "jethe102",
+        "standalone_reproduction": true,
+        "published_median": false,
+        "cpu": 0,
+        "python_version": "3.14.4"
+      }
+    }
+  ]
+}

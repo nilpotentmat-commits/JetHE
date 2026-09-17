@@ -1,0 +1,15 @@
+{
+  "command": [
+    "wsl.exe",
+    "--exec",
+    "/usr/bin/python3",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/check_public.py"
+  ],
+  "started_utc": "2026-09-14T15:14:24.947776+00:00",
+  "finished_utc": "2026-09-14T15:16:40.096305+00:00",
+  "elapsed_seconds": 135.14853370003402,
+  "actual_exit_code": 0,
+  "stdout_sha256": "4eff5f69fe8d4611a91dfd95ff10cd145826990cc5c595167bace5a8eb451452",
+  "stderr_sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca",
+  "new_he_execution": false
+}

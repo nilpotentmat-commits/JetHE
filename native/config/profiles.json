@@ -1,0 +1,118 @@
+{
+  "workload": {
+    "jobs": 16,
+    "length": 256,
+    "field_polynomial": "0x1100b",
+    "output_coefficients": 4096,
+    "expected_little_endian_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+    "fixture": "composition-l256-v1",
+    "fixture_is_encryption_randomness": false
+  },
+  "common": {
+    "dimension": 65536,
+    "prime_moduli": [
+      1152921504002872321,
+      1152921503566671361,
+      1152921503264686081,
+      1152921503096916481,
+      1152921503063362561,
+      1152921502794931201,
+      1152921502560053761,
+      1152921501922529281
+    ],
+    "secret_law": "independent coefficientwise ternary",
+    "primitive_error_law": "coefficientwise CBD20",
+    "fresh_crypto_randomness": "OS randomness with rejection sampling",
+    "security_bits": null,
+    "bootstrapping": false
+  },
+  "profiles": {
+    "jethe102": {
+      "paper_profile": "JetHE-102",
+      "library": "fixed_core.so",
+      "prefix_bits": 4,
+      "chain": [
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "stage_widths": [
+        45,
+        45,
+        60,
+        40,
+        60
+      ],
+      "independent_secrets": 9,
+      "public_keys": 5,
+      "hint_rows": 102,
+      "input_ciphertexts": 35,
+      "ciphertext_products": 19,
+      "multiplicative_depth": 5,
+      "output_ciphertexts": 1,
+      "output_components": 3,
+      "raw_MiB": {
+        "public": 297,
+        "inputs": 103,
+        "outputs": 3
+      },
+      "recorded_series": "current-control-workflow-v1/campaign-v1"
+    },
+    "control": {
+      "paper_profile": "same-backend one-prime control",
+      "library": "fixed_core.so",
+      "ciphertext_primes": 1,
+      "independent_secrets": 1,
+      "public_keys": 1,
+      "hint_rows": 0,
+      "input_ciphertexts": 346,
+      "ciphertext_products": 86,
+      "multiplicative_depth": 1,
+      "output_ciphertexts": 88,
+      "terminal_components": {
+        "raw_products": 3,
+        "owner_corrections": 2
+      },
+      "raw_MiB": {
+        "public": 1,
+        "inputs": 346,
+        "outputs": 131
+      },
+      "recorded_series": "current-control-workflow-v1/campaign-v1"
+    },
+    "jethe149": {
+      "paper_profile": "JetHE-149",
+      "library": "paid_hasse_core_v1.so",
+      "prefix_bits": 4,
+      "chain": [
+        4,
+        4,
+        4,
+        3,
+        2
+      ],
+      "gadget_width": 48,
+      "independent_secrets": 10,
+      "public_keys": 5,
+      "hint_rows": 149,
+      "input_ciphertexts": 35,
+      "ciphertext_products": 19,
+      "multiplicative_depth": 5,
+      "output_ciphertexts": 1,
+      "output_components": 2,
+      "raw_MiB": {
+        "public": 559,
+        "inputs": 137,
+        "outputs": 2
+      },
+      "recorded_series": "openfhe-matched-2026-09-13/joint-v2"
+    }
+  },
+  "notes": [
+    "These fixed benchmark profiles are not numerical security certifications.",
+    "The growing Gaussian theorem is a separate profile and is not implemented by these samplers.",
+    "Counting-sink serialization is charged; physical network and disk transfer are not measured."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "wsl": {
+    "recorded_utc": "2026-09-13T23:33:05.905525+00:00",
+    "observer_pid": 346,
+    "workspace": "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing",
+    "workers": [],
+    "scope": "One WSL process-table observation, excluding this observer; includes native executables whose path or arguments identify this workspace. This is not a guarantee of exclusive host use.",
+    "tool_exit_code": 0
+  },
+  "windows": {
+    "recorded_utc": "2026-09-13T23:33:04.0795246Z",
+    "workers": [],
+    "scope": "One Windows workspace-process observation, excluding shells and editor/agent hosts; no exclusive-host guarantee.",
+    "tool_exit_code": 0
+  }
+}

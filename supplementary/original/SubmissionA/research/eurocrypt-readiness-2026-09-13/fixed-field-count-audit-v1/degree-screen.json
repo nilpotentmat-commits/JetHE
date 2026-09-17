@@ -1,0 +1,51 @@
+{
+  "status": "EXACT_BOOLEAN_DEGREE_PROJECTION_RANKS",
+  "results": [
+    {
+      "length": 8,
+      "rank_by_monomial_degree": {
+        "1": 7,
+        "2": 11,
+        "3": 11,
+        "4": 11,
+        "5": 11,
+        "6": 11
+      }
+    },
+    {
+      "length": 16,
+      "rank_by_monomial_degree": {
+        "1": 15,
+        "2": 34,
+        "3": 39,
+        "4": 39,
+        "5": 39,
+        "6": 39
+      }
+    },
+    {
+      "length": 32,
+      "rank_by_monomial_degree": {
+        "1": 31,
+        "2": 105,
+        "3": 138,
+        "4": 143,
+        "5": 143,
+        "6": 143
+      }
+    },
+    {
+      "length": 64,
+      "rank_by_monomial_degree": {
+        "1": 63,
+        "2": 308,
+        "3": 493,
+        "4": 538,
+        "5": 543,
+        "6": 543
+      }
+    }
+  ],
+  "new_he_execution": false,
+  "scope": "Diagnostic projected ranks; no general proof inferred."
+}

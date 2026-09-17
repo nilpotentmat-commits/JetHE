@@ -1,0 +1,106 @@
+{
+  "status": "NATIVE_STAGE_GADGETS_BUILD_PASS",
+  "returncode": 0,
+  "command": [
+    "/var/tmp/helib-full-field-Sc2fBv/env/bin/x86_64-conda-linux-gnu-g++",
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-fPIC",
+    "-shared",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/backend/fast_core_v1.cpp",
+    "-o",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/build/stage_core.so"
+  ],
+  "compiler": {
+    "bytes": 2476280,
+    "sha256": "548d782b9abd6375ee2969a0d7cd2b3b8fa550ba7dc53ad9223e8d022648c194"
+  },
+  "compiler_version": "x86_64-conda-linux-gnu-g++ (conda-forge gcc 16.2.0-4) 16.2.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-lazy-ntt-v1/backend/composition_native_core.cpp": {
+      "bytes": 19894,
+      "sha256": "e6b7260b98add110b741f9cdb41447cec90be871ce2423335cd0eb7951eaa896"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-lazy-ntt-v1/backend/composition_optimized_core.cpp": {
+      "bytes": 3428,
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-lazy-ntt-v1/backend/fast_core_v1.cpp": {
+      "bytes": 4268,
+      "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-lazy-ntt-v1/candidate_binding.py": {
+      "bytes": 2867,
+      "sha256": "2df104be8e44e62cbedfdae560888850fa4535e741f138c7d10450e03165988f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-lazy-ntt-v1/candidate_crypto.py": {
+      "bytes": 1892,
+      "sha256": "87b24b2011a437e006982f7f40095757f7db643d31ef8954477ff3f85c08febc"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/slim_public_v2.py": {
+      "bytes": 7033,
+      "sha256": "cb1b91c7b842cb0596d2e7a1dcfe462d80bcd2028552e44086d103ea6ed6b125"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/PLAN.md": {
+      "bytes": 1160,
+      "sha256": "9d43f238c61ca960c0eec4dfecb26c3bab9e9e390ae8a5a18ce64554fa3ba1e2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/PROOF.md": {
+      "bytes": 6674,
+      "sha256": "cf40e98cf36a980b02f8f7da91ec484b5e0ab95f638e415ea83f7cc112ea0e7f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/bounds.py": {
+      "bytes": 2234,
+      "sha256": "54f25c159174e4ee19df335980adcea361deb8d50f7d929303797836b260b00c"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/admission.json": {
+      "bytes": 9828,
+      "sha256": "55ef8a9a86744d21e5a270586da5593fe569b97b962ae3432972d7f0a8ca19b8"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/check_admission.py": {
+      "bytes": 2481,
+      "sha256": "f4a407b0dadaf7e18b93a8ec0c2790f1fd3cf78c7bfc6430056855978e4a4b8c"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/prepare.py": {
+      "bytes": 5340,
+      "sha256": "67a333e7eeb25499f0d4b5561d4e70e4cc64782c7518feb45a7addfa3f83a826"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/relin.py.inc": {
+      "bytes": 773,
+      "sha256": "1148bafccb8305a474915995db93ed86a664a46fcafa9c295cfb9c721e2a1513"
+    }
+  },
+  "candidate_files": {
+    "stage_binding.py": {
+      "bytes": 2868,
+      "sha256": "a7177a72525610ea09e603e4003a929c21dea254254c2eb1b61efad0cc6bd668"
+    },
+    "stage_crypto.py": {
+      "bytes": 2779,
+      "sha256": "f787473006b98832dffa404318c0a16c8dc833f513c25c53fbc22671e7892e1b"
+    },
+    "stage_public.py": {
+      "bytes": 6694,
+      "sha256": "c96d6c6706591ba882cba9f262d5aa9be66dbeb6418dbb2e7c66428af2951183"
+    },
+    "build/stage_core.so": {
+      "bytes": 118160,
+      "sha256": "dde638d33f72cbafe8b42db17226cb2904afeb988962f613fcc897e9ced0e3ee"
+    },
+    "backend/composition_native_core.cpp": {
+      "bytes": 19925,
+      "sha256": "fac01a2ed086675963ed5854aaaabbd39ec9668d97f4e43a935243af98fcd382"
+    },
+    "backend/composition_optimized_core.cpp": {
+      "bytes": 3428,
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4"
+    },
+    "backend/fast_core_v1.cpp": {
+      "bytes": 4268,
+      "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae"
+    }
+  },
+  "new_he_execution": false,
+  "security_bits": null
+}

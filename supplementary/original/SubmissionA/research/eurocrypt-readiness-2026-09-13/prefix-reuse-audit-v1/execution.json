@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\scanf\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "D:\\Users\\scanf\\OneDrive\\Paper\\NilCrypto\\Submissions\\NilHEoverRing\\SubmissionA\\research\\eurocrypt-readiness-2026-09-13\\prefix-reuse-audit-v1\\check_reuse.py"
+  ],
+  "returncode": 0,
+  "wall_seconds": 0.9132930000196211,
+  "stdout_sha256": "22814b3a0b0dda0cae711637b6a29b7b2dfed03e26f18b46051289d98f6fa0b9",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "new_he_execution": false
+}

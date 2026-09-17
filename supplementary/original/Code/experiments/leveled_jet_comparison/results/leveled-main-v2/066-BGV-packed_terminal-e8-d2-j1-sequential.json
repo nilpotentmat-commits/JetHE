@@ -1,0 +1,246 @@
+{
+  "bootstrap_calls": 0,
+  "ciphertext_batches": 1,
+  "ciphertext_q_bits": 123,
+  "ciphertext_q_log2": 122.322789,
+  "ciphertext_q_primes": [
+    "2148728833",
+    "137439510529",
+    "137439870977",
+    "163841"
+  ],
+  "ciphertext_q_towers": 4,
+  "compiler": "16.1.0",
+  "correctness_scope": "every decrypted output in these finite trials; no failure-probability certification",
+  "crypto_randomness": "OpenFHE default fresh; fixture seed not supplied to cryptography",
+  "ctct_calls_per_trial": 2,
+  "ctct_depth": 2,
+  "encryption_technique": "STANDARD",
+  "evaluation_points": 22,
+  "fixture_fnv1a64": "11158858400013398168",
+  "fixture_generator": "std::mt19937_64 raw low bit; job-factor-coefficient order",
+  "fixture_seed": 11,
+  "hardware_threads": 32,
+  "independent_security_certification": false,
+  "input_bytes": 3149013,
+  "input_ciphertexts": 3,
+  "input_distribution": "independent binary unit polynomials: constant 1, higher coefficients raw generator bits",
+  "inputs": [
+    [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    ]
+  ],
+  "integer_low_coefficient_bound": 36,
+  "jobs": 1,
+  "jobs_per_ciphertext_capacity": 744,
+  "key_switching_p_bits": 120,
+  "key_switching_p_primes": [
+    "1152921497895862273",
+    "1152921422732787713"
+  ],
+  "key_switching_qp_bits": 243,
+  "key_switching_technique": "HYBRID",
+  "layout": "packed_terminal",
+  "length": 8,
+  "median_ms": {
+    "decode": 0.0018,
+    "decrypt": 0.8887,
+    "encode": 2.5447,
+    "encrypt": 15.6156,
+    "end_to_end": 36.1604,
+    "eval": 17.0301
+  },
+  "multiplication_technique": "HPS",
+  "mults": 2,
+  "omp_num_threads": "1",
+  "openfhe_version": "1.5.1",
+  "output_bytes": 525371,
+  "output_ciphertexts": 1,
+  "output_q_towers": 2,
+  "parameter_depth_policy": "common sequential horizon mults for both schedules and both layouts",
+  "parameter_multiplicative_depth": 2,
+  "peak_rss_bytes": 30396416,
+  "plaintext_modulus": 65537,
+  "precomputation_ms": 0.0357,
+  "public_key_bytes": 1049627,
+  "relinearization_key_bytes": 3147877,
+  "repetitions": 7,
+  "ring_dimension": 16384,
+  "rotation_calls": 0,
+  "scaling_technique": "FLEXIBLEAUTOEXT",
+  "schedule": "sequential",
+  "schema": "leveled-jet-comparison-v1",
+  "scheme": "BGV",
+  "secret_key_distribution": "UNIFORM_TERNARY",
+  "security_requested": "HEStd_128_classic",
+  "security_scope": "OpenFHE automatic parameters for standard power-of-two ring; no ExactJet claim",
+  "serialization": "sum of separate OpenFHE binary object serializations; no compression",
+  "setup_ms": 33.4804,
+  "status": "PASS",
+  "trials": [
+    {
+      "decode_ms": 0.0016,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 0.8015,
+      "encode_ms": 2.5118,
+      "encrypt_ms": 15.8248,
+      "eval_ms": 17.0301
+    },
+    {
+      "decode_ms": 0.0017,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 0.889,
+      "encode_ms": 2.5447,
+      "encrypt_ms": 15.3129,
+      "eval_ms": 16.4085
+    },
+    {
+      "decode_ms": 0.0016,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 0.8887,
+      "encode_ms": 2.5515,
+      "encrypt_ms": 15.6156,
+      "eval_ms": 17.103
+    },
+    {
+      "decode_ms": 0.0026,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 0.8451,
+      "encode_ms": 2.5001,
+      "encrypt_ms": 15.5464,
+      "eval_ms": 16.8025
+    },
+    {
+      "decode_ms": 0.0019,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 0.8257,
+      "encode_ms": 2.5328,
+      "encrypt_ms": 15.6522,
+      "eval_ms": 16.5799
+    },
+    {
+      "decode_ms": 0.0027,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 0.9134,
+      "encode_ms": 2.7646,
+      "encrypt_ms": 15.7842,
+      "eval_ms": 17.237
+    },
+    {
+      "decode_ms": 0.0018,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 0.9167,
+      "encode_ms": 2.5655,
+      "encrypt_ms": 15.436,
+      "eval_ms": 17.3805
+    }
+  ],
+  "verified_output_coefficients_including_warmup": 64,
+  "warmup_trials_excluded": 1
+}

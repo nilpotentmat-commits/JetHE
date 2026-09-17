@@ -1,0 +1,200 @@
+{
+  "status": "PASS_WITH_DISCLOSED_INITIAL_PACKAGING_FAILURE",
+  "date": "2026-09-16",
+  "scope": "Fresh functional smoke verification of the three full-size measured configurations; not published medians or a security certification.",
+  "fresh_HE_execution": true,
+  "additional_HE_runs_during_final_guard_and_evidence_packaging": false,
+  "successful_independent_setups": 3,
+  "successful_cold_warm_batches": 6,
+  "expected_output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+  "published_median": false,
+  "security_bits": null,
+  "public_data_scope": "Bundled records contain public fixture metadata, timings, counts and output hashes; no secret keys, plaintext user data, or cryptographic random coins.",
+  "source_binding_note": "The computational source/fixture manifest is unchanged since these HE runs. Subsequent changes add launcher optimization guards and public validation packaging only; no HE rerun was performed.",
+  "profiles": [
+    {
+      "profile": "jethe102",
+      "fresh_setups": 1,
+      "batch_states": [
+        "cold",
+        "warm"
+      ],
+      "coefficients_checked_per_batch": 4096,
+      "bundled_record": {
+        "path": "validation/jethe102.json",
+        "bytes": 4525,
+        "sha256": "0613c4c35e9e36df40751a0092c47efa0d1437be9af324f0ab5563fe280f21e9"
+      },
+      "bundle_transformation": "byte-identical summary including both complete batch records",
+      "original_receipts": [
+        {
+          "path": "results/smoke-jethe102-v2/000.json",
+          "bytes": 3650,
+          "sha256": "a4d706517dfb55392f205436f6eda2b5fc9c733d56b4cbd351c700cf76eeacd4"
+        },
+        {
+          "path": "results/smoke-jethe102-v2/000.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "results/smoke-jethe102-v2/000.stdout.jsonl",
+          "bytes": 4933,
+          "sha256": "5cc2bef710d9f32300b1a6019cd72757c92a10bd58394a2e3ce7cd0cf9e4b8bd"
+        },
+        {
+          "path": "results/smoke-jethe102-v2/summary.json",
+          "bytes": 4525,
+          "sha256": "0613c4c35e9e36df40751a0092c47efa0d1437be9af324f0ab5563fe280f21e9"
+        }
+      ]
+    },
+    {
+      "profile": "control",
+      "fresh_setups": 1,
+      "batch_states": [
+        "cold",
+        "warm"
+      ],
+      "coefficients_checked_per_batch": 4096,
+      "bundled_record": {
+        "path": "validation/control.json",
+        "bytes": 4767,
+        "sha256": "b6d4c38e1170b3d790de4c606b653e7d2feea42f86760fd9753a4d41910483eb"
+      },
+      "bundle_transformation": "byte-identical summary including both complete batch records",
+      "original_receipts": [
+        {
+          "path": "results/smoke-control/000.json",
+          "bytes": 3877,
+          "sha256": "7022169c66870f675817e63c8d444b91a3b478b305e5e91e54d5238458855468"
+        },
+        {
+          "path": "results/smoke-control/000.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "results/smoke-control/000.stdout.jsonl",
+          "bytes": 5303,
+          "sha256": "4dbffeee7174855fb2174f59a370786c915745eb7cb40ea95c2fb993f20068d4"
+        },
+        {
+          "path": "results/smoke-control/summary.json",
+          "bytes": 4767,
+          "sha256": "b6d4c38e1170b3d790de4c606b653e7d2feea42f86760fd9753a4d41910483eb"
+        }
+      ]
+    },
+    {
+      "profile": "jethe149",
+      "fresh_setups": 1,
+      "batch_states": [
+        "cold",
+        "warm"
+      ],
+      "coefficients_checked_per_batch": 4096,
+      "bundled_record": {
+        "path": "validation/jethe149.json",
+        "bytes": 5142,
+        "sha256": "cdbbfc105e4d46e8ecbe1f463c2ee61c89dc18538332ca9de36d8a83898b9fcd"
+      },
+      "bundle_transformation": "byte-identical summary including both complete batch records",
+      "original_receipts": [
+        {
+          "path": "results/smoke-jethe149/000.json",
+          "bytes": 4223,
+          "sha256": "4879eb8f204792b06b2d027e340a9898c5f8db184487f4ca7f55162b60e0f6b9"
+        },
+        {
+          "path": "results/smoke-jethe149/000.stderr.txt",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "results/smoke-jethe149/000.stdout.jsonl",
+          "bytes": 8850,
+          "sha256": "269d67bd2c697d6679daea63c5e30dc034a0a22d81d1c8035967a8227471c3fb"
+        },
+        {
+          "path": "results/smoke-jethe149/summary.json",
+          "bytes": 5142,
+          "sha256": "cdbbfc105e4d46e8ecbe1f463c2ee61c89dc18538332ca9de36d8a83898b9fcd"
+        }
+      ]
+    }
+  ],
+  "initial_failure": {
+    "profile": "jethe102",
+    "outcome": "packaging dependency import failure before batch execution",
+    "exception": "NameError: name 'sys' is not defined",
+    "resolution": "Restored the missing sys import in src/composition_wire.py; then executed the successful fresh cold/warm setup recorded in validation/jethe102.json.",
+    "bundled_record": {
+      "path": "validation/initial-jethe102-packaging-failure.stderr.txt",
+      "bytes": 860,
+      "sha256": "55d85fd4b88610e00f9cff2d5c80b1085b6b7d87c7895c6387f0afd1cc950f33"
+    },
+    "bundle_transformation": "Traceback retained; development filesystem prefix replaced with a package-relative path; line endings normalized to LF.",
+    "original_receipts": [
+      {
+        "path": "results/smoke-jethe102/000.stderr.txt",
+        "bytes": 1511,
+        "sha256": "f9aae18cdaa2108bc1c2a4085482ff87fe93b722b32845a2ece941e699071e45"
+      },
+      {
+        "path": "results/smoke-jethe102/000.stdout.jsonl",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "bundled_build_record": {
+    "path": "validation/build.json",
+    "bytes": 1005,
+    "sha256": "310e4358ddff56596c9a9b56d419048cf368b5f7b02b580f8553c33eb5ec9cbd"
+  },
+  "source_integrity_check": {
+    "status": "PASS",
+    "source_and_fixture_records": 38,
+    "scope": "package integrity against provenance; no HE run or security estimate"
+  },
+  "optimization_guard_checks": [
+    {
+      "entry_point": "run.py",
+      "optimization_flag": "-O",
+      "exit_code": 1,
+      "rejected": true
+    },
+    {
+      "entry_point": "run.py",
+      "optimization_flag": "-OO",
+      "exit_code": 1,
+      "rejected": true
+    },
+    {
+      "entry_point": "build.py",
+      "optimization_flag": "-O",
+      "exit_code": 1,
+      "rejected": true
+    },
+    {
+      "entry_point": "build.py",
+      "optimization_flag": "-OO",
+      "exit_code": 1,
+      "rejected": true
+    },
+    {
+      "entry_point": "tools/verify_sources.py",
+      "optimization_flag": "-O",
+      "exit_code": 1,
+      "rejected": true
+    },
+    {
+      "entry_point": "tools/verify_sources.py",
+      "optimization_flag": "-OO",
+      "exit_code": 1,
+      "rejected": true
+    }
+  ],
+  "original_receipts_note": "Original paths are relative to native/. The results/ and build/ execution directories are ignored and not bundled; validation/ contains the selected public copies with transformations stated above."
+}

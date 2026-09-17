@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(submissiona_helib_slack_control LANGUAGES CXX)
+find_package(helib REQUIRED)
+add_executable(helib_slack_control ../slack_profile.cpp)
+target_compile_features(helib_slack_control PRIVATE cxx_std_17)
+target_compile_options(helib_slack_control PRIVATE -Wall -Wextra -Werror)
+target_link_libraries(helib_slack_control PRIVATE helib)

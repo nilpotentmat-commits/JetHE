@@ -1,0 +1,100 @@
+{
+  "status": "ONE_PRIME_SAME_ALGEBRA_CONDITIONAL_ADMISSION_CHECKS_PASS",
+  "n": 65536,
+  "kappa": 130816,
+  "q": 1152921504002872321,
+  "q_bits": 60,
+  "fresh_variance_proxy": 5242890,
+  "threshold": 16,
+  "fresh_cap": 36636,
+  "raw_cap": 1404684555427328,
+  "strict_centering_margin": 1147302765781163007,
+  "old_all_coins_fresh_cap": 5232660,
+  "old_all_coins_raw_cap": 28654706788599782912,
+  "old_one_prime_admitted": false,
+  "fixed_batches": 1024,
+  "inputs_per_batch": 346,
+  "ideal_correctness_strict_exponent": 149,
+  "exponential_positive_terms": 513,
+  "common_source_modulus": "1532495536896400456983759139388378955311724145690575361",
+  "catalogues": [
+    {
+      "batches": 1,
+      "source_gap_factor": 694,
+      "uniform_prime_vectors": 1,
+      "trit_vectors": 347,
+      "error_vectors": 693,
+      "stopped_word_budget": 227868672,
+      "strict_stop_exponent": 223
+    },
+    {
+      "batches": 2,
+      "source_gap_factor": 1386,
+      "uniform_prime_vectors": 1,
+      "trit_vectors": 693,
+      "error_vectors": 1385,
+      "stopped_word_budget": 454623232,
+      "strict_stop_exponent": 223
+    },
+    {
+      "batches": 1024,
+      "source_gap_factor": 708610,
+      "uniform_prime_vectors": 1,
+      "trit_vectors": 354305,
+      "error_vectors": 708609,
+      "stopped_word_budget": 232197783552,
+      "strict_stop_exponent": 223
+    }
+  ],
+  "raw_payload_bytes": {
+    "public": 1048576,
+    "inputs": 362807296,
+    "outputs": 137363456
+  },
+  "bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1/PLAN.md": {
+      "bytes": 1279,
+      "sha256": "3da2b13b56f87990acbc414d589df5e60da63ad1e378112ec343aa2c32f79a67"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1/PROOF.md": {
+      "bytes": 4036,
+      "sha256": "3ce9ccded2bcf67950a9242f2341a22effd28141cd2f6d6d46734152da5b0f15"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1/RESULTS.md": {
+      "bytes": 2115,
+      "sha256": "dbe5bc298b46fdbad0599233af8785434575cc0cd028ea255ae2fc5902a0b953"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1/REPRODUCE.md": {
+      "bytes": 902,
+      "sha256": "1260b555054a332b89da783c548d72ff599eea1b06dbde2a80d4098353f8754d"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-v1/check_admission.py": {
+      "bytes": 3757,
+      "sha256": "b942026ad1ab56639787b663cebf4ddc687e92436e368cc25a5c71dfa78009e3"
+    },
+    "SubmissionA/research/check_composition_rns_arithmetic.py": {
+      "bytes": 24241,
+      "sha256": "856e3f9c4f5a71890838b77acaeb4f947c1424b1e873d045db4eed9fe7df6da2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/appendices/three-prime-proof.tex": {
+      "bytes": 13116,
+      "sha256": "7678b0eecf193b534b19c6e0c87a9e68d87edfb797d25442d4c4f1b488e3da22"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/PROOF.md": {
+      "bytes": 4621,
+      "sha256": "db0cfcd99086dc549e8b9e18565f45bb541bf2e850aa37c3dd816364c47e4f13"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/admission.json": {
+      "bytes": 8123,
+      "sha256": "ad4b0ab6308ab18cf1d01c09d7f66c68d5059742c8d483845bd57b632aedd1d4"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-source-alignment-v1/PROOF.md": {
+      "bytes": 6086,
+      "sha256": "462dadefc763903100f009a1f061c40d39594c217ac57810668c0dadcee275e2"
+    }
+  },
+  "new_he_execution": false,
+  "secret_vectors_sampled": 0,
+  "security_bits": null,
+  "scope": "Exact conditional fixed-batch admission and source/traffic accounting. General matrix/phase proof is written separately; no encrypted gate or one-prime timing exists."
+}

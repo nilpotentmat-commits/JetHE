@@ -1,0 +1,444 @@
+{
+  "b16-w1-l256-j16-m13107-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "b16",
+      "w1-l256-j16",
+      "13107",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-b16-w1-l256-j16-m13107-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l16-j1-m13107-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l16-j1",
+      "13107",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j1-m13107-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l16-j1-m21845-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l16-j1",
+      "21845",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j1-m21845-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l16-j1-m4369-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l16-j1",
+      "4369",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j1-m4369-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l16-j1-m65535-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l16-j1",
+      "65535",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j1-m65535-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l16-j16-m13107-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l16-j16",
+      "13107",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j16-m13107-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l16-j16-m21845-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l16-j16",
+      "21845",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j16-m21845-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l16-j16-m4369-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l16-j16",
+      "4369",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j16-m4369-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l16-j16-m65535-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l16-j16",
+      "65535",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l16-j16-m65535-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l256-j1-m13107-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l256-j1",
+      "13107",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j1-m13107-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l256-j1-m21845-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l256-j1",
+      "21845",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j1-m21845-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l256-j1-m4369-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l256-j1",
+      "4369",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j1-m4369-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l256-j1-m65535-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l256-j1",
+      "65535",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j1-m65535-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l256-j16-m13107-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l256-j16",
+      "13107",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j16-m13107-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l256-j16-m21845-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l256-j16",
+      "21845",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j16-m21845-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l256-j16-m4369-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l256-j16",
+      "4369",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j16-m4369-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w1-l256-j16-m65535-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w1-l256-j16",
+      "65535",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w1-l256-j16-m65535-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m13107-b120-nn": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "13107",
+      "120",
+      "nn"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m13107-b120-nn.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m13107-b60-ny": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "13107",
+      "60",
+      "ny"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m13107-b60-ny.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m13107-b60-yy": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "13107",
+      "60",
+      "yy"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m13107-b60-yy.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m21845-b120-nn": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "21845",
+      "120",
+      "nn"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m21845-b120-nn.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m21845-b120-yn": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "21845",
+      "120",
+      "yn"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m21845-b120-yn.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m21845-b60-ny": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "21845",
+      "60",
+      "ny"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m21845-b60-ny.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m21845-b60-yy": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "21845",
+      "60",
+      "yy"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m21845-b60-yy.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m65535-b120-nn": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "65535",
+      "120",
+      "nn"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m65535-b120-nn.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m65535-b120-ny": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "65535",
+      "120",
+      "ny"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m65535-b120-ny.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m65535-b120-yn": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "65535",
+      "120",
+      "yn"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m65535-b120-yn.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-deep-l256-j16-m65535-b60-yy": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-deep-l256-j16",
+      "65535",
+      "60",
+      "yy"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-deep-l256-j16-m65535-b60-yy.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-shallow-l256-j16-m13107-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-shallow-l256-j16",
+      "13107",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-shallow-l256-j16-m13107-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-shallow-l256-j16-m21845-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-shallow-l256-j16",
+      "21845",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-shallow-l256-j16-m21845-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-shallow-l256-j16-m4369-b20-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-shallow-l256-j16",
+      "4369",
+      "20",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-shallow-l256-j16-m4369-b20-raw.json",
+    "original_status": "PASS"
+  },
+  "crt-w2-shallow-l256-j16-m65535-b60-raw": {
+    "binary": "helib_core_matched",
+    "arguments": [
+      "sample",
+      "crt",
+      "w2-shallow-l256-j16",
+      "65535",
+      "60",
+      "raw"
+    ],
+    "source_receipt": "SubmissionA/evidence/core-matched-v1-r0-crt-w2-shallow-l256-j16-m65535-b60-raw.json",
+    "original_status": "PASS"
+  },
+  "composition-b16": {
+    "binary": "helib_slack_control",
+    "arguments": [
+      "sample",
+      "b16",
+      "13107",
+      "60"
+    ],
+    "source_receipt": "SubmissionA/evidence/conventional-slack-v2-sample-2-b16.json",
+    "source_selection": "SubmissionA/evidence/conventional-slack-v2-selection.json",
+    "original_status": "PASS",
+    "paper_label": "tab:leveled-profile-manifest"
+  },
+  "composition-column": {
+    "binary": "helib_slack_control",
+    "arguments": [
+      "sample",
+      "column",
+      "13107",
+      "60"
+    ],
+    "source_receipt": "SubmissionA/evidence/conventional-slack-v2-sample-1-column.json",
+    "source_selection": "SubmissionA/evidence/conventional-slack-v2-selection.json",
+    "original_status": "PASS",
+    "paper_label": "tab:leveled-profile-manifest"
+  }
+}

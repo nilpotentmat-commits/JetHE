@@ -1,0 +1,67 @@
+{
+  "status": "BOOLEAN_COEFFICIENT_RANK_DIAGNOSTIC_PASS",
+  "results": [
+    {
+      "length": 2,
+      "nonzero_rows": 1,
+      "dimension": 1,
+      "large_field_dimension": 1,
+      "symbolic_occurrences": 2,
+      "truth_table": {
+        "rank": 1,
+        "coefficient_values": 2
+      }
+    },
+    {
+      "length": 4,
+      "nonzero_rows": 5,
+      "dimension": 3,
+      "large_field_dimension": 5,
+      "symbolic_occurrences": 6,
+      "truth_table": {
+        "rank": 3,
+        "coefficient_values": 72
+      }
+    },
+    {
+      "length": 8,
+      "nonzero_rows": 21,
+      "dimension": 11,
+      "large_field_dimension": 21,
+      "symbolic_occurrences": 26,
+      "truth_table": {
+        "rank": 11,
+        "coefficient_values": 6272
+      }
+    },
+    {
+      "length": 16,
+      "nonzero_rows": 85,
+      "dimension": 39,
+      "large_field_dimension": 85,
+      "symbolic_occurrences": 164,
+      "truth_table": null
+    },
+    {
+      "length": 32,
+      "nonzero_rows": 341,
+      "dimension": 143,
+      "large_field_dimension": 341,
+      "symbolic_occurrences": 1552,
+      "truth_table": null
+    },
+    {
+      "length": 64,
+      "nonzero_rows": 1365,
+      "dimension": 543,
+      "large_field_dimension": 1365,
+      "symbolic_occurrences": 23080,
+      "truth_table": null
+    }
+  ],
+  "wall_seconds": 0.018977399973664433,
+  "new_he_execution": false,
+  "new_security_attack": false,
+  "security_bits": null,
+  "scope": "Exact finite Boolean polynomial-function ranks only; no asymptotic lower bound inferred."
+}

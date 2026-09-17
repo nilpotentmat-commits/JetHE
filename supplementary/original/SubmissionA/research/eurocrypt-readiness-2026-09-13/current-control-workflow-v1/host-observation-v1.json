@@ -1,0 +1,25 @@
+{
+  "windows": {
+    "recorded_utc": "2026-09-14T18:29:12.120240+00:00",
+    "observer_pid": 6268,
+    "workers": [],
+    "tool_exit_code": 0,
+    "observer": {
+      "bytes": 2750,
+      "sha256": "b6676a7d2d73c63e7b340395a1c9c26c7e845a0a389961df2c31c1d049a96eec"
+    },
+    "scope": "Windows process-table observation of computing executables mentioning absolute workspace; relative paths can be missed. Not an exclusive-host guarantee."
+  },
+  "wsl": {
+    "recorded_utc": "2026-09-14T18:29:14.192791+00:00",
+    "observer_pid": 367,
+    "workers": [],
+    "tool_exit_code": 0,
+    "observer": {
+      "bytes": 2750,
+      "sha256": "b6676a7d2d73c63e7b340395a1c9c26c7e845a0a389961df2c31c1d049a96eec"
+    },
+    "scope": "WSL process-table observation; absolute workspace references only, relative paths can be missed. Not an exclusive-host guarantee.",
+    "launcher_stderr_bytes": 801
+  }
+}

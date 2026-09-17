@@ -1,0 +1,1035 @@
+{
+  "bootstrap_calls": 0,
+  "ciphertext_batches": 16,
+  "ciphertext_q_bits": 120,
+  "ciphertext_q_log2": 120.0,
+  "ciphertext_q_primes": [
+    "1152921504606830593",
+    "1152921504606748673"
+  ],
+  "ciphertext_q_towers": 2,
+  "compiler": "16.1.0",
+  "correctness_scope": "every decrypted output in these finite trials; no failure-probability certification",
+  "crypto_randomness": "OpenFHE default fresh; fixture seed not supplied to cryptography",
+  "ctct_calls_per_trial": 16,
+  "ctct_depth": 1,
+  "encryption_technique": "STANDARD",
+  "evaluation_points": 7,
+  "fixture_fnv1a64": "9959786547401337537",
+  "fixture_generator": "std::mt19937_64 raw low bit; job-factor-coefficient order",
+  "fixture_seed": 11,
+  "hardware_threads": 32,
+  "independent_security_certification": false,
+  "input_bytes": 8416352,
+  "input_ciphertexts": 32,
+  "input_distribution": "independent binary unit polynomials: constant 1, higher coefficients raw generator bits",
+  "inputs": [
+    [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ]
+    ]
+  ],
+  "integer_low_coefficient_bound": 4,
+  "jobs": 16,
+  "jobs_per_ciphertext_capacity": 1,
+  "key_switching_p_bits": 0,
+  "key_switching_p_primes": [],
+  "key_switching_qp_bits": 120,
+  "key_switching_technique": "BV",
+  "layout": "native",
+  "length": 4,
+  "median_ms": {
+    "decode": 0.0309,
+    "decrypt": 4.0151,
+    "encode": 37.5288,
+    "encrypt": 77.1695,
+    "end_to_end": 185.7464,
+    "eval": 67.2847
+  },
+  "multiplication_technique": "HPSPOVERQLEVELED",
+  "mults": 1,
+  "omp_num_threads": "1",
+  "openfhe_version": "1.5.1",
+  "output_bytes": 4211376,
+  "output_ciphertexts": 16,
+  "output_q_towers": 2,
+  "parameter_depth_policy": "common sequential horizon mults for both schedules and both layouts",
+  "parameter_multiplicative_depth": 1,
+  "peak_rss_bytes": 46268416,
+  "plaintext_modulus": 2,
+  "precomputation_ms": 0.0072,
+  "public_key_bytes": 262967,
+  "relinearization_key_bytes": 525405,
+  "repetitions": 7,
+  "ring_dimension": 8192,
+  "rotation_calls": 0,
+  "scaling_technique": "NORESCALE",
+  "schedule": "sequential",
+  "schema": "leveled-jet-comparison-v1",
+  "scheme": "BFV",
+  "secret_key_distribution": "UNIFORM_TERNARY",
+  "security_requested": "HEStd_128_classic",
+  "security_scope": "OpenFHE automatic parameters for standard power-of-two ring; no ExactJet claim",
+  "serialization": "sum of separate OpenFHE binary object serializations; no compression",
+  "setup_ms": 10.2817,
+  "status": "PASS",
+  "trials": [
+    {
+      "decode_ms": 0.0309,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 4.0817,
+      "encode_ms": 44.3613,
+      "encrypt_ms": 80.5682,
+      "eval_ms": 67.3565
+    },
+    {
+      "decode_ms": 0.0305,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 4.0286,
+      "encode_ms": 37.7562,
+      "encrypt_ms": 77.1695,
+      "eval_ms": 67.5575
+    },
+    {
+      "decode_ms": 0.0291,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 3.9478,
+      "encode_ms": 38.0541,
+      "encrypt_ms": 77.2576,
+      "eval_ms": 67.385
+    },
+    {
+      "decode_ms": 0.0315,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 3.9868,
+      "encode_ms": 37.001,
+      "encrypt_ms": 77.0738,
+      "eval_ms": 67.096
+    },
+    {
+      "decode_ms": 0.0316,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 4.0178,
+      "encode_ms": 37.0944,
+      "encrypt_ms": 77.0838,
+      "eval_ms": 67.2847
+    },
+    {
+      "decode_ms": 0.0342,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 4.0151,
+      "encode_ms": 37.5288,
+      "encrypt_ms": 77.1649,
+      "eval_ms": 67.0034
+    },
+    {
+      "decode_ms": 0.0305,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "decrypt_ms": 3.9594,
+      "encode_ms": 37.1925,
+      "encrypt_ms": 77.403,
+      "eval_ms": 67.0328
+    }
+  ],
+  "verified_output_coefficients_including_warmup": 512,
+  "warmup_trials_excluded": 1
+}

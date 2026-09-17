@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "profile": "jethe149",
+  "mode": "measure",
+  "setups": 1,
+  "batches_per_setup": 2,
+  "cpu": 0,
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python_version": "3.14.4",
+  "source_manifest_sha256": "0d19179f5496229bbbb0e189ad7b8a4623cb49cb318b8700a6735ef1918020ba",
+  "fresh_he_execution": true,
+  "published_median": false,
+  "security_bits": null,
+  "records": [
+    {
+      "index": 0,
+      "elapsed_seconds": 15.961460584999998,
+      "result": {
+        "status": "PAID_HASSE_MEASUREMENT_WORKER_PASS",
+        "mode": "measurement",
+        "arm": "paid",
+        "sample_index": 0,
+        "fixture": {
+          "id": "composition-l256-v1",
+          "seed_hex": "0x4a657448454c3235",
+          "jobs": 16,
+          "length": 256,
+          "field_polynomial": "0x1100b",
+          "serialization": "job-major f then g; uint16 little endian",
+          "sha256": "009c072d2b5096f04e88acc5f3379dc58c025b5d94a8325585a09ede33ec77ca",
+          "fnv64_cross_language_check": "17538928597010511084",
+          "scope": "Public synthetic correctness fixture; not an application distribution or encryption randomness"
+        },
+        "setup_seconds": {
+          "public_context_codec": 0.04288837600000761,
+          "keys_hints": 5.442323998000006,
+          "public_key_serialization": 0.26404637900003536
+        },
+        "batches": [
+          {
+            "index": 0,
+            "state": "cold",
+            "seconds": {
+              "owner_f": 0.0025514989999919635,
+              "owner_g": 0.008077628000023651,
+              "codec": 0.148903770000004,
+              "encryption": 2.6705516289999878,
+              "serialization": 0.05463820399995711,
+              "evaluation": 1.9895305599999915,
+              "decryption_codec": 0.03374795700000277,
+              "verification": 1.7504000027201982e-05
+            },
+            "batch_wall_seconds": 4.908123166999985,
+            "output_symbols": 4096,
+            "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+            "input_bytes_raw": 143654912,
+            "output_bytes_raw": 2097152,
+            "input_bytes_serialized": 143655584,
+            "output_bytes_serialized": 2097280,
+            "fresh_encryptions": 35,
+            "diagnostic_states_retained": 1
+          },
+          {
+            "index": 1,
+            "state": "warm",
+            "seconds": {
+              "owner_f": 0.0025267530000405714,
+              "owner_g": 0.004727368000033039,
+              "codec": 0.1448913660000244,
+              "encryption": 2.6442171499999745,
+              "serialization": 0.05453840399997034,
+              "evaluation": 1.9813912410000398,
+              "decryption_codec": 0.03384194400001661,
+              "verification": 4.289000003154797e-06
+            },
+            "batch_wall_seconds": 4.866261227000052,
+            "output_symbols": 4096,
+            "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+            "input_bytes_raw": 143654912,
+            "output_bytes_raw": 2097152,
+            "input_bytes_serialized": 143655584,
+            "output_bytes_serialized": 2097280,
+            "fresh_encryptions": 35,
+            "diagnostic_states_retained": 1
+          }
+        ],
+        "independent_secrets": 10,
+        "public_keys": 5,
+        "hint_rows": 149,
+        "hint_bytes_raw": 568328192,
+        "public_key_bytes_raw": 17825792,
+        "maximum_receiving_rows": 46,
+        "incoming_rows": {
+          "s0": 1,
+          "s1": 10,
+          "h8": 46,
+          "s2": 15,
+          "h4": 26,
+          "s3": 15,
+          "h2": 13,
+          "s4": 12,
+          "h1": 7,
+          "s5": 9
+        },
+        "public_power_cache_bytes": 114688,
+        "arithmetic_profile": {
+          "dimension": 65536,
+          "chain": [
+            4,
+            4,
+            4,
+            3,
+            2
+          ],
+          "width": 48
+        },
+        "public_key_including_hints_bytes_serialized": 586156560,
+        "phase_checked_states": 0,
+        "phase_checked_coefficients": 0,
+        "peak_rss_kib": 826976,
+        "process_wall_seconds": 15.609111061000021,
+        "worker_threads": 1,
+        "encrypted_execution": true,
+        "security_bits": null,
+        "bootstrapping": false,
+        "serializer": "Fixed-schema uint64 frames and SHA256 into counting sinks; candidate catalog-specific header; no network.",
+        "phase_scope": "Cold/warm wall includes both owners, codec, fresh encryption, evaluator, serialization and recovery; verification excluded.",
+        "memory_scope": "Process high-water RSS includes setup, owners, key material and every batch; both arms pay the same 112 KiB power cache.",
+        "process_scope": "Same-process roles. Public evaluator accepts ring and public bundle only. Import/startup excluded from process_wall_seconds.",
+        "release_profile": "jethe149",
+        "standalone_reproduction": true,
+        "published_median": false,
+        "cpu": 0,
+        "python_version": "3.14.4"
+      }
+    }
+  ]
+}

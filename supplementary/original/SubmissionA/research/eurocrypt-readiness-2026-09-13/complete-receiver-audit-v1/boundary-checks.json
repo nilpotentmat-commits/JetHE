@@ -1,0 +1,40 @@
+{
+  "status": "MISSING_AND_PREFLIGHT_RECORD_BOUNDARIES_PASS",
+  "cases": [
+    {
+      "input": "__audit_missing_record__",
+      "python_returncode": 2,
+      "stdout_sha256": "179142dd063887a0479b78cc49b2849fa173c3e53c993a2cbfaacf25c9f66c7c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "new_complete_receipt_written": false
+    },
+    {
+      "input": "preflight-v1",
+      "python_returncode": 1,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "8b912228b464b7cb4112a9bc2ece015ffbd0f4c3d803ab21ada895520e69cbc3",
+      "new_complete_receipt_written": false
+    }
+  ],
+  "bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1/check_boundaries.py": {
+      "bytes": 2500,
+      "sha256": "a5c5be61619f2fa98188eb10a3279ae3b0448b23e37ee6f447e8ab77c803f8fa"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1/check_complete.py": {
+      "bytes": 15478,
+      "sha256": "360dc3a769d32820a3f41eaf8e10203297dc04e9e42a8da4b772abb4c1ffc886"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/complete-receiver-audit-v1/contract.json": {
+      "bytes": 134315,
+      "sha256": "a1a7d5ce2ee29022d15fdf218a7457e310688a7458b8c5daf304a8c103e52969"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/preflight-v1/execution.json": {
+      "bytes": 12110,
+      "sha256": "ad67916f96cbfb0557980417adb4851236a8ae521532f4ee2d9927ece7d086e4"
+    }
+  },
+  "new_he_execution": false,
+  "complete_execution_verified": false,
+  "scope": "Two actual negative acceptance cases. No synthetic full record or liveness assertion."
+}

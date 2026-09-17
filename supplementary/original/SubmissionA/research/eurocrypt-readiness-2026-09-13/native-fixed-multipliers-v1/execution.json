@@ -1,0 +1,47 @@
+{
+  "status": "NATIVE_FIXED_MULTIPLIER_EXECUTIONS_COMPLETE",
+  "build": {
+    "actual_exit_code": 0,
+    "chunk": "f241f7"
+  },
+  "public_check": {
+    "actual_exit_code": 0,
+    "chunk": "777485",
+    "receipt": "public-execution.json"
+  },
+  "gate": {
+    "session": 47585,
+    "actual_exit_code": 0,
+    "chunk": "e11d91",
+    "receipt": "gate-execution.json"
+  },
+  "campaign": {
+    "session": 78472,
+    "actual_exit_code": 0,
+    "chunk": "817f1a",
+    "receipt": "campaign-execution.json"
+  },
+  "files": {
+    "build.json": {
+      "bytes": 5393,
+      "sha256": "8922ef90fe420ccb4edb5a804d7e49dc4e5dd090d3f5c9e003e0ca80e2a45ae8"
+    },
+    "public-execution.json": {
+      "bytes": 924,
+      "sha256": "1e5db11883b63211eba1a5fcb654e1432f86185d4790da83e5185bd3b9d781eb"
+    },
+    "gate-execution.json": {
+      "bytes": 1106,
+      "sha256": "ff8e235f9a829138aaabeaf1e8c6f232a3b790e129108e9ca4fc77a2c54b224f"
+    },
+    "campaign-execution.json": {
+      "bytes": 1517,
+      "sha256": "3f4c157b571526c30760c95bbae0b242e2cdb0e8e1cdf55b85bdc68d51ba0b6a"
+    }
+  },
+  "new_he_execution": true,
+  "new_estimator_execution": false,
+  "new_attack_method": false,
+  "new_openfhe_optimization": false,
+  "security_bits": null
+}

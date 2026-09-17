@@ -1,0 +1,35 @@
+{
+  "status": "VERSION_35_CURRENT_BINDINGS_AND_PRIOR_ARCHIVES_PASS",
+  "current_source_files": 79,
+  "current_document_files": 227,
+  "changed_manuscript_sources": [
+    "manuscript/appendices/gaussian-relay-work.tex"
+  ],
+  "unchanged_manuscript_sources": 78,
+  "pdf_sha256": "f28494c2a86db6a72ee65dd23f5be7d106732698d9710c43b281ad8b43851e9b",
+  "labels": 225,
+  "prior_label_numbers_preserved": 224,
+  "navigation_rows": 26,
+  "inspected_pages": [
+    22,
+    27,
+    28,
+    88,
+    89,
+    90
+  ],
+  "unchanged_archives": {
+    "checkpoint-v34": 313,
+    "checkpoint-v33": 371,
+    "checkpoint-public-cache-v1": 46,
+    "checkpoint-prefix-depth-v1": 19,
+    "checkpoint-terminal-one-prime-v1": 87,
+    "checkpoint-fusion-v1": 45
+  },
+  "checkpoint52_archived_receipt_bindings": 21,
+  "new_public_source_files": 11,
+  "local_markdown_links": 24,
+  "aggregate_exit_code": 0,
+  "new_he_execution": false,
+  "active_process_handles": []
+}

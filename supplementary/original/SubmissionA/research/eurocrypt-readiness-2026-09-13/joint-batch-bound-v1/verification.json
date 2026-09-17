@@ -1,0 +1,50 @@
+{
+  "status": "JOINT_BATCH_BOUND_READBACK_PASS",
+  "source_files": 11,
+  "rank_cases": 16,
+  "mixed_cases": 8,
+  "count_cases": 12,
+  "joint_witnesses": 5192,
+  "mixed_bit_values": 6144,
+  "independent_proof_review": false,
+  "new_he_execution": false,
+  "security_bits": null,
+  "files": {
+    "check.json": {
+      "bytes": 10356,
+      "sha256": "43af5f8f78b31f37b41d56391cef6709e581703a503cfce1150293283b07a9e1"
+    },
+    "check.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "check.stdout.txt": {
+      "bytes": 2340,
+      "sha256": "014980e810a631866576758d27ddcfb743972f758ffa2485e0a64f4b7a69795a"
+    },
+    "check_joint.py": {
+      "bytes": 6708,
+      "sha256": "74a39f07e28f8ebe295728791e12748e31d69f8e47fc27e0f91120bedb9ec1de"
+    },
+    "execution.json": {
+      "bytes": 701,
+      "sha256": "b290ac7ce646a170423a058c0e4db946725093f703c675c4c9a986f3bdca765f"
+    },
+    "PLAN.md": {
+      "bytes": 1367,
+      "sha256": "d51835f99b3bb3aa2b778bd700e010b625cb7e1ac0ec8c0e2ff0b98256f14483"
+    },
+    "PROOF.md": {
+      "bytes": 10307,
+      "sha256": "213eac6223354b11c89058a6b3e78c417be8ac393f535ac4186f987d57b90b35"
+    },
+    "RESULTS.md": {
+      "bytes": 2753,
+      "sha256": "1c903e8ce77ba762a7a5e0523aeeaf4b03bebd07b56be413e578fd5f5e353c3d"
+    },
+    "verify_records.py": {
+      "bytes": 2688,
+      "sha256": "05946748b424f4dbefaa6e907079465820c8c6c7348e20fadc4f86e4db255e82"
+    }
+  }
+}

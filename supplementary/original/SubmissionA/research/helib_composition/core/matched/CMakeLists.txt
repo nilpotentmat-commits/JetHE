@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(submissiona_helib_core_matched LANGUAGES CXX)
+find_package(helib REQUIRED)
+add_executable(helib_core_matched ../core_measure.cpp)
+target_compile_features(helib_core_matched PRIVATE cxx_std_17)
+target_compile_options(helib_core_matched PRIVATE -Wall -Wextra -Werror)
+target_include_directories(helib_core_matched PRIVATE ../../../../../Code/third_party/helib-2.3.0/dependencies/json)
+target_link_libraries(helib_core_matched PRIVATE helib)

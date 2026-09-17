@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\scanf\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-X",
+    "utf8",
+    "D:\\Users\\scanf\\OneDrive\\Paper\\NilCrypto\\Submissions\\NilHEoverRing\\SubmissionA\\research\\eurocrypt-readiness-2026-09-13\\native-fast-cache-quotient-v1\\check_formula.py"
+  ],
+  "started_utc": "2026-09-14T15:23:26.843996+00:00",
+  "finished_utc": "2026-09-14T15:23:27.200976+00:00",
+  "elapsed_seconds": 0.35697450005682185,
+  "actual_exit_code": 0,
+  "stdout_sha256": "54c3e2058852080690a4e10f96af77066bd2afd5814448acf4fefeacaef02ed1",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "new_he_execution": false
+}

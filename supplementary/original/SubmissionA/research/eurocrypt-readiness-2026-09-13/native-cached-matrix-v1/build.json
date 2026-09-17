@@ -1,0 +1,96 @@
+{
+  "status": "ISOLATED_CACHED_MATRIX_BUILD_PASS",
+  "actual_exit_code": 0,
+  "command": [
+    "/var/tmp/helib-full-field-Sc2fBv/env/bin/x86_64-conda-linux-gnu-g++",
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-fPIC",
+    "-shared",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix.cpp",
+    "-o",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/build/matrix.so"
+  ],
+  "compiler": {
+    "bytes": 2476280,
+    "sha256": "548d782b9abd6375ee2969a0d7cd2b3b8fa550ba7dc53ad9223e8d022648c194"
+  },
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/check_public.py": {
+      "bytes": 12587,
+      "sha256": "6aaa7398a4fdf4e1643bb6ff2470860996fe56a79b851d87aca757c4497e0a05"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/group_public.py": {
+      "bytes": 3847,
+      "sha256": "0774244e9f800e602dd649f58788797945e9192e1afbe524476d0301a084649c"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix.cpp": {
+      "bytes": 8496,
+      "sha256": "364a709346fbc75fcf63d5e26b7c04562bb15f61c58949960d279c886de185e7"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix_binding.py": {
+      "bytes": 2559,
+      "sha256": "c9209daffff310f6e31cfa953f7d6a337d37e7f83ebf28d992820d8064ca631a"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/PLAN.md": {
+      "bytes": 2678,
+      "sha256": "15de88cb80f3c07ea14401f9e71245f662fa5da8999b897d63567505ef5001c8"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/prepare.py": {
+      "bytes": 2304,
+      "sha256": "027c0babcba20beb4bb1c9f7c6797741adebe0d76cfe0da6eb1b4a8f8f13b26d"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/PROOF.md": {
+      "bytes": 3972,
+      "sha256": "2abe843e431c96c510227dd9122599930a292836b7d67ff46259972be74f26c5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/IMPLEMENTATION_PLAN.md": {
+      "bytes": 5620,
+      "sha256": "98e47b833786d19a02d06f811ade75b3096e7cbe8ba4aad7db0ce37dc37031c1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/PROOF.md": {
+      "bytes": 9154,
+      "sha256": "01c3a151d8935cfb66abc5a20e43eb266b1340a32bff92f94752316a30acb5af"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-batched-hasse-v1/selection.json": {
+      "bytes": 903,
+      "sha256": "588c886e070939601c7adc535ce399b5f8402d33076d381a85c01eb3642de934"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/composition_native_core.cpp": {
+      "bytes": 24254,
+      "sha256": "07883559dec32b3e32cc312e4b09f92dcf4e012f2c8f5eb29fde2815ea0ec5ab"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/build/fixed_core.so": {
+      "bytes": 126488,
+      "sha256": "6dd349aba308d96e8edaf69a75341936617a7f59eb1cc6935b44f2f788248241"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_crypto.py": {
+      "bytes": 2779,
+      "sha256": "0fc312fc35c09be2537d526d4b2600e97f659f32f5b8691c477bca15966935e1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_binding.py": {
+      "bytes": 2868,
+      "sha256": "cdba545eb46750ac1f4ec18bd49fccda0a4d8ad6ec12aea6480dadefbb1ded66"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/stage_public.py": {
+      "bytes": 6694,
+      "sha256": "c96d6c6706591ba882cba9f262d5aa9be66dbeb6418dbb2e7c66428af2951183"
+    }
+  },
+  "artifacts": {
+    "arithmetic.hpp": {
+      "bytes": 705,
+      "sha256": "accdd85ecaba83936ed90b1162c9770fdfd44f0db8e9d6309b85dcff3921d4b3"
+    },
+    "build/matrix.so": {
+      "bytes": 34232,
+      "sha256": "6c2c19f4b7809d7f26af6f1a9e8323c758281600b1ef29d0f5ae08844f96f4c3"
+    }
+  },
+  "preserved_native_library": {
+    "bytes": 126488,
+    "sha256": "6dd349aba308d96e8edaf69a75341936617a7f59eb1cc6935b44f2f788248241"
+  },
+  "new_he_execution": false
+}

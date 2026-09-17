@@ -1,0 +1,2194 @@
+{
+  "cases": [
+    {
+      "bytes": 22924,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 8,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "001-BGV-native-e8-d2-j16-sequential.json",
+      "process_elapsed_seconds": 2.5971926000001986,
+      "sha256": "fca08051556d60b07066c85ef99539dbf77d3b0b6504df35f67b9234b31a9095"
+    },
+    {
+      "bytes": 26325,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "002-BGV-packed_terminal-e8-d4-j16-sequential.json",
+      "process_elapsed_seconds": 0.7913955000003625,
+      "sha256": "a5bd6415fbaa5796bfa91fcbf717936f0590c258d7958df33cce556528a72206"
+    },
+    {
+      "bytes": 5988,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 16,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "003-BGV-native-e16-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.2065411999992648,
+      "sha256": "49d8dd6e478d7c92bf7584439c8459ac090980325109b8e87078d6cd07bf6938"
+    },
+    {
+      "bytes": 16915,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 4,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "004-BFV-native-e4-d4-j16-sequential.json",
+      "process_elapsed_seconds": 6.563853700001346,
+      "sha256": "d3558ea8498214171823331ecd8eac820c09bfa08200dffd4fd603aeffd3e549"
+    },
+    {
+      "bytes": 4678,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "005-BFV-packed_terminal-e4-d4-j1-sequential.json",
+      "process_elapsed_seconds": 1.0597481000004336,
+      "sha256": "b392350d372178df7e4de957c762529063b30c73fcccdf612968f95e1df73e47"
+    },
+    {
+      "bytes": 4579,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "006-BGV-packed_terminal-e4-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.3344342999989749,
+      "sha256": "5b0d874fe1b684a852018174cb024bb5355d09b8f6c0e71506b4a0a62ddb3bfc"
+    },
+    {
+      "bytes": 38800,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 16,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "007-BGV-native-e16-d2-j16-sequential.json",
+      "process_elapsed_seconds": 2.6486072999996395,
+      "sha256": "d8c65a52e1c482bc85cd85b4fee2bdd8fc6fe69ca0cfa3d3e3b08e0108b1fe8f"
+    },
+    {
+      "bytes": 44986,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "balanced",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "008-BGV-native-e16-d4-j16-balanced.json",
+      "process_elapsed_seconds": 7.157108400000652,
+      "sha256": "2814b3238b8a176656668642138d28ca7c677aab3013122f51045d88a11e0706"
+    },
+    {
+      "bytes": 14963,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "009-BFV-packed_terminal-e4-d2-j16-sequential.json",
+      "process_elapsed_seconds": 0.2455387999998493,
+      "sha256": "ad0ff4ef1ad1aa81cbc0e40fe096a0fcb423cfa5fb844d8a458d0ae94c1d3f94"
+    },
+    {
+      "bytes": 26260,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 8,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "010-BFV-native-e8-d4-j16-sequential.json",
+      "process_elapsed_seconds": 6.64403140000104,
+      "sha256": "8d204066f44824200cf617dbbd9414a637bff3c7ca740e1aca3535e243343520"
+    },
+    {
+      "bytes": 44954,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "011-BFV-packed_terminal-e16-d4-j16-sequential.json",
+      "process_elapsed_seconds": 1.0659484999996494,
+      "sha256": "b180ac7e6ec9887c7059193997ddbb89f3fde59cb79f51fd88eca655cc656206"
+    },
+    {
+      "bytes": 4473,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "012-BGV-packed_terminal-e4-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.09956210000018473,
+      "sha256": "728ba15ce969bca04861a2869f3b4724a68d091b745effac48e83fa963174865"
+    },
+    {
+      "bytes": 26295,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 8,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "013-BGV-native-e8-d4-j16-sequential.json",
+      "process_elapsed_seconds": 6.768286399999852,
+      "sha256": "c69de6725ce244e7a09cb8eab2d6c5429de9b0fa0a272094afbcd587c325acf4"
+    },
+    {
+      "bytes": 5322,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "014-BGV-packed_terminal-e8-d4-j1-sequential.json",
+      "process_elapsed_seconds": 0.8003410000001168,
+      "sha256": "f8d3691cd1f5ad4e56e3fbcf9b52762f7b30f7818d81e993e94af1c68a6bd380"
+    },
+    {
+      "bytes": 15022,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "015-BGV-packed_terminal-e4-d2-j16-sequential.json",
+      "process_elapsed_seconds": 0.3373286999994889,
+      "sha256": "bd18ba8e5a9395cfb8e5f82946768d1265daf88c343ca31526ee8f12fbcb0ec5"
+    },
+    {
+      "bytes": 35661,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "016-BFV-packed_terminal-e16-d1-j16-sequential.json",
+      "process_elapsed_seconds": 0.11142880000079458,
+      "sha256": "032b44b556d2d01b0e4682bfb3c62f878f8abdb249e2e8bba47953486c9816c4"
+    },
+    {
+      "bytes": 5781,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 16,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "017-BGV-native-e16-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.1141884000007849,
+      "sha256": "56823f2dbb0ad3af9a8c4ea7f643552a0928b4f802b37f478fdcbc18cee18c88"
+    },
+    {
+      "bytes": 5762,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 16,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "018-BFV-native-e16-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.12946679999913613,
+      "sha256": "67d2a54cb791193ab42bc97a897a8da952fbb24b36de00dd7088cced47a1771f"
+    },
+    {
+      "bytes": 22903,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "019-BFV-packed_terminal-e8-d2-j16-sequential.json",
+      "process_elapsed_seconds": 0.24858119999953487,
+      "sha256": "6650f2f20232af00eb0ff6ada696467dffd85cc32b609c02a3dafb3a9caef8a5"
+    },
+    {
+      "bytes": 4851,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 8,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "020-BFV-native-e8-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.12835809999887715,
+      "sha256": "528eff586edf2d80af29959b9c7f2172dfd1f0157faa4b790c9b5006b4f4b0de"
+    },
+    {
+      "bytes": 26265,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "021-BFV-packed_terminal-e8-d4-j16-sequential.json",
+      "process_elapsed_seconds": 1.0640726999990875,
+      "sha256": "5a493546db6a38ca515c6c1dd3bbf03245a5a00cccde16da99ad2d35a3543a84"
+    },
+    {
+      "bytes": 44953,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "balanced",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "022-BFV-packed_terminal-e16-d4-j16-balanced.json",
+      "process_elapsed_seconds": 1.1226500000011583,
+      "sha256": "567c275855979601d74f6975c72f5549fd8d819567609955aaf6e09c64656a40"
+    },
+    {
+      "bytes": 5023,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "023-BFV-packed_terminal-e8-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.24600629999986268,
+      "sha256": "1f2e5ca481cc041ab8cdd0408ce31c836cb16c443f19fb98e6c02e6191ded752"
+    },
+    {
+      "bytes": 35678,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 16,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "024-BFV-native-e16-d1-j16-sequential.json",
+      "process_elapsed_seconds": 1.554851700000654,
+      "sha256": "47d95a423af708860e2f522b43960f4e8844b6ab2e4931944f42bbbd9a39ba2b"
+    },
+    {
+      "bytes": 4998,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 8,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "025-BGV-native-e8-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.21237270000165154,
+      "sha256": "f54c9816892ca1855608d161df73bad9771072d97830f95691b3701e8c099c97"
+    },
+    {
+      "bytes": 45012,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "balanced",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "026-BGV-packed_terminal-e16-d4-j16-balanced.json",
+      "process_elapsed_seconds": 0.8558228000001691,
+      "sha256": "2102d7976359d1f2938527545ec4d573a05519aa5f48a4d9d591e28d1b926f12"
+    },
+    {
+      "bytes": 6428,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "balanced",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "027-BGV-native-e16-d4-j1-balanced.json",
+      "process_elapsed_seconds": 0.5010184000002482,
+      "sha256": "bf51070479fb23953d8e03aff7987511e066d4215cef84d9c3114e363a5fc79b"
+    },
+    {
+      "bytes": 4525,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "028-BFV-packed_terminal-e4-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.25852210000084597,
+      "sha256": "ed91117d01f330784e697bc625e6baf2a19ed8380e83b79962f911b0191ba6f7"
+    },
+    {
+      "bytes": 5834,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "029-BGV-packed_terminal-e16-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.11051080000106595,
+      "sha256": "7952ff25cea5c151203d7d15d62f8a1457859f6f69f169f66698edcd13754541"
+    },
+    {
+      "bytes": 21195,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "030-BFV-packed_terminal-e8-d1-j16-sequential.json",
+      "process_elapsed_seconds": 0.1205960999996023,
+      "sha256": "98a4444e9576d341a046965c0df9a13344710bf9bac89e4c439982092efc67fe"
+    },
+    {
+      "bytes": 5259,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "031-BFV-packed_terminal-e8-d4-j1-sequential.json",
+      "process_elapsed_seconds": 1.075740100000985,
+      "sha256": "329844401cf75363af2195f9a9aecf84c8dcf9fcc292609aa3d9ee78fe1c6654"
+    },
+    {
+      "bytes": 38831,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "032-BGV-packed_terminal-e16-d2-j16-sequential.json",
+      "process_elapsed_seconds": 0.3428882000007434,
+      "sha256": "db0cdec7089b3dcb7c5bbc602b85ab27ddbb9e88100484c1fc73b9ecf2e3be61"
+    },
+    {
+      "bytes": 21213,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 8,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "033-BFV-native-e8-d1-j16-sequential.json",
+      "process_elapsed_seconds": 1.5694650999994337,
+      "sha256": "be6d87b0fd92f71706d7457e9094dc963be0a7b72224986559287f4b2712dc3f"
+    },
+    {
+      "bytes": 4740,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "034-BGV-packed_terminal-e4-d4-j1-sequential.json",
+      "process_elapsed_seconds": 0.8048251000000164,
+      "sha256": "30fef795b10726e65d208a813ea9bf057d0f3574d6aa31a5c5b70baa690047d8"
+    },
+    {
+      "bytes": 35715,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "035-BGV-packed_terminal-e16-d1-j16-sequential.json",
+      "process_elapsed_seconds": 0.10088050000013027,
+      "sha256": "449143e5e8a28e344cedc63730f46f1118a3fa624eacdeed8e2337dd6e3c2015"
+    },
+    {
+      "bytes": 4633,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 4,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "036-BFV-native-e4-d4-j1-sequential.json",
+      "process_elapsed_seconds": 0.47282169999925827,
+      "sha256": "0a2e7b14d924369ef6b12947f85f171bdb53a8278bc8cdcd1e663cd5db3df404"
+    },
+    {
+      "bytes": 4961,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 8,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "037-BFV-native-e8-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.19739140000092448,
+      "sha256": "17113120c09594eb574ce9021c02304e0e2e3ebba628fd7b18e9ffd198281b85"
+    },
+    {
+      "bytes": 6495,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "038-BGV-packed_terminal-e16-d4-j1-sequential.json",
+      "process_elapsed_seconds": 0.8052853999997751,
+      "sha256": "e42cd8f70f3c17ffd44d5004891fd178997b17c800e3a7425f4bc3f6e8bf2df6"
+    },
+    {
+      "bytes": 13995,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 4,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "039-BGV-native-e4-d1-j16-sequential.json",
+      "process_elapsed_seconds": 1.2904581000002509,
+      "sha256": "fbc4c14298a445354921275e1c8c56c46e2a931e16df8dea26229ed8619691e2"
+    },
+    {
+      "bytes": 22889,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 8,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "040-BFV-native-e8-d2-j16-sequential.json",
+      "process_elapsed_seconds": 2.5844872999987274,
+      "sha256": "f0d016e993b5bd5e54a728441dfffb26b54ebf5a42ec1b00290ba4ec2502441f"
+    },
+    {
+      "bytes": 21251,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "041-BGV-packed_terminal-e8-d1-j16-sequential.json",
+      "process_elapsed_seconds": 0.09916180000072927,
+      "sha256": "aaae85d26459461526c07083d05bf1512d07da5b7f3662dcf6eb50b8bbf6753a"
+    },
+    {
+      "bytes": 4873,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "042-BFV-packed_terminal-e8-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.11408300000039162,
+      "sha256": "90a330016c461cc56991bf75c1d59bb17311c83cc25e8b80bce87593b8d91193"
+    },
+    {
+      "bytes": 44988,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "043-BGV-native-e16-d4-j16-sequential.json",
+      "process_elapsed_seconds": 6.888126200001352,
+      "sha256": "c82e6c79874a7978b8c01baf6b5aa37009599426bd9ea30e851864c2039192e1"
+    },
+    {
+      "bytes": 5960,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 16,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "044-BFV-native-e16-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.192098999999871,
+      "sha256": "ac2abe96ac4980467ed05e966b60d269d6b9ee86c8e1f8746f991787eeecf092"
+    },
+    {
+      "bytes": 14989,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 4,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "045-BGV-native-e4-d2-j16-sequential.json",
+      "process_elapsed_seconds": 2.5900712000002386,
+      "sha256": "8be3c411abf114078853a243ce79b55565da299d1a115e4415949560a14c1310"
+    },
+    {
+      "bytes": 6436,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "046-BFV-packed_terminal-e16-d4-j1-sequential.json",
+      "process_elapsed_seconds": 1.0527774000001955,
+      "sha256": "a8df60285fb0385f7bf17b9caf981b154fd2c85ffcd1844f5fabcec7409decfd"
+    },
+    {
+      "bytes": 16985,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "047-BGV-packed_terminal-e4-d4-j16-sequential.json",
+      "process_elapsed_seconds": 0.7941008999987389,
+      "sha256": "bcfd6960c6c4fe803d6db8bc31817b75fda236b11841cdabc67c1c39cddc8e89"
+    },
+    {
+      "bytes": 4876,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 8,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "048-BGV-native-e8-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.11222039999847766,
+      "sha256": "9ce73b2f611023a812930a3017d895fa0881737eaad9daea973d24be02cc30a7"
+    },
+    {
+      "bytes": 4498,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 4,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "049-BGV-native-e4-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.20844190000025264,
+      "sha256": "9f9a5fd87ee7b11f4ae4bce9624a1efd83b18043ed5c490073bb647d255990d6"
+    },
+    {
+      "bytes": 6390,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "050-BFV-native-e16-d4-j1-sequential.json",
+      "process_elapsed_seconds": 0.4640034999993077,
+      "sha256": "5ea16365166c625e61638043aaae02acef641710244468886d5f16817f342b42"
+    },
+    {
+      "bytes": 4468,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 4,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "051-BFV-native-e4-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.19911379999939527,
+      "sha256": "3612ef65d474c56cf2f772f159dd6a6efb36b2d999bb20f3d30c63d19c0aaf74"
+    },
+    {
+      "bytes": 14014,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "052-BGV-packed_terminal-e4-d1-j16-sequential.json",
+      "process_elapsed_seconds": 0.09758859999965352,
+      "sha256": "77645383018d68ddb42cd5841da4345407bd8b43b7d5f241480efbaa976c7d55"
+    },
+    {
+      "bytes": 13976,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 4,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "053-BFV-native-e4-d1-j16-sequential.json",
+      "process_elapsed_seconds": 1.5635086000002048,
+      "sha256": "6e0a36156ddf671ab2844165ec8b314f7eede054b78c379df051a551618f591c"
+    },
+    {
+      "bytes": 44945,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "balanced",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "054-BFV-native-e16-d4-j16-balanced.json",
+      "process_elapsed_seconds": 6.812558100000388,
+      "sha256": "bca70e0749811f5786f1c79792f3ee5503386a081f6000c0fcff5bb455d36150"
+    },
+    {
+      "bytes": 5217,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 8,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "055-BFV-native-e8-d4-j1-sequential.json",
+      "process_elapsed_seconds": 0.46129389999987325,
+      "sha256": "cfd4117ebc04ab23ab6f0965bbf8b1f0dbe21b16654d25b97322da23e1eb9d30"
+    },
+    {
+      "bytes": 6424,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "balanced",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "056-BFV-packed_terminal-e16-d4-j1-balanced.json",
+      "process_elapsed_seconds": 1.1035940999990999,
+      "sha256": "69604c772d0feecfc8e0aad5dee91f50c5ac204815ccb965131c662cdeca8b31"
+    },
+    {
+      "bytes": 13959,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "057-BFV-packed_terminal-e4-d1-j16-sequential.json",
+      "process_elapsed_seconds": 0.10927799999990384,
+      "sha256": "7cefc09d0c6f1c425aa9d18e720898b04a39c82b8a590f4e65118f07cb5a938d"
+    },
+    {
+      "bytes": 14951,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 4,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "058-BFV-native-e4-d2-j16-sequential.json",
+      "process_elapsed_seconds": 2.584010799999305,
+      "sha256": "2ac2e0f02eb691e9ca7f93e8958fbbc7be04a36ba668e229cfdcb30e3037eed6"
+    },
+    {
+      "bytes": 6486,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "balanced",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "059-BGV-packed_terminal-e16-d4-j1-balanced.json",
+      "process_elapsed_seconds": 0.8615872999998828,
+      "sha256": "4ecb0b2c0befc3bc96e21ef492fc30269c97f249b45c2e109ffd290f25093e43"
+    },
+    {
+      "bytes": 5778,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "060-BFV-packed_terminal-e16-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.11058550000052492,
+      "sha256": "94927dd68bd2d96e5539cd4e3ed9ca63bc13f99867e09e09c34092e47a6747f6"
+    },
+    {
+      "bytes": 38770,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 16,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "061-BFV-native-e16-d2-j16-sequential.json",
+      "process_elapsed_seconds": 2.5623131999982434,
+      "sha256": "96e2da6027ed67bf6fda445208791c8362de7cb0db01cedd14424a4d214f0956"
+    },
+    {
+      "bytes": 44948,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "062-BFV-native-e16-d4-j16-sequential.json",
+      "process_elapsed_seconds": 6.554134999998496,
+      "sha256": "e756f397af214e9220ed70de0d5093849205dcc1e59ec75be7fb0e283353061b"
+    },
+    {
+      "bytes": 6385,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "balanced",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "063-BFV-native-e16-d4-j1-balanced.json",
+      "process_elapsed_seconds": 0.4792610999993485,
+      "sha256": "e835f496e44b88c890c89b61eb33ab0652584657aabed06c95ca559d7b6b9079"
+    },
+    {
+      "bytes": 4422,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 4,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "064-BGV-native-e4-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.11300919999848702,
+      "sha256": "9697a36bfbf642140c2a375a3d3cfd26320c7f4ebae72669ca96a6034b6db54d"
+    },
+    {
+      "bytes": 4676,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 4,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "065-BGV-native-e4-d4-j1-sequential.json",
+      "process_elapsed_seconds": 0.48155919999953767,
+      "sha256": "ecede28dccbc019f37d870ec7bf8e4d5b2cf9f254395689137ddedefd0593b81"
+    },
+    {
+      "bytes": 5075,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "066-BGV-packed_terminal-e8-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.3400915000001987,
+      "sha256": "04ad99b91502fb448968136b88ab6f2c82acf25cd0e749ab9271491047d74d39"
+    },
+    {
+      "bytes": 21227,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 8,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "067-BGV-native-e8-d1-j16-sequential.json",
+      "process_elapsed_seconds": 1.283499999999549,
+      "sha256": "b18314eb221a643de41684b28bab611a14183f03c403a50feb1f9b4dd07d9140"
+    },
+    {
+      "bytes": 6434,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "068-BGV-native-e16-d4-j1-sequential.json",
+      "process_elapsed_seconds": 0.4795525000008638,
+      "sha256": "7087b8c8a7d21e7716fe83fa1c5d8dca07f34024d0c1f9ac2953bab29168fd47"
+    },
+    {
+      "bytes": 4926,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "069-BGV-packed_terminal-e8-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.09870450000016717,
+      "sha256": "ece48e423cab8ce3ac4f53ad83e574d7c2100a4f455473473b088a10cf83f05e"
+    },
+    {
+      "bytes": 45016,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "070-BGV-packed_terminal-e16-d4-j16-sequential.json",
+      "process_elapsed_seconds": 0.7991916999999376,
+      "sha256": "a2a32d686d1dcd158f987d75c66a791929d008baa38ab79843792022f47b9755"
+    },
+    {
+      "bytes": 16951,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 4,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "071-BGV-native-e4-d4-j16-sequential.json",
+      "process_elapsed_seconds": 6.644249499999205,
+      "sha256": "f3fa7ab01b7bae1f3d7287196513652e050b3892387aa467fe0ac998b65095c9"
+    },
+    {
+      "bytes": 22959,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 8,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "072-BGV-packed_terminal-e8-d2-j16-sequential.json",
+      "process_elapsed_seconds": 0.3386160000009113,
+      "sha256": "6893f5718e74521ba3492325aa0d4cfa64fdfe5caae3b4091b81b5467a869da8"
+    },
+    {
+      "bytes": 35695,
+      "configuration": {
+        "jobs": 16,
+        "layout": "native",
+        "length": 16,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "073-BGV-native-e16-d1-j16-sequential.json",
+      "process_elapsed_seconds": 1.2837056000007578,
+      "sha256": "75ab6ae8f8ad6532d2232f40c6ab324d42680ee04c47e64296a838312e41c412"
+    },
+    {
+      "bytes": 4415,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "074-BFV-packed_terminal-e4-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.11033660000066448,
+      "sha256": "dc069734f345a6c80de442e551e81c4a90b816025e0309621403907b16605d9a"
+    },
+    {
+      "bytes": 4401,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 4,
+        "mults": 1,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "075-BFV-native-e4-d1-j1-sequential.json",
+      "process_elapsed_seconds": 0.12898240000140504,
+      "sha256": "ef0fc53f2c84b13c4e58d7f22ef183d0f0c4d798331c9ea4cf502eb47d40c7cd"
+    },
+    {
+      "bytes": 16917,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 4,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "076-BFV-packed_terminal-e4-d4-j16-sequential.json",
+      "process_elapsed_seconds": 1.0551681999986613,
+      "sha256": "7a1c028f84c2573b1b567e5eb4469a9ab5e5f82fa559459d490a459f06cf12a2"
+    },
+    {
+      "bytes": 6015,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "077-BFV-packed_terminal-e16-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.24319160000050033,
+      "sha256": "c4d64bf811bb13b171d9f9394fb436e6e895f159c7876b3d3d235788fd4b7c5f"
+    },
+    {
+      "bytes": 5257,
+      "configuration": {
+        "jobs": 1,
+        "layout": "native",
+        "length": 8,
+        "mults": 4,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "078-BGV-native-e8-d4-j1-sequential.json",
+      "process_elapsed_seconds": 0.4816571000010299,
+      "sha256": "3256fffe317933afd38a01b6db1c99ceefa28b13f91d1dbbbbf6dfbad36b9f4a"
+    },
+    {
+      "bytes": 6067,
+      "configuration": {
+        "jobs": 1,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BGV",
+        "seed": 11
+      },
+      "path": "079-BGV-packed_terminal-e16-d2-j1-sequential.json",
+      "process_elapsed_seconds": 0.33384450000085053,
+      "sha256": "8f1bcb1dcc216a70903cda4df1b54ff184332587ac997e8fbb401cd251efee11"
+    },
+    {
+      "bytes": 38775,
+      "configuration": {
+        "jobs": 16,
+        "layout": "packed_terminal",
+        "length": 16,
+        "mults": 2,
+        "repetitions": 7,
+        "schedule": "sequential",
+        "scheme": "BFV",
+        "seed": 11
+      },
+      "path": "080-BFV-packed_terminal-e16-d2-j16-sequential.json",
+      "process_elapsed_seconds": 0.24787790000118548,
+      "sha256": "8c75fd194533d8eb3018b619e96ded9454ff3f14db3fb22e89b79b1a7737b602"
+    }
+  ],
+  "claim_boundary": {
+    "arbitrary_cyclotomic_security_transfer": false,
+    "exactjet_execution": false,
+    "independent_security_certification": false,
+    "measured_library_leveled_evaluation": true,
+    "refresh_execution": false
+  },
+  "completed_utc": "2026-09-05T03:48:15.926374+00:00",
+  "dependencies": [
+    {
+      "bytes": 21006,
+      "path": "Code/build-leveled-jet-comparison/libdl.dll",
+      "sha256": "7de8fb8a2d2beafc55e562f972e10b680464c6ef3f0dbdc75eea498ba0e1c514"
+    },
+    {
+      "bytes": 933553,
+      "path": "Code/build-leveled-jet-comparison/libgcc_s_seh-1.dll",
+      "sha256": "4cf9ec9e16896ceac28337486b82a3165696643e1ca4d9d5922db4814cb483fa"
+    },
+    {
+      "bytes": 340164,
+      "path": "Code/build-leveled-jet-comparison/libgomp-1.dll",
+      "sha256": "dddb237cfcaeae13bc9613a4dbd8f13254ffcabf1a0aa1d27ef811ca4e84c7fe"
+    },
+    {
+      "bytes": 579142,
+      "path": "Code/build-leveled-jet-comparison/libOPENFHEbinfhe.dll",
+      "sha256": "d6cb4c1390e83593b4ac1eda56412681ba33447d27b272125b9af805e49d0212"
+    },
+    {
+      "bytes": 3273252,
+      "path": "Code/build-leveled-jet-comparison/libOPENFHEcore.dll",
+      "sha256": "721abf8043a4a6901710efab61aa6976ed6f590a32d0eaf32aec22044d285d58"
+    },
+    {
+      "bytes": 4957287,
+      "path": "Code/build-leveled-jet-comparison/libOPENFHEpke.dll",
+      "sha256": "83b92d80a1065b6529d9217bdf1ab4df03607f91dccbf8e92d3fedf76063ea54"
+    },
+    {
+      "bytes": 2608670,
+      "path": "Code/build-leveled-jet-comparison/libstdc++-6.dll",
+      "sha256": "4014b9bb312a138fc09cefe81f224fce203d474eec4615243351155397bd94f8"
+    },
+    {
+      "bytes": 72171,
+      "path": "Code/build-leveled-jet-comparison/libwinpthread-1.dll",
+      "sha256": "5e28db9c1ed427c6e4d58096d9324161ea160506769b5cf4049fe6152f42abaf"
+    }
+  ],
+  "elapsed_seconds": 104.32961199999954,
+  "environment": {
+    "OMP_DYNAMIC": "FALSE",
+    "OMP_NUM_THREADS": 1,
+    "cpu": "AMD Ryzen 9 9950X 16-Core Processor",
+    "execution_order_seed": 20260905,
+    "logical_processors": 32,
+    "machine": "AMD64",
+    "os": "Windows-11-10.0.26200-SP0",
+    "physical_memory_bytes": 33243181056,
+    "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+    "timed_processes_parallel": false
+  },
+  "executable": {
+    "bytes": 2639128,
+    "path": "Code/build-leveled-jet-comparison/leveled_jet_comparison.exe",
+    "sha256": "6a106c9fa5d172a209816579160a6ad72ec5239eb1664bc4b05c0d5ff2ae0e21"
+  },
+  "publication": {
+    "mode": "exclusive-create",
+    "overwrites_existing": false
+  },
+  "requested_cases": [
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "balanced",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 8,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "native",
+      "length": 16,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 4,
+      "mults": 1,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 4,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "native",
+      "length": 8,
+      "mults": 4,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 1,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BGV",
+      "seed": 11
+    },
+    {
+      "jobs": 16,
+      "layout": "packed_terminal",
+      "length": 16,
+      "mults": 2,
+      "repetitions": 7,
+      "schedule": "sequential",
+      "scheme": "BFV",
+      "seed": 11
+    }
+  ],
+  "run_id": "leveled-main-v2",
+  "schema": "nilhe.leveled-library-comparison.manifest.v1",
+  "source_bindings": [
+    {
+      "bytes": 28348,
+      "original_path": "Code/experiments/leveled_jet_comparison/benchmark.cpp",
+      "path": "source/benchmark.cpp",
+      "sha256": "2b0760411af9d2a674727d2e11d76cfe5cad99baa415738af24f31cb9db53495"
+    },
+    {
+      "bytes": 1477,
+      "original_path": "Code/experiments/leveled_jet_comparison/CMakeLists.txt",
+      "path": "source/CMakeLists.txt",
+      "sha256": "36e5ffafa3a372c9b627e3b0996264cd7e32f72d064ee080e62bfb9a29e4d48a"
+    },
+    {
+      "bytes": 8855,
+      "original_path": "Code/experiments/leveled_jet_comparison/run_benchmarks.py",
+      "path": "source/run_benchmarks.py",
+      "sha256": "e819a138d3fc46edeba6a8a5c701410232882af0107ad72502afe6524de1d029"
+    },
+    {
+      "bytes": 20385,
+      "original_path": "Code/experiments/leveled_jet_comparison/verify_results.py",
+      "path": "source/verify_results.py",
+      "sha256": "3ac4ab08683d6dd11a8584d3722108dbceda8f454f4b652c782588d0d61b824f"
+    },
+    {
+      "bytes": 13156,
+      "original_path": "Code/experiments/leveled_jet_comparison/test_verify_results.py",
+      "path": "source/test_verify_results.py",
+      "sha256": "705466547c5f20ce8f87c6a7ca55507a70603bb1302bb77cd595b4d9f10b258e"
+    }
+  ],
+  "started_utc": "2026-09-05T03:46:31.563459+00:00",
+  "status": "MEASURED_LEVELED_LIBRARY_COMPARISON_ONLY"
+}

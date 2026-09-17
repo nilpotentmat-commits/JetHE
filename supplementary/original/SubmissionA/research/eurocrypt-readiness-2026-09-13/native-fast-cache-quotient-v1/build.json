@@ -1,0 +1,95 @@
+{
+  "status": "FAST_CACHE_QUOTIENT_BUILD_PASS",
+  "actual_exit_code": 0,
+  "command": [
+    "/var/tmp/helib-full-field-Sc2fBv/env/bin/x86_64-conda-linux-gnu-g++",
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-fPIC",
+    "-shared",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/matrix_fast.cpp",
+    "-o",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/build/matrix_fast.so"
+  ],
+  "compiler": {
+    "bytes": 2476280,
+    "sha256": "548d782b9abd6375ee2969a0d7cd2b3b8fa550ba7dc53ad9223e8d022648c194"
+  },
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/PLAN.md": {
+      "bytes": 3072,
+      "sha256": "5d972cc6a31ef42d321333e2761699ddbe7ad01c1ed9f507bc229d4c7aa6f7df"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/PROOF.md": {
+      "bytes": 2054,
+      "sha256": "fd32d3a203b8d8044bb7adbfee1cd4a344a34d5fb9fed21d193a33f20930b82b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/prepare.py": {
+      "bytes": 3716,
+      "sha256": "8f8935cbf6090e681b05da023c098db015823a0433b66381b2a14c496a338550"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/check_preparation.py": {
+      "bytes": 7935,
+      "sha256": "9fba0dc7187672df4eeeacfc516feddef843bca8fc7101f2a4c3bf0886e0b78f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/check_formula.py": {
+      "bytes": 2242,
+      "sha256": "8bdff1f7f0e6801b25616dbf781edd98deecb7ad1008f30ffaaf0143f2059785"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/formula.json": {
+      "bytes": 2906,
+      "sha256": "94b24d8b68f38cec211349890742c26db19467b98fd8248e4aee7fa2944ca664"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix.cpp": {
+      "bytes": 8496,
+      "sha256": "364a709346fbc75fcf63d5e26b7c04562bb15f61c58949960d279c886de185e7"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/arithmetic.hpp": {
+      "bytes": 705,
+      "sha256": "accdd85ecaba83936ed90b1162c9770fdfd44f0db8e9d6309b85dcff3921d4b3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix_binding.py": {
+      "bytes": 2559,
+      "sha256": "c9209daffff310f6e31cfa953f7d6a337d37e7f83ebf28d992820d8064ca631a"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/build/matrix.so": {
+      "bytes": 34232,
+      "sha256": "6c2c19f4b7809d7f26af6f1a9e8323c758281600b1ef29d0f5ae08844f96f4c3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/group_public.py": {
+      "bytes": 3847,
+      "sha256": "0774244e9f800e602dd649f58788797945e9192e1afbe524476d0301a084649c"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/RESULTS.md": {
+      "bytes": 4942,
+      "sha256": "cc04885e43652c30b60467906bc2297afdcb05eb98570ce7fc182278fd0c9e03"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/public-check.json": {
+      "bytes": 48993,
+      "sha256": "f8f2edcf16efebb70ba31f5bc6b4250175f8f07be666f37cec834abc5d5b9947"
+    }
+  },
+  "artifacts": {
+    "matrix_fast.cpp": {
+      "bytes": 9105,
+      "sha256": "fcefb8b64c1d3028a7fff95e686f98e132fa7e0fc1429e0456ab2588d9f5e72b"
+    },
+    "arithmetic.hpp": {
+      "bytes": 705,
+      "sha256": "accdd85ecaba83936ed90b1162c9770fdfd44f0db8e9d6309b85dcff3921d4b3"
+    },
+    "fast_binding.py": {
+      "bytes": 2568,
+      "sha256": "ada9f2c832d72572903799000bd3a603311eafca27b2aa7b0245cad75162e645"
+    },
+    "build/matrix_fast.so": {
+      "bytes": 34288,
+      "sha256": "0449487d9396a40f479aa58258d1a2bc1a79173b34d5c7edab7cf1abff9addee"
+    }
+  },
+  "unchanged_runtime_algorithm_source": true,
+  "unchanged_cache_layout": true,
+  "source_delta": "One cache-preparation quotient expression, its exact helper and a public scalar-check entrypoint",
+  "new_he_execution": false
+}

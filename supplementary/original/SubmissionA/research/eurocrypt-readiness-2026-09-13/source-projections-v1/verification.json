@@ -1,0 +1,1178 @@
+{
+  "status": "EXACT_CBD20_RESTRICTED_CRT_PROJECTION_CHECKS_PASS",
+  "primes": [
+    {
+      "prime": 1152921504002872321,
+      "generator": 38,
+      "t_root": 693094493487536309,
+      "b_root": 1001833500595118734
+    },
+    {
+      "prime": 1152921503566671361,
+      "generator": 14,
+      "t_root": 54777715398356879,
+      "b_root": 360201359811206546
+    },
+    {
+      "prime": 1152921503264686081,
+      "generator": 7,
+      "t_root": 995026217748702709,
+      "b_root": 816527379900155825
+    }
+  ],
+  "source_law": {
+    "coefficient_masses": 41,
+    "independent_bit_difference_pairs": 441,
+    "characteristic_polynomial_coefficients": 41,
+    "variance": 10
+  },
+  "quantitative": {
+    "profiles": [
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 1,
+        "nonzero_columns_minimum": 256,
+        "energy_lower": {
+          "numerator": "3412336702291421277952",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": 52531,
+        "strict_dyadic_tv_bits": 52531,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "328376093665538313577191",
+          "denominator": "6250996282790248448"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 2,
+        "nonzero_columns_minimum": 128,
+        "energy_lower": {
+          "numerator": "616430438639386645888",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": 18930,
+        "strict_dyadic_tv_bits": 18930,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "118337393422614136548547",
+          "denominator": "6250996282790248448"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 3,
+        "nonzero_columns_minimum": 85,
+        "energy_lower": {
+          "numerator": "591582361677711063265",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": 9023,
+        "strict_dyadic_tv_bits": 9023,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "14439490933686806977779753",
+          "denominator": "1600255048394303602688"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 4,
+        "nonzero_columns_minimum": 64,
+        "energy_lower": {
+          "numerator": "160930536441652810048",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": 4838,
+        "strict_dyadic_tv_bits": 4838,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "60493150271419360164269",
+          "denominator": "12501992565580496896"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 5,
+        "nonzero_columns_minimum": 51,
+        "energy_lower": {
+          "numerator": "46333046283868680189",
+          "denominator": "4611686018427387904"
+        },
+        "strict_tv_bits": 2705,
+        "strict_dyadic_tv_bits": 2705,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "1082453757298391288778533",
+          "denominator": "400063762098575900672"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 6,
+        "nonzero_columns_minimum": 42,
+        "energy_lower": {
+          "numerator": "55143224062294311510",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": 1519,
+        "strict_dyadic_tv_bits": 1519,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "608001251540101155984707",
+          "denominator": "400063762098575900672"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 7,
+        "nonzero_columns_minimum": 36,
+        "energy_lower": {
+          "numerator": "34153683878566603908",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": 843,
+        "strict_dyadic_tv_bits": 843,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "168656875341395873311849",
+          "denominator": "200031881049287950336"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 8,
+        "nonzero_columns_minimum": 32,
+        "energy_lower": {
+          "numerator": "21936999301807928992",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": 436,
+        "strict_dyadic_tv_bits": 436,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "10921706797098261287581",
+          "denominator": "25003985131160993792"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 9,
+        "nonzero_columns_minimum": 28,
+        "energy_lower": {
+          "numerator": "3467508007443751404",
+          "denominator": "2305843009213693952"
+        },
+        "strict_tv_bits": 158,
+        "strict_dyadic_tv_bits": 158,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "7915507218305642429203",
+          "denominator": "50007970262321987584"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 10,
+        "nonzero_columns_minimum": 25,
+        "energy_lower": {
+          "numerator": "279641518996508975",
+          "denominator": "288230376151711744"
+        },
+        "strict_tv_bits": -24,
+        "strict_dyadic_tv_bits": -24,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-583307752472187419033",
+          "denominator": "25003985131160993792"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 11,
+        "nonzero_columns_minimum": 23,
+        "energy_lower": {
+          "numerator": "5948831225634730669",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": -146,
+        "strict_dyadic_tv_bits": -146,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-116609214580192466381995",
+          "denominator": "800127524197151801344"
+        }
+      },
+      {
+        "channels": 1,
+        "modulus": "1152921504002872321",
+        "modulus_bits": 60,
+        "positions_per_prime": 12,
+        "nonzero_columns_minimum": 21,
+        "energy_lower": {
+          "numerator": "7849559605940565849",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": -239,
+        "strict_dyadic_tv_bits": -239,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-381007767646725985752991",
+          "denominator": "1600255048394303602688"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 1,
+        "nonzero_columns_minimum": 256,
+        "energy_lower": {
+          "numerator": "2465721754564834795264",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": 37920,
+        "strict_dyadic_tv_bits": 37920,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "237043595626614644358999",
+          "denominator": "6250996282790248448"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 2,
+        "nonzero_columns_minimum": 128,
+        "energy_lower": {
+          "numerator": "321861072885208342144",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": 9796,
+        "strict_dyadic_tv_bits": 9796,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "61237018829437807508965",
+          "denominator": "6250996282790248448"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 3,
+        "nonzero_columns_minimum": 85,
+        "energy_lower": {
+          "numerator": "111599382031823326275",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": 3258,
+        "strict_dyadic_tv_bits": 3258,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "2607590340871122996911899",
+          "denominator": "800127524197151801344"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 4,
+        "nonzero_columns_minimum": 64,
+        "energy_lower": {
+          "numerator": "87747997208269182528",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": 1112,
+        "strict_dyadic_tv_bits": 1112,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "27819366040943570610785",
+          "denominator": "25003985131160993792"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 5,
+        "nonzero_columns_minimum": 51,
+        "energy_lower": {
+          "numerator": "36509996720723795295",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": 263,
+        "strict_dyadic_tv_bits": 263,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "421458649699224053022743",
+          "denominator": "1600255048394303602688"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 6,
+        "nonzero_columns_minimum": 42,
+        "energy_lower": {
+          "numerator": "15699119212159553646",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": -118,
+        "strict_dyadic_tv_bits": -118,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-93761986456517077772369",
+          "denominator": "800127524197151801344"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 7,
+        "nonzero_columns_minimum": 36,
+        "energy_lower": {
+          "numerator": "3513038271566440500",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": -311,
+        "strict_dyadic_tv_bits": -311,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-62165138070691353219659",
+          "denominator": "200031881049287950336"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 8,
+        "nonzero_columns_minimum": 32,
+        "energy_lower": {
+          "numerator": "3260954456623842976",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": -429,
+        "strict_dyadic_tv_bits": -429,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-21441965680610947505379",
+          "denominator": "50007970262321987584"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 9,
+        "nonzero_columns_minimum": 28,
+        "energy_lower": {
+          "numerator": "186228943073909092",
+          "denominator": "2305843009213693952"
+        },
+        "strict_tv_bits": -517,
+        "strict_dyadic_tv_bits": -517,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-25806706666934355005599",
+          "denominator": "50007970262321987584"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 10,
+        "nonzero_columns_minimum": 25,
+        "energy_lower": {
+          "numerator": "173637502485193975",
+          "denominator": "4611686018427387904"
+        },
+        "strict_tv_bits": -589,
+        "strict_dyadic_tv_bits": -589,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-235358202698289418212753",
+          "denominator": "400063762098575900672"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 11,
+        "nonzero_columns_minimum": 23,
+        "energy_lower": {
+          "numerator": "333638168348009019",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": -654,
+        "strict_dyadic_tv_bits": -654,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-1046344229680235999862061",
+          "denominator": "1600255048394303602688"
+        }
+      },
+      {
+        "channels": 2,
+        "modulus": "1329227993889339670443893069050298881",
+        "modulus_bits": 120,
+        "positions_per_prime": 12,
+        "nonzero_columns_minimum": 21,
+        "energy_lower": {
+          "numerator": "79528276440902583",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": -717,
+        "strict_dyadic_tv_bits": -717,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-573331397411760337397969",
+          "denominator": "800127524197151801344"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 1,
+        "nonzero_columns_minimum": 256,
+        "energy_lower": {
+          "numerator": "1781706877537637949184",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": 27354,
+        "strict_dyadic_tv_bits": 27354,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "170995586426242753081239",
+          "denominator": "6250996282790248448"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 2,
+        "nonzero_columns_minimum": 128,
+        "energy_lower": {
+          "numerator": "336111080004095794816",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": 4998,
+        "strict_dyadic_tv_bits": 4998,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "62487159041862319543269",
+          "denominator": "12501992565580496896"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 3,
+        "nonzero_columns_minimum": 85,
+        "energy_lower": {
+          "numerator": "10526363594276978955",
+          "denominator": "2305843009213693952"
+        },
+        "strict_tv_bits": 1028,
+        "strict_dyadic_tv_bits": 1028,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "205655760233074795621411",
+          "denominator": "200031881049287950336"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 4,
+        "nonzero_columns_minimum": 64,
+        "energy_lower": {
+          "numerator": "23922467371247029952",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": 9,
+        "strict_dyadic_tv_bits": 9,
+        "certified_bound_nonvacuous": true,
+        "rational_tv_exponent": {
+          "numerator": "237083372817391373779",
+          "denominator": "25003985131160993792"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 5,
+        "nonzero_columns_minimum": 51,
+        "energy_lower": {
+          "numerator": "3596190968089312029",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": -339,
+        "strict_dyadic_tv_bits": -339,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-270614747192087706600635",
+          "denominator": "800127524197151801344"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 6,
+        "nonzero_columns_minimum": 42,
+        "energy_lower": {
+          "numerator": "139671707308385238",
+          "denominator": "1152921504606846976"
+        },
+        "strict_tv_bits": -505,
+        "strict_dyadic_tv_bits": -505,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-25232912014669357442045",
+          "denominator": "50007970262321987584"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 7,
+        "nonzero_columns_minimum": 36,
+        "energy_lower": {
+          "numerator": "722700247595385564",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": -618,
+        "strict_dyadic_tv_bits": -618,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-247186646759259576830929",
+          "denominator": "400063762098575900672"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 8,
+        "nonzero_columns_minimum": 32,
+        "energy_lower": {
+          "numerator": "121185945056220640",
+          "denominator": "9223372036854775808"
+        },
+        "strict_tv_bits": -716,
+        "strict_dyadic_tv_bits": -716,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-17884518048064417581593",
+          "denominator": "25003985131160993792"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 9,
+        "nonzero_columns_minimum": 28,
+        "energy_lower": {
+          "numerator": "80014163865492556",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": -808,
+        "strict_dyadic_tv_bits": -808,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-323158516256467772140437",
+          "denominator": "400063762098575900672"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 10,
+        "nonzero_columns_minimum": 25,
+        "energy_lower": {
+          "numerator": "26954136118722325",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": -899,
+        "strict_dyadic_tv_bits": -899,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-1437964896005288552227587",
+          "denominator": "1600255048394303602688"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 11,
+        "nonzero_columns_minimum": 23,
+        "energy_lower": {
+          "numerator": "9355991383773277",
+          "denominator": "18446744073709551616"
+        },
+        "strict_tv_bits": -989,
+        "strict_dyadic_tv_bits": -989,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-1582421627030347635553659",
+          "denominator": "1600255048394303602688"
+        }
+      },
+      {
+        "channels": 3,
+        "modulus": "1532495536896400456983759139388378955311724145690575361",
+        "modulus_bits": 180,
+        "positions_per_prime": 12,
+        "nonzero_columns_minimum": 21,
+        "energy_lower": {
+          "numerator": "100718178333045",
+          "denominator": "576460752303423488"
+        },
+        "strict_tv_bits": -1079,
+        "strict_dyadic_tv_bits": -1079,
+        "certified_bound_nonvacuous": false,
+        "rational_tv_exponent": {
+          "numerator": "-53956117310667693376931",
+          "denominator": "50007970262321987584"
+        }
+      }
+    ],
+    "pi_lower_numerator": "29761797836940893491809355125492979817173882746274276",
+    "pi_lower_denominator": "9473474482101643245422512336517684161663055419921875",
+    "ln2_upper_taylor_numerator": "7093546934192753671295502306016049",
+    "ln2_upper_taylor_denominator": "3543750000000000000000000000000000",
+    "three_positions_per_prime_tv_bits": 1028,
+    "forty_six_restricted_rows_tv_bits": 1022,
+    "one_hundred_thirty_nine_restricted_setup_rows_tv_bits": 1020,
+    "bound_scope": "Three chosen CRT positions at each prime jointly, selected before observing that row body. Full masks and earlier restricted bodies may be used. No other body information or repeated extra probes."
+  },
+  "exact_distribution_check": {
+    "rank": 4,
+    "prime": 13,
+    "scalar_projections": [
+      {
+        "t_index": 0,
+        "b_index": 1,
+        "tv_numerator": "41621027223470245329163",
+        "tv_denominator": "2374940160662717242080987853163959906940890382336"
+      },
+      {
+        "t_index": 0,
+        "b_index": 2,
+        "tv_numerator": "41621027223470245329163",
+        "tv_denominator": "2374940160662717242080987853163959906940890382336"
+      },
+      {
+        "t_index": 1,
+        "b_index": 1,
+        "tv_numerator": "41621027223470245329163",
+        "tv_denominator": "2374940160662717242080987853163959906940890382336"
+      },
+      {
+        "t_index": 1,
+        "b_index": 2,
+        "tv_numerator": "41621027223470245329163",
+        "tv_denominator": "2374940160662717242080987853163959906940890382336"
+      }
+    ],
+    "each_scalar_tv_below_2_minus42": true,
+    "full_vector_tv_numerator": "71747370983052174796962954566378995313102681809225",
+    "full_vector_tv_denominator": "200682443575999606955843473592354612136505237307392",
+    "full_vector_tv_greater_than_one_eighth": true,
+    "adverse_scope": "Exact small-ring counterexample to inferring joint uniformity from all scalar marginals; not an attack on the production instance."
+  },
+  "fixtures": {
+    "small_fixtures": 648,
+    "small_integer_norms": 1366,
+    "small_spectral_entries": 6768,
+    "production_fixtures": [
+      {
+        "channels": 1,
+        "k": 1,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7225408529093999199875140367416854235675",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 1,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7225408529093999199875140367416854235675",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 1,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7225408529093999199875140367416854235675",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 2,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7264663865563590336963695600855936329318",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 2,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7239530319477771870761591548196111888461",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 2,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7239530319477771870761591548196111888461",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 3,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 254,
+        "energy_numerator": "7181287215813325586643635418581258586689",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 3,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7238377988575669772855635253407709378650",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 3,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7238377988575669772855635253407709378650",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 4,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7263350450407091586347930192721111827849",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 4,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7242524885498933889363184288275166181867",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 1,
+        "k": 4,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 65536,
+        "nonzero_columns": 256,
+        "energy_numerator": "7242524885498933889363184288275166181867",
+        "denominator": "1329227994392245137294589818227927041"
+      },
+      {
+        "channels": 2,
+        "k": 1,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9641540555913296737458003454519419167676968347213180327319491664295863030777",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 1,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9641540555913296737458003454519419167676968347213180327319491664295863030777",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 1,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9648092438004388794387822143261321241112731810433064890283093176054599380176",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 2,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9641930195115394792908304624623717115411838576249235424924708282506797690875",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 2,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9664201631618660759102433006453651770454297929826355549253370064203363644812",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 2,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9629917607836212034006406614662265319180585318667079885819307121802454861729",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 3,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 254,
+        "energy_numerator": "9549262351850975546544697567213198282521056725273239629981229247182093763467",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 3,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9604445614649051379950767427440140742107446122454092344376069588836610534255",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 3,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9614637130773298644320641450103081617662010480269457827980934929267611307357",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 4,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9645098460343661588927323491959848163876516457511093643628535186362189527245",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 4,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9684098101266330857736256801555803815296887632866100232237199696981132233962",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 2,
+        "k": 4,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 131072,
+        "nonzero_columns": 256,
+        "energy_numerator": "9681123751489772873531277194803468799358326879180717530958936860217080210177",
+        "denominator": "1766847059739078420269759855985930726569552763210711950311241555429852161"
+      },
+      {
+        "channels": 3,
+        "k": 1,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12843499044424226773510772487300639055076437831475347337718154115808815966605412792420149562020541825719150721057",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 1,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12843499044424226773510772487300639055076437831475347337718154115808815966605412792420149562020541825719150721057",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 1,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12875507494172721390203128218562557799295543344964647134656422183512912139001869657556568776429064959226822445574",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 2,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12876486063302380940837304182529430904089435432384319797126818423220075649793048663113874936346766243503540167132",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 2,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12851803428120008019571459060491840623365838886258379634743532499226243626827801925648893790281821315263200362879",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 2,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12777259819986121764583232942505074020148313536345643874158404089332781195824821181432381372717009822490354473865",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 3,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 254,
+        "energy_numerator": "12682133169700912577377382471267708609911665161908031947020057029635745536208797335944039907767739540188234899558",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 3,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12795000947487139599639287711391468961202228727070060457091127619115792868726058843653732829537990140147568576066",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 3,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12761181806618164078323811136936464463480210659991881808327426560897863765690460765020836283307034281307288518983",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 4,
+        "shape": "shared_t",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12850934648543521250746428948125829649389941865551395834746996062731192282492739371578291988381686466212420965024",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 4,
+        "shape": "distinct_t",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12846082799684499834882275418726385700841627401727210406144703549247218809709736783149503866748660487511589627011",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      },
+      {
+        "channels": 3,
+        "k": 4,
+        "shape": "last_prime_only",
+        "norm_checks": 0,
+        "spectral_entries": 196608,
+        "nonzero_columns": 256,
+        "energy_numerator": "12846906691722592338104703390105833684655204149788432697276111915016956253242521726278270633456417050741643437004",
+        "denominator": "2348542570607386694395475590504477257834724441083071063211862026274697408104267125114374563408477019220280321"
+      }
+    ],
+    "production_spectral_entries": 4718592,
+    "small_fixture_digest": "8a3d8102b91c88dcd43b36377e8b70a513469aa71c8734a315974aa12d28ed4c"
+  },
+  "scope": "Exact-law Fourier/norm argument with public arithmetic fixtures. Restricted projections only; no complete-view hardness, concrete security bits, source sampling or HE run.",
+  "bindings_before": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/check_projections.py": {
+      "bytes": 16783,
+      "sha256": "11ba1c6e4eeb1f2031e70d95f472d6d4f67b74fc4611205c3071eff4ba7dbd77"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/PLAN.md": {
+      "bytes": 1749,
+      "sha256": "547f7ffb04c8a12a3a05e12bf4ed6cc3273cff8eab192830e2bfece3a687fea1"
+    },
+    "SubmissionA/research/check_composition_rns_arithmetic.py": {
+      "bytes": 24241,
+      "sha256": "856e3f9c4f5a71890838b77acaeb4f947c1424b1e873d045db4eed9fe7df6da2"
+    },
+    "SubmissionA/research/composition_native.py": {
+      "bytes": 7153,
+      "sha256": "f79347094ca4dca383f6137388e22e874c8b37b8abc38c98b63ad2c81891bd43"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-scope.json": {
+      "bytes": 11357,
+      "sha256": "1723a9a7f8415a234836824d5ceb0570da0b303d2039625593c97a07ae11508e"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/slim_ring_base_v2.py": {
+      "bytes": 2866,
+      "sha256": "0a1bf2b25baacdb7af0943f82b46b09b6af1b7aacc5319b2aa25f4b699914a04"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/backend-v2/composition_native_core.cpp": {
+      "bytes": 19607,
+      "sha256": "dca0595bd098a99472535c3c112ee19e29ddf3c9d77ed65e5ace16c138b56581"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/PROOF.md": {
+      "bytes": 9455,
+      "sha256": "c9128d0078687f090e61d6ef611a7afb5e5dd66011ff8a18c5ea5cf435f66a36"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/RESULTS.md": {
+      "bytes": 2826,
+      "sha256": "1537da1c8f162ed71e226e05a4e4b2fb6db8c867fdad4e29b97dcb40467d9740"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/REPRODUCE.md": {
+      "bytes": 1082,
+      "sha256": "e933c3ec2d4bd6116597f2cecfdfcdfe1040727a61bad7fd19cac8e09bb9c206"
+    }
+  },
+  "bindings_after": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/check_projections.py": {
+      "bytes": 16783,
+      "sha256": "11ba1c6e4eeb1f2031e70d95f472d6d4f67b74fc4611205c3071eff4ba7dbd77"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/PLAN.md": {
+      "bytes": 1749,
+      "sha256": "547f7ffb04c8a12a3a05e12bf4ed6cc3273cff8eab192830e2bfece3a687fea1"
+    },
+    "SubmissionA/research/check_composition_rns_arithmetic.py": {
+      "bytes": 24241,
+      "sha256": "856e3f9c4f5a71890838b77acaeb4f947c1424b1e873d045db4eed9fe7df6da2"
+    },
+    "SubmissionA/research/composition_native.py": {
+      "bytes": 7153,
+      "sha256": "f79347094ca4dca383f6137388e22e874c8b37b8abc38c98b63ad2c81891bd43"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-scope.json": {
+      "bytes": 11357,
+      "sha256": "1723a9a7f8415a234836824d5ceb0570da0b303d2039625593c97a07ae11508e"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/slim_ring_base_v2.py": {
+      "bytes": 2866,
+      "sha256": "0a1bf2b25baacdb7af0943f82b46b09b6af1b7aacc5319b2aa25f4b699914a04"
+    },
+    "SubmissionA/research/jethe-throughput-redesign-2026-09-13/backend-v2/composition_native_core.cpp": {
+      "bytes": 19607,
+      "sha256": "dca0595bd098a99472535c3c112ee19e29ddf3c9d77ed65e5ace16c138b56581"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/PROOF.md": {
+      "bytes": 9455,
+      "sha256": "c9128d0078687f090e61d6ef611a7afb5e5dd66011ff8a18c5ea5cf435f66a36"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/RESULTS.md": {
+      "bytes": 2826,
+      "sha256": "1537da1c8f162ed71e226e05a4e4b2fb6db8c867fdad4e29b97dcb40467d9740"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-projections-v1/REPRODUCE.md": {
+      "bytes": 1082,
+      "sha256": "e933c3ec2d4bd6116597f2cecfdfcdfe1040727a61bad7fd19cac8e09bb9c206"
+    }
+  }
+}

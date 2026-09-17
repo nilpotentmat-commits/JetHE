@@ -1,0 +1,89 @@
+{
+  "schema": "nilhe.local-simd.hermite255-functional.v1",
+  "workload": {
+    "name": "Hermite-255",
+    "field": "GF(2^16)",
+    "public_polynomial_degree": 255,
+    "public_polynomial_nonzero_coefficients": 256,
+    "private_points": 16,
+    "hasse_coefficients_per_point": 16,
+    "useful_output_field_elements": 256,
+    "fixture_generator": "SplitMix64",
+    "fixture_seed_hex": "4845524d495445ff"
+  },
+  "carriers": {
+    "local_simd": {
+      "cyclotomic_index": 8224,
+      "ring_dimension": 4096,
+      "residue_degree": 16,
+      "local_slots": 16,
+      "jet_length": 16,
+      "completed_jet_capacity": 16,
+      "implementation": "plaintext LocalSimdCodec8224 plus jet oracle"
+    },
+    "reduced_simd": {
+      "cyclotomic_index": 4369,
+      "ring_dimension": 4096,
+      "residue_degree": 16,
+      "field_slots": 256,
+      "completed_jet_capacity": 16,
+      "implementation": "abstract GF(2^16) lane semantics only"
+    }
+  },
+  "schedules": {
+    "local_simd_radix16_bsgs": {
+      "same_application": true,
+      "evaluates_original_polynomial_circuit": true,
+      "ciphertext_multiplications": 33,
+      "ciphertext_multiplicative_depth": 8,
+      "ciphertext_plaintext_multiplications": 240,
+      "input_ciphertexts": 1,
+      "output_ciphertexts_before_compaction": 1
+    },
+    "reduced_simd_direct_hasse_bsgs": {
+      "same_application": true,
+      "evaluates_original_polynomial_circuit": false,
+      "public_precompilation": "sixteen Hasse-derivative polynomials packed over 256 lanes",
+      "ciphertext_multiplications": 33,
+      "ciphertext_multiplicative_depth": 8,
+      "ciphertext_plaintext_multiplications": 240,
+      "input_ciphertexts": 1,
+      "output_ciphertexts_before_compaction": 1
+    },
+    "reduced_simd_evaluation_interpolation": {
+      "same_application": true,
+      "evaluates_original_polynomial_circuit": true,
+      "evaluation_points_per_private_point": 256,
+      "ciphertext_multiplications": 528,
+      "ciphertext_multiplicative_depth": 8,
+      "input_ciphertexts": 16,
+      "output_ciphertexts_before_compaction": 16,
+      "cross_slot_interpolation_and_compaction": "not implemented"
+    },
+    "coefficient_separated_forward": {
+      "same_application": true,
+      "evaluates_original_polynomial_circuit": true,
+      "ciphertext_multiplications": 3960,
+      "ciphertext_multiplicative_depth": 255,
+      "input_ciphertexts": 1,
+      "output_ciphertexts_before_compaction": 16,
+      "optimization": "skip structurally zero high jet coefficients during early Horner steps"
+    }
+  },
+  "acceptance_gates": {
+    "same_useful_output": true,
+    "same_ring_dimension": true,
+    "same_residue_degree": true,
+    "plaintext_oracle_match": "required by jet_hermite255_functional",
+    "concrete_phi8224_codec_roundtrip": "required by jet_hermite255_functional",
+    "encrypted_local_simd_application": false,
+    "encrypted_reduced_carrier": false,
+    "matched_modulus_chain": false,
+    "matched_error_distribution": false,
+    "matched_failure_probability": false,
+    "number_field_security_estimate": false,
+    "security_match": false,
+    "timings_publishable": false
+  },
+  "claim_boundary": "This manifest certifies a deterministic output-matched plaintext/compiler/oracle tranche and exact circuit counts only. It is not an encrypted benchmark, a matched-security comparison, or evidence of a Local-SIMD speedup. For this unary public-polynomial workload, the strongest direct-Hasse reduced-SIMD comparator has the same 33-HMul, depth-8 nonlinear circuit count as Local-SIMD."
+}

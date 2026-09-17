@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\scanf\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\Users\\scanf\\OneDrive\\Paper\\NilCrypto\\Submissions\\NilHEoverRing\\SubmissionA\\research\\eurocrypt-readiness-2026-09-13\\joint-batch-bound-v1\\check_joint.py"
+  ],
+  "started_utc": "2026-09-14T16:01:59.367300+00:00",
+  "finished_utc": "2026-09-14T16:01:59.555945+00:00",
+  "elapsed_seconds": 0.18864519998896867,
+  "actual_exit_code": 0,
+  "stdout_sha256": "014980e810a631866576758d27ddcfb743972f758ffa2485e0a64f4b7a69795a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "new_he_execution": false
+}

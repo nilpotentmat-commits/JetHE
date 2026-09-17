@@ -1,0 +1,377 @@
+{
+  "status": "FRESH_PAIRED_TERMINAL_FULL_FUNCTIONAL_PASS",
+  "mode": "full",
+  "jobs": 16,
+  "length": 256,
+  "source_cap": 96,
+  "n": 32768,
+  "q": "618970019642690137449562111",
+  "q_bits": 89,
+  "product_carriers": 86,
+  "bypass_carriers_per_owner": 2,
+  "input_ciphertexts": 348,
+  "scalar_pairs": 175776,
+  "public_record_sha256": "333097a3d0d71143417f898881aacb0f64d73ff73c4eade0d07b3a56194fb9a7",
+  "counts": {
+    "public_polynomials": 2,
+    "public_ciphertexts": 1,
+    "extra_production_range_products": 2,
+    "fresh_inputs": 348,
+    "input_polynomials": 696,
+    "input_ciphertexts": 348,
+    "input_binary_coefficients": 11403264,
+    "raw_products": 86,
+    "output_polynomials": 266,
+    "output_ciphertexts": 90,
+    "output_binary_coefficients": 2949120,
+    "decoded_field_slots": 184320
+  },
+  "ring_products": {
+    "public_key": 1,
+    "secret_square": 1,
+    "encryption": 696,
+    "input_validation": 348,
+    "raw_tensors": 258,
+    "terminal_decryption": 176
+  },
+  "ring_product_seconds": {
+    "public_key": 0.04965510900001391,
+    "secret_square": 0.02522289399894362,
+    "encryption": 33.580885901006695,
+    "input_validation": 16.073476636986015,
+    "raw_tensors": 18.715449973984505,
+    "terminal_decryption": 8.700824641004147
+  },
+  "total_instrumented_core_ring_products": 1480,
+  "extra_diagnostic_ring_products": 2,
+  "owner_field_products": {
+    "outer": 173744,
+    "inner": 6292791
+  },
+  "phase_seconds": {
+    "setup": 0.6076591270011704,
+    "diagnostic_field_and_range": 0.12151939700015646,
+    "public_routing_setup": 0.019020820000150707,
+    "outer_owner_preparation": 0.028336720999504905,
+    "inner_owner_preparation": 0.6235468850009056,
+    "diagnostic_expected_oracle": 0.0021616100002574967,
+    "input_encoding": 47.626487836003434,
+    "encryption": 37.97274692198698,
+    "input_serialization": 1.6774073710093944,
+    "diagnostic_input_decryption": 17.878423380998356,
+    "diagnostic_input_phase_check": 0.7777515049874637,
+    "evaluation": 20.131737791993146,
+    "diagnostic_expected_slots": 0.08506384999600414,
+    "output_serialization": 0.6548190069879638,
+    "terminal_decryption": 9.394602223996117,
+    "diagnostic_output_encoding": 12.824442923994866,
+    "diagnostic_output_phase_check": 0.292519201988398,
+    "terminal_decoding": 8.305017167003825,
+    "terminal_routing": 0.018563128000096185
+  },
+  "workflow_phase_seconds": 127.05994499998269,
+  "instrumented_wall_seconds": 160.37203036699975,
+  "finite_source_sampling_seconds": 3.0950175580455834,
+  "finite_source": {
+    "vectors": 1046,
+    "source_bytes": 68983124,
+    "ambiguous_draws": 14311,
+    "cap_events": 0,
+    "original_fixed_byte_budget": 1096845014,
+    "exact_law_preserved": true,
+    "diagnostic_only": true
+  },
+  "uniform_source": {
+    "vectors": 1,
+    "source_bytes": 393216,
+    "bounded_exhaustion_upper": "2^-22769"
+  },
+  "payload_bytes": {
+    "public": 786432,
+    "input": 273678336,
+    "output": 104595456
+  },
+  "payload_sha256": {
+    "public": "58346587c8a9db95b2e1826c14dac8829ca2193b3d13e4178df68ce5b89acf4e",
+    "input": "78f6b292ad3670a3200e7e140ceb7c4c73f0634f73add369ab9c4dbae3336288",
+    "output": "6fe408291dc158573e7d59f57dac49d51e263575f17d05fcd85386ba6c1c2411"
+  },
+  "payload_storage": "Serialized to counting SHA-256 sinks; ciphertext bytes are not retained.",
+  "expected_oracle": "bound previously generated independent C++ Horner oracle",
+  "recovered_words": 4096,
+  "recovered_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+  "omitted_correction_nonconstant_failures": {
+    "outer": 4064,
+    "inner": 3545
+  },
+  "arithmetic_checks": {
+    "field_pairs": 512,
+    "independent_small_range_coefficients": 124,
+    "production_range_coefficients": 32768
+  },
+  "fixture": {
+    "id": "composition-l256-v1",
+    "seed_hex": "0x4a657448454c3235",
+    "jobs": 16,
+    "length": 256,
+    "field_polynomial": "0x1100b",
+    "serialization": "job-major f then g; uint16 little endian",
+    "sha256": "009c072d2b5096f04e88acc5f3379dc58c025b5d94a8325585a09ede33ec77ca",
+    "fnv64_cross_language_check": "17538928597010511084",
+    "scope": "Public synthetic correctness fixture; not an application distribution or encryption randomness"
+  },
+  "backend": {
+    "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0",
+    "version": "6.3.0",
+    "sha256": "fda9699eef15deda5f1c626e9140377a7f5d88c41516a54278ac02429cb20fa5"
+  },
+  "platform": {
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "address_space_limit_bytes": 2147483648,
+    "peak_rss_kib": 192168
+  },
+  "width_inventory": [
+    {
+      "q_bits": 89,
+      "convolution_bytes": 4,
+      "left_bits": 5,
+      "right_bits": 5,
+      "count": 1
+    },
+    {
+      "q_bits": 89,
+      "convolution_bytes": 14,
+      "left_bits": 89,
+      "right_bits": 5,
+      "count": 1136
+    },
+    {
+      "q_bits": 89,
+      "convolution_bytes": 15,
+      "left_bits": 89,
+      "right_bits": 15,
+      "count": 86
+    },
+    {
+      "q_bits": 89,
+      "convolution_bytes": 25,
+      "left_bits": 89,
+      "right_bits": 89,
+      "count": 258
+    }
+  ],
+  "preprocessing": {
+    "prefix_lookup_bytes": 33685524,
+    "finite_cdf_bytes": 2383552,
+    "charged_here": "Loading and retaining existing tables; fresh codec and field setup.",
+    "excluded": "Initial finite-CDF construction, prefix-table construction and asset generation."
+  },
+  "bindings_before": {
+    "SubmissionA/research/composition_fixture.py": {
+      "bytes": 1667,
+      "sha256": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48"
+    },
+    "SubmissionA/research/core-resolution/packed-fermat-receiver-v1/prime-codec-assets-v1.json.gz": {
+      "bytes": 632503,
+      "sha256": "c9b60968a8d5e3cf1b43b584d4ce02ced702360b8334119e1c1957fb5e4435d5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/expected.bin": {
+      "bytes": 8192,
+      "sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/range_arithmetic.py": {
+      "bytes": 2250,
+      "sha256": "04f6de30730360fad20aaba140636003b2e42b524af8f37d2bdc35dbf9be2d14"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/sample_vectors.py": {
+      "bytes": 4652,
+      "sha256": "94548b36d7764bc763ba2c608335e89da3add1fc05f8b678aeec11497c7b90aa"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/table-receipt.json": {
+      "bytes": 2085,
+      "sha256": "a69996a1c585140e7430b46d5cabc84d71bb6a48a29f7b8a3a6937cc7327192d"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/tables.bin": {
+      "bytes": 2383552,
+      "sha256": "ae73e8bf44e88c721362d730e9130672cb1125afa6b88c1d15aca05acd0094b2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-product-audit-v1/PROOF.md": {
+      "bytes": 7544,
+      "sha256": "b0f6dd64d6fd99a4f83161719024af88d61f72489e31d8cdb1665881315554e5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PLAN.md": {
+      "bytes": 1825,
+      "sha256": "94fee3dd4c7e782adc22198d0c6eedfabe0dc0161085b1615aeaef15304d27d3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PROOF.md": {
+      "bytes": 9533,
+      "sha256": "a786c82522d246dc69bdd8ac4602710fbdccea964ba1ab5feb982030469c1afe"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/admission.json": {
+      "bytes": 8291,
+      "sha256": "75ae4a29949c7619c6258c5bb48627ad89cce59a95223bcda613566e1793996b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/admission.py": {
+      "bytes": 6357,
+      "sha256": "5348ca582ee72e695f7cde39e0d22e31babd9ee6cf706f1b5cbf18b5a9cc1922"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/build_prefix.py": {
+      "bytes": 3804,
+      "sha256": "6f41f4193e186b772c07fe0335a2db10a48f3e31d7e0ab8088f0624d464df6e1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prefix-receipt.json": {
+      "bytes": 69203,
+      "sha256": "00fcbc012d3382354a2429c6f793ed5e4472690a4adfbc4debf7fb3795cd64c5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prefix16.bin": {
+      "bytes": 33685524,
+      "sha256": "22294e6b6da0f94d306ea6f33b960957a3b7975ba32a8ec41d9cbeb85a1648d6"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prefix_sampler.py": {
+      "bytes": 3080,
+      "sha256": "ddc0c8e916df0bba353ca08ebb0b1ca538fd2b68bfd05f687f32f0d1c17c0123"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prepare.py": {
+      "bytes": 5623,
+      "sha256": "439c417877cad0af8c90ccd0e439457394bd699d96b7b2906143c9be6f47fea1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/run_receiver.py": {
+      "bytes": 20721,
+      "sha256": "81a97389336bc6fa06fb961febdebd2f9de043043c7372d05b96a629993f272b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/verification.json": {
+      "bytes": 11589,
+      "sha256": "4618aca0a2e69f0663cb053140c80661089dbfc2d51c48924418e70c67e03e1e"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/arithmetic.py": {
+      "bytes": 7485,
+      "sha256": "5851be6086be359940c414c051b88079aab90edce677c5ba421cb112a04ebf1b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/codec.py": {
+      "bytes": 7385,
+      "sha256": "700b891e4005fe8505eceb294125427e717d6dc8187eda86c69ac708d31ec7fb"
+    }
+  },
+  "bindings_after": {
+    "SubmissionA/research/composition_fixture.py": {
+      "bytes": 1667,
+      "sha256": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48"
+    },
+    "SubmissionA/research/core-resolution/packed-fermat-receiver-v1/prime-codec-assets-v1.json.gz": {
+      "bytes": 632503,
+      "sha256": "c9b60968a8d5e3cf1b43b584d4ce02ced702360b8334119e1c1957fb5e4435d5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/expected.bin": {
+      "bytes": 8192,
+      "sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/range_arithmetic.py": {
+      "bytes": 2250,
+      "sha256": "04f6de30730360fad20aaba140636003b2e42b524af8f37d2bdc35dbf9be2d14"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/sample_vectors.py": {
+      "bytes": 4652,
+      "sha256": "94548b36d7764bc763ba2c608335e89da3add1fc05f8b678aeec11497c7b90aa"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/table-receipt.json": {
+      "bytes": 2085,
+      "sha256": "a69996a1c585140e7430b46d5cabc84d71bb6a48a29f7b8a3a6937cc7327192d"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/tables.bin": {
+      "bytes": 2383552,
+      "sha256": "ae73e8bf44e88c721362d730e9130672cb1125afa6b88c1d15aca05acd0094b2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-product-audit-v1/PROOF.md": {
+      "bytes": 7544,
+      "sha256": "b0f6dd64d6fd99a4f83161719024af88d61f72489e31d8cdb1665881315554e5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PLAN.md": {
+      "bytes": 1825,
+      "sha256": "94fee3dd4c7e782adc22198d0c6eedfabe0dc0161085b1615aeaef15304d27d3"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/PROOF.md": {
+      "bytes": 9533,
+      "sha256": "a786c82522d246dc69bdd8ac4602710fbdccea964ba1ab5feb982030469c1afe"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/admission.json": {
+      "bytes": 8291,
+      "sha256": "75ae4a29949c7619c6258c5bb48627ad89cce59a95223bcda613566e1793996b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/admission.py": {
+      "bytes": 6357,
+      "sha256": "5348ca582ee72e695f7cde39e0d22e31babd9ee6cf706f1b5cbf18b5a9cc1922"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/build_prefix.py": {
+      "bytes": 3804,
+      "sha256": "6f41f4193e186b772c07fe0335a2db10a48f3e31d7e0ab8088f0624d464df6e1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prefix-receipt.json": {
+      "bytes": 69203,
+      "sha256": "00fcbc012d3382354a2429c6f793ed5e4472690a4adfbc4debf7fb3795cd64c5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prefix16.bin": {
+      "bytes": 33685524,
+      "sha256": "22294e6b6da0f94d306ea6f33b960957a3b7975ba32a8ec41d9cbeb85a1648d6"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prefix_sampler.py": {
+      "bytes": 3080,
+      "sha256": "ddc0c8e916df0bba353ca08ebb0b1ca538fd2b68bfd05f687f32f0d1c17c0123"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prepare.py": {
+      "bytes": 5623,
+      "sha256": "439c417877cad0af8c90ccd0e439457394bd699d96b7b2906143c9be6f47fea1"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/run_receiver.py": {
+      "bytes": 20721,
+      "sha256": "81a97389336bc6fa06fb961febdebd2f9de043043c7372d05b96a629993f272b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/verification.json": {
+      "bytes": 11589,
+      "sha256": "4618aca0a2e69f0663cb053140c80661089dbfc2d51c48924418e70c67e03e1e"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/arithmetic.py": {
+      "bytes": 7485,
+      "sha256": "5851be6086be359940c414c051b88079aab90edce677c5ba421cb112a04ebf1b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/codec.py": {
+      "bytes": 7385,
+      "sha256": "700b891e4005fe8505eceb294125427e717d6dc8187eda86c69ac708d31ec7fb"
+    }
+  },
+  "scope": "Fresh diagnostic execution on public synthetic inputs. Private phase checks, source counters and timings are outside the protocol-public CPA transcript. Concurrent research jobs; not an optimized benchmark, security-bit certificate, recipient-privacy result or FHE refresh."
+}

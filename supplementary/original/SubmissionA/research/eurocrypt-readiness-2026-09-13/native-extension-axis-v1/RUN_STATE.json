@@ -1,0 +1,36 @@
+{
+  "status": "NATIVE_EXTENSION_AXIS_FRESH_EXECUTIONS_COMPLETE",
+  "build": {
+    "actual_exit_code": 0,
+    "chunk": "617cea"
+  },
+  "public_check": {
+    "actual_exit_code": 0,
+    "chunk": "7299d8"
+  },
+  "gate": {
+    "session": 22158,
+    "actual_exit_code": 0,
+    "completion_chunk": "183fb0"
+  },
+  "campaign": {
+    "session": 69395,
+    "initial_chunk": "0e64a6",
+    "actual_exit_code": 0,
+    "completion_chunk": "333947"
+  },
+  "host_observations": {
+    "windows": {
+      "actual_exit_code": 0,
+      "chunk": "b0948c"
+    },
+    "wsl": {
+      "actual_exit_code": 0,
+      "chunk": "7b35b3"
+    }
+  },
+  "scope": "Observed outer tool exits plus source-bound fresh gate and campaign records. No security certification, global optimum or cross-campaign ratio.",
+  "new_he_execution": true,
+  "new_estimator_execution": false,
+  "new_attack_method": false
+}

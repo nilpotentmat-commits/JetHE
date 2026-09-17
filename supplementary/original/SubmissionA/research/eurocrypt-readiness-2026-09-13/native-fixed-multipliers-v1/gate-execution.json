@@ -1,0 +1,34 @@
+{
+  "command": [
+    "wsl",
+    "--exec",
+    "python3",
+    "-B",
+    "-u",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/run.py",
+    "--mode",
+    "gate",
+    "--out",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-v1"
+  ],
+  "actual_exit_code": 0,
+  "elapsed_seconds": 44.83669430000009,
+  "files": {
+    "gate.stdout.txt": {
+      "bytes": 540,
+      "sha256": "bdf31f4eeb5ebf2f163721e76211f70f8c6b81ae7ecf8703108b6915863e6672"
+    },
+    "gate.stderr.txt": {
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    "run.py": {
+      "bytes": 10714,
+      "sha256": "145b8afe11846df7cb168db93da51684a2c36217b38b5bea760ce1046fe1587f"
+    },
+    "gate-v1/summary.json": {
+      "bytes": 36428,
+      "sha256": "40213e6a13089854180f4d41d0389327cd977c894ac5367eb460f999423dfb5f"
+    }
+  }
+}

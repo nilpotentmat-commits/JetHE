@@ -1,0 +1,336 @@
+{
+  "status": "NATIVE_STAGE_GADGETS_CONDITIONAL_ADMISSION_PASS",
+  "widths": [
+    45,
+    45,
+    60,
+    40,
+    60
+  ],
+  "chain": [
+    3,
+    3,
+    3,
+    2,
+    2
+  ],
+  "digits": [
+    4,
+    4,
+    3,
+    3,
+    2
+  ],
+  "trace": [
+    {
+      "state": "prefix_raw",
+      "key": "s0",
+      "limbs": 3,
+      "components": 3,
+      "error_bound": "4629908247922347",
+      "strict_margin": "1532495536896400456983759139388378955293204512698885971"
+    },
+    {
+      "state": "prefix",
+      "key": "s1",
+      "limbs": 3,
+      "components": 2,
+      "error_bound": "1213072497477100529",
+      "strict_margin": "1532495536896400456983759139388378950459434155782173243"
+    },
+    {
+      "state": "hasse8",
+      "key": "h8",
+      "limbs": 3,
+      "components": 2,
+      "error_bound": "2259614478764612093",
+      "strict_margin": "1532495536896400456983759139388378946273266230632126987"
+    },
+    {
+      "state": "bypass8",
+      "key": "s2",
+      "limbs": 3,
+      "components": 2,
+      "error_bound": "2067570446995681958",
+      "strict_margin": "1532495536896400456983759139388378947041442357707847527"
+    },
+    {
+      "state": "product8_raw",
+      "key": "h8",
+      "limbs": 3,
+      "components": 3,
+      "error_bound": "973616732712397903801259907",
+      "strict_margin": "1532495536896400456983759135493912024462132530485535731"
+    },
+    {
+      "state": "product8",
+      "key": "s2",
+      "limbs": 3,
+      "components": 2,
+      "error_bound": "973616733920840493030438089",
+      "strict_margin": "1532495536896400456983759135493912019628362173568823003"
+    },
+    {
+      "state": "tail8",
+      "key": "s2",
+      "limbs": 3,
+      "components": 2,
+      "error_bound": "973616735988410940026120048",
+      "strict_margin": "1532495536896400456983759135493912011358080385586095167"
+    },
+    {
+      "state": "hasse4",
+      "key": "h4",
+      "limbs": 3,
+      "components": 2,
+      "error_bound": "973646434673483836309103339",
+      "strict_margin": "1532495536896400456983759135493793216617788800454162003"
+    },
+    {
+      "state": "bypass4",
+      "key": "s3",
+      "limbs": 3,
+      "components": 2,
+      "error_bound": "973640984863231009135150665",
+      "strict_margin": "1532495536896400456983759135493815015858800109149972699"
+    },
+    {
+      "state": "product4_raw",
+      "key": "h4",
+      "limbs": 3,
+      "components": 3,
+      "error_bound": "419522210294096346900965468301996273",
+      "strict_margin": "1532495536896400455305670298211993567707862272482590267"
+    },
+    {
+      "state": "product4",
+      "key": "s3",
+      "limbs": 3,
+      "components": 2,
+      "error_bound": "419522210294130639988608297480899008",
+      "strict_margin": "1532495536896400455305670298211856395357290955766979327"
+    },
+    {
+      "state": "tail4",
+      "key": "s3",
+      "limbs": 3,
+      "components": 2,
+      "error_bound": "419522211267771624851839306616049674",
+      "strict_margin": "1532495536896400455305670294317292455904366919226376663"
+    },
+    {
+      "state": "drop2",
+      "key": "s3",
+      "limbs": 2,
+      "components": 2,
+      "error_bound": "363877514713622027",
+      "strict_margin": "1329227993889339668988383010195810771"
+    },
+    {
+      "state": "hasse2",
+      "key": "h2",
+      "limbs": 2,
+      "components": 2,
+      "error_bound": "392200387898680891",
+      "strict_margin": "1329227993889339668875091517455575315"
+    },
+    {
+      "state": "bypass2",
+      "key": "s4",
+      "limbs": 2,
+      "components": 2,
+      "error_bound": "387003043831272164",
+      "strict_margin": "1329227993889339668895880893725210223"
+    },
+    {
+      "state": "product2_raw",
+      "key": "h2",
+      "limbs": 2,
+      "components": 3,
+      "error_bound": "168990269722124150325428385",
+      "strict_margin": "1329227993213378591555396467748585339"
+    },
+    {
+      "state": "product2",
+      "key": "s4",
+      "limbs": 2,
+      "components": 2,
+      "error_bound": "168990269754828587240663122",
+      "strict_margin": "1329227993213378591424578720087646391"
+    },
+    {
+      "state": "tail2",
+      "key": "s4",
+      "limbs": 2,
+      "components": 2,
+      "error_bound": "168990270141831631071935287",
+      "strict_margin": "1329227993213378589876566544762557731"
+    },
+    {
+      "state": "hasse1",
+      "key": "h1",
+      "limbs": 2,
+      "components": 2,
+      "error_bound": "169014519016651700180965904",
+      "strict_margin": "1329227993213281594377286268326435263"
+    },
+    {
+      "state": "bypass1",
+      "key": "h1",
+      "limbs": 2,
+      "components": 2,
+      "error_bound": "169010069265213561927257481",
+      "strict_margin": "1329227993213299393383038821341268955"
+    },
+    {
+      "state": "product1_raw",
+      "key": "h1",
+      "limbs": 2,
+      "components": 3,
+      "error_bound": "72824530614583606044900000621532388",
+      "strict_margin": "1037929871431005246264293066564169327"
+    },
+    {
+      "state": "tail1",
+      "key": "h1",
+      "limbs": 2,
+      "components": 3,
+      "error_bound": "72824530783593675310113562548789870",
+      "strict_margin": "1037929870754964969203438818855139399"
+    }
+  ],
+  "evaluated_states": 22,
+  "fresh_gate_states": 57,
+  "ideal_fixed_batches": 1024,
+  "ideal_failure_strict_exponent": 129,
+  "optimistic_exclusions": [
+    {
+      "excluded": "prefix",
+      "trace": [
+        {
+          "stage": 0,
+          "limbs": 3,
+          "bound": 14776117273301770333423527898288,
+          "strict_margin": 1532495536896400456983700034919285748230390451578982207
+        },
+        {
+          "stage": 1,
+          "limbs": 3,
+          "bound": 6366694491646628748679750150485923659744,
+          "strict_margin": 1532495536896374990205792552873384236311122201995936383
+        },
+        {
+          "stage": 2,
+          "limbs": 2,
+          "bound": 2379402713406556276907670721334,
+          "strict_margin": 1329218476278486044218785438367413543
+        },
+        {
+          "stage": 3,
+          "limbs": 2,
+          "bound": 1025230774002207640582125039593814285282,
+          "strict_margin": -4099593868014941222658056265306206842249
+        }
+      ]
+    },
+    {
+      "excluded": "h8",
+      "trace": [
+        {
+          "stage": 0,
+          "limbs": 3,
+          "bound": 12796491170624987428186675945420,
+          "strict_margin": 1532495536896400456983707953423696455362011398986793679
+        },
+        {
+          "stage": 1,
+          "limbs": 3,
+          "bound": 5513718410697060993469118240807935657067,
+          "strict_margin": 1532495536896378402110116351144405078838760913947947091
+        },
+        {
+          "stage": 2,
+          "limbs": 2,
+          "bound": 2060622912656704385673666177392,
+          "strict_margin": 1329219751397689043626350374385589311
+        },
+        {
+          "stage": 3,
+          "limbs": 2,
+          "bound": 887875773094802333998138234730654562592,
+          "strict_margin": -3550173864385319996322109045853567951489
+        }
+      ]
+    },
+    {
+      "excluded": "h2",
+      "trace": [
+        {
+          "stage": 2,
+          "limbs": 2,
+          "bound": 10448291288687136684276855894063,
+          "strict_margin": 1329186200724184921897155961626722627
+        },
+        {
+          "stage": 3,
+          "limbs": 2,
+          "bound": 4501932230532405823978659708663493762640,
+          "strict_margin": -18006399694135733956244194941584924751681
+        }
+      ]
+    }
+  ],
+  "restricted_minimum_rows": 102,
+  "restricted_minimum_row_prime_pairs": 284,
+  "public_raw_bytes": 311427072,
+  "input_raw_bytes": 108003328,
+  "output_raw_bytes": 3145728,
+  "secrets": 9,
+  "owner_public_keys": 5,
+  "setup_error_vectors": 107,
+  "setup_small_vectors": 116,
+  "incoming_rows": [
+    1,
+    8,
+    37,
+    12,
+    16,
+    9,
+    10,
+    9,
+    5
+  ],
+  "common_sufficient_source": "q3/37",
+  "previous_q3_46_still_sufficient": true,
+  "two_batch_source_gap_factor": 158,
+  "two_batch_word_budget": 213319680,
+  "bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/check_admission.py": {
+      "bytes": 2481,
+      "sha256": "f4a407b0dadaf7e18b93a8ec0c2790f1fd3cf78c7bfc6430056855978e4a4b8c"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/bounds.py": {
+      "bytes": 2234,
+      "sha256": "54f25c159174e4ee19df335980adcea361deb8d50f7d929303797836b260b00c"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/PLAN.md": {
+      "bytes": 1160,
+      "sha256": "9d43f238c61ca960c0eec4dfecb26c3bab9e9e390ae8a5a18ce64554fa3ba1e2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/PROOF.md": {
+      "bytes": 6674,
+      "sha256": "cf40e98cf36a980b02f8f7da91ec484b5e0ab95f638e415ea83f7cc112ea0e7f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/appendices/three-prime-proof.tex": {
+      "bytes": 13116,
+      "sha256": "7678b0eecf193b534b19c6e0c87a9e68d87edfb797d25442d4c4f1b488e3da22"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/source-scope.json": {
+      "bytes": 11357,
+      "sha256": "1723a9a7f8415a234836824d5ceb0570da0b303d2039625593c97a07ae11508e"
+    }
+  },
+  "new_he_execution": false,
+  "security_bits": null,
+  "scope": "Fixed chain and stage widths under the existing sufficient fixed-input proof. Exact restricted row minimum; no global runtime optimum, measured gain or source-security certificate."
+}

@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "native/run.py", line 107, in <module>
+    main()
+    ~~~~^^
+  File "native/run.py", line 72, in main
+    child(args)
+    ~~~~~^^^^^^
+  File "native/run.py", line 38, in child
+    result = worker.run()
+  File "native/src/fixed_worker.py", line 84, in run
+    self.setup()
+    ~~~~~~~~~~^^
+  File "native/src/fixed_worker.py", line 40, in setup
+    self.public_wire=serialize('public',rec)
+                     ~~~~~~~~~^^^^^^^^^^^^^^
+  File "native/src/common.py", line 76, in serialize
+    receipt=send(sink,b'JETSW002',dict(version=1,profile='one-prime-workflow-v1',kind=kind,frames=frames),arrays)
+  File "native/src/composition_wire.py", line 21, in send
+    assert sys.byteorder=='little' and len(magic)==8 and len(binding)==32
+           ^^^
+NameError: name 'sys' is not defined. Did you forget to import 'sys'?

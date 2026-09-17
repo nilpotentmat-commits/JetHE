@@ -1,0 +1,7 @@
+# Reproduction and scope
+
+The baseline remains native-extension-axis-v1. Run prepare.py under the recorded WSL compiler to create the isolated backend, then check_candidate.py. Both preserve existing outputs and refuse to overwrite earlier runs. The public screen must pass its declared threshold before run.py --mode gate; both gates must pass before run.py --mode measure with fresh host observations. Use new output directories for genuinely new campaigns. See WORKFLOW_PLAN.md for the exact fixed order and complete accounting.
+
+After the recorded campaign, run python -B report_results.py and python -B verify_records.py on Windows or Linux. The reader verifies workspace source hashes, all recorded samples, gate outcomes and summary arithmetic. It does not freshly execute HE, certify source hardness or rehash external Linux runtime libraries from Windows. Original gate/campaign workers hash those runtime files before and after execution. Actual outer process exits are retained in execution.json and the stage-specific execution receipts.
+
+The candidate preserves identical ciphertext laws and compiler counts. Quotient precomputation is included in context construction or its first timed use. All adverse historical comparisons remain eligible; do not multiply this campaign's ratios into earlier ones. This is an implementation result, not a EUROCRYPT readiness certificate or new cryptographic construction.

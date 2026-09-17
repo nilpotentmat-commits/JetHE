@@ -1,0 +1,34 @@
+[
+  {
+    "file": "conrad-digit-arxiv.pdf",
+    "url": "https://arxiv.org/pdf/math/0002026",
+    "final_url": "https://arxiv.org/pdf/math/0002026",
+    "bytes": 262420,
+    "sha256": "fbc84158eb04cdaa69785e19baaeccc2b629c37e4c61375db626a6b3028dec90",
+    "status": "DOWNLOADED"
+  },
+  {
+    "file": "conrad-digit-author.pdf",
+    "url": "https://kconrad.math.uconn.edu/articles/digit.pdf",
+    "final_url": "https://kconrad.math.uconn.edu/articles/digit.pdf",
+    "bytes": 307587,
+    "sha256": "e264f5faf9a5b98f20b49b3372fd00c0b1d1fe12e4050a62519cbd3bbb5a69b1",
+    "status": "DOWNLOADED"
+  },
+  {
+    "file": "fss-preprocessing.pdf",
+    "url": "https://eprint.iacr.org/2019/1095.pdf",
+    "final_url": "https://eprint.iacr.org/2019/1095.pdf",
+    "bytes": 483681,
+    "sha256": "fd4a2f3a35c887752f82048f1c27b2108ce67934835b5d1fc473b2a2f6e417eb",
+    "status": "DOWNLOADED"
+  },
+  {
+    "file": "psm-revisited.pdf",
+    "url": "https://eprint.iacr.org/2018/144.pdf",
+    "final_url": "https://eprint.iacr.org/2018/144.pdf",
+    "bytes": 507231,
+    "sha256": "5ea3a54a949265ff272df7169ba8263e79abdc5d15bcec3ad418cefa8e07aee3",
+    "status": "DOWNLOADED"
+  }
+]

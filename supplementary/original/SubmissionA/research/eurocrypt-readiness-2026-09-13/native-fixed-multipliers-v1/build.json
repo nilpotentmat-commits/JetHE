@@ -1,0 +1,114 @@
+{
+  "status": "NATIVE_FIXED_MULTIPLIER_BUILD_PASS",
+  "returncode": 0,
+  "command": [
+    "/var/tmp/helib-full-field-Sc2fBv/env/bin/x86_64-conda-linux-gnu-g++",
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "-fPIC",
+    "-shared",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/fast_core_v1.cpp",
+    "-o",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/build/fixed_core.so"
+  ],
+  "compiler": {
+    "bytes": 2476280,
+    "sha256": "548d782b9abd6375ee2969a0d7cd2b3b8fa550ba7dc53ad9223e8d022648c194"
+  },
+  "compiler_version": "x86_64-conda-linux-gnu-g++ (conda-forge gcc 16.2.0-4) 16.2.0\nCopyright (C) 2026 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/backend/composition_native_core.cpp": {
+      "bytes": 23712,
+      "sha256": "7714b23ba082044fab99caa539fdfb6faa7864c0743c813253cb6ce7a28cc0c6"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/backend/composition_optimized_core.cpp": {
+      "bytes": 3428,
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/backend/fast_core_v1.cpp": {
+      "bytes": 4268,
+      "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/extension_binding.py": {
+      "bytes": 2872,
+      "sha256": "b5b11e78a08b065fd773ad2fd342cc30dc4b1db4e541ef9a02ae505e3b4e3a97"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/extension_crypto.py": {
+      "bytes": 2783,
+      "sha256": "df1607fa049ce4f2f379c767577d4de2c5fed8f2a2b0473f76ca291a833b8554"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/extension_worker.py": {
+      "bytes": 7344,
+      "sha256": "e520735a732316ff2234f64fddad9871f6126d04d1d8cdfa0d9ed21e17b23133"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/run.py": {
+      "bytes": 10689,
+      "sha256": "76dddcb66953c2db5ba1ca7201a1e6fd8556c6d7757607176dcc30b673284922"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/check_candidate.py": {
+      "bytes": 10385,
+      "sha256": "e420294b6d713092f7e5456e5a3dd5713a73e03c4bd4d106b31ecc5ec00a6bba"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/build.json": {
+      "bytes": 5566,
+      "sha256": "58c8fcb321a1d3c4e4def0a2294db2e8c031affff1147cd00cc8515309faecb2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/PLAN.md": {
+      "bytes": 1089,
+      "sha256": "d5e62e0f520e1e8477e3a54ce35ad8b77e081d7cabaaf887a9059c409f894a07"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/PROOF.md": {
+      "bytes": 1756,
+      "sha256": "b68aa9b30f5c06787bd96b6b28efa616f4e65fc3f771fc1a4ea79c7387fea746"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/WORKFLOW_PLAN.md": {
+      "bytes": 1448,
+      "sha256": "1e9fda0a8fa01e84edadb3bc419c355ea590f6f029ba3a58731b733d5c2c2f9f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/prepare.py": {
+      "bytes": 5283,
+      "sha256": "7b74fa1de4792cb0eaed23958b745774fda668bce70ba97e641557caec2c7138"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/run.py": {
+      "bytes": 10714,
+      "sha256": "145b8afe11846df7cb168db93da51684a2c36217b38b5bea760ce1046fe1587f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/check_candidate.py": {
+      "bytes": 10450,
+      "sha256": "5c1150c8997dc7b76590dfff53909b35c6128b96ccc9211a77eeb55978ca328f"
+    }
+  },
+  "candidate_files": {
+    "fixed_binding.py": {
+      "bytes": 2868,
+      "sha256": "cdba545eb46750ac1f4ec18bd49fccda0a4d8ad6ec12aea6480dadefbb1ded66"
+    },
+    "fixed_crypto.py": {
+      "bytes": 2779,
+      "sha256": "0fc312fc35c09be2537d526d4b2600e97f659f32f5b8691c477bca15966935e1"
+    },
+    "fixed_worker.py": {
+      "bytes": 7327,
+      "sha256": "9baf26dffc7e8473a3dc7dbf74dae25623ed5b29e20ed3e59daaf237739c89a3"
+    },
+    "build/fixed_core.so": {
+      "bytes": 126488,
+      "sha256": "6dd349aba308d96e8edaf69a75341936617a7f59eb1cc6935b44f2f788248241"
+    },
+    "backend/composition_native_core.cpp": {
+      "bytes": 24254,
+      "sha256": "07883559dec32b3e32cc312e4b09f92dcf4e012f2c8f5eb29fde2815ea0ec5ab"
+    },
+    "backend/composition_optimized_core.cpp": {
+      "bytes": 3428,
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4"
+    },
+    "backend/fast_core_v1.cpp": {
+      "bytes": 4268,
+      "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae"
+    }
+  },
+  "new_he_execution": false,
+  "security_bits": null
+}

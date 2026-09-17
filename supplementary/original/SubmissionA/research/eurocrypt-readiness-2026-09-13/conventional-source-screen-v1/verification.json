@@ -1,0 +1,303 @@
+{
+  "status": "CONCRETE_EXPOSED_ROW_MODEL_THRESHOLDS_CHECKED",
+  "cases": [
+    {
+      "label": "owner-root",
+      "N": 32768,
+      "secret_cap": 96,
+      "residual_cap": 96,
+      "receiving_secret": 0,
+      "modulus": "790633801981682102939434948120770730662330663141180149831645929794649763937481823796720248833738767559324522907487546528866440380413255769011771093518509804380927438580337349079948858367551626332967842494034160424070341732127705853976966233004529516956289283251401443563802400840744150516352841830648461966045733363646463",
+      "modulus_bits": 1066,
+      "gamma": "1",
+      "beta": 248,
+      "preceding_ln_margin": {
+        "lower": "-62763936346380816635295167411/79228162514264337593543950336",
+        "upper": "-31381968173190408317647583705/39614081257132168796771975168",
+        "lower_approx": -0.792192250263039,
+        "upper_approx": -0.792192250263039
+      },
+      "ln_margin": {
+        "lower": "11033237848017650948653649249/79228162514264337593543950336",
+        "upper": "5516618924008825474326824625/39614081257132168796771975168",
+        "lower_approx": 0.13925903994089492,
+        "upper_approx": 0.13925903994089492
+      },
+      "costs": {
+        "adps16_classical_log2_work": 72.416,
+        "adps16_quantum_log2_work": 65.72,
+        "bdgl16_log2_work": 107.81600000000164,
+        "laamospol14_log2_work": 101.12000000016874,
+        "lll_log2_work": 68.12679016257702,
+        "svp_repeat": 524288,
+        "input_entry_bits_bound": 1070,
+        "dense_input_basis_bytes_bound": 575525617664,
+        "sieve_list_log2_vectors_proxy": 51.46
+      },
+      "high_precision_log2_model_work": {
+        "classical": "107.8160000000016275407595345798712072562281236992768324478670232108004788836171245079515320786400087",
+        "quantum": "101.1200000001687441495839223839992888391505952480829146530251038860546092190720905622311953675787860"
+      }
+    },
+    {
+      "label": "first-baby-digit-zero",
+      "N": 32768,
+      "secret_cap": 96,
+      "residual_cap": 192,
+      "receiving_secret": 1,
+      "modulus": "22231208238547022310008407032758682157909617256068919659709111546876841534884576119492391288086984708742976760570524691872553528227641989658192508350806405059778920637904262942056534544328181207325978388648118373183207860243325137534530072423058896249312304861945451588292475941224644384797650022139013201564675236587814845249479006528857206962030613997747339182059018256350169465416195411362472287006777067639663904493356612871854020864139212120182217914904483789530062705817288707",
+      "modulus_bits": 1599,
+      "gamma": "2",
+      "beta": 124,
+      "preceding_ln_margin": {
+        "lower": "-79592926137431943518674511/309485009821345068724781056",
+        "upper": "-20375789091182577540780674815/79228162514264337593543950336",
+        "lower_approx": -0.2571786148330033,
+        "upper_approx": -0.2571786148330033
+      },
+      "ln_margin": {
+        "lower": "82764106245202247891237863843/39614081257132168796771975168",
+        "upper": "165528212490404495782475727687/79228162514264337593543950336",
+        "lower_approx": 2.089259768716744,
+        "upper_approx": 2.089259768716744
+      },
+      "costs": {
+        "adps16_classical_log2_work": 36.208,
+        "adps16_quantum_log2_work": 32.86,
+        "bdgl16_log2_work": 71.87221105035832,
+        "laamospol14_log2_work": 69.86712503298327,
+        "lll_log2_work": 69.2931174203091,
+        "svp_repeat": 524288,
+        "input_entry_bits_bound": 1603,
+        "dense_input_basis_bytes_bound": 863288426496,
+        "sieve_list_log2_vectors_proxy": 25.73
+      },
+      "high_precision_log2_model_work": {
+        "classical": "71.87221105035831371059674425450611060717920250567224587430668257622684428804908193312330300544241343",
+        "quantum": "69.86712503298326457914894642183560080450027440587974306336167858246324709726130541957548747099824652"
+      }
+    }
+  ],
+  "helper_disclosure": {
+    "baby_exponent": 0,
+    "digit_count": 2,
+    "radix": "6668014432879854274079851790721257797144758322315908160396257811764037237817632071521432200871554290742929910593433240445888801654119365080363356052330830046095157579514014558463078285911814024728965016135886601981690748037476461291163877376",
+    "coefficient_product_bound": 131072,
+    "owner_error_bound": 2415919200,
+    "lifted_error_bound": "83903038823657112903570656055688003390786345230968708582347997174739445328182404335658233633554157209452845799109686336102748867197930329995349911809636390584711754452402470225337850265779701929118699056713704760615322979399669912135426226782207712",
+    "strict_decode_check": true,
+    "root_inputs_accessible": 31,
+    "condition": "Exact helper-secret recovery; not performed or assumed achieved."
+  },
+  "bank_witness": {
+    "mode": "diagonal",
+    "source_main_key": 0,
+    "target_main_key": 2,
+    "baby_families": 8,
+    "giant_families": 17,
+    "error_divisor": 1,
+    "specification": {
+      "cut": 8,
+      "parity_cut": 1,
+      "baby_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "giant_coordinates": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          32640
+        ],
+        [
+          0,
+          32648
+        ],
+        [
+          0,
+          32656
+        ],
+        [
+          0,
+          32664
+        ],
+        [
+          0,
+          32672
+        ],
+        [
+          0,
+          32680
+        ],
+        [
+          0,
+          32688
+        ],
+        [
+          0,
+          32696
+        ],
+        [
+          0,
+          32704
+        ],
+        [
+          0,
+          32712
+        ],
+        [
+          0,
+          32720
+        ],
+        [
+          0,
+          32728
+        ],
+        [
+          0,
+          32736
+        ],
+        [
+          0,
+          32744
+        ],
+        [
+          0,
+          32752
+        ],
+        [
+          0,
+          32760
+        ]
+      ]
+    },
+    "baby_uses": [
+      [
+        11,
+        16
+      ]
+    ],
+    "giant_uses": [
+      [
+        11,
+        0,
+        17
+      ],
+      [
+        11,
+        1,
+        17
+      ]
+    ],
+    "helper_secret": 1,
+    "source_secret": 0,
+    "target_secret": 4
+  },
+  "estimator_commit": "53da5982597709ba0fdf94ea37a84d822310fd84",
+  "exact_interval_method": "Rational Machin pi and range-reduced positive atanh log with explicit tails.",
+  "source_law": "Actual capped finite sampler; nearest-plane radius needs no iid coefficient premise.",
+  "security_bits": null,
+  "attack_executed": false,
+  "whole_profile_hardness_established": false,
+  "full_receiver_run_assessed": false,
+  "scope": "Conditional GSA and named reduction-cost witness; not best attack, timing, or security certificate.",
+  "bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1/check_screen.py": {
+      "bytes": 10263,
+      "sha256": "18cfed9285e07cfb653419cd08a5137e9c8355425bbfb39693d4c9681c0d1f2a"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1/PROOF.md": {
+      "bytes": 6736,
+      "sha256": "86102ce4daf33b51c17e0375cebbb542d7728f0e2d07ed4a5afdf111b70cc42b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1/RESULTS.md": {
+      "bytes": 3042,
+      "sha256": "c306fb45f4905bfc83f0e1edc20b0d0c7e2a792b9ec375d094b93c1805d43def"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/conventional-source-screen-v1/REPRODUCE.md": {
+      "bytes": 996,
+      "sha256": "3ffe78e8daa19e9739870843264afe49497c6cf8a9dddf2dd29b54b14f9116a8"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/factored-control-v1/width16.json": {
+      "bytes": 307005,
+      "sha256": "be02f272ddce8768fd62775a4b605f818f68d02b38a0a848b03d8f0ce3059922"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/run_receiver.py": {
+      "bytes": 26252,
+      "sha256": "b12b02de21767630c347671de26a869ddcdae789d0c8529e0211eb528f02743f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/check_kernels.py": {
+      "bytes": 17532,
+      "sha256": "7a94b9aa644268ca295d146647d32de47f32a8684b1a236f22a75786c765e0f8"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/arithmetic.py": {
+      "bytes": 7485,
+      "sha256": "5851be6086be359940c414c051b88079aab90edce677c5ba421cb112a04ebf1b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/sample_vectors.py": {
+      "bytes": 4652,
+      "sha256": "94548b36d7764bc763ba2c608335e89da3add1fc05f8b678aeec11497c7b90aa"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/table-receipt.json": {
+      "bytes": 2085,
+      "sha256": "a69996a1c585140e7430b46d5cabc84d71bb6a48a29f7b8a3a6937cc7327192d"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/PROOF.md": {
+      "bytes": 8093,
+      "sha256": "428ee793fd93b0d6a87015efa40cb3f9f0008ec837909f416ae9548ddaede1b0"
+    },
+    "SubmissionA/research/structured-linear-maps-2026-09-13/scripts/price_exposed_rows_v1.py": {
+      "bytes": 10288,
+      "sha256": "8adf637bb312cf4f77c87df0992aadf0f070a3f2a72c38a5853dbce74b2e99a4"
+    },
+    "SubmissionA/research/structured-linear-maps-2026-09-13/evidence/attack-cost-v1/sources/manifest.json": {
+      "bytes": 1327,
+      "sha256": "132b72d8efd5e6fc0b9797fda9d7c3555b406fc0c90d4eae62b654fd04e30efa"
+    },
+    "SubmissionA/research/structured-linear-maps-2026-09-13/evidence/attack-cost-v1/sources/reduction.py.txt": {
+      "bytes": 37592,
+      "sha256": "b1354702c88a8309f78d373ae7f4b0b4347799abfd1a13c07e0fa75bf87bd59a"
+    },
+    "SubmissionA/research/structured-linear-maps-2026-09-13/evidence/attack-cost-v1/sources/lwe_primal.py.txt": {
+      "bytes": 34102,
+      "sha256": "f46e682a3eb0b7e3b175c326f96244caee5df6f07df78974cdb834e1d6f006d1"
+    },
+    "SubmissionA/research/structured-linear-maps-2026-09-13/evidence/attack-cost-v1/sources/simulator.py.txt": {
+      "bytes": 11080,
+      "sha256": "5fc05d91665b4bf149aa27d87191c69ac617296b04b6f682a3a0ab3f0547633a"
+    }
+  }
+}

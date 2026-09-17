@@ -1,0 +1,146 @@
+{
+  "status": "BILINEAR_CARRIER_FINITE_AND_CAPACITY_CHECKS_PASS",
+  "general_bilinear": [
+    {
+      "binary": false,
+      "all_input_pairs": 256,
+      "operand_widths": [
+        2,
+        3
+      ],
+      "output_width": 5,
+      "recovered_K_coordinates": 4,
+      "inner_generator_rank": 5,
+      "mixed_output_rank": 5,
+      "frobenius_stable_generator_span": false
+    },
+    {
+      "binary": true,
+      "all_input_pairs": 256,
+      "operand_widths": [
+        3,
+        2
+      ],
+      "output_width": 7,
+      "recovered_K_coordinates": 4,
+      "inner_generator_rank": 5,
+      "mixed_output_rank": 5,
+      "frobenius_stable_generator_span": true
+    }
+  ],
+  "ramified": {
+    "truncated_product_mixed_coefficients": 256,
+    "unrestricted_product_evaluation_counterexample": true
+  },
+  "inherited_small_target_ranks": [
+    {
+      "q": 2,
+      "L": 4,
+      "all_inner_inputs": 8,
+      "coefficient_function_rank": 3,
+      "formal_nonzero_count": 5,
+      "frobenius_function_rank": 3,
+      "large_field_frobenius_formula": 4
+    },
+    {
+      "q": 4,
+      "L": 4,
+      "all_inner_inputs": 64,
+      "coefficient_function_rank": 5,
+      "formal_nonzero_count": 5,
+      "frobenius_function_rank": 7,
+      "large_field_frobenius_formula": 8
+    },
+    {
+      "q": 16,
+      "L": 4,
+      "all_inner_inputs": 4096,
+      "coefficient_function_rank": 5,
+      "formal_nonzero_count": 5,
+      "frobenius_function_rank": 16,
+      "large_field_frobenius_formula": 16
+    },
+    {
+      "q": 4,
+      "L": 2,
+      "all_inner_inputs": 4,
+      "coefficient_function_rank": 1,
+      "formal_nonzero_count": 1,
+      "frobenius_function_rank": 2,
+      "large_field_frobenius_formula": 2
+    }
+  ],
+  "ledger": {
+    "h": 16,
+    "L": 256,
+    "s": 16,
+    "coefficient_dimension": 349520,
+    "frobenius_dimension": 4194304,
+    "carriers": [
+      {
+        "K_capacity": 4096,
+        "binary_capacity": 65536,
+        "mixed_K_calls": 43,
+        "mixed_binary_calls": 32,
+        "separated_K_calls": 86,
+        "separated_binary_calls": 64,
+        "initial_inner_K": 86,
+        "initial_inner_binary": 64,
+        "initial_outer_K": 1,
+        "initial_outer_binary": 1
+      },
+      {
+        "K_capacity": 2048,
+        "binary_capacity": 32768,
+        "mixed_K_calls": 86,
+        "mixed_binary_calls": 64,
+        "separated_K_calls": 171,
+        "separated_binary_calls": 128,
+        "initial_inner_K": 171,
+        "initial_inner_binary": 128,
+        "initial_outer_K": 2,
+        "initial_outer_binary": 2
+      }
+    ]
+  },
+  "formal_proof_checked": false,
+  "encrypted_execution": false,
+  "total_time_lower_bound": false,
+  "security_bits": null,
+  "bindings_before": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/bilinear-carrier-audit-v1/PROOF.md": {
+      "bytes": 6645,
+      "sha256": "1cd0093a3a50faf09f626115e0c6424f3d02d7a6264df3c852aef7dfb70d0881"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/bilinear-carrier-audit-v1/check_carriers.py": {
+      "bytes": 5412,
+      "sha256": "f65ea23ecf04f52380c033e649462c84e861b1c811de30a04d580e24ae917589"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PROOF.md": {
+      "bytes": 11980,
+      "sha256": "58077f9dff43ebcd67eae7772cc7b937d2e91dc22cf475622f532704c0eb1726"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/check_contraction.py": {
+      "bytes": 13252,
+      "sha256": "0a88c53c2d1b371157e5fe0cba8dbe99c29ca2e9422283499d390753fc9beedb"
+    }
+  },
+  "bindings_after": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/bilinear-carrier-audit-v1/PROOF.md": {
+      "bytes": 6645,
+      "sha256": "1cd0093a3a50faf09f626115e0c6424f3d02d7a6264df3c852aef7dfb70d0881"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/bilinear-carrier-audit-v1/check_carriers.py": {
+      "bytes": 5412,
+      "sha256": "f65ea23ecf04f52380c033e649462c84e861b1c811de30a04d580e24ae917589"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/PROOF.md": {
+      "bytes": 11980,
+      "sha256": "58077f9dff43ebcd67eae7772cc7b937d2e91dc22cf475622f532704c0eb1726"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/prepared-contraction-audit-v1/check_contraction.py": {
+      "bytes": 13252,
+      "sha256": "0a88c53c2d1b371157e5fe0cba8dbe99c29ca2e9422283499d390753fc9beedb"
+    }
+  }
+}

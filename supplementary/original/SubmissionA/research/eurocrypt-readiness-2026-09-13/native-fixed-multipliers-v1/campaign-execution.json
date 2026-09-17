@@ -1,0 +1,38 @@
+{
+  "command": [
+    "wsl",
+    "--exec",
+    "python3",
+    "-B",
+    "-u",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/run.py",
+    "--mode",
+    "measure",
+    "--out",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/campaign-v1",
+    "--gate",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/gate-v1",
+    "--host-observation",
+    "/mnt/d/Users/scanf/OneDrive/Paper/NilCrypto/Submissions/NilHEoverRing/SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/host-observation-v1.json"
+  ],
+  "actual_exit_code": 0,
+  "elapsed_seconds": 160.6555350999697,
+  "files": {
+    "campaign.stdout.txt": {
+      "bytes": 1497,
+      "sha256": "c502f6cfb77b54294676957cafa048416732471b5af31168e7929ba87df95eb7"
+    },
+    "campaign.stderr.txt": {
+      "bytes": 132,
+      "sha256": "b280c454d6f559e56eb3f5ed39f3ba084b8d1744a3ff7fe016b21ff86dea1aca"
+    },
+    "run.py": {
+      "bytes": 10714,
+      "sha256": "145b8afe11846df7cb168db93da51684a2c36217b38b5bea760ce1046fe1587f"
+    },
+    "campaign-v1/summary.json": {
+      "bytes": 43588,
+      "sha256": "305d9a832d56b371eb6407c51e7b8c75a9f3cdeb266a65ee29ad73fd429b6034"
+    }
+  }
+}

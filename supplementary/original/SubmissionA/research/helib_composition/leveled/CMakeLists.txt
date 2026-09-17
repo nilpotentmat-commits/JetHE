@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(submissiona_helib_leveled LANGUAGES CXX)
+find_package(helib REQUIRED)
+add_executable(helib_leveled_preflight preflight.cpp)
+target_compile_features(helib_leveled_preflight PRIVATE cxx_std_17)
+target_compile_options(helib_leveled_preflight PRIVATE -Wall -Wextra -Werror)
+target_link_libraries(helib_leveled_preflight PRIVATE helib)

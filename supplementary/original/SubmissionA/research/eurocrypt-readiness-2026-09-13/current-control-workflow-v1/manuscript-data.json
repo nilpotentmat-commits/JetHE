@@ -1,0 +1,26 @@
+{
+  "status": "CURRENT_CONTROL_TABLES_AND_OBSERVED_GRAPH_GENERATED",
+  "reader_sha256": "64191e1b581e0a371ee3a5108ce5f30736e0eaf6ab17ea2641a706c00d5dd14a",
+  "campaign_sha256": "2f1f6df8809782ea491131b97e2c505e466e927860d12796236dc081d7f897de",
+  "generator_sha256": "6d5e93d4ca59b53da9aeb3eff305122bf6f599b384ce4943afe7c8c738bc8db4",
+  "generated": {
+    "current-control-workflow.tex": "71831e5dccf88b3b2a3bd6cce535cd53526d40d38dcf63501b4d0dcaf58988c0",
+    "current-control-samples.tex": "ae3c343f1b70cfa9acf6d78c88d06be11970cad6e5fdd0dfabcdb46e5eb1e845",
+    "current-control-lines.tex": "6a46fe5a2f3dfcf5414bdb7880e41d86fc0321118f6bfbdc5e8d1f5ac16f9d69"
+  },
+  "warm_samples": {
+    "native": [
+      1.7463539180000112,
+      1.7370259760000124,
+      1.709756920000018,
+      1.7237411140000063
+    ],
+    "control": [
+      7.724637803000007,
+      7.6955350069999895,
+      7.729049088000011,
+      7.6959508130000245
+    ]
+  },
+  "new_he_execution": false
+}

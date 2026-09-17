@@ -1,0 +1,23 @@
+{
+  "scope": "Fresh public fixture validation records and the retained initial packaging failure; no replacement for the paper measurements. Historical command paths remain provenance.",
+  "files": [
+    {
+      "path": "validation/core.json",
+      "sha256": "7d07411a2ee6f6485cd19b34a052613679a992609c3aadeb9c7f8ad4d82c0599",
+      "bytes": 6227,
+      "changes": "none"
+    },
+    {
+      "path": "validation/composition.json",
+      "sha256": "6b5b1f827753339019c9e94031aef9d46b62e07211f571e0fe2f37dad42111bf",
+      "bytes": 140238,
+      "changes": "none"
+    },
+    {
+      "path": "validation/initial-composition-profile-failure.json",
+      "sha256": "d6f6507b4cb624ec3a7f977d6d16b4f22b80dd08f59efec82d578a9689ac90a0",
+      "bytes": 276,
+      "changes": "none"
+    }
+  ]
+}

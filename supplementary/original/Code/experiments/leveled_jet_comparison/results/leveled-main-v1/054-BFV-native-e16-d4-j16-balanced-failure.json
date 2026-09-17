@@ -1,0 +1,25 @@
+{
+  "command": [
+    "D:\\Users\\scanf\\OneDrive\\Paper\\NilCrypto\\Submissions\\NilHEoverRing\\Code\\build-leveled-jet-comparison\\leveled_jet_comparison.exe",
+    "--scheme",
+    "BFV",
+    "--layout",
+    "native",
+    "--length",
+    "16",
+    "--mults",
+    "4",
+    "--schedule",
+    "balanced",
+    "--jobs",
+    "16",
+    "--repetitions",
+    "7",
+    "--seed",
+    "11"
+  ],
+  "elapsed_seconds": 0.5878883999994287,
+  "returncode": 1,
+  "stderr": "",
+  "stdout": "{\"status\":\"FAIL\",\"error\":\"exact binary output oracle mismatch\"}\n"
+}

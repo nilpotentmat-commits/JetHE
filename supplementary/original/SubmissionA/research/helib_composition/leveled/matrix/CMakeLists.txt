@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(submissiona_helib_matrix_k8 LANGUAGES CXX)
+find_package(helib REQUIRED)
+add_executable(helib_matrix_k8 ../matrix_k8.cpp)
+target_compile_features(helib_matrix_k8 PRIVATE cxx_std_17)
+target_compile_options(helib_matrix_k8 PRIVATE -Wall -Wextra -Werror)
+target_link_libraries(helib_matrix_k8 PRIVATE helib)

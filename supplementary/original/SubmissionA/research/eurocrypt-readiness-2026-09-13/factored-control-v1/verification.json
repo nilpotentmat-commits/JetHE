@@ -1,0 +1,993 @@
+{
+  "status": "FACTORED_CONTROL_PUBLIC_GRAPH_AND_SELECTED_BOUNDS_PASS",
+  "matrices": {
+    "status": "SPARSE_CRT_FACTORS_PASS",
+    "monomial_matrix_entries": 87381,
+    "complete_inverse_products": 9,
+    "fusion_policies": 5,
+    "profiles": [
+      {
+        "points": 1,
+        "forward_elementary_layers": 0,
+        "inverse_elementary_layers": 0,
+        "layers_by_fusion_width": {
+          "1": [
+            0,
+            0
+          ],
+          "2": [
+            0,
+            0
+          ],
+          "4": [
+            0,
+            0
+          ],
+          "8": [
+            0,
+            0
+          ],
+          "16": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "points": 2,
+        "forward_elementary_layers": 1,
+        "inverse_elementary_layers": 1,
+        "layers_by_fusion_width": {
+          "1": [
+            1,
+            1
+          ],
+          "2": [
+            1,
+            1
+          ],
+          "4": [
+            1,
+            1
+          ],
+          "8": [
+            1,
+            1
+          ],
+          "16": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "points": 4,
+        "forward_elementary_layers": 3,
+        "inverse_elementary_layers": 4,
+        "layers_by_fusion_width": {
+          "1": [
+            3,
+            4
+          ],
+          "2": [
+            2,
+            2
+          ],
+          "4": [
+            1,
+            1
+          ],
+          "8": [
+            1,
+            1
+          ],
+          "16": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "points": 8,
+        "forward_elementary_layers": 5,
+        "inverse_elementary_layers": 6,
+        "layers_by_fusion_width": {
+          "1": [
+            5,
+            6
+          ],
+          "2": [
+            3,
+            3
+          ],
+          "4": [
+            2,
+            2
+          ],
+          "8": [
+            1,
+            1
+          ],
+          "16": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "points": 16,
+        "forward_elementary_layers": 7,
+        "inverse_elementary_layers": 8,
+        "layers_by_fusion_width": {
+          "1": [
+            7,
+            8
+          ],
+          "2": [
+            4,
+            4
+          ],
+          "4": [
+            2,
+            2
+          ],
+          "8": [
+            1,
+            1
+          ],
+          "16": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "points": 32,
+        "forward_elementary_layers": 9,
+        "inverse_elementary_layers": 10,
+        "layers_by_fusion_width": {
+          "1": [
+            9,
+            10
+          ],
+          "2": [
+            5,
+            5
+          ],
+          "4": [
+            3,
+            3
+          ],
+          "8": [
+            2,
+            2
+          ],
+          "16": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "points": 64,
+        "forward_elementary_layers": 11,
+        "inverse_elementary_layers": 12,
+        "layers_by_fusion_width": {
+          "1": [
+            11,
+            12
+          ],
+          "2": [
+            6,
+            6
+          ],
+          "4": [
+            3,
+            3
+          ],
+          "8": [
+            2,
+            2
+          ],
+          "16": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "points": 128,
+        "forward_elementary_layers": 13,
+        "inverse_elementary_layers": 14,
+        "layers_by_fusion_width": {
+          "1": [
+            13,
+            14
+          ],
+          "2": [
+            7,
+            7
+          ],
+          "4": [
+            4,
+            4
+          ],
+          "8": [
+            2,
+            2
+          ],
+          "16": [
+            1,
+            1
+          ]
+        }
+      },
+      {
+        "points": 256,
+        "forward_elementary_layers": 15,
+        "inverse_elementary_layers": 16,
+        "layers_by_fusion_width": {
+          "1": [
+            15,
+            16
+          ],
+          "2": [
+            8,
+            8
+          ],
+          "4": [
+            4,
+            4
+          ],
+          "8": [
+            2,
+            2
+          ],
+          "16": [
+            1,
+            1
+          ]
+        }
+      }
+    ],
+    "scope": "Exact field-matrix identities; no HE, noise admission or timing advantage."
+  },
+  "profiles": [
+    {
+      "width": 1,
+      "grid_tested": 51300,
+      "grid_admitted": 23629,
+      "grid_decision_sha256": "7b4ba021faa948c86b20d2d061d1f12e0ef20cb625f9edb773d1085b1fe4f851",
+      "floor_bits": 2645,
+      "nodes": 149,
+      "graph_edges": 2224112,
+      "public_field_elements": 4096,
+      "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+      "rational_check": {
+        "exact_state_bounds": 561,
+        "minimum_strict_margin": "2342531841776461709927060375097817579748376362640523046583374714191980885889797261460977477723469141912513281267576686162117117083961764058241080470762650188045581231625974914159225895320628601171971341178851634238253727890279711563812674247491535346842881483182741184844449165412943694313384002393293869194213986486155927036346406580590046267027076198694018914080561036581720982043836421389533076785444204743120000993447231154063710875564279821964515185476717736247314337335005558140071827393808412830412458749202125216081911363631210590392695069636569292812716106101865967237120969531535490420449096545927171002544398925612687220635493000955676856322534098315570534569769728902247484497978941229665106825569015995411428226653713907836887717866388955679806880212164847661440757188105228444196007",
+        "selected_rational_recurrence_pass": true
+      },
+      "costs": {
+        "q_bits": 2646,
+        "P_bits": 2646,
+        "ordinary_digits": 1,
+        "diagonal_digits": 2,
+        "raw_public_bytes": 95338168320,
+        "owner_ciphertexts": 31,
+        "owner_input_bytes": 672464896,
+        "terminal_ciphertexts": 6,
+        "terminal_output_bytes": 130154496,
+        "source_setup_vectors": 2476,
+        "source_owner_vectors": 93,
+        "source_total_vectors": 2569,
+        "source_ideal_bits": 21550994185,
+        "source_os_bytes": 2693876521,
+        "source_law": "FINITE_GRID_LATENT_GAUSSIAN_CDF256_CAP96_GLOBAL_SIGN_V1",
+        "source_table_bytes": 2383552,
+        "source_tables": 257,
+        "source_event_transfer_from_old": "(2476+93K)*2^-227",
+        "source_scope": "Common ideal-law analysis; table source within 2^-228 per vector. No vectors sampled here. Twice the event bound for distinguishing gaps.",
+        "full_failure_union": {
+          "numerator": "1709524679543692373042770312669190932576850467694771932024220622587339964182106100029075716901999076520963764756156809734537139713797521717",
+          "denominator": "71288134650346800291268306339067051951456695425758748915299883092176174487635584164154887676833928121541286087087412614229511011271491218722697833120659596691437416786879139845044909253853184",
+          "log2_upper": -174.80032765516327,
+          "below_2_minus160": true
+        },
+        "independent_secrets": 278,
+        "map_payload_families": 1087,
+        "primitive_rows": 2198,
+        "public_row_evaluations": 6391,
+        "masks": {
+          "adjusted_map_cut_pairs": 109,
+          "instances": 5080,
+          "compact_binary_bytes": 20807680,
+          "optional_expanded_bytes": 110197473280,
+          "field_entry_writes_upper": 458776,
+          "full_encodes_upper": 5080,
+          "binary_automorphisms_upper": 5080,
+          "zero_vector_initializations": 5080,
+          "sign_bits": 4096,
+          "sign_bytes": 512
+        },
+        "memory": {
+          "logical_ciphertext_peak": 35,
+          "logical_ciphertext_bytes": 759234560,
+          "allocate_all_linear_workspace_bytes_upper": 10846208000,
+          "capped_secret_coefficient_bytes": 9109504,
+          "scope": "Add actual kernel/codec/source/plan/scratch and chosen row/mask storage; no RSS."
+        },
+        "setup": {
+          "root_uniform_rows_q": 1,
+          "evaluation_uniform_rows_M": 2197,
+          "uniform_coordinate_abort_bound": "2198*32768*2^-256",
+          "uniform_random_bits_upper": 97552548495360,
+          "ring_products_q": 1,
+          "ring_products_M": 2197,
+          "small_secret_products": 8,
+          "small_automorphisms": 1087,
+          "vector_operations_M": 8792
+        },
+        "owner": {
+          "full_encodes": 31,
+          "ring_products_q": 62,
+          "vector_operations_q": 124,
+          "plaintext_zero_field_writes": 59392,
+          "f_coefficient_copies": 4096,
+          "serialized_slot_elements": 63488,
+          "coefficient_frobenius_calls": 8032,
+          "prepared_field_elements_written": 56320,
+          "transform_field_multiplications_upper": 630464,
+          "transform_field_additions_upper": 630464,
+          "first_odd_coefficient_copies": 2048
+        },
+        "evaluation": {
+          "raw_tensor_products_q_squared": 111,
+          "scaled_tensor_rounds": 111,
+          "row_component_products_M": 12782,
+          "mask_component_products_M": 17750,
+          "total_ring_products_M": 30532,
+          "ordinary_decompositions_q": 83,
+          "linear_decompositions_M": 3154,
+          "divide_P_vector_rounds": 1060,
+          "automorphisms_M": 6308,
+          "vector_operations_M_upper": 69543,
+          "field_ciphertext_products": 28,
+          "linear_output_ciphertexts": 502,
+          "compact_mask_expansions": 8875
+        },
+        "recovery": {
+          "ring_products_q": 6,
+          "vector_operations_q": 6,
+          "rounds_q_to_2": 6,
+          "full_decodes": 6,
+          "inverse_transform_field_multiplications_upper": 303136,
+          "return_field_additions_upper": 6128,
+          "inverse_transform_field_additions_upper": 303136,
+          "return_field_multiplications_upper": 6128
+        },
+        "kernel_scope": "Conditional complete kernel ledger plus source construction, public factor/plan generation, mask/sign materialization and all IO. M=qP; q-squared scaled tensor semantics. No implemented receiver timing, numerical transform count or security qualification.",
+        "unfused_public_codec_alternative": {
+          "owner": {
+            "full_encodes": 31,
+            "ring_products_q": 62,
+            "vector_operations_q": 124,
+            "plaintext_zero_field_writes": 59392,
+            "f_coefficient_copies": 4096,
+            "serialized_slot_elements": 63488,
+            "coefficient_frobenius_calls": 8032,
+            "prepared_field_elements_written": 56320,
+            "transform_field_multiplications_upper": 630464,
+            "transform_field_additions_upper": 630464,
+            "first_odd_coefficient_copies": 2048
+          },
+          "recovery": {
+            "ring_products_q": 6,
+            "vector_operations_q": 6,
+            "rounds_q_to_2": 6,
+            "full_decodes": 6,
+            "inverse_transform_field_multiplications_upper": 303136,
+            "return_field_additions_upper": 6128,
+            "inverse_transform_field_additions_upper": 303136,
+            "return_field_multiplications_upper": 6128
+          },
+          "scope": "Use width-one field factors only in owner preparation and post-decryption recovery. Identical input/output values, unchanged HE graph and row screen. No timing assertion."
+        }
+      }
+    },
+    {
+      "width": 2,
+      "grid_tested": 51300,
+      "grid_admitted": 26215,
+      "grid_decision_sha256": "4f8eaf2403d5506948f6dc3eb79c70852dad1ab3f8575d0636a399d5ce6d8547",
+      "floor_bits": 1735,
+      "nodes": 94,
+      "graph_edges": 2329424,
+      "public_field_elements": 4096,
+      "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+      "rational_check": {
+        "exact_state_bounds": 344,
+        "minimum_strict_margin": "250897217907114454599027740324860502801291407798662384394094734965583347794272486681163629286041982676224153997738652220089761092209406939657038331260989756897274944043600152966269144673813411838238863167483161995814615480139624599317887033068071796071260879644761717205863692745426489869351392223514266134105194133246213828856348267453762629595282586399811860944202277228715381515081857886669577623158683101202213331364179513558371191039558077535499064435199330833783063339185200386203130331631094182824227143093079362547",
+        "selected_rational_recurrence_pass": true
+      },
+      "costs": {
+        "q_bits": 1736,
+        "P_bits": 1736,
+        "ordinary_digits": 1,
+        "diagonal_digits": 2,
+        "raw_public_bytes": 57838075904,
+        "owner_ciphertexts": 31,
+        "owner_input_bytes": 440860672,
+        "terminal_ciphertexts": 6,
+        "terminal_output_bytes": 85327872,
+        "source_setup_vectors": 2202,
+        "source_owner_vectors": 93,
+        "source_total_vectors": 2295,
+        "source_ideal_bits": 19252445175,
+        "source_os_bytes": 2406557655,
+        "source_law": "FINITE_GRID_LATENT_GAUSSIAN_CDF256_CAP96_GLOBAL_SIGN_V1",
+        "source_table_bytes": 2383552,
+        "source_tables": 257,
+        "source_event_transfer_from_old": "(2202+93K)*2^-227",
+        "source_scope": "Common ideal-law analysis; table source within 2^-228 per vector. No vectors sampled here. Twice the event bound for distinguishing gaps.",
+        "full_failure_union": {
+          "numerator": "1069906602163512881693252278619894674574844926179191741136972041375120560699292720402003928311354628116850085947873187653077578589377921223",
+          "denominator": "71288134650346800291268306339067051951456695425758748915299883092176174487635584164154887676833928121541286087087412614229511011271491218722697833120659596691437416786879139845044909253853184",
+          "log2_upper": -175.47643804394247,
+          "below_2_minus160": true
+        },
+        "independent_secrets": 168,
+        "map_payload_families": 1005,
+        "primitive_rows": 2034,
+        "public_row_evaluations": 5747,
+        "masks": {
+          "adjusted_map_cut_pairs": 95,
+          "instances": 5450,
+          "compact_binary_bytes": 22323200,
+          "optional_expanded_bytes": 77506150400,
+          "field_entry_writes_upper": 604384,
+          "full_encodes_upper": 5450,
+          "binary_automorphisms_upper": 5450,
+          "zero_vector_initializations": 5450,
+          "sign_bits": 4096,
+          "sign_bytes": 512
+        },
+        "memory": {
+          "logical_ciphertext_peak": 35,
+          "logical_ciphertext_bytes": 497745920,
+          "allocate_all_linear_workspace_bytes_upper": 7110656000,
+          "capped_secret_coefficient_bytes": 5505024,
+          "scope": "Add actual kernel/codec/source/plan/scratch and chosen row/mask storage; no RSS."
+        },
+        "setup": {
+          "root_uniform_rows_q": 1,
+          "evaluation_uniform_rows_M": 2033,
+          "uniform_coordinate_abort_bound": "2034*32768*2^-256",
+          "uniform_random_bits_upper": 59226189725696,
+          "ring_products_q": 1,
+          "ring_products_M": 2033,
+          "small_secret_products": 8,
+          "small_automorphisms": 1005,
+          "vector_operations_M": 8136
+        },
+        "owner": {
+          "full_encodes": 31,
+          "ring_products_q": 62,
+          "vector_operations_q": 124,
+          "plaintext_zero_field_writes": 59392,
+          "f_coefficient_copies": 4096,
+          "serialized_slot_elements": 63488,
+          "coefficient_frobenius_calls": 8032,
+          "prepared_field_elements_written": 56320,
+          "transform_field_multiplications_upper": 715664,
+          "transform_field_additions_upper": 715664,
+          "first_odd_coefficient_copies": 2048
+        },
+        "evaluation": {
+          "raw_tensor_products_q_squared": 111,
+          "scaled_tensor_rounds": 111,
+          "row_component_products_M": 11494,
+          "mask_component_products_M": 19776,
+          "total_ring_products_M": 31270,
+          "ordinary_decompositions_q": 83,
+          "linear_decompositions_M": 2832,
+          "divide_P_vector_rounds": 626,
+          "automorphisms_M": 5664,
+          "vector_operations_M_upper": 66982,
+          "field_ciphertext_products": 28,
+          "linear_output_ciphertexts": 285,
+          "compact_mask_expansions": 9888
+        },
+        "recovery": {
+          "ring_products_q": 6,
+          "vector_operations_q": 6,
+          "rounds_q_to_2": 6,
+          "full_decodes": 6,
+          "inverse_transform_field_multiplications_upper": 352288,
+          "return_field_additions_upper": 6128,
+          "inverse_transform_field_additions_upper": 352288,
+          "return_field_multiplications_upper": 6128
+        },
+        "kernel_scope": "Conditional complete kernel ledger plus source construction, public factor/plan generation, mask/sign materialization and all IO. M=qP; q-squared scaled tensor semantics. No implemented receiver timing, numerical transform count or security qualification.",
+        "unfused_public_codec_alternative": {
+          "owner": {
+            "full_encodes": 31,
+            "ring_products_q": 62,
+            "vector_operations_q": 124,
+            "plaintext_zero_field_writes": 59392,
+            "f_coefficient_copies": 4096,
+            "serialized_slot_elements": 63488,
+            "coefficient_frobenius_calls": 8032,
+            "prepared_field_elements_written": 56320,
+            "transform_field_multiplications_upper": 630464,
+            "transform_field_additions_upper": 630464,
+            "first_odd_coefficient_copies": 2048
+          },
+          "recovery": {
+            "ring_products_q": 6,
+            "vector_operations_q": 6,
+            "rounds_q_to_2": 6,
+            "full_decodes": 6,
+            "inverse_transform_field_multiplications_upper": 303136,
+            "return_field_additions_upper": 6128,
+            "inverse_transform_field_additions_upper": 303136,
+            "return_field_multiplications_upper": 6128
+          },
+          "scope": "Use width-one field factors only in owner preparation and post-decryption recovery. Identical input/output values, unchanged HE graph and row screen. No timing assertion."
+        }
+      }
+    },
+    {
+      "width": 4,
+      "grid_tested": 51300,
+      "grid_admitted": 29253,
+      "grid_decision_sha256": "d73ee4f2f334f2b49659af25c56bf48342f4b3cffaeee961641ab322556f7ea1",
+      "floor_bits": 1233,
+      "nodes": 66,
+      "graph_edges": 3070864,
+      "public_field_elements": 4096,
+      "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+      "rational_check": {
+        "exact_state_bounds": 234,
+        "minimum_strict_margin": "1072122399250442565957693800363309321819296762808567946414061975951627648681552750958516929275651874573351170983977674300415873735856987085287334195828370588854299387185642459739836634706422620095262875098389642400129648954924944412330264078368728234464013683159835964674136363567204505267503747247100089921909460364576631287023396678982513616903175099385329344611596795276228905989452966849459348710528712124475626923933698054721691489822478880295944452329864366911841230054971887",
+        "selected_rational_recurrence_pass": true
+      },
+      "costs": {
+        "q_bits": 1598,
+        "P_bits": 799,
+        "ordinary_digits": 2,
+        "diagonal_digits": 2,
+        "raw_public_bytes": 35874406400,
+        "owner_ciphertexts": 31,
+        "owner_input_bytes": 406323200,
+        "terminal_ciphertexts": 6,
+        "terminal_output_bytes": 78643200,
+        "source_setup_vectors": 1937,
+        "source_owner_vectors": 93,
+        "source_total_vectors": 2030,
+        "source_ideal_bits": 17029395950,
+        "source_os_bytes": 2128676270,
+        "source_law": "FINITE_GRID_LATENT_GAUSSIAN_CDF256_CAP96_GLOBAL_SIGN_V1",
+        "source_table_bytes": 2383552,
+        "source_tables": 257,
+        "source_event_transfer_from_old": "(1937+93K)*2^-227",
+        "source_scope": "Common ideal-law analysis; table source within 2^-228 per vector. No vectors sampled here. Twice the event bound for distinguishing gaps.",
+        "full_failure_union": {
+          "numerator": "744282853679037123249896393219167136881964086389384311034883109439191675339530557628541320169000669224149149884060453924332956038589317263",
+          "denominator": "71288134650346800291268306339067051951456695425758748915299883092176174487635584164154887676833928121541286087087412614229511011271491218722697833120659596691437416786879139845044909253853184",
+          "log2_upper": -175.99999999999935,
+          "below_2_minus160": true
+        },
+        "independent_secrets": 112,
+        "map_payload_families": 889,
+        "primitive_rows": 1825,
+        "public_row_evaluations": 4914,
+        "masks": {
+          "adjusted_map_cut_pairs": 66,
+          "instances": 5719,
+          "compact_binary_bytes": 23425024,
+          "optional_expanded_bytes": 56220057600,
+          "field_entry_writes_upper": 786928,
+          "full_encodes_upper": 5719,
+          "binary_automorphisms_upper": 5719,
+          "zero_vector_initializations": 5719,
+          "sign_bits": 4096,
+          "sign_bytes": 512
+        },
+        "memory": {
+          "logical_ciphertext_peak": 35,
+          "logical_ciphertext_bytes": 458752000,
+          "allocate_all_linear_workspace_bytes_upper": 5190451200,
+          "capped_secret_coefficient_bytes": 3670016,
+          "scope": "Add actual kernel/codec/source/plan/scratch and chosen row/mask storage; no RSS."
+        },
+        "setup": {
+          "root_uniform_rows_q": 1,
+          "evaluation_uniform_rows_M": 1824,
+          "uniform_coordinate_abort_bound": "1825*32768*2^-256",
+          "uniform_random_bits_upper": 36689472913408,
+          "ring_products_q": 1,
+          "ring_products_M": 1824,
+          "small_secret_products": 8,
+          "small_automorphisms": 889,
+          "vector_operations_M": 7300
+        },
+        "owner": {
+          "full_encodes": 31,
+          "ring_products_q": 62,
+          "vector_operations_q": 124,
+          "plaintext_zero_field_writes": 59392,
+          "f_coefficient_copies": 4096,
+          "serialized_slot_elements": 63488,
+          "coefficient_frobenius_calls": 8032,
+          "prepared_field_elements_written": 56320,
+          "transform_field_multiplications_upper": 1117200,
+          "transform_field_additions_upper": 1117200,
+          "first_odd_coefficient_copies": 2048
+        },
+        "evaluation": {
+          "raw_tensor_products_q_squared": 111,
+          "scaled_tensor_rounds": 111,
+          "row_component_products_M": 9828,
+          "mask_component_products_M": 21944,
+          "total_ring_products_M": 31772,
+          "ordinary_decompositions_q": 83,
+          "linear_decompositions_M": 2374,
+          "divide_P_vector_rounds": 406,
+          "automorphisms_M": 4748,
+          "vector_operations_M_upper": 64024,
+          "field_ciphertext_products": 28,
+          "linear_output_ciphertexts": 175,
+          "compact_mask_expansions": 10972
+        },
+        "recovery": {
+          "ring_products_q": 6,
+          "vector_operations_q": 6,
+          "rounds_q_to_2": 6,
+          "full_decodes": 6,
+          "inverse_transform_field_multiplications_upper": 598016,
+          "return_field_additions_upper": 6128,
+          "inverse_transform_field_additions_upper": 598016,
+          "return_field_multiplications_upper": 6128
+        },
+        "kernel_scope": "Conditional complete kernel ledger plus source construction, public factor/plan generation, mask/sign materialization and all IO. M=qP; q-squared scaled tensor semantics. No implemented receiver timing, numerical transform count or security qualification.",
+        "unfused_public_codec_alternative": {
+          "owner": {
+            "full_encodes": 31,
+            "ring_products_q": 62,
+            "vector_operations_q": 124,
+            "plaintext_zero_field_writes": 59392,
+            "f_coefficient_copies": 4096,
+            "serialized_slot_elements": 63488,
+            "coefficient_frobenius_calls": 8032,
+            "prepared_field_elements_written": 56320,
+            "transform_field_multiplications_upper": 630464,
+            "transform_field_additions_upper": 630464,
+            "first_odd_coefficient_copies": 2048
+          },
+          "recovery": {
+            "ring_products_q": 6,
+            "vector_operations_q": 6,
+            "rounds_q_to_2": 6,
+            "full_decodes": 6,
+            "inverse_transform_field_multiplications_upper": 303136,
+            "return_field_additions_upper": 6128,
+            "inverse_transform_field_additions_upper": 303136,
+            "return_field_multiplications_upper": 6128
+          },
+          "scope": "Use width-one field factors only in owner preparation and post-decryption recovery. Identical input/output values, unchanged HE graph and row screen. No timing assertion."
+        }
+      }
+    },
+    {
+      "width": 8,
+      "grid_tested": 51300,
+      "grid_admitted": 30811,
+      "grid_decision_sha256": "7a5c10fae92579afea4f42d49af4bfef00ce874226a208df462ebdde02b5d117",
+      "floor_bits": 969,
+      "nodes": 52,
+      "graph_edges": 4825744,
+      "public_field_elements": 4096,
+      "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+      "rational_check": {
+        "exact_state_bounds": 178,
+        "minimum_strict_margin": "595558956168900867245689233086804367988423044623126645415803598721198465462108306261364660903286754733653649681466333636679433608757120550903551635309296378019389884182617253847051737829289506114256174743707512500074236678897594408600960292347217802930378798718092885012229262642605695560334427606014753091543400089995331423744786643365870502789873371925581954290063555458507",
+        "selected_rational_recurrence_pass": true
+      },
+      "costs": {
+        "q_bits": 1247,
+        "P_bits": 623,
+        "ordinary_digits": 2,
+        "diagonal_digits": 2,
+        "raw_public_bytes": 25497698304,
+        "owner_ciphertexts": 31,
+        "owner_input_bytes": 316932096,
+        "terminal_ciphertexts": 6,
+        "terminal_output_bytes": 61341696,
+        "source_setup_vectors": 1747,
+        "source_owner_vectors": 93,
+        "source_total_vectors": 1840,
+        "source_ideal_bits": 15435511600,
+        "source_os_bytes": 1929440560,
+        "source_law": "FINITE_GRID_LATENT_GAUSSIAN_CDF256_CAP96_GLOBAL_SIGN_V1",
+        "source_table_bytes": 2383552,
+        "source_tables": 257,
+        "source_event_transfer_from_old": "(1747+93K)*2^-227",
+        "source_scope": "Common ideal-law analysis; table source within 2^-228 per vector. No vectors sampled here. Twice the event bound for distinguishing gaps.",
+        "full_failure_union": {
+          "numerator": "581470979436789740188672028273339966243475754862555072244973507806197265928819648837566945169349572282862612401122486470940657017786728563",
+          "denominator": "71288134650346800291268306339067051951456695425758748915299883092176174487635584164154887676833928121541286087087412614229511011271491218722697833120659596691437416786879139845044909253853184",
+          "log2_upper": -176.35614381022452,
+          "below_2_minus160": true
+        },
+        "independent_secrets": 84,
+        "map_payload_families": 808,
+        "primitive_rows": 1663,
+        "public_row_evaluations": 4266,
+        "masks": {
+          "adjusted_map_cut_pairs": 52,
+          "instances": 6041,
+          "compact_binary_bytes": 24743936,
+          "optional_expanded_bytes": 46320648192,
+          "field_entry_writes_upper": 1225648,
+          "full_encodes_upper": 6041,
+          "binary_automorphisms_upper": 6041,
+          "zero_vector_initializations": 6041,
+          "sign_bits": 4566,
+          "sign_bytes": 571
+        },
+        "memory": {
+          "logical_ciphertext_peak": 35,
+          "logical_ciphertext_bytes": 357826560,
+          "allocate_all_linear_workspace_bytes_upper": 3864526848,
+          "capped_secret_coefficient_bytes": 2752512,
+          "scope": "Add actual kernel/codec/source/plan/scratch and chosen row/mask storage; no RSS."
+        },
+        "setup": {
+          "root_uniform_rows_q": 1,
+          "evaluation_uniform_rows_M": 1662,
+          "uniform_coordinate_abort_bound": "1663*32768*2^-256",
+          "uniform_random_bits_upper": 26081750941696,
+          "ring_products_q": 1,
+          "ring_products_M": 1662,
+          "small_secret_products": 8,
+          "small_automorphisms": 808,
+          "vector_operations_M": 6652
+        },
+        "owner": {
+          "full_encodes": 31,
+          "ring_products_q": 62,
+          "vector_operations_q": 124,
+          "plaintext_zero_field_writes": 59392,
+          "f_coefficient_copies": 4096,
+          "serialized_slot_elements": 63488,
+          "coefficient_frobenius_calls": 8032,
+          "prepared_field_elements_written": 56320,
+          "transform_field_multiplications_upper": 2213136,
+          "transform_field_additions_upper": 2213136,
+          "first_odd_coefficient_copies": 2048
+        },
+        "evaluation": {
+          "raw_tensor_products_q_squared": 111,
+          "scaled_tensor_rounds": 111,
+          "row_component_products_M": 8532,
+          "mask_component_products_M": 24520,
+          "total_ring_products_M": 33052,
+          "ordinary_decompositions_q": 83,
+          "linear_decompositions_M": 2050,
+          "divide_P_vector_rounds": 294,
+          "automorphisms_M": 4100,
+          "vector_operations_M_upper": 63552,
+          "field_ciphertext_products": 28,
+          "linear_output_ciphertexts": 119,
+          "compact_mask_expansions": 12260
+        },
+        "recovery": {
+          "ring_products_q": 6,
+          "vector_operations_q": 6,
+          "rounds_q_to_2": 6,
+          "full_decodes": 6,
+          "inverse_transform_field_multiplications_upper": 1457856,
+          "return_field_additions_upper": 6128,
+          "inverse_transform_field_additions_upper": 1457856,
+          "return_field_multiplications_upper": 6128
+        },
+        "kernel_scope": "Conditional complete kernel ledger plus source construction, public factor/plan generation, mask/sign materialization and all IO. M=qP; q-squared scaled tensor semantics. No implemented receiver timing, numerical transform count or security qualification.",
+        "unfused_public_codec_alternative": {
+          "owner": {
+            "full_encodes": 31,
+            "ring_products_q": 62,
+            "vector_operations_q": 124,
+            "plaintext_zero_field_writes": 59392,
+            "f_coefficient_copies": 4096,
+            "serialized_slot_elements": 63488,
+            "coefficient_frobenius_calls": 8032,
+            "prepared_field_elements_written": 56320,
+            "transform_field_multiplications_upper": 630464,
+            "transform_field_additions_upper": 630464,
+            "first_odd_coefficient_copies": 2048
+          },
+          "recovery": {
+            "ring_products_q": 6,
+            "vector_operations_q": 6,
+            "rounds_q_to_2": 6,
+            "full_decodes": 6,
+            "inverse_transform_field_multiplications_upper": 303136,
+            "return_field_additions_upper": 6128,
+            "inverse_transform_field_additions_upper": 303136,
+            "return_field_multiplications_upper": 6128
+          },
+          "scope": "Use width-one field factors only in owner preparation and post-decryption recovery. Identical input/output values, unchanged HE graph and row screen. No timing assertion."
+        }
+      }
+    },
+    {
+      "width": 16,
+      "grid_tested": 51300,
+      "grid_admitted": 32216,
+      "grid_decision_sha256": "277c91fbc51718be31a17dcaf5bb3e9973c6fd34c7661067e147a95873770091",
+      "floor_bits": 833,
+      "nodes": 45,
+      "graph_edges": 6136144,
+      "public_field_elements": 4096,
+      "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+      "rational_check": {
+        "exact_state_bounds": 150,
+        "minimum_strict_margin": "113011125722364137374144624176019311352835301895881362464737716021788747997488537277183974956403528270151633208278228953991481219485603233698761459023434093203488327233334694024854138459229527752679011055510039567350389238218127846550719563723125722018235073760171018866519507322060886984603663284859281657288299037193899",
+        "selected_rational_recurrence_pass": true
+      },
+      "costs": {
+        "q_bits": 1066,
+        "P_bits": 533,
+        "ordinary_digits": 2,
+        "diagonal_digits": 2,
+        "raw_public_bytes": 20587085824,
+        "owner_ciphertexts": 31,
+        "owner_input_bytes": 272236544,
+        "terminal_ciphertexts": 6,
+        "terminal_output_bytes": 52690944,
+        "source_setup_vectors": 1641,
+        "source_owner_vectors": 93,
+        "source_total_vectors": 1734,
+        "source_ideal_bits": 14546291910,
+        "source_os_bytes": 1818288006,
+        "source_law": "FINITE_GRID_LATENT_GAUSSIAN_CDF256_CAP96_GLOBAL_SIGN_V1",
+        "source_table_bytes": 2383552,
+        "source_tables": 257,
+        "source_event_transfer_from_old": "(1641+93K)*2^-227",
+        "source_scope": "Common ideal-law analysis; table source within 2^-228 per vector. No vectors sampled here. Twice the event bound for distinguishing gaps.",
+        "full_failure_union": {
+          "numerator": "500065042315664230532233573718685556233578945134772091786931463645085632805392401373441952796250714378405486895108326979388509851742109797",
+          "denominator": "71288134650346800291268306339067051951456695425758748915299883092176174487635584164154887676833928121541286087087412614229511011271491218722697833120659596691437416786879139845044909253853184",
+          "log2_upper": -176.5737352452971,
+          "below_2_minus160": true
+        },
+        "independent_secrets": 70,
+        "map_payload_families": 762,
+        "primitive_rows": 1571,
+        "public_row_evaluations": 3898,
+        "masks": {
+          "adjusted_map_cut_pairs": 45,
+          "instances": 6154,
+          "compact_binary_bytes": 25206784,
+          "optional_expanded_bytes": 40330854400,
+          "field_entry_writes_upper": 1553248,
+          "full_encodes_upper": 6154,
+          "binary_automorphisms_upper": 6154,
+          "zero_vector_initializations": 6154,
+          "sign_bits": 4606,
+          "sign_bytes": 576
+        },
+        "memory": {
+          "logical_ciphertext_peak": 35,
+          "logical_ciphertext_bytes": 307363840,
+          "allocate_all_linear_workspace_bytes_upper": 3355443200,
+          "capped_secret_coefficient_bytes": 2293760,
+          "scope": "Add actual kernel/codec/source/plan/scratch and chosen row/mask storage; no RSS."
+        },
+        "setup": {
+          "root_uniform_rows_q": 1,
+          "evaluation_uniform_rows_M": 1570,
+          "uniform_coordinate_abort_bound": "1571*32768*2^-256",
+          "uniform_random_bits_upper": 21067955437568,
+          "ring_products_q": 1,
+          "ring_products_M": 1570,
+          "small_secret_products": 8,
+          "small_automorphisms": 762,
+          "vector_operations_M": 6284
+        },
+        "owner": {
+          "full_encodes": 31,
+          "ring_products_q": 62,
+          "vector_operations_q": 124,
+          "plaintext_zero_field_writes": 59392,
+          "f_coefficient_copies": 4096,
+          "serialized_slot_elements": 63488,
+          "coefficient_frobenius_calls": 8032,
+          "prepared_field_elements_written": 56320,
+          "transform_field_multiplications_upper": 2779792,
+          "transform_field_additions_upper": 2779792,
+          "first_odd_coefficient_copies": 2048
+        },
+        "evaluation": {
+          "raw_tensor_products_q_squared": 111,
+          "scaled_tensor_rounds": 111,
+          "row_component_products_M": 7796,
+          "mask_component_products_M": 25424,
+          "total_ring_products_M": 33220,
+          "ordinary_decompositions_q": 83,
+          "linear_decompositions_M": 1866,
+          "divide_P_vector_rounds": 238,
+          "automorphisms_M": 3732,
+          "vector_operations_M_upper": 62476,
+          "field_ciphertext_products": 28,
+          "linear_output_ciphertexts": 91,
+          "compact_mask_expansions": 12712
+        },
+        "recovery": {
+          "ring_products_q": 6,
+          "vector_operations_q": 6,
+          "rounds_q_to_2": 6,
+          "full_decodes": 6,
+          "inverse_transform_field_multiplications_upper": 2081088,
+          "return_field_additions_upper": 6128,
+          "inverse_transform_field_additions_upper": 2081088,
+          "return_field_multiplications_upper": 6128
+        },
+        "kernel_scope": "Conditional complete kernel ledger plus source construction, public factor/plan generation, mask/sign materialization and all IO. M=qP; q-squared scaled tensor semantics. No implemented receiver timing, numerical transform count or security qualification.",
+        "unfused_public_codec_alternative": {
+          "owner": {
+            "full_encodes": 31,
+            "ring_products_q": 62,
+            "vector_operations_q": 124,
+            "plaintext_zero_field_writes": 59392,
+            "f_coefficient_copies": 4096,
+            "serialized_slot_elements": 63488,
+            "coefficient_frobenius_calls": 8032,
+            "prepared_field_elements_written": 56320,
+            "transform_field_multiplications_upper": 630464,
+            "transform_field_additions_upper": 630464,
+            "first_odd_coefficient_copies": 2048
+          },
+          "recovery": {
+            "ring_products_q": 6,
+            "vector_operations_q": 6,
+            "rounds_q_to_2": 6,
+            "full_decodes": 6,
+            "inverse_transform_field_multiplications_upper": 303136,
+            "return_field_additions_upper": 6128,
+            "inverse_transform_field_additions_upper": 303136,
+            "return_field_multiplications_upper": 6128
+          },
+          "scope": "Use width-one field factors only in owner preparation and post-decryption recovery. Identical input/output values, unchanged HE graph and row screen. No timing assertion."
+        }
+      }
+    }
+  ],
+  "direct_control": {
+    "q_bits": 780,
+    "P_bits": 390,
+    "raw_public_bytes": 25940590592,
+    "ring_products_M": 129356,
+    "ring_products_q_squared": 103,
+    "owner_ciphertexts": 29,
+    "terminal_ciphertexts": 6
+  },
+  "old_control_sha256": "eff9808a41d4cd1a23dc686f2d71e5c5c1f71b4b4a5c094658ba844b1ff7bf60",
+  "recorded_grid_policies": 256500,
+  "scope": "Five concrete field circuits reexecuted; selected rational bounds independently recomputed. Grid decisions are source-bound recorded runs, not reexecuted here. No encrypted receiver run, security qualification or measured total-time ordering.",
+  "files": {
+    "PLAN.md": "dd32cf93d0e54e7092ea3a854c378e106e61db9b56b156023b975be0d2ac24b7",
+    "crt_factors.py": "b8d400685777006aabe856b41eacb929c344fc021a6a7983aa501088ca0f9223",
+    "compile_control.py": "4f19352d323830f65af928e236b369fefff921c71fe512856c9fc1e0d61285df",
+    "verify_control.py": "d252d178bf47f4a2d1aa1644770eb85c037d040252733a24577524825a0637dd",
+    "width1.json": "93c9d54a4092a3bcf1eced6338eecde6f83ecf19bcda1f22ec0c8f994caa8917",
+    "width2.json": "2b205d7a9aba944fe0163feb205cabb73207f6eb1021951a8922240a6f63a267",
+    "width4.json": "42976326baf5fc5c113f8d3071f8beb1a60c45f20c98f98f4ec4a58cda3ece24",
+    "width8.json": "c626ebd04d60e5e24c2eb08e26945af25db217a7015c66b532559543d2b22866",
+    "width16.json": "be02f272ddce8768fd62775a4b605f818f68d02b38a0a848b03d8f0ce3059922",
+    "PROOF.md": "890fcbe3998d63b268e82e5a1c0e5960497bebf3a653a36577f24a8ee210e025",
+    "RESULTS.md": "ef5fbb518eefc9be5a6ea0d185c9e661bb5fac08cfe88c71b48344f7a614ef85",
+    "REPRODUCE.md": "4408ab0689d4d21d11c4848b44675091602b60ba4df9fd8bf07ccbb2b17cea87"
+  }
+}

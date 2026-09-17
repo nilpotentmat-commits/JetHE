@@ -1,0 +1,199 @@
+{
+  "status": "REAL_PERIOD_RECEIVER_KERNEL_CHECKS_PASS",
+  "small": {
+    "independent_ring_coefficients": 585,
+    "integer_rounding_cases": 669468,
+    "balanced_digit_endpoints": 60,
+    "wrong_mod_q_tensor_reduction_detected": true
+  },
+  "production": {
+    "conductor": 65537,
+    "dimension": 32768,
+    "field_slots": 2048,
+    "q": "790633801981682102939434948120770730662330663141180149831645929794649763937481823796720248833738767559324522907487546528866440380413255769011771093518509804380927438580337349079948858367551626332967842494034160424070341732127705853976966233004529516956289283251401443563802400840744150516352841830648461966045733363646463",
+    "P": "28118211215894977392565865673037386617935606989386978956879722328823984879196799189494004288149317857187005691459505594520051662846839373056303219880407274094589",
+    "modulus_bits": [
+      1066,
+      533,
+      1599
+    ],
+    "modulus_scope": "Concrete odd coprime moduli inside the selected admitted bit intervals; no primality or hardness claim.",
+    "codec": {
+      "roundtrip_field_slots": 4096,
+      "inverse_coordinate_basis_checks": 65536,
+      "original_fixture_slot_order_checks": 4096,
+      "full_field_product_slots": 2048,
+      "original_root_oracle_slots": [
+        0,
+        1,
+        37,
+        2047
+      ],
+      "encrypted_product_field_slots": 2048
+    },
+    "arithmetic": [
+      {
+        "modulus_bits": 1066,
+        "direct_coefficients": 4,
+        "dense_product_sha256": "13aba4698e9abdb2ce019a39b55e1a9fca9f5104050e3b075d8f4836a789a466"
+      },
+      {
+        "modulus_bits": 1599,
+        "direct_coefficients": 4,
+        "dense_product_sha256": "d0a3bdd273ff8bd47c91eb980c45ec40f4e0f80d37d2891ef3c2895269d02638"
+      },
+      {
+        "modulus_bits": 2132,
+        "direct_coefficients": 4,
+        "dense_product_sha256": "ec60b64a4244f7ac01a935c954cf45121a3dbcd42aef57db11ebe6020ad876bb"
+      }
+    ],
+    "primitive_tests": [
+      {
+        "name": "fresh_owner_0",
+        "coefficients": 32768,
+        "decoded_sha256": "9c50eeb02d06dcb096324ca3c1de1258234e1624f3769d95d25bd7ab8c59b976",
+        "maximum_error": "20381",
+        "strict_quarter_modulus": true
+      },
+      {
+        "name": "fresh_owner_1",
+        "coefficients": 32768,
+        "decoded_sha256": "e0a457107f8a4105f4290a918270cb5126daeea0095d2d02ca8cd6e3dc373f1c",
+        "maximum_error": "19048",
+        "strict_quarter_modulus": true
+      },
+      {
+        "name": "ordinary_independent_key_switch",
+        "coefficients": 32768,
+        "decoded_sha256": "9c50eeb02d06dcb096324ca3c1de1258234e1624f3769d95d25bd7ab8c59b976",
+        "maximum_error": "20862",
+        "strict_quarter_modulus": true
+      },
+      {
+        "name": "single_diagonal_automorphism_and_mask",
+        "coefficients": 32768,
+        "decoded_sha256": "6163964d568144d9737d2f360d07d3a384462b7497acfdcc3960e0b63d25a6fa",
+        "maximum_error": "36577056575912897456679858468658669812836434892361450344871348874910461435873309680284",
+        "strict_quarter_modulus": true
+      },
+      {
+        "name": "different_key_scaled_BFV_product",
+        "coefficients": 32768,
+        "decoded_sha256": "2ccb79ec0750065d8e483c57b714033ab4711316400bec70de148ddb34307672",
+        "maximum_error": "3173904924",
+        "strict_quarter_modulus": true
+      }
+    ],
+    "sources": {
+      "finite_vectors": 23,
+      "finite_os_bytes": 24118007,
+      "capped_vectors": 0,
+      "uniform_vectors": 12,
+      "uniform_os_bytes": 74317824,
+      "source_law": "Existing capped globally signed 257-table law; fresh os.urandom tapes.",
+      "uniform_law": "Exact bit-masked rejection; abort on the bounded rejection cap."
+    },
+    "he": {
+      "primitive_public_rows": 12,
+      "owner_encryptions": 2,
+      "instrumented_ring_products": 50,
+      "omitted_identity_changes_plaintext_bits": 16488
+    },
+    "diagnostic_seconds": 71.679706168
+  },
+  "bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/PLAN.md": {
+      "bytes": 2094,
+      "sha256": "037b8d5a071654d8a18e50bb499b8706e1f3d805db6b466650262cfc5f3cf88f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/arithmetic.py": {
+      "bytes": 7485,
+      "sha256": "5851be6086be359940c414c051b88079aab90edce677c5ba421cb112a04ebf1b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/codec.py": {
+      "bytes": 7385,
+      "sha256": "700b891e4005fe8505eceb294125427e717d6dc8187eda86c69ac708d31ec7fb"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/receiver-kernels-v1/check_kernels.py": {
+      "bytes": 17532,
+      "sha256": "7a94b9aa644268ca295d146647d32de47f32a8684b1a236f22a75786c765e0f8"
+    },
+    "SubmissionA/research/core-resolution/packed-fermat-receiver-v1/prime-codec-assets-v1.json.gz": {
+      "bytes": 632503,
+      "sha256": "c9b60968a8d5e3cf1b43b584d4ce02ced702360b8334119e1c1957fb5e4435d5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/factored-control-v1/width16.json": {
+      "bytes": 307005,
+      "sha256": "be02f272ddce8768fd62775a4b605f818f68d02b38a0a848b03d8f0ce3059922"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/sample_vectors.py": {
+      "bytes": 4652,
+      "sha256": "94548b36d7764bc763ba2c608335e89da3add1fc05f8b678aeec11497c7b90aa"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/tables.bin": {
+      "bytes": 2383552,
+      "sha256": "ae73e8bf44e88c721362d730e9130672cb1125afa6b88c1d15aca05acd0094b2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/control-sampler-v1/table-receipt.json": {
+      "bytes": 2085,
+      "sha256": "a69996a1c585140e7430b46d5cabc84d71bb6a48a29f7b8a3a6937cc7327192d"
+    },
+    "SubmissionA/research/core-resolution/packed-fermat-receiver-v1/prime-physical-plaintext-0-v1.bin": {
+      "bytes": 65536,
+      "sha256": "80d975dd8754ef3915f9adb4e2e4d881f9e2012ca8fcbb43ae10ef118b0ae12a"
+    },
+    "SubmissionA/research/core-resolution/packed-fermat-receiver-v1/prime-physical-plaintext-1-v1.bin": {
+      "bytes": 65536,
+      "sha256": "73ce8c0ff9a50bb3f6ce8e18f608121ade59ecf774a2989be19006cf92ab2076"
+    }
+  },
+  "backend": {
+    "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0",
+    "version": "6.3.0",
+    "sha256": "fda9699eef15deda5f1c626e9140377a7f5d88c41516a54278ac02429cb20fa5"
+  },
+  "execution": {
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "executable": "/usr/bin/python3",
+    "peak_rss_kib": 641872,
+    "elapsed_seconds": 71.95661075500001,
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ],
+    "timing_scope": "Diagnostic elapsed values; no controlled timing campaign or total-workflow result."
+  },
+  "scope": "Fresh selected-dimension arithmetic, codec and HE primitive trials. No full compiled control execution, 128-bit qualification, total-time ordering, or EUROCRYPT readiness claim."
+}

@@ -1,0 +1,172 @@
+{
+  "status": "NATIVE_FIXED_MULTIPLIER_PUBLIC_CORRESPONDENCE_PASS",
+  "counts": {
+    "modular_product_integer_oracle": 75192,
+    "sampler_values": 50058,
+    "all_length_transform_words": 784896,
+    "independent_sparse_evaluations": 63,
+    "lift_words": 327680,
+    "inverse_transform_words": 327680,
+    "transform_roundtrip_words": 327680,
+    "point_words": 327680,
+    "scale_words": 983040,
+    "hasse_words": 1310720,
+    "hoist_words": 2621440,
+    "relative_words": 9830400,
+    "paid_words": 5570560,
+    "drop_words": 196608,
+    "gadget_words": 458752,
+    "gadget_integer_reconstructions": 131072,
+    "phase_bound_results": 2,
+    "field_output_symbols": 8288,
+    "fused_encryption_words": 655360
+  },
+  "kernel_samples": [
+    {
+      "index": 0,
+      "arm": "baseline",
+      "calls": 8,
+      "seconds": 0.1597160209999977
+    },
+    {
+      "index": 1,
+      "arm": "candidate",
+      "calls": 8,
+      "seconds": 0.14572131399999932
+    },
+    {
+      "index": 2,
+      "arm": "candidate",
+      "calls": 8,
+      "seconds": 0.1460203109999938
+    },
+    {
+      "index": 3,
+      "arm": "baseline",
+      "calls": 8,
+      "seconds": 0.16143965100000202
+    },
+    {
+      "index": 4,
+      "arm": "baseline",
+      "calls": 8,
+      "seconds": 0.1583585330000048
+    },
+    {
+      "index": 5,
+      "arm": "candidate",
+      "calls": 8,
+      "seconds": 0.14645748200000241
+    }
+  ],
+  "kernel_block_medians": {
+    "baseline": 0.1597160209999977,
+    "candidate": 0.1460203109999938
+  },
+  "kernel_baseline_over_candidate": 1.0937931847029452,
+  "advance_to_fresh_gate": true,
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/backend/composition_native_core.cpp": {
+      "bytes": 23712,
+      "sha256": "7714b23ba082044fab99caa539fdfb6faa7864c0743c813253cb6ce7a28cc0c6"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/backend/composition_optimized_core.cpp": {
+      "bytes": 3428,
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/backend/fast_core_v1.cpp": {
+      "bytes": 4268,
+      "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/extension_binding.py": {
+      "bytes": 2872,
+      "sha256": "b5b11e78a08b065fd773ad2fd342cc30dc4b1db4e541ef9a02ae505e3b4e3a97"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/extension_crypto.py": {
+      "bytes": 2783,
+      "sha256": "df1607fa049ce4f2f379c767577d4de2c5fed8f2a2b0473f76ca291a833b8554"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/extension_worker.py": {
+      "bytes": 7344,
+      "sha256": "e520735a732316ff2234f64fddad9871f6126d04d1d8cdfa0d9ed21e17b23133"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/run.py": {
+      "bytes": 10689,
+      "sha256": "76dddcb66953c2db5ba1ca7201a1e6fd8556c6d7757607176dcc30b673284922"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/check_candidate.py": {
+      "bytes": 10385,
+      "sha256": "e420294b6d713092f7e5456e5a3dd5713a73e03c4bd4d106b31ecc5ec00a6bba"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-extension-axis-v1/build.json": {
+      "bytes": 5566,
+      "sha256": "58c8fcb321a1d3c4e4def0a2294db2e8c031affff1147cd00cc8515309faecb2"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/PLAN.md": {
+      "bytes": 1089,
+      "sha256": "d5e62e0f520e1e8477e3a54ce35ad8b77e081d7cabaaf887a9059c409f894a07"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/PROOF.md": {
+      "bytes": 1756,
+      "sha256": "b68aa9b30f5c06787bd96b6b28efa616f4e65fc3f771fc1a4ea79c7387fea746"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/WORKFLOW_PLAN.md": {
+      "bytes": 1448,
+      "sha256": "1e9fda0a8fa01e84edadb3bc419c355ea590f6f029ba3a58731b733d5c2c2f9f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/prepare.py": {
+      "bytes": 5283,
+      "sha256": "7b74fa1de4792cb0eaed23958b745774fda668bce70ba97e641557caec2c7138"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/run.py": {
+      "bytes": 10714,
+      "sha256": "145b8afe11846df7cb168db93da51684a2c36217b38b5bea760ce1046fe1587f"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/check_candidate.py": {
+      "bytes": 10450,
+      "sha256": "5c1150c8997dc7b76590dfff53909b35c6128b96ccc9211a77eeb55978ca328f"
+    }
+  },
+  "candidate_bindings": {
+    "fixed_binding.py": {
+      "bytes": 2868,
+      "sha256": "cdba545eb46750ac1f4ec18bd49fccda0a4d8ad6ec12aea6480dadefbb1ded66"
+    },
+    "fixed_crypto.py": {
+      "bytes": 2779,
+      "sha256": "0fc312fc35c09be2537d526d4b2600e97f659f32f5b8691c477bca15966935e1"
+    },
+    "fixed_worker.py": {
+      "bytes": 7327,
+      "sha256": "9baf26dffc7e8473a3dc7dbf74dae25623ed5b29e20ed3e59daaf237739c89a3"
+    },
+    "build/fixed_core.so": {
+      "bytes": 126488,
+      "sha256": "6dd349aba308d96e8edaf69a75341936617a7f59eb1cc6935b44f2f788248241"
+    },
+    "backend/composition_native_core.cpp": {
+      "bytes": 24254,
+      "sha256": "07883559dec32b3e32cc312e4b09f92dcf4e012f2c8f5eb29fde2815ea0ec5ab"
+    },
+    "backend/composition_optimized_core.cpp": {
+      "bytes": 3428,
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4"
+    },
+    "backend/fast_core_v1.cpp": {
+      "bytes": 4268,
+      "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae"
+    }
+  },
+  "build_receipt": {
+    "bytes": 5393,
+    "sha256": "8922ef90fe420ccb4edb5a804d7e49dc4e5dd090d3f5c9e003e0ca80e2a45ae8"
+  },
+  "checker": {
+    "bytes": 10450,
+    "sha256": "5c1150c8997dc7b76590dfff53909b35c6128b96ccc9211a77eeb55978ca328f"
+  },
+  "new_he_execution": false,
+  "secret_vectors_sampled": 0,
+  "security_bits": null,
+  "scope": "Public deterministic arithmetic checks and fixed-coin kernel screen only; no new encrypted gate, complete-workflow speedup or law change. Baseline is the 102-row extension-axis implementation."
+}

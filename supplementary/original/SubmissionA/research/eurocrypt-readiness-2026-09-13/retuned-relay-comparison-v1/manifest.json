@@ -1,0 +1,51 @@
+{
+  "status": "RETUNED_RELAY_DERIVATION_AND_V44_CONTEXT_BOUND",
+  "frozen_context": {
+    "checkpoint-v44/manuscript/appendices/gaussian-security-family.tex": {
+      "bytes": 25994,
+      "sha256": "ec9e1789b1416a9cc2b16caa37eb1a670271499e03cdf5a132dcbfd3872e77a8"
+    },
+    "checkpoint-v44/manuscript/appendices/gaussian-relay-work.tex": {
+      "bytes": 10691,
+      "sha256": "a4cf8d8d5524971aba1b6e7c42dbc6045ffafffe26ad40221a592f3fc8b4d538"
+    },
+    "checkpoint-v44/manuscript/appendices/fast-prepared-work.tex": {
+      "bytes": 4347,
+      "sha256": "5bb2932b9ba9bed8ed66db78749a8c3ea26d4c4e6b8437538add2bb422161606"
+    },
+    "checkpoint-v44/manuscript/appendices/joint-hasse-work.tex": {
+      "bytes": 14038,
+      "sha256": "35160d84cd6ab68a133a47248bbe6f1a80a82ec80c6a74aad7aadc2c49593f42"
+    },
+    "checkpoint-v44/manuscript/appendices/joint-batch-lower-bound.tex": {
+      "bytes": 7232,
+      "sha256": "73cbd6c0be23711a1cb509e678108d1cc31b2ae7162f514cd65a1e057b17f777"
+    },
+    "checkpoint-v44/manuscript/appendices/rational-joint-work.tex": {
+      "bytes": 9503,
+      "sha256": "f558b5440b531e17e6db2485e6520075ceff23f538e0a4fbe7deae11199245fb"
+    },
+    "checkpoint-v44/manuscript/appendices/fixed-field-carrier-bound.tex": {
+      "bytes": 12335,
+      "sha256": "919ea46b01eedb6adc59138d51ca895a3ab0d39ac669d0a54601f0a581a3cd23"
+    },
+    "checkpoint-v44/gaussian-relay-audit-v1/PROOF.md": {
+      "bytes": 10905,
+      "sha256": "7b5ce97a7e5a4574a04db52fcbba7fae0251c62d031297903f1bb425aabbf51e"
+    }
+  },
+  "files": {
+    "PROOF.md": {
+      "bytes": 6957,
+      "sha256": "4afd5bd8dedafbf975bd90dd0ec809858f6c8d93849ee2b56a2a90182b8d306d"
+    },
+    "RESULTS.md": {
+      "bytes": 2005,
+      "sha256": "c74e389634ef9346b26c50e93eb9d98a822b966d6a65525354745e600b5bd7a6"
+    },
+    "verify_records.py": {
+      "bytes": 1427,
+      "sha256": "558b52e29b7c6538d4fd6a8845ae140f27036392ceb57d96541e549dbf3363a1"
+    }
+  }
+}

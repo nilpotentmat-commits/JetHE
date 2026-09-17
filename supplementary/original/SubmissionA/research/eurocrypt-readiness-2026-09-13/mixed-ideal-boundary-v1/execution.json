@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\scanf\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\Users\\scanf\\OneDrive\\Paper\\NilCrypto\\Submissions\\NilHEoverRing\\SubmissionA\\research\\eurocrypt-readiness-2026-09-13\\mixed-ideal-boundary-v1\\check_boundary.py"
+  ],
+  "started_utc": "2026-09-14T17:38:27.767418+00:00",
+  "finished_utc": "2026-09-14T17:38:34.310708+00:00",
+  "elapsed_seconds": 6.543305900006089,
+  "actual_exit_code": 0,
+  "stdout_sha256": "d2eec28c60d28e9afde9f0bba942a07c32face54f34c4778c05ed3aeada2c7ac",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "new_he_execution": false
+}

@@ -1,0 +1,1434 @@
+{
+  "status": "SOURCE_BINDINGS_VERIFIED",
+  "records": [
+    {
+      "release_file": "src/field.py",
+      "sha256": "db6785e8268c690468b8ee1b8bf2fc3988f27a36d33c1c0c8c6ef6637e2b78d5",
+      "bytes": 2235,
+      "origins": [
+        {
+          "source": "SubmissionA/research/check_frobenius_compiler.py",
+          "sha256": "c5436958756856aa3bd65e95407b5da0c209302a37b21e707b45b9cc4a5ddd2b",
+          "bytes": 9262,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "poly_rem",
+              "source_lines": [
+                15,
+                18
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "poly_gcd",
+              "source_lines": [
+                21,
+                24
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "Field",
+              "source_lines": [
+                27,
+                50
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        },
+        {
+          "source": "SubmissionA/research/check_private_composition.py",
+          "sha256": "6006d5d64bf8c9701acdcf63709902b84a6901d56ab0e9e95a3adc9703de8ae1",
+          "bytes": 7775,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "power",
+              "source_lines": [
+                39,
+                46
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        },
+        {
+          "source": "SubmissionA/research/check_fused_composition_frontier.py",
+          "sha256": "60bcbb807a6c227a31afdb9beadcddd48f8efc217f3df3f3acfa350ad5b34470",
+          "bytes": 33110,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "FastField",
+              "source_lines": [
+                22,
+                42
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/check_tensor_codec.py",
+      "sha256": "7a9343452830d5eb4d105c32502596d3ff3260836650ff5ce7c90a6402b8dacf",
+      "bytes": 3016,
+      "origins": [
+        {
+          "source": "SubmissionA/research/check_tensor_codec.py",
+          "sha256": "3385c27250659a0abf1bdbf7acc12629971a335bc75abd3941af28e1269599be",
+          "bytes": 8809,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "power",
+              "source_lines": [
+                18,
+                25
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "apply_matrix",
+              "source_lines": [
+                28,
+                29
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "inverse_matrix",
+              "source_lines": [
+                32,
+                41
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "setup",
+              "source_lines": [
+                44,
+                75
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "butterfly",
+              "source_lines": [
+                78,
+                90
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "decode",
+              "source_lines": [
+                93,
+                95
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "encode",
+              "source_lines": [
+                98,
+                99
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/check_native_composition.py",
+      "sha256": "cc56a841fc196ea95b852579cacac9076b6a349de38f3893884de7a02a568b83",
+      "bytes": 552,
+      "origins": [
+        {
+          "source": "SubmissionA/research/check_native_composition.py",
+          "sha256": "53df906a3dd1db0ee0604bac8669a74326a3966d90c948d0677f4b22725dea21",
+          "bytes": 14954,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "hasse",
+              "source_lines": [
+                18,
+                23
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "mixed_hasse",
+              "source_lines": [
+                26,
+                31
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "frobenius",
+              "source_lines": [
+                45,
+                51
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/parameters.py",
+      "sha256": "9fc9b25441d59b2ac37863c00e74c2869cab7bf71a4c9900da41d1402abd9828",
+      "bytes": 1655,
+      "origins": [
+        {
+          "source": "SubmissionA/research/check_composition_rns_arithmetic.py",
+          "sha256": "856e3f9c4f5a71890838b77acaeb4f947c1424b1e873d045db4eed9fe7df6da2",
+          "bytes": 24241,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "recover_garner",
+              "source_lines": [
+                55,
+                70
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/composition_native.py",
+      "sha256": "3dce578bb369ba8ca80cd2b0198a9e1ad3b3577e306f9d8db09cbee06af864d0",
+      "bytes": 6864,
+      "origins": [
+        {
+          "source": "SubmissionA/research/composition_native.py",
+          "sha256": "f79347094ca4dca383f6137388e22e874c8b37b8abc38c98b63ad2c81891bd43",
+          "bytes": 7153,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "pointer",
+              "source_lines": [
+                18,
+                22
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "NativeRing",
+              "source_lines": [
+                25,
+                158
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/composition_optimized.py",
+      "sha256": "55ea7cfea2f452fa37ef605b9661f3149f22bc73683dcb60f09877273925d81a",
+      "bytes": 2575,
+      "origins": [
+        {
+          "source": "SubmissionA/research/composition_optimized.py",
+          "sha256": "6326c9dc25f432935c626a8d8666abf9266e5a5209b3d0eaaab6084e4ebebc1d",
+          "bytes": 2749,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "OptimizedRing",
+              "source_lines": [
+                14,
+                56
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/composition_full_run.py",
+      "sha256": "d2dc3316a1c8ac431207d01aee45a989c936ceef19d803dcff4c0a002ae878c6",
+      "bytes": 5918,
+      "origins": [
+        {
+          "source": "SubmissionA/research/composition_full_run.py",
+          "sha256": "d9d5a5b0875ad003ceaa4b13a9aff434215ee879738b3ac3f5505d82d863f3fe",
+          "bytes": 17939,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "Cipher",
+              "source_lines": [
+                38,
+                41
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "Bank",
+              "source_lines": [
+                45,
+                50
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "Bundle",
+              "source_lines": [
+                54,
+                57
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "Secret",
+              "source_lines": [
+                61,
+                65
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "Coins",
+              "source_lines": [
+                75,
+                111
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "keygen",
+              "source_lines": [
+                114,
+                119
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "encrypt",
+              "source_lines": [
+                122,
+                131
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "make_bank",
+              "source_lines": [
+                134,
+                144
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "external",
+              "source_lines": [
+                147,
+                153
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "relin",
+              "source_lines": [
+                156,
+                163
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "raw_sum",
+              "source_lines": [
+                166,
+                180
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "assert_public",
+              "source_lines": [
+                183,
+                194
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "encode_lanes",
+              "source_lines": [
+                255,
+                259
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/composition_public_evaluator.py",
+      "sha256": "beb6140f1779f1989feaf013efcfd06458bb0b9d53d7ed59bcb4dac68ce7faa0",
+      "bytes": 2872,
+      "origins": [
+        {
+          "source": "SubmissionA/research/composition_public_evaluator.py",
+          "sha256": "a6419008e640ea16f0bd18ebd637f29d2da895c7af007eeb94ba2c534e0372ed",
+          "bytes": 6768,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "bank_catalog",
+              "source_lines": [
+                11,
+                20
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "trace_spec",
+              "source_lines": [
+                23,
+                42
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "packet_schema",
+              "source_lines": [
+                45,
+                64
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/check_composition_modulus_chain.py",
+      "sha256": "9e126dc490ab6d446625d6a9604ee09b91acc20bae7f196f5ded23d0a67072de",
+      "bytes": 155,
+      "origins": [
+        {
+          "source": "SubmissionA/research/check_composition_modulus_chain.py",
+          "sha256": "f9cac34709b95c4dc19a362e65f05917842e3a6558091aaf40f66a1fa72a775e",
+          "bytes": 11049,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "drop_noise",
+              "source_lines": [
+                105,
+                106
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/measure_composition_native.py",
+      "sha256": "debc8fefd5d226af7ecf687b2550e7965eda76b9dbe637323c6a377be494fd09",
+      "bytes": 2469,
+      "origins": [
+        {
+          "source": "SubmissionA/research/measure_composition_native.py",
+          "sha256": "a54ed31b56f9dcfb88b7be18db04b340ac55f1a1bf5b6be1051ae6965306d8c0",
+          "bytes": 8111,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "phase",
+              "source_lines": [
+                20,
+                23
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "CountSink",
+              "source_lines": [
+                26,
+                29
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "serialize",
+              "source_lines": [
+                32,
+                40
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "owner_inputs",
+              "source_lines": [
+                71,
+                85
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "decrypt",
+              "source_lines": [
+                88,
+                99
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/composition_wire.py",
+      "sha256": "e359a6099c624eb48a803b8fd83c14b35a5f4c3b950770ff985e6333131027cb",
+      "bytes": 1472,
+      "origins": [
+        {
+          "source": "SubmissionA/research/composition_wire.py",
+          "sha256": "a7b40c0f5972654d7150c792c005107b93790e89a415d3a7d81d6cbdece0a450",
+          "bytes": 2987,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "write_all",
+              "source_lines": [
+                21,
+                26
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "schema_digest",
+              "source_lines": [
+                29,
+                30
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "send",
+              "source_lines": [
+                33,
+                46
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/composition_fixture.py",
+      "sha256": "48ef0cee2ee86fd529b3f0b660dbe87ed84022cc4d38d4d72156f89cec620ef5",
+      "bytes": 1365,
+      "origins": [
+        {
+          "source": "SubmissionA/research/composition_fixture.py",
+          "sha256": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48",
+          "bytes": 1667,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "inputs",
+              "source_lines": [
+                15,
+                34
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "metadata",
+              "source_lines": [
+                37,
+                45
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/bounds.py",
+      "sha256": "3895d1b28f02ba9c9acb7aead9a3928c82f274a097c47a90749047e008514b66",
+      "bytes": 2236,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/bounds.py",
+          "sha256": "54f25c159174e4ee19df335980adcea361deb8d50f7d929303797836b260b00c",
+          "bytes": 2234,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "root",
+              "source_lines": [
+                9,
+                11
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "digits",
+              "source_lines": [
+                12,
+                12
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "delta",
+              "source_lines": [
+                13,
+                14
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "product_bound",
+              "source_lines": [
+                15,
+                17
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "dropped",
+              "source_lines": [
+                18,
+                18
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "prefix_raw",
+              "source_lines": [
+                19,
+                19
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "trace_spec",
+              "source_lines": [
+                20,
+                33
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "optimistic_exclusion",
+              "source_lines": [
+                34,
+                46
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/fixed_binding.py",
+      "sha256": "6c6cc7de47026c4a150846efce4cdf23ce90800083ca0365faae3bfe23375a32",
+      "bytes": 2657,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_binding.py",
+          "sha256": "cdba545eb46750ac1f4ec18bd49fccda0a4d8ad6ec12aea6480dadefbb1ded66",
+          "bytes": 2868,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "SlimRingBase",
+              "source_lines": [
+                18,
+                63
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/fast_crypto_v1.py",
+      "sha256": "dbbbc7498542fc2cf83880400a256adf4f1faff6ba7f7df8625d1116f79af0eb",
+      "bytes": 1237,
+      "origins": [
+        {
+          "source": "SubmissionA/research/lightweight-jethe-2026-09-13/terminal_v1.py",
+          "sha256": "2e18f43ba0bf666c73f51c14ea761ce1ca499f02ce99e675846c073368f2fc5e",
+          "bytes": 8232,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": []
+        },
+        {
+          "source": "SubmissionA/research/jethe-throughput-redesign-2026-09-13/fast_crypto_v1.py",
+          "sha256": "e669f327b787f8f8d9d3653e5bf648181ed5bee62067fb29488637c486ad1cb9",
+          "bytes": 1697,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "FastTerminalRing",
+              "source_lines": [
+                16,
+                26
+              ],
+              "body_ast_identical": false
+            },
+            {
+              "name": "encrypt",
+              "source_lines": [
+                29,
+                42
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/fixed_crypto.py",
+      "sha256": "2f79e622abcb9184386018c364834b67c4e2021082dedb51efe1d9083e82042d",
+      "bytes": 2590,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_crypto.py",
+          "sha256": "0fc312fc35c09be2537d526d4b2600e97f659f32f5b8691c477bca15966935e1",
+          "bytes": 2779,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "SlimRing",
+              "source_lines": [
+                10,
+                29
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "make_bank",
+              "source_lines": [
+                31,
+                42
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "relin",
+              "source_lines": [
+                46,
+                53
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/stage_crypto.py",
+      "sha256": "50aeb170b0beda41fde7d0edab91d3f67abe58c520a00cb6993797b021494e78",
+      "bytes": 129,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_crypto.py",
+          "sha256": "0fc312fc35c09be2537d526d4b2600e97f659f32f5b8691c477bca15966935e1",
+          "bytes": 2779,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": []
+        }
+      ]
+    },
+    {
+      "release_file": "src/paid_hasse_public_v1.py",
+      "sha256": "cf76f972c2f590996150bcf74a420a8e929db1a51f9efe453a8adbf831a2c0eb",
+      "bytes": 7768,
+      "origins": [
+        {
+          "source": "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_public_v1.py",
+          "sha256": "fd742f08434e16e8f841cab59e8e73fc5bdf89fd75197c624b46bb8fb7a9acdf",
+          "bytes": 8257,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "bank_catalog_paid",
+              "source_lines": [
+                20,
+                34
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "trace_spec_paid",
+              "source_lines": [
+                37,
+                65
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "bundle_arrays_paid",
+              "source_lines": [
+                68,
+                99
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "packet_schema_paid",
+              "source_lines": [
+                102,
+                124
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "_evaluate_paid",
+              "source_lines": [
+                127,
+                180
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "evaluate_paid_final_output",
+              "source_lines": [
+                183,
+                184
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "evaluate_paid_with_trace",
+              "source_lines": [
+                187,
+                188
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/stage_public.py",
+      "sha256": "d4ee06feada9fe6328cd5f1f79b74c2ebcd899ec7a83d2b078f9298342c376fa",
+      "bytes": 5830,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/stage_public.py",
+          "sha256": "c96d6c6706591ba882cba9f262d5aa9be66dbeb6418dbb2e7c66428af2951183",
+          "bytes": 6694,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "catalog",
+              "source_lines": [
+                29,
+                39
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "spec",
+              "source_lines": [
+                42,
+                43
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "setup",
+              "source_lines": [
+                46,
+                75
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "validate",
+              "source_lines": [
+                78,
+                99
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "evaluate",
+              "source_lines": [
+                102,
+                153
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/paid_hasse_experiment_v1.py",
+      "sha256": "a6dcd04e0290b018e809eeff89f44523d573f053ea2ed3087b8ecdfd8f4b4c22",
+      "bytes": 1944,
+      "origins": [
+        {
+          "source": "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_experiment_v1.py",
+          "sha256": "eefc85cb8096157e4d9f6e6c2dc173ebab0b56e5a14572f11f07c95c1ed79737",
+          "bytes": 16708,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "expected_states",
+              "source_lines": [
+                116,
+                141
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "check_phase",
+              "source_lines": [
+                144,
+                155
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/prepare.py",
+      "sha256": "ef718272655d2c7ace389951c28ef9406054259ab57f846838b5407da4b73d5d",
+      "bytes": 4154,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/paired-terminal-receiver-v1/prepare.py",
+          "sha256": "439c417877cad0af8c90ccd0e439457394bd699d96b7b2906143c9be6f47fea1",
+          "bytes": 5623,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "slow_mul",
+              "source_lines": [
+                21,
+                30
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "slow_power",
+              "source_lines": [
+                33,
+                40
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "Field",
+              "source_lines": [
+                43,
+                62
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "records",
+              "source_lines": [
+                65,
+                74
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "outer_prepare",
+              "source_lines": [
+                77,
+                92
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "inner_prepare",
+              "source_lines": [
+                95,
+                128
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "record_digest",
+              "source_lines": [
+                159,
+                162
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/interpolation.py",
+      "sha256": "02b86229d1a9ded3c028134b9343df412e74677029586126fd00212fd4b20d30",
+      "bytes": 2722,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/interpolation.py",
+          "sha256": "e5f47741bc791bf4429aa7bf2d910aaec284e4e4b093a0ec0b77ba55507a4b60",
+          "bytes": 3006,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "tables",
+              "source_lines": [
+                12,
+                42
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "Interpolation",
+              "source_lines": [
+                45,
+                73
+              ],
+              "body_ast_identical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/common.py",
+      "sha256": "5f7a0948db6f4c9115d4c8ec9dc28c1d4a1c399faecbc4bea0f17f95e0b3b6d1",
+      "bytes": 3465,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/common.py",
+          "sha256": "7752863f682e9a84a8fbe23fadf2c4929d777cb802b4679bc29fa154f00db0c5",
+          "bytes": 8062,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "public_product",
+              "source_lines": [
+                45,
+                53
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "SharedField",
+              "source_lines": [
+                61,
+                65
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "decrypt",
+              "source_lines": [
+                133,
+                153
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "CountSink",
+              "source_lines": [
+                156,
+                159
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "serialize",
+              "source_lines": [
+                162,
+                172
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/worker.py",
+      "sha256": "325b4347d67550d2f79f1d14f0182acaef9d2fbf1f7ab1d4eb7f2d5ca04fd0b8",
+      "bytes": 11259,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-one-prime-workflow-v1/worker.py",
+          "sha256": "9c23f4248846e398a10cd1696306baa2c22720f1cd6de9e7334806d403a603fd",
+          "bytes": 12858,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "timed",
+              "source_lines": [
+                18,
+                21
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "emit",
+              "source_lines": [
+                24,
+                24
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "Worker",
+              "source_lines": [
+                27,
+                200
+              ],
+              "body_ast_identical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/fixed_worker.py",
+      "sha256": "98ad4405bf6a848a607cdc20716cb52485d103794da42d9cf24157a91577ad3f",
+      "bytes": 7098,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/fixed_worker.py",
+          "sha256": "9baf26dffc7e8473a3dc7dbf74dae25623ed5b29e20ed3e59daaf237739c89a3",
+          "bytes": 7327,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "FixedWorker",
+              "source_lines": [
+                7,
+                113
+              ],
+              "body_ast_identical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/adapter.py",
+      "sha256": "f9ad945e40d9ff83bba0556f9520f43eaf9b5626afe63bee137dd9483cbf9ba3",
+      "bytes": 2826,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/adapter.py",
+          "sha256": "0f50fca535b08cdbe03caa456cb5c5a72ddb73a4a5f158a9a32a757c6db5d1c7",
+          "bytes": 2961,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false,
+          "definitions": [
+            {
+              "name": "CurrentControlWorker",
+              "source_lines": [
+                5,
+                49
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/paid_hasse_ring_v1.py",
+      "sha256": "b3de2be2da6a02550ef38f27e03ffbbcd5055a61b91bfa3a5ae530cf43b78966",
+      "bytes": 2666,
+      "origins": [
+        {
+          "source": "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_ring_v1.py",
+          "sha256": "09f99af0f77d84629c46e2dcdfbb019e66310e5b0b98912d052da5c3bc3f6414",
+          "bytes": 2873,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "PaidHasseRing",
+              "source_lines": [
+                18,
+                63
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/paid_hasse_setup_v1.py",
+      "sha256": "60e022579e1b61cb90053228dbf2d38f5c23b5d06bafbb10ec080ce9077555cd",
+      "bytes": 1823,
+      "origins": [
+        {
+          "source": "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_setup_v1.py",
+          "sha256": "9d4e36381af2f935f370387f62d9b2b88d100e30981fa37b6e7ddd589d4f65b1",
+          "bytes": 2297,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "setup_keys_paid",
+              "source_lines": [
+                18,
+                51
+              ],
+              "body_ast_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "src/workflow149.py",
+      "sha256": "2d0003b6f76b63c25f40cef7236a264ee25057ef6badc7f5295c35c9f25fbe67",
+      "bytes": 10173,
+      "origins": [
+        {
+          "source": "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_experiment_v1.py",
+          "sha256": "eefc85cb8096157e4d9f6e6c2dc173ebab0b56e5a14572f11f07c95c1ed79737",
+          "bytes": 16708,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true,
+          "definitions": [
+            {
+              "name": "serialize",
+              "source_lines": [
+                83,
+                95
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "inventory",
+              "source_lines": [
+                98,
+                113
+              ],
+              "body_ast_identical": true
+            },
+            {
+              "name": "run_worker",
+              "source_lines": [
+                158,
+                286
+              ],
+              "body_ast_identical": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "release_file": "backend/fixed/composition_native_core.cpp",
+      "sha256": "07883559dec32b3e32cc312e4b09f92dcf4e012f2c8f5eb29fde2815ea0ec5ab",
+      "bytes": 24254,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/composition_native_core.cpp",
+          "sha256": "07883559dec32b3e32cc312e4b09f92dcf4e012f2c8f5eb29fde2815ea0ec5ab",
+          "bytes": 24254,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false
+        }
+      ],
+      "byte_identical_to_origin": true,
+      "adaptation": null
+    },
+    {
+      "release_file": "backend/fixed/composition_optimized_core.cpp",
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4",
+      "bytes": 3428,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/composition_optimized_core.cpp",
+          "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4",
+          "bytes": 3428,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false
+        }
+      ],
+      "byte_identical_to_origin": true,
+      "adaptation": null
+    },
+    {
+      "release_file": "backend/fixed/fast_core_v1.cpp",
+      "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae",
+      "bytes": 4268,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fixed-multipliers-v1/backend/fast_core_v1.cpp",
+          "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae",
+          "bytes": 4268,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false
+        }
+      ],
+      "byte_identical_to_origin": true,
+      "adaptation": null
+    },
+    {
+      "release_file": "backend/terminal_kernel_v1.cpp",
+      "sha256": "0e5f0af36579cf4b753283524c2e651e0b2dd6498b6cc5912f5e09a91ca7b6fd",
+      "bytes": 957,
+      "origins": [
+        {
+          "source": "SubmissionA/research/lightweight-jethe-2026-09-13/terminal_kernel_v1.cpp",
+          "sha256": "0e5f0af36579cf4b753283524c2e651e0b2dd6498b6cc5912f5e09a91ca7b6fd",
+          "bytes": 957,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false
+        }
+      ],
+      "byte_identical_to_origin": true,
+      "adaptation": null
+    },
+    {
+      "release_file": "backend/interpolation.cpp",
+      "sha256": "2b620d5c8f2ba39f81c5ed466cf28fc2bc67a6429172ebfee995add311c7bdc2",
+      "bytes": 858,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/same-algebra-terminal-v1/interpolation.cpp",
+          "sha256": "2b620d5c8f2ba39f81c5ed466cf28fc2bc67a6429172ebfee995add311c7bdc2",
+          "bytes": 858,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false
+        }
+      ],
+      "byte_identical_to_origin": true,
+      "adaptation": null
+    },
+    {
+      "release_file": "fixtures/expected.bin",
+      "sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+      "bytes": 8192,
+      "origins": [
+        {
+          "source": "SubmissionA/research/eurocrypt-readiness-2026-09-13/compiled-receiver-v1/expected.bin",
+          "sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+          "bytes": 8192,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": false
+        }
+      ],
+      "byte_identical_to_origin": true,
+      "adaptation": null
+    },
+    {
+      "release_file": "backend/paid149/composition_native_core.cpp",
+      "sha256": "5e52c01ca91e79cad5cae9dd0b0e6ac2d3aa2cd1e227ea168a4d2ddeae0ddc3a",
+      "bytes": 18929,
+      "origins": [
+        {
+          "source": "SubmissionA/research/composition_native_core.cpp",
+          "sha256": "5e52c01ca91e79cad5cae9dd0b0e6ac2d3aa2cd1e227ea168a4d2ddeae0ddc3a",
+          "bytes": 18929,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true
+        }
+      ],
+      "byte_identical_to_origin": true,
+      "adaptation": null
+    },
+    {
+      "release_file": "backend/paid149/composition_optimized_core.cpp",
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4",
+      "bytes": 3428,
+      "origins": [
+        {
+          "source": "SubmissionA/research/composition_optimized_core.cpp",
+          "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4",
+          "bytes": 3428,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true
+        }
+      ],
+      "byte_identical_to_origin": true,
+      "adaptation": null
+    },
+    {
+      "release_file": "backend/paid149/paid_hasse_core_v1.cpp",
+      "sha256": "9d67761fd40ae9c83cddfaff60d122ea1cfd2035dee8848c110c32b16ce810b3",
+      "bytes": 2373,
+      "origins": [
+        {
+          "source": "SubmissionA/research/existing-results-revision-2026-09-13/paid_hasse_core_v1.cpp",
+          "sha256": "b5b6a95b6fb45ac24c317c2fe4502fcde086e465959b8fb5c958baef15360251",
+          "bytes": 2376,
+          "jethe102_binding_verified": true,
+          "jethe149_binding_verified": true
+        }
+      ],
+      "byte_identical_to_origin": false,
+      "adaptation": "local C++ include and/or newline normalization only"
+    }
+  ],
+  "original_bindings": {
+    "jethe102": "SubmissionA/research/eurocrypt-readiness-2026-09-13/current-control-workflow-v1/campaign-v1/summary.json",
+    "jethe149": "SubmissionA/research/openfhe-matched-2026-09-13/joint-v2/campaign-start.json"
+  },
+  "portability_changes": [
+    "Only runtime definitions extracted; historical supervisors/audits and inactive algorithms are omitted.",
+    "Imports and library/fixture paths are local to native/.",
+    "FixedWorker exposes only its measured fixed backend; same-backend control uses that library at one limb.",
+    "JetHE149 uses its own original compiler, ordinary encryption, four-prime library and count-sink framing.",
+    "New launcher owns process limits, CPU choice, output files and result extraction; no secret-generation change."
+  ],
+  "security_bits": null
+}

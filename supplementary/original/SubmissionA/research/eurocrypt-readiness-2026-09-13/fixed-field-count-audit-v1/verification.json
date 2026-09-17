@@ -1,0 +1,95 @@
+{
+  "status": "FIXED_FIELD_PUBLIC_ALGEBRA_READBACK_PASS",
+  "files": {
+    "PLAN.md": {
+      "bytes": 1676,
+      "sha256": "e1c660a7022a85604fc5b72783cdffdf0885b05ee4c7cafa864fa0cd2a6ddd50"
+    },
+    "PROOF.md": {
+      "bytes": 8032,
+      "sha256": "2fba4b05fd67e4f0762eee85b033aeb2e76a916828726b075181553ae89a76d9"
+    },
+    "RESULTS.md": {
+      "bytes": 5400,
+      "sha256": "f26e59fb2d7afded9df0dbfc0c255fdbdf1f210c7dc2dfc5d1751f196598ae46"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1345,
+      "sha256": "f30eac57c9f494515b47ccc324acd63157df3c7c02fb5617303ff60dfd1da2a2"
+    },
+    "SOURCES.md": {
+      "bytes": 2094,
+      "sha256": "3bc1fcf735f6b807b901fa63f371a75f86005c4108a4c3418064f49807badf24"
+    },
+    "boolean_screen.py": {
+      "bytes": 3607,
+      "sha256": "30434d69678b067d668d3551f7892bbfc6790812c10b5c80841e6f47834709ab"
+    },
+    "check_additive_witness.py": {
+      "bytes": 7693,
+      "sha256": "eeb97cb15a59ed5595460f23770599f094ba44c15eef399d43aa34194b581ddc"
+    },
+    "verify_records.py": {
+      "bytes": 5720,
+      "sha256": "31ed14d2857db83f0bdafc1e084e06f2b18ac3c8e5cecddebeecc8f830eb0709"
+    },
+    "boolean-screen.json": {
+      "bytes": 1612,
+      "sha256": "408cb37120d6708326c44f4695dd579f35d75dd056c0d9888c92011d8daafd86"
+    },
+    "degree-screen.json": {
+      "bytes": 940,
+      "sha256": "82e4508583a0eed0fdaeab06724540a67c4ee159fda53e3783d528a81b358dc0"
+    },
+    "pivot-screen.json": {
+      "bytes": 10779,
+      "sha256": "df9664c8a37cbe34368c27bfbf285d8279666aa89de2375a46e1f7f8d75bd25a"
+    },
+    "additive-witness-check.json": {
+      "bytes": 26954,
+      "sha256": "849b6a81dc2c49186c8249b4965e96b6904fe3b66063af92e239216aa72a29c7"
+    },
+    "execution.json": {
+      "bytes": 895,
+      "sha256": "bfb116a1ad1e344387c7ce25bb8ac9ec462f7c739dd9201c752fdbdbfdeaa062"
+    }
+  },
+  "symbolic_witness_dimensions": [
+    7,
+    25,
+    92,
+    348
+  ],
+  "boolean_ranks": [
+    1,
+    3,
+    11,
+    39,
+    143,
+    543
+  ],
+  "derivative_checks": 3918,
+  "schedule_points": 57,
+  "first_inspected_strict_count_tradeoff": {
+    "d": 28,
+    "length": 268435456,
+    "k": 19,
+    "tau": 9,
+    "native_products": 524296,
+    "native_inputs": 1048584,
+    "native_depth": 10,
+    "old_field_linear_applies": false,
+    "old_binary_linear_applies": false,
+    "boolean_dimension_lower_bound": 5629500020752384,
+    "fixed_field_calls_lower_bound": 655361,
+    "fixed_field_inputs_lower_bound": 1310722
+  },
+  "failed_candidate_preserved": true,
+  "original_pivot_outer_exit_known": false,
+  "new_he_execution": false,
+  "new_estimator_execution": false,
+  "new_attack_method": false,
+  "exact_asymptotic_rank_claimed": false,
+  "total_runtime_separation_claimed": false,
+  "security_bits": null
+}

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(submissiona_helib_matched_screen LANGUAGES CXX)
+find_package(helib REQUIRED)
+add_executable(helib_matched_screen ../measure_composition.cpp)
+target_compile_features(helib_matched_screen PRIVATE cxx_std_17)
+target_compile_options(helib_matched_screen PRIVATE -Wall -Wextra -Werror)
+target_link_libraries(helib_matched_screen PRIVATE helib)

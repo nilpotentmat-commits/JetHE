@@ -1,0 +1,26 @@
+[
+  {
+    "file": "fls-compression.pdf",
+    "url": "https://cs.au.dk/~larsen/papers/compressEncrypted.pdf",
+    "final_url": "https://cs.au.dk/~larsen/papers/compressEncrypted.pdf",
+    "bytes": 525198,
+    "sha256": "81ae8cf7f3c4c1126d1a34e606ca787417e0b26155735d9436c02b591fd8e1a5",
+    "status": "DOWNLOADED"
+  },
+  {
+    "file": "fls-small-fields.pdf",
+    "url": "https://cs.au.dk/~larsen/papers/SmallFieldCompress.pdf",
+    "final_url": "https://cs.au.dk/~larsen/papers/SmallFieldCompress.pdf",
+    "bytes": 495642,
+    "sha256": "c1c1bf42b09607b56b581e79914ef89e65e610917b8b5f0128f397f9861491e2",
+    "status": "DOWNLOADED"
+  },
+  {
+    "file": "seal-serializable.h",
+    "url": "https://raw.githubusercontent.com/microsoft/SEAL/main/native/src/seal/serializable.h",
+    "final_url": "https://raw.githubusercontent.com/microsoft/SEAL/main/native/src/seal/serializable.h",
+    "bytes": 5414,
+    "sha256": "fa8ed0b3969da353dde16ee4dd4eda9e98b32a741edb3a721b4d745ad89fb44e",
+    "status": "DOWNLOADED"
+  }
+]

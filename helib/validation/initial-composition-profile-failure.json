@@ -1,0 +1,14 @@
+{
+  "setup": 0,
+  "status": "FAILED",
+  "exit_code": 1,
+  "profile": "composition-b16",
+  "cpu": 0,
+  "process_wall_seconds_diagnostic": 4.630643025999994,
+  "worker": {
+    "event": "capacity_rejection",
+    "bundle": 0,
+    "capacity": 2
+  },
+  "fresh_HE_execution": true
+}

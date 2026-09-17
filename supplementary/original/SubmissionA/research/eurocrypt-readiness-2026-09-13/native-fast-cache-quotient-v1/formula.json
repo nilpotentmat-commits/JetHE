@@ -1,0 +1,105 @@
+{
+  "status": "EXACT_CACHE_QUOTIENT_FORMULA_CHECKS_PASS",
+  "small_exhaustive_cases": 336753,
+  "small_profiles": [
+    {
+      "bits": 6,
+      "maximum_c": 0
+    },
+    {
+      "bits": 7,
+      "maximum_c": 1
+    },
+    {
+      "bits": 8,
+      "maximum_c": 3
+    },
+    {
+      "bits": 9,
+      "maximum_c": 7
+    },
+    {
+      "bits": 10,
+      "maximum_c": 15
+    },
+    {
+      "bits": 11,
+      "maximum_c": 30
+    },
+    {
+      "bits": 12,
+      "maximum_c": 61
+    }
+  ],
+  "native_cases": 281257,
+  "native_constants": [
+    {
+      "c": 0,
+      "p": 1152921504606846976,
+      "checked_values": 40179
+    },
+    {
+      "c": 1,
+      "p": 1152921504606846975,
+      "checked_values": 40179
+    },
+    {
+      "c": 2,
+      "p": 1152921504606846974,
+      "checked_values": 40179
+    },
+    {
+      "c": 603974655,
+      "p": 1152921504002872321,
+      "checked_values": 40180
+    },
+    {
+      "c": 1040175615,
+      "p": 1152921503566671361,
+      "checked_values": 40180
+    },
+    {
+      "c": 1342160895,
+      "p": 1152921503264686081,
+      "checked_values": 40180
+    },
+    {
+      "c": 2147483647,
+      "p": 1152921502459363329,
+      "checked_values": 40180
+    }
+  ],
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/PLAN.md": {
+      "bytes": 3072,
+      "sha256": "5d972cc6a31ef42d321333e2761699ddbe7ad01c1ed9f507bc229d4c7aa6f7df"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/PROOF.md": {
+      "bytes": 2054,
+      "sha256": "fd32d3a203b8d8044bb7adbfee1cd4a344a34d5fb9fed21d193a33f20930b82b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-fast-cache-quotient-v1/check_formula.py": {
+      "bytes": 2242,
+      "sha256": "8bdff1f7f0e6801b25616dbf781edd98deecb7ad1008f30ffaaf0143f2059785"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/RESULTS.md": {
+      "bytes": 4942,
+      "sha256": "cc04885e43652c30b60467906bc2297afdcb05eb98570ce7fc182278fd0c9e03"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/matrix.cpp": {
+      "bytes": 8496,
+      "sha256": "364a709346fbc75fcf63d5e26b7c04562bb15f61c58949960d279c886de185e7"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/public-check.json": {
+      "bytes": 48993,
+      "sha256": "f8f2edcf16efebb70ba31f5bc6b4250175f8f07be666f37cec834abc5d5b9947"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-cached-matrix-v1/verification.json": {
+      "bytes": 3400,
+      "sha256": "3351fb12c9b2e0a2b150d8517a942eb18ec0163e9fee3a31d741a08a2abd1d1a"
+    }
+  },
+  "new_he_execution": false,
+  "timing_claim": false,
+  "independently_verified_proof": false
+}

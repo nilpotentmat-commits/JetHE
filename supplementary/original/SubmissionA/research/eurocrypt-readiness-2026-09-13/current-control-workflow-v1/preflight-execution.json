@@ -1,0 +1,10 @@
+{
+  "actual_exit_code": 0,
+  "tool_session": 9343,
+  "completion_chunk": "6a284f",
+  "result": {
+    "bytes": 37180,
+    "sha256": "4c708151a5949bdeb500157c9173b66b8ca3e4fa388058f28187f77f7411cc02"
+  },
+  "scope": "Public preflight; initial WSL launcher emitted its localhost proxy warning; no encrypted execution."
+}

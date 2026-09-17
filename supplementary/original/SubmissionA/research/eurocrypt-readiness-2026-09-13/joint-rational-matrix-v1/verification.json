@@ -1,0 +1,76 @@
+{
+  "status": "RATIONAL_MATRIX_EVIDENCE_READBACK_PASS",
+  "checked_ring_coefficients": 506112,
+  "checked_ring_matrices": 49,
+  "context_files": 8,
+  "files": {
+    "check.json": {
+      "bytes": 8356,
+      "sha256": "4082544365d6c0e4274e2fb75cdbdca01b1850599f3c636fcee49dc7b716ed5e"
+    },
+    "check.py": {
+      "bytes": 7652,
+      "sha256": "ac7dd25f488402879f17aee81fcdce4a0313a88cf43f0c5ef93312a3bee4d365"
+    },
+    "check.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "check.stdout.txt": {
+      "bytes": 331,
+      "sha256": "005bae841ba93acc74248f9db864dcb897f14a92581372b953d6cd7f556b1de0"
+    },
+    "execution.json": {
+      "bytes": 560,
+      "sha256": "863bef437b66603779661feee52bd9b13cc7b5f275f635864977479b5a34eaee"
+    },
+    "manifest.json": {
+      "bytes": 3697,
+      "sha256": "207ccb7d4dd8a03d3d458ff6cec5ca881ec2eb67a4e2bfef1df3dd0d472bb31d"
+    },
+    "PLAN.md": {
+      "bytes": 2158,
+      "sha256": "780b736368d48a94a4bfa988282e79e8a594f294242c1b89a62b7baac663abd8"
+    },
+    "PROOF.md": {
+      "bytes": 9979,
+      "sha256": "90802b79e39ebb55abdc87b150f5e2b3d53f92f9821484c514b1abf4832fada1"
+    },
+    "RESULTS.md": {
+      "bytes": 3600,
+      "sha256": "d04b6357e7ff335842bcabc4b99bfa5cedba5e56dfb44115068308e4625a046d"
+    },
+    "SOURCE_NOTES.md": {
+      "bytes": 3089,
+      "sha256": "d9381b111e387a938c869631d97534e1e0df4db634b35d553e2056ac524ffc0f"
+    },
+    "sources/asymmetry-v2.html": {
+      "bytes": 1458163,
+      "sha256": "c74e48f43749d31be7b0de2b88d7e53554c649dc1794a417339e261dca058aba"
+    },
+    "sources/asymmetry-v2.pdf": {
+      "bytes": 498667,
+      "sha256": "d4ebebc7675eae3dfa15ccd156bff0e9988f2316cf93135ef959ef14a4ad97cb"
+    },
+    "sources/asymmetry-v2.txt": {
+      "bytes": 180041,
+      "sha256": "502a645c49f9693e49f6cdf5874c5da6d5ef66f462c53b71196f453fc0b6cd2a"
+    },
+    "sources/rational48-v7.html": {
+      "bytes": 1392626,
+      "sha256": "b4592aeb23b47729d75991cceacf3d62842f38d66aa63504e8e807de68a3e5d3"
+    },
+    "sources/retrieval.json": {
+      "bytes": 1058,
+      "sha256": "6d8cd6740fc7a9c7d4f815746673395d7341e883f24b8635084ab2d75671e720"
+    },
+    "verify_records.py": {
+      "bytes": 2664,
+      "sha256": "c6456a0a1633a6c7ce2dd7559a585e61e5348383da5a443a2ac5c9f8d773fb83"
+    }
+  },
+  "modern_exponent_kernel_implemented": false,
+  "fresh_HE": false,
+  "independent_proof_review": false,
+  "numerical_security_qualification": false
+}

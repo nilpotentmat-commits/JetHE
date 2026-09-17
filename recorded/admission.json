@@ -1,0 +1,147 @@
+{
+  "kind": "Exact arithmetic readback of sufficient correctness recurrence",
+  "fresh_bound": 34347,
+  "states": [
+    {
+      "state": "Prefix raw",
+      "channels": 3,
+      "B": 4629908247922347,
+      "margin_bits": 125
+    },
+    {
+      "state": "Prefix switched",
+      "channels": 3,
+      "B": 1213072497477100529,
+      "margin_bits": 117
+    },
+    {
+      "state": "Hasse 8",
+      "channels": 3,
+      "B": 2259614478764612093,
+      "margin_bits": 117
+    },
+    {
+      "state": "Bypass 8",
+      "channels": 3,
+      "B": 2067570446995681958,
+      "margin_bits": 117
+    },
+    {
+      "state": "Product 8 raw",
+      "channels": 3,
+      "B": 973616732712397903801259907,
+      "margin_bits": 88
+    },
+    {
+      "state": "Product 8 switched",
+      "channels": 3,
+      "B": 973616733920840493030438089,
+      "margin_bits": 88
+    },
+    {
+      "state": "Tail 8",
+      "channels": 3,
+      "B": 973616735988410940026120048,
+      "margin_bits": 88
+    },
+    {
+      "state": "Hasse 4",
+      "channels": 3,
+      "B": 973646434673483836309103339,
+      "margin_bits": 88
+    },
+    {
+      "state": "Bypass 4",
+      "channels": 3,
+      "B": 973640984863231009135150665,
+      "margin_bits": 88
+    },
+    {
+      "state": "Product 4 raw",
+      "channels": 3,
+      "B": 419522210294096346900965468301996273,
+      "margin_bits": 59
+    },
+    {
+      "state": "Product 4 switched",
+      "channels": 3,
+      "B": 419522210294130639988608297480899008,
+      "margin_bits": 59
+    },
+    {
+      "state": "Tail 4",
+      "channels": 3,
+      "B": 419522211267771624851839306616049674,
+      "margin_bits": 59
+    },
+    {
+      "state": "Prime drop",
+      "channels": 2,
+      "B": 363877514713622027,
+      "margin_bits": 59
+    },
+    {
+      "state": "Hasse 2",
+      "channels": 2,
+      "B": 392200387898680891,
+      "margin_bits": 59
+    },
+    {
+      "state": "Bypass 2",
+      "channels": 2,
+      "B": 387003043831272164,
+      "margin_bits": 59
+    },
+    {
+      "state": "Product 2 raw",
+      "channels": 2,
+      "B": 168990269722124150325428385,
+      "margin_bits": 30
+    },
+    {
+      "state": "Product 2 switched",
+      "channels": 2,
+      "B": 168990269754828587240663122,
+      "margin_bits": 30
+    },
+    {
+      "state": "Tail 2",
+      "channels": 2,
+      "B": 168990270141831631071935287,
+      "margin_bits": 30
+    },
+    {
+      "state": "Hasse 1",
+      "channels": 2,
+      "B": 169014519016651700180965904,
+      "margin_bits": 30
+    },
+    {
+      "state": "Bypass 1",
+      "channels": 2,
+      "B": 169010069265213561927257481,
+      "margin_bits": 30
+    },
+    {
+      "state": "Product 1 raw",
+      "channels": 2,
+      "B": 72824530614583606044900000621532388,
+      "margin_bits": 2
+    },
+    {
+      "state": "Tail 1",
+      "channels": 2,
+      "B": 72824530783593675310113562548789870,
+      "margin_bits": 2
+    }
+  ],
+  "tail_bounds": [
+    973616735988410940026120048,
+    419522211267771624851839306616049674,
+    168990270141831631071935287,
+    72824530783593675310113562548789870
+  ],
+  "failure_bound_log2": -129.42054905064654,
+  "new_HE_execution": false,
+  "security_bits_certified": null
+}

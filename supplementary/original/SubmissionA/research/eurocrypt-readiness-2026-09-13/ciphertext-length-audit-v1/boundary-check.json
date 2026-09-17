@@ -1,0 +1,95 @@
+{
+  "status": "CIPHERTEXT_LENGTH_HYPOTHESIS_COUNTEREXAMPLES_PASS",
+  "cases": [
+    {
+      "message_bits": 2,
+      "full_domain_codec_correct": true,
+      "zero_message_length": 0,
+      "uniform_short_probability": "1/4",
+      "length_distinguishing_gap": "3/4",
+      "projected_pad_bits": 1,
+      "projected_one_time_view_identical_for_all_messages": true,
+      "promised_subspace_correctness": "1",
+      "uniform_full_domain_correctness": "1/2",
+      "uniform_full_domain_error": "1/2"
+    },
+    {
+      "message_bits": 3,
+      "full_domain_codec_correct": true,
+      "zero_message_length": 0,
+      "uniform_short_probability": "1/8",
+      "length_distinguishing_gap": "7/8",
+      "projected_pad_bits": 1,
+      "projected_one_time_view_identical_for_all_messages": true,
+      "promised_subspace_correctness": "1",
+      "uniform_full_domain_correctness": "1/4",
+      "uniform_full_domain_error": "3/4"
+    },
+    {
+      "message_bits": 4,
+      "full_domain_codec_correct": true,
+      "zero_message_length": 0,
+      "uniform_short_probability": "1/16",
+      "length_distinguishing_gap": "15/16",
+      "projected_pad_bits": 2,
+      "projected_one_time_view_identical_for_all_messages": true,
+      "promised_subspace_correctness": "1",
+      "uniform_full_domain_correctness": "1/4",
+      "uniform_full_domain_error": "3/4"
+    },
+    {
+      "message_bits": 5,
+      "full_domain_codec_correct": true,
+      "zero_message_length": 0,
+      "uniform_short_probability": "1/32",
+      "length_distinguishing_gap": "31/32",
+      "projected_pad_bits": 2,
+      "projected_one_time_view_identical_for_all_messages": true,
+      "promised_subspace_correctness": "1",
+      "uniform_full_domain_correctness": "1/8",
+      "uniform_full_domain_error": "7/8"
+    },
+    {
+      "message_bits": 6,
+      "full_domain_codec_correct": true,
+      "zero_message_length": 0,
+      "uniform_short_probability": "1/64",
+      "length_distinguishing_gap": "63/64",
+      "projected_pad_bits": 3,
+      "projected_one_time_view_identical_for_all_messages": true,
+      "promised_subspace_correctness": "1",
+      "uniform_full_domain_correctness": "1/8",
+      "uniform_full_domain_error": "7/8"
+    },
+    {
+      "message_bits": 7,
+      "full_domain_codec_correct": true,
+      "zero_message_length": 0,
+      "uniform_short_probability": "1/128",
+      "length_distinguishing_gap": "127/128",
+      "projected_pad_bits": 3,
+      "projected_one_time_view_identical_for_all_messages": true,
+      "promised_subspace_correctness": "1",
+      "uniform_full_domain_correctness": "1/16",
+      "uniform_full_domain_error": "15/16"
+    },
+    {
+      "message_bits": 8,
+      "full_domain_codec_correct": true,
+      "zero_message_length": 0,
+      "uniform_short_probability": "1/256",
+      "length_distinguishing_gap": "255/256",
+      "projected_pad_bits": 4,
+      "projected_one_time_view_identical_for_all_messages": true,
+      "promised_subspace_correctness": "1",
+      "uniform_full_domain_correctness": "1/16",
+      "uniform_full_domain_error": "15/16"
+    }
+  ],
+  "pad_message_key_assignments": 87376,
+  "new_he_execution": false,
+  "new_security_assumption": false,
+  "toy_is_reusable_pke": false,
+  "new_timing_benchmark": false,
+  "scope": "Exact finite counterexamples to omitted privacy or full-domain correctness; not a proof of the asymptotic theorem."
+}

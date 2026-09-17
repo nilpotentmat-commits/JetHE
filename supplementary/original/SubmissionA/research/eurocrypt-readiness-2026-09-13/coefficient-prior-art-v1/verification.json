@@ -1,0 +1,66 @@
+{
+  "status": "COEFFICIENT_PROJECTION_READBACK_PASS",
+  "source_files": 5,
+  "symbolic_cases": 12,
+  "exhaustive_cases": 7,
+  "coefficient_values": 13052,
+  "valuation_values": 1124,
+  "new_he_execution": false,
+  "independent_proof_review": false,
+  "novelty_established": false,
+  "exact_general_scalar_rank_proved": false,
+  "files": {
+    "check.json": {
+      "bytes": 5760,
+      "sha256": "b9da8a6ca85e2f744302c7f8b550ea1ca8068a5035ed77725a2eb56b55b36bc6"
+    },
+    "check.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "check.stdout.txt": {
+      "bytes": 3266,
+      "sha256": "9ccf9700fce93e7e382b0fde12b1c26156bddf292b496aaa1484b0d39dba6fc7"
+    },
+    "check_spaces.py": {
+      "bytes": 7223,
+      "sha256": "f73e05a4150469e5184d79736074af89f14341651ded76ca81c91c708ec7a6dc"
+    },
+    "execution.json": {
+      "bytes": 221,
+      "sha256": "bab6bb35bf2255e83c44b4550d983526adc0e8dbe897a1c81c87d42660912ab0"
+    },
+    "PLAN.md": {
+      "bytes": 1709,
+      "sha256": "596495d474e353bdd03c49be1b5360f98e81ac2e65ec9f3652063fa424f87004"
+    },
+    "PROOF.md": {
+      "bytes": 6879,
+      "sha256": "0972d91c999b432277eb91bb4748f67fc34804a750a3647bcdd1033d878318ac"
+    },
+    "RESULTS.md": {
+      "bytes": 2642,
+      "sha256": "b15f88492fc1b305625c6f5e6d034cc6fb74e79db5e0ca0fff68074b09871cb3"
+    },
+    "SOURCE_NOTES.md": {
+      "bytes": 2702,
+      "sha256": "8e989509118279cd4a490aa196337594360d64b285cd33ef9b31d698eb5c86ef"
+    },
+    "sources/retrieval-initial.json": {
+      "bytes": 707,
+      "sha256": "9dbd2955dd56d84e37bea2d281aae2eac694dc75c898d12fab0f834e338cd27f"
+    },
+    "sources/rogers-local-2016.pdf": {
+      "bytes": 184191,
+      "sha256": "31376c9e3a5caf99089714918f6028efe6e4804f65ff37703c8d099e11b280fb"
+    },
+    "sources/rogers-local-2016.txt": {
+      "bytes": 48280,
+      "sha256": "57d7f23b5462be9b9388d5ecd98e2302b50106843aa1658a140349ca7fee00d0"
+    },
+    "verify_records.py": {
+      "bytes": 2517,
+      "sha256": "71c433d44f5627ed0ebb320dafd4880e90724e21ef71c40f78aceeef9e41ed8a"
+    }
+  }
+}

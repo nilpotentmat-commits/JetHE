@@ -1,0 +1,8 @@
+{
+  "actual_exit_code": 0,
+  "started_utc": "2026-09-14T17:00:29.243138+00:00",
+  "wall_seconds": 0.824577399995178,
+  "stdout_sha256": "533cfd603cd97fa7575467c0d54dd64a8a2d42011df55ac9c7a22b5e5047d720",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "new_he_execution": false
+}

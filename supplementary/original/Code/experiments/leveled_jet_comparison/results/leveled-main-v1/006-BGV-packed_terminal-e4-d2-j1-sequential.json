@@ -1,0 +1,204 @@
+{
+  "bootstrap_calls": 0,
+  "ciphertext_batches": 1,
+  "ciphertext_q_bits": 123,
+  "ciphertext_q_log2": 122.322789,
+  "ciphertext_q_primes": [
+    "2148728833",
+    "137439510529",
+    "137439870977",
+    "163841"
+  ],
+  "ciphertext_q_towers": 4,
+  "compiler": "16.1.0",
+  "correctness_scope": "every decrypted output in these finite trials; no failure-probability certification",
+  "crypto_randomness": "OpenFHE default fresh; fixture seed not supplied to cryptography",
+  "ctct_calls_per_trial": 2,
+  "ctct_depth": 2,
+  "encryption_technique": "STANDARD",
+  "evaluation_points": 10,
+  "fixture_fnv1a64": "1225877420673396568",
+  "fixture_generator": "std::mt19937_64 raw low bit; job-factor-coefficient order",
+  "fixture_seed": 11,
+  "hardware_threads": 32,
+  "independent_security_certification": false,
+  "input_bytes": 3149013,
+  "input_ciphertexts": 3,
+  "input_distribution": "independent binary unit polynomials: constant 1, higher coefficients raw generator bits",
+  "inputs": [
+    [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        1
+      ]
+    ]
+  ],
+  "integer_low_coefficient_bound": 10,
+  "jobs": 1,
+  "jobs_per_ciphertext_capacity": 1638,
+  "key_switching_p_bits": 120,
+  "key_switching_p_primes": [
+    "1152921497895862273",
+    "1152921422732787713"
+  ],
+  "key_switching_qp_bits": 243,
+  "key_switching_technique": "HYBRID",
+  "layout": "packed_terminal",
+  "length": 4,
+  "median_ms": {
+    "decode": 0.0013,
+    "decrypt": 0.8359,
+    "encode": 2.5037,
+    "encrypt": 15.2149,
+    "end_to_end": 35.0376,
+    "eval": 16.5342
+  },
+  "multiplication_technique": "HPS",
+  "mults": 2,
+  "omp_num_threads": "1",
+  "openfhe_version": "1.5.1",
+  "output_bytes": 525371,
+  "output_ciphertexts": 1,
+  "output_q_towers": 2,
+  "peak_rss_bytes": 30416896,
+  "plaintext_modulus": 65537,
+  "precomputation_ms": 0.0152,
+  "public_key_bytes": 1049627,
+  "relinearization_key_bytes": 3147877,
+  "repetitions": 7,
+  "ring_dimension": 16384,
+  "rotation_calls": 0,
+  "scaling_technique": "FLEXIBLEAUTOEXT",
+  "schedule": "sequential",
+  "schema": "leveled-jet-comparison-v1",
+  "scheme": "BGV",
+  "secret_key_distribution": "UNIFORM_TERNARY",
+  "security_requested": "HEStd_128_classic",
+  "security_scope": "OpenFHE automatic parameters for standard power-of-two ring; no ExactJet claim",
+  "serialization": "sum of separate OpenFHE binary object serializations; no compression",
+  "setup_ms": 32.7257,
+  "status": "PASS",
+  "trials": [
+    {
+      "decode_ms": 0.0013,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "decrypt_ms": 0.8038,
+      "encode_ms": 2.4966,
+      "encrypt_ms": 15.5907,
+      "eval_ms": 16.914
+    },
+    {
+      "decode_ms": 0.0015,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "decrypt_ms": 0.8592,
+      "encode_ms": 2.5281,
+      "encrypt_ms": 15.1096,
+      "eval_ms": 16.2127
+    },
+    {
+      "decode_ms": 0.0009,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "decrypt_ms": 0.8169,
+      "encode_ms": 2.461,
+      "encrypt_ms": 14.887,
+      "eval_ms": 16.5342
+    },
+    {
+      "decode_ms": 0.0015,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "decrypt_ms": 0.8399,
+      "encode_ms": 2.5037,
+      "encrypt_ms": 15.093,
+      "eval_ms": 16.202
+    },
+    {
+      "decode_ms": 0.0019,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "decrypt_ms": 0.8359,
+      "encode_ms": 2.5059,
+      "encrypt_ms": 15.3038,
+      "eval_ms": 16.9539
+    },
+    {
+      "decode_ms": 0.0007,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "decrypt_ms": 0.8224,
+      "encode_ms": 2.5078,
+      "encrypt_ms": 15.2149,
+      "eval_ms": 16.4918
+    },
+    {
+      "decode_ms": 0.0013,
+      "decoded_outputs": [
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "decrypt_ms": 0.9225,
+      "encode_ms": 2.4763,
+      "encrypt_ms": 15.4555,
+      "eval_ms": 16.8019
+    }
+  ],
+  "verified_output_coefficients_including_warmup": 32,
+  "warmup_trials_excluded": 1
+}

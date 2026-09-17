@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "profile": "control",
+  "mode": "measure",
+  "setups": 1,
+  "batches_per_setup": 2,
+  "cpu": 0,
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python_version": "3.14.4",
+  "source_manifest_sha256": "0d19179f5496229bbbb0e189ad7b8a4623cb49cb318b8700a6735ef1918020ba",
+  "fresh_he_execution": true,
+  "published_median": false,
+  "security_bits": null,
+  "records": [
+    {
+      "index": 0,
+      "elapsed_seconds": 17.92863405099996,
+      "result": {
+        "status": "ONE_PRIME_CONTROL_WORKFLOW_WORKER_PASS",
+        "arm": "control",
+        "mode": "measure",
+        "index": 0,
+        "setup_wall_seconds": 0.09171323499998607,
+        "setup_seconds": {
+          "public_context_codec": 0.07871722200002296,
+          "keys_and_hints": 0.012297128000000157,
+          "recipient_key_preparation": 0.00013749100003224157,
+          "public_material_serialization": 0.00048370799999020164
+        },
+        "material": {
+          "independent_secrets": 1,
+          "public_keys": 1,
+          "evaluation_rows": 0,
+          "setup_error_vectors": 1,
+          "setup_small_vectors": 2,
+          "public_material_raw_bytes": 1048576,
+          "public_material_serialized_bytes": 1048704,
+          "constructed_linear_buffers_bytes": 507900
+        },
+        "batches": [
+          {
+            "index": 0,
+            "state": "cold",
+            "batch_wall_seconds": 8.662826622000011,
+            "seconds": {
+              "owner_f": 0.025916101000007075,
+              "owner_g": 0.5958620179999912,
+              "owner_interpolation": 0.06872732999988784,
+              "native_input_codec": 1.789178103999916,
+              "encryption": 4.275688448000153,
+              "serialization": 0.20077432700026066,
+              "evaluation": 0.18954140999966285,
+              "recipient_decryption_native_codec": 1.4128100490000293,
+              "recipient_evaluation": 0.04868900699995038
+            },
+            "wire": {
+              "input_raw_bytes": 362807296,
+              "input_wire_bytes": 362822688,
+              "input_polynomials": 692,
+              "input_ciphertexts": 346,
+              "output_raw_bytes": 137363456,
+              "output_wire_bytes": 137375408,
+              "output_polynomials": 262,
+              "output_ciphertexts": 88
+            },
+            "counts": {
+              "fresh_encryptions": 346,
+              "small_vectors": 1038,
+              "error_vectors": 692,
+              "ciphertext_products": 86
+            },
+            "output_symbols": 4096,
+            "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+          },
+          {
+            "index": 1,
+            "state": "warm",
+            "batch_wall_seconds": 8.772738667999988,
+            "seconds": {
+              "owner_f": 0.02602486199998566,
+              "owner_g": 0.6574646990000019,
+              "owner_interpolation": 0.07101007500006062,
+              "native_input_codec": 1.808512180000264,
+              "encryption": 4.29642768299999,
+              "serialization": 0.20286990099964441,
+              "evaluation": 0.19154134299998304,
+              "recipient_decryption_native_codec": 1.411213167000028,
+              "recipient_evaluation": 0.048544693999986066
+            },
+            "wire": {
+              "input_raw_bytes": 362807296,
+              "input_wire_bytes": 362822688,
+              "input_polynomials": 692,
+              "input_ciphertexts": 346,
+              "output_raw_bytes": 137363456,
+              "output_wire_bytes": 137375408,
+              "output_polynomials": 262,
+              "output_ciphertexts": 88
+            },
+            "counts": {
+              "fresh_encryptions": 346,
+              "small_vectors": 1038,
+              "error_vectors": 692,
+              "ciphertext_products": 86
+            },
+            "output_symbols": 4096,
+            "output_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3"
+          }
+        ],
+        "phase_checked_states": 0,
+        "phase_checked_coefficients": 0,
+        "peak_rss_kib": 61084,
+        "worker_threads": 1,
+        "affinity": [
+          0
+        ],
+        "encrypted_execution": true,
+        "security_bits": null,
+        "shared_field_backend": "check_fused_composition_frontier.FastField",
+        "terminal_limbs": 1,
+        "profile_version": "same-algebra-one-prime-workflow-v1",
+        "timing_claim": "Common complete local workflow; startup and physical transport excluded",
+        "release_profile": "control",
+        "standalone_reproduction": true,
+        "published_median": false,
+        "cpu": 0,
+        "python_version": "3.14.4"
+      }
+    }
+  ]
+}

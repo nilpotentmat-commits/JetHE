@@ -1,0 +1,17 @@
+{
+  "scope": "Fresh full-shape public output/timing receipts. Not replacements for published samples. Historical command/build paths remain provenance only.",
+  "files": [
+    {
+      "path": "validation/setup-000-summed-bgv.stdout.json",
+      "sha256": "5c938d31d13acd0475f1f9f46a8ce029216418d660e1924b4705379997e4365c",
+      "bytes": 49708,
+      "changes": "none"
+    },
+    {
+      "path": "validation/setup-000-terminal-bgv.stdout.json",
+      "sha256": "140f8d3539fe23e0e3ac5fbdeb32d0740a25e18aa5695d8f6ff2930d471ed7d0",
+      "bytes": 49692,
+      "changes": "none"
+    }
+  ]
+}

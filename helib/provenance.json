@@ -1,0 +1,44 @@
+[
+  {
+    "path": "helib/src/core/core_math.h",
+    "original": "SubmissionA/research/helib_composition/core/core_math.h",
+    "sha256": "8a03584fd6c7d3d8c37b55fdd0506aed948a39ff6379aec18421ecfcf78b097f",
+    "changes": "none"
+  },
+  {
+    "path": "helib/src/core/core_measure.cpp",
+    "original": "SubmissionA/research/helib_composition/core/core_measure.cpp",
+    "sha256": "26cb5fcce38e523e9b21a07068de168618df4184c256c3b5ec219e7aba7a1dc6",
+    "changes": "none"
+  },
+  {
+    "path": "helib/src/core/terminal_core_v3.cpp",
+    "original": "SubmissionA/research/helib_composition/core/terminal_core_v3.cpp",
+    "sha256": "957ad3cc7fc23619872c42e9b240507292579c0a439bd13b5d0717062ceed5dd",
+    "changes": "none"
+  },
+  {
+    "path": "helib/src/leveled/composition_fixture.h",
+    "original": "SubmissionA/research/helib_composition/leveled/composition_fixture.h",
+    "sha256": "67002f9c5b159535b145f9239cac51b049e84d650800665644f71ed10535db15",
+    "changes": "none"
+  },
+  {
+    "path": "helib/src/leveled/diagonal_bsgs.cpp",
+    "original": "SubmissionA/research/helib_composition/leveled/diagonal_bsgs.cpp",
+    "sha256": "0e564e8d183d99ca07fb29f19a365968bbef701752d66be9a33da5a14bc7a268",
+    "changes": "none"
+  },
+  {
+    "path": "helib/src/leveled/slack_profile.cpp",
+    "original": "SubmissionA/research/helib_composition/leveled/slack_profile.cpp",
+    "sha256": "00e6db931a43eec32c5911e40a985ce577991ef566e9955e7cd0375d8a9bc351",
+    "changes": "none"
+  },
+  {
+    "path": "helib/vendor/json.hpp",
+    "original": "Code/third_party/helib-2.3.0/dependencies/json/json.hpp",
+    "sha256": "01d9a039a25ce9505052d28b9cc3b92cc741d4f9250e9741762a651026327f6d",
+    "changes": "none; embedded MIT copyright and license retained"
+  }
+]

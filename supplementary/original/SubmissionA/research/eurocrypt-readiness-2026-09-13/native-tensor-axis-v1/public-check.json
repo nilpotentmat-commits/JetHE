@@ -1,0 +1,168 @@
+{
+  "status": "NATIVE_TENSOR_AXIS_PUBLIC_CORRESPONDENCE_PASS",
+  "counts": {
+    "modular_product_integer_oracle": 75192,
+    "sampler_values": 50058,
+    "all_length_transform_words": 784896,
+    "independent_sparse_evaluations": 63,
+    "lift_words": 327680,
+    "inverse_transform_words": 327680,
+    "transform_roundtrip_words": 327680,
+    "point_words": 327680,
+    "scale_words": 983040,
+    "hasse_words": 1310720,
+    "hoist_words": 2621440,
+    "relative_words": 9830400,
+    "paid_words": 5570560,
+    "drop_words": 196608,
+    "gadget_words": 458752,
+    "gadget_integer_reconstructions": 131072,
+    "phase_bound_results": 2,
+    "field_output_symbols": 8288,
+    "fused_encryption_words": 655360
+  },
+  "kernel_samples": [
+    {
+      "index": 0,
+      "arm": "baseline",
+      "calls": 8,
+      "seconds": 0.24671252200000282
+    },
+    {
+      "index": 1,
+      "arm": "candidate",
+      "calls": 8,
+      "seconds": 0.19917997599999993
+    },
+    {
+      "index": 2,
+      "arm": "candidate",
+      "calls": 8,
+      "seconds": 0.20034013600000122
+    },
+    {
+      "index": 3,
+      "arm": "baseline",
+      "calls": 8,
+      "seconds": 0.2459127049999985
+    },
+    {
+      "index": 4,
+      "arm": "baseline",
+      "calls": 8,
+      "seconds": 0.24700289300000122
+    },
+    {
+      "index": 5,
+      "arm": "candidate",
+      "calls": 8,
+      "seconds": 0.19892398100000008
+    }
+  ],
+  "kernel_block_medians": {
+    "baseline": 0.24671252200000282,
+    "candidate": 0.19917997599999993
+  },
+  "kernel_baseline_over_candidate": 1.2386411875057306,
+  "advance_to_fresh_gate": true,
+  "source_bindings": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/backend/composition_native_core.cpp": {
+      "bytes": 19925,
+      "sha256": "fac01a2ed086675963ed5854aaaabbd39ec9668d97f4e43a935243af98fcd382"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/backend/composition_optimized_core.cpp": {
+      "bytes": 3428,
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/backend/fast_core_v1.cpp": {
+      "bytes": 4268,
+      "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/stage_binding.py": {
+      "bytes": 2868,
+      "sha256": "a7177a72525610ea09e603e4003a929c21dea254254c2eb1b61efad0cc6bd668"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/stage_crypto.py": {
+      "bytes": 2779,
+      "sha256": "f787473006b98832dffa404318c0a16c8dc833f513c25c53fbc22671e7892e1b"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/stage_worker.py": {
+      "bytes": 7535,
+      "sha256": "1a4341fb769e601a58fa1c7497e9876c8a6c03594fac87e37bb838daef011fe5"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/run.py": {
+      "bytes": 11016,
+      "sha256": "006a755f262159423e9cb0443ebccdfead48527a84a703ca3cef207264ac45f4"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-stage-gadgets-v1/build.json": {
+      "bytes": 4884,
+      "sha256": "b730c31ada5145408dbcf6b94df97ee2123f9bbaec403bed969e295948ec74d9"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/PLAN.md": {
+      "bytes": 1826,
+      "sha256": "194e561a6fdd1d9a76899b81e299d8154fc10fa87c4934f0423bd922e64b7b66"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/PROOF.md": {
+      "bytes": 3211,
+      "sha256": "9b298a59dccd6f02d4b7154ab0086903dbae3672a470508e7f434025ef996df7"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/WORKFLOW_PLAN.md": {
+      "bytes": 1746,
+      "sha256": "5959c72aef8ce266b0953b874db718781ef5984a5a4af9404062f7bb35ffd935"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/axis.cpp.inc": {
+      "bytes": 1898,
+      "sha256": "012fda21c539c6482b16e02b28e856c4255c78cd349c3bafa8463632a6d01ebf"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/prepare.py": {
+      "bytes": 3850,
+      "sha256": "a3da41ccb695617bfb7d5347361654bfe122ef83eac789ba8e7b8894b7cd7a77"
+    },
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/native-tensor-axis-v1/check_candidate.py": {
+      "bytes": 10267,
+      "sha256": "6567e2b1828dee400eb44e3cfff448378b4c177d2656eff9faee4310a5ae4e6f"
+    }
+  },
+  "candidate_bindings": {
+    "tensor_binding.py": {
+      "bytes": 2869,
+      "sha256": "d3a5c16835d8a6440afb0558d49f9c1acf207e2eebb4f14b2381441b9008e8bb"
+    },
+    "tensor_crypto.py": {
+      "bytes": 2780,
+      "sha256": "73cd358ae7313c04d7f0988bb06415fc7e480a55a2f28ad7480d6de37dc3da62"
+    },
+    "tensor_worker.py": {
+      "bytes": 7323,
+      "sha256": "60361f401d2f1f06fbbb3dd85e4db13daa989d521c5353d94a7192e2889e7657"
+    },
+    "build/tensor_core.so": {
+      "bytes": 118160,
+      "sha256": "3fb51960ab2384dcb597cde56628132f720dd51daf12642c2fa0b69de4d1dbee"
+    },
+    "backend/composition_native_core.cpp": {
+      "bytes": 21452,
+      "sha256": "b90c678eb74577a509c06f1e8ff9bc4132a0848b1972d31dbe6c5076b21a891b"
+    },
+    "backend/composition_optimized_core.cpp": {
+      "bytes": 3428,
+      "sha256": "2b9b60935c6803ed4a84161bc0cdad28515393f2c93dfb13bc6eadd4263c23b4"
+    },
+    "backend/fast_core_v1.cpp": {
+      "bytes": 4268,
+      "sha256": "e281edc72dc2e0cf663c284d1ac16ed7c2caea16a246f0f8b254f2659347cdae"
+    }
+  },
+  "build_receipt": {
+    "bytes": 5113,
+    "sha256": "59d0da7c515eeec1c96541fabfa89ad5f1a7f4dbeb8628367a7ebc2b642a887d"
+  },
+  "checker": {
+    "bytes": 10267,
+    "sha256": "6567e2b1828dee400eb44e3cfff448378b4c177d2656eff9faee4310a5ae4e6f"
+  },
+  "new_he_execution": false,
+  "secret_vectors_sampled": 0,
+  "security_bits": null,
+  "scope": "Public deterministic arithmetic checks and fixed-coin kernel screen only; no new encrypted gate, complete-workflow speedup or law change."
+}

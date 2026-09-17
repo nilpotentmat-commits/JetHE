@@ -1,0 +1,54 @@
+{
+  "status": "RECORDED_PUBLIC_AUDIT_READBACK_PASS",
+  "source_files": 16,
+  "historical_manuscript_context": {
+    "SubmissionA/research/eurocrypt-readiness-2026-09-13/manuscript/sections/prepared-composition.tex": "SubmissionA/research/eurocrypt-readiness-2026-09-13/checkpoint-v38/manuscript/sections/prepared-composition.tex"
+  },
+  "extra_bindings": {
+    "audit.json": {
+      "bytes": 473766,
+      "sha256": "a1f8b467b67e7853b3c60a834660f7da933ee849f832f1bd73e73fc16e818600"
+    },
+    "execution.json": {
+      "bytes": 693,
+      "sha256": "ae7254ae01c421f856efc6b9ecdfe4f1eb436431b60eb3df55c6eefee94c7227"
+    },
+    "check.stdout.txt": {
+      "bytes": 445,
+      "sha256": "2cfed2b07c607285233d80568ea07c1023c42df5ea96a26fdeed187f0f401c17"
+    },
+    "check.stderr.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "RESULTS.md": {
+      "bytes": 5900,
+      "sha256": "c8193bafc8ceba89a40f941529a45c0b56f41fefd991e3ddc8ce2d92b22a22f5"
+    },
+    "verify_records.py": {
+      "bytes": 3753,
+      "sha256": "317f16d155305e560b80037432e04ce6719c8e02828c3a63b7b740b2bf3e5891"
+    },
+    "initial-digit-failure/check.stderr.txt": {
+      "bytes": 1370,
+      "sha256": "192bd9d10cfa100f9fb3f67cea20ff2471f86d245ff6bbaf40661d39c74e0a71"
+    },
+    "initial-digit-failure/check.stdout.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "initial-digit-failure/check_matrix.py": {
+      "bytes": 15382,
+      "sha256": "ce6875cb71bc18c336cf7931ff15cd682d9a6add9c84e20b9800f6ed07644774"
+    },
+    "initial-digit-failure/execution.json": {
+      "bytes": 694,
+      "sha256": "b4ded912a57b129448c8fb8d2dd09da5673ff24834cd01d992aead8a8b625aec"
+    }
+  },
+  "algebra_cases": 14,
+  "ledger_cases": 354,
+  "failed_first_run_preserved": true,
+  "new_he_execution": false,
+  "independent_mathematical_proof_review": false
+}

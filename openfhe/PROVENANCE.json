@@ -1,0 +1,57 @@
+{
+  "schema": "jethe-openfhe-source-provenance-v1",
+  "openfhe_commit": "1306d14f8c26bb6150d3e6ad54f28dfe1007689e",
+  "files": [
+    {
+      "source": "SubmissionA/research/openfhe-matched-2026-09-13/adapter-v2/openfhe_w0.cpp",
+      "destination": "src/openfhe_w0.cpp",
+      "source_sha256": "7c221edb7b72fea816465c1dc9ef72fb56570e1aad4fdca0608e336dbcb0a7d6",
+      "released_sha256": "7c221edb7b72fea816465c1dc9ef72fb56570e1aad4fdca0608e336dbcb0a7d6",
+      "change": "byte-identical"
+    },
+    {
+      "source": "SubmissionA/research/openfhe-matched-2026-09-13/adapter-v2/exact_w0.h",
+      "destination": "src/exact_w0.h",
+      "source_sha256": "a8b7c5d40d7d8369b62a61566a47add769713116c3c38ba34631ffe1031d51b1",
+      "released_sha256": "e650d94011afa3a276fb17493e654eabed2c0a68d5e710256917c74a047555f8",
+      "change": "local include path only"
+    },
+    {
+      "source": "SubmissionA/research/helib_composition/leveled/composition_fixture.h",
+      "destination": "src/composition_fixture.h",
+      "source_sha256": "67002f9c5b159535b145f9239cac51b049e84d650800665644f71ed10535db15",
+      "released_sha256": "67002f9c5b159535b145f9239cac51b049e84d650800665644f71ed10535db15",
+      "change": "byte-identical"
+    },
+    {
+      "source": "SubmissionA/research/composition_fixture.py",
+      "destination": "fixtures/composition_fixture.py",
+      "source_sha256": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48",
+      "released_sha256": "b12733c43c510ff8a31bb31ceb987f6974fb1068cb46699162bfdb43ef854f48",
+      "change": "byte-identical"
+    },
+    {
+      "source": "SubmissionA/JetHE-Eurocrypt2027/evidence/expected-output.bin",
+      "destination": "fixtures/expected-output.bin",
+      "source_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+      "released_sha256": "d22a60188ba884b10626ae52a2902f003cc2535294053979c417c39be68fbda3",
+      "change": "byte-identical"
+    }
+  ],
+  "notes": [
+    "Original source locations are historical provenance, not runtime dependencies.",
+    "CMake and runner are new portable packaging; the measured evaluator CPP is byte-identical."
+  ],
+  "release_tooling_sha256": {
+    "CMakeLists.txt": "dea5fd43ef91779c29b3e84a148cbcc8ec7e09c34c21907672ff91aa749fed2e",
+    "run.py": "ea5c0b365c77255bda4a97a6a200da66f8ab870dd3d172d90d8c3a65cab98ace",
+    "src/export_fixture.cpp": "1f868b48de633aec1d67274f8dcb6c0550523c97101e803115bd0ad1a2548f98",
+    "README.md": "ff3c4213798e90591b605a892dfa1ce172e52256f2abbdd97955ce23cf1133b5",
+    "profiles/relay-bfv-recorded-command.json": "172414bb1186f44b658b002f9078a5f13f9f07182684463e8b00a82550459804",
+    "profiles/relay-bfv.json": "5f7f443c253697dc30e57d3967af6c6024f365a73d64640bb21c74e28356c115",
+    "profiles/summed-bgv-recorded-command.json": "a6899210409f8bfd003df6e7028f77c07956072d5ee9fbaa6fb1d584475feb85",
+    "profiles/summed-bgv.json": "972bf8a88b7b1674a537185f9f9c070292236897c6f2cc8ec175a5f95ae924fb",
+    "profiles/terminal-bgv-recorded-command.json": "ee3da8896e8d4daa3c5d40385f5db69270ad555dd8d18f1bda9412b6f4228c46",
+    "profiles/terminal-bgv.json": "8847b8c65ef0a1439cd49a78566a8cb418a842c0518f12f6d466ae47ee999d50"
+  }
+}
