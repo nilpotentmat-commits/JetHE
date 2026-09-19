@@ -1,6 +1,6 @@
 # JetHE: code and reproducibility artifact
 
-Code accompanying **JetHE: Prepared Composition on Ramified Homomorphic Ciphertexts**. The matching [paper](paper/JetHE.pdf) and [LaTeX source](paper/JetHE-source.zip) are included. This snapshot has 28 main pages, 3 reference pages, and 158 supplementary pages. The supplement is organized into ten thematic appendices (A–J). The correspondence below uses this snapshot; [paper/labels.json](paper/labels.json) provides stable source labels and printed numbers.
+Code accompanying **JetHE: Prepared Composition on Ramified Homomorphic Ciphertexts**. The matching [paper](paper/JetHE.pdf) is included. This snapshot has about 27 main pages, 3 reference pages, and 158 supplementary pages. The supplement is organized into ten thematic appendices (A–J). The correspondence below uses this snapshot; [paper/labels.json](paper/labels.json) provides stable source labels and printed numbers.
 
 The artifact provides executable implementations of all five configurations in the main performance tables, finite mathematical checks, original measurement receipts, and selected supplementary code. It is a research implementation, with the timing and security scope described below.
 
