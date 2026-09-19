@@ -1,8 +1,6 @@
 # Paper snapshot
 
-`JetHE.pdf` and `JetHE-source.zip` are byte-identical copies of the manuscript release accompanying this code: 28 main pages, 3 reference pages and 158 supplementary pages. `labels.json` maps source labels to printed result/table numbers and PDF pages.
-
-The source ZIP contains its own build and recorded-evidence instructions. Those instructions describe that manuscript bundle; the code repository root adds fresh-experiment implementations and launchers. Main-text page and source-label correspondence in the root README refer to this snapshot.
+`JetHE.pdf`: 28 main pages, 3 reference pages and 158 supplementary pages. `labels.json` maps source labels to printed result/table numbers and PDF pages.
 
 ## Consolidated supplement
 
